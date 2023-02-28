@@ -1,7 +1,12 @@
 import './App.css';
+import ContactForm from './components/contact/ContactForm';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <ContactForm />
+    </>
+  );
 }
 
 export default App;
