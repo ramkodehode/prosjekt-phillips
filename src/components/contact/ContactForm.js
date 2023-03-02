@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { useEffect, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components';
 
@@ -31,8 +32,11 @@ const InputEmail = styled.input``;
 const TextArea = styled.textarea``;
 const SubmitButton = styled.input``;
 
+const Message = styled.p``;
+
 function ContactForm() {
   const form = useRef();
+  const [status, setStatus] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -46,14 +50,13 @@ function ContactForm() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setStatus(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
     e.target.reset();
-    alert('Meldingen din har blitt sendt');
   };
 
   return (
@@ -65,8 +68,10 @@ function ContactForm() {
           <Label>E-post</Label>
           <InputEmail type="email" name="user_email" required />
           <Label>Melding</Label>
-          <TextArea name="message" required />
+          <TextArea name="message" placeholder="Skrive her..." required />
           <SubmitButton type="submit" value="Send" />
+
+          {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
         </Form>
       </Container>
     </>
