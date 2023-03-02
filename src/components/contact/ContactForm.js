@@ -39,7 +39,7 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID',
+        'service_6ogjgdz',
         'template_pg7job2',
         form.current,
         'user_eDz6z61ypctV8WwCbGfsH'
@@ -52,6 +52,8 @@ function ContactForm() {
           console.log(error.text);
         }
       );
+    e.target.reset();
+    alert('Meldingen din har blitt sendt');
   };
 
   return (
