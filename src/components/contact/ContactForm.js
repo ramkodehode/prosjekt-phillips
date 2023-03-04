@@ -40,7 +40,7 @@ function ContactForm() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setStatus(true);
     emailjs
       .sendForm(
         'service_6ogjgdz',
@@ -49,9 +49,7 @@ function ContactForm() {
         'user_eDz6z61ypctV8WwCbGfsH'
       )
       .then(
-        (result) => {
-          setStatus(true);
-        },
+        (result) => {},
         (error) => {
           console.log(error.text);
         }
@@ -68,7 +66,7 @@ function ContactForm() {
           <Label>E-post</Label>
           <InputEmail type="email" name="user_email" required />
           <Label>Melding</Label>
-          <TextArea name="message" placeholder="Skrive her..." required />
+          <TextArea name="message" placeholder="Skriv her..." required />
           <SubmitButton type="submit" value="Send" />
 
           {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
