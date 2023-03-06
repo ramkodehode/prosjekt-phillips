@@ -1,29 +1,27 @@
 import React, { useRef } from 'react';
 import { useEffect, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import styled from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
-const Container = styled.section`
-  @media only screen and (max-width: 768px) {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    height: 800px;
-    border: 2px blue solid;
-  }
+const GlobalStyle = createGlobalStyle`
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: #FCD19B;
+  line-height: 1.5px;
+}
+
 `;
 
-const Form = styled.form`
-  @media only screen and (max-width: 768px) {
-    border-color: green;
+const Paragraph = styled.p``;
 
-    display: flex;
-    flex-direction: column;
-  }
-`;
+const Container = styled.section``;
+
+const Form = styled.form``;
 
 const Label = styled.label``;
 
@@ -60,14 +58,37 @@ function ContactForm() {
   return (
     <>
       <Container>
+        <GlobalStyle />
         <Form ref={form} onSubmit={sendEmail}>
-          <Label>Navn</Label>
-          <InputName type="text" name="user_name" required />
-          <Label>E-post</Label>
-          <InputEmail type="email" name="user_email" required />
-          <Label>Melding</Label>
-          <TextArea name="message" placeholder="Skriv her..." required />
-          <SubmitButton type="submit" value="Send" />
+          <Paragraph>
+            <Label>Fornavn</Label>
+            <InputName type="text" name="first_name" required />
+            <Label>Etternavn</Label>
+            <InputName type="text" name="last_name" required />
+          </Paragraph>
+          <Paragraph>
+            <Label>E-post</Label>
+            <InputEmail type="email" name="user_email" required />
+          </Paragraph>
+
+          <Paragraph>
+            <Label>Mobil</Label>
+            <InputEmail type="email" name="user_phone" required />
+          </Paragraph>
+
+          <Paragraph>
+            <Label>Melding</Label>
+            <TextArea
+              name="message"
+              rows="5"
+              placeholder="Skriv her..."
+              required
+            />
+          </Paragraph>
+
+          <Paragraph>
+            <SubmitButton type="submit" value="Send" />
+          </Paragraph>
 
           {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
         </Form>
