@@ -17,6 +17,8 @@ body {
 
 `;
 
+const Heading = styled.h1``;
+
 const Paragraph = styled.p``;
 
 const Container = styled.section``;
