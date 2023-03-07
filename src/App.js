@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import Intro from "./components/Intro";
+import KarriereValg from "./components/KarriereValg";
+import KomIgjen from "./components/komIgjen";
+import KursDeltaker from "./components/kursDeltaker";
+import PictureBoxes from "./components/pictureBoxes";
+import VartAnsvar from "./components/vartAnsvar";
+
+export const EmptySpace = styled.div`
+  width: auto;
+  height: 300px;
+
+  background: rgba(0, 0, 0, 0.8);
+
+  @media only screen and (max-width: 40em) {
+    width: 90rem;
+  }
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Intro />
+      <KarriereValg />
+      <VartAnsvar />
+      <KursDeltaker />
+      <KomIgjen />
+      <PictureBoxes />
+      <EmptySpace />
     </div>
   );
 }
