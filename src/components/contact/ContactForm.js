@@ -61,6 +61,7 @@ function ContactForm() {
     <>
       <Container>
         <GlobalStyle />
+        <Heading>Kontakt Trude</Heading>
         <Form ref={form} onSubmit={sendEmail}>
           <Paragraph>
             <Label>Fornavn</Label>
