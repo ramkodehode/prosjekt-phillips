@@ -1,12 +1,15 @@
-import './App.css';
-import ContactForm from './components/contact/ContactForm';
+import Navbar from "./components/nav/Navbar";
 
-function App() {
+=======
+import './App.css';
+
+import React from "react";
+import "./styles.css";
+
+export default function App() {
   return (
     <>
-      <ContactForm />
+      <Navbar />
     </>
   );
 }
-
-export default App;
