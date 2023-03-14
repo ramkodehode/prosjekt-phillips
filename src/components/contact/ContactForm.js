@@ -8,20 +8,32 @@ const GlobalStyle = createGlobalStyle`
 * {
   box-sizing: border-box;
 }
-
 body {
 
   background-color: #FCD19B;
-  line-height: 1.5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1em;
 }
-
 `;
 
+const ContactInfo = styled.div``;
+const Ul = styled.ul``;
+const Li = styled.li``;
+const Contact = styled.div``;
+
 const Heading = styled.h1``;
+const HeadingTwo = styled.h2``;
 
 const Paragraph = styled.p``;
 
-const Container = styled.section``;
+const Container = styled.div`
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+`;
+
+const Wrapper = styled.div``;
 
 const Form = styled.form``;
 
@@ -58,45 +70,59 @@ function ContactForm() {
   };
 
   return (
-    <>
-      <Container>
-        <GlobalStyle />
+    <Container>
+      <GlobalStyle />
+
+      <Wrapper>
         <Heading>Kontakt Trude</Heading>
-        <Form ref={form} onSubmit={sendEmail}>
-          <Paragraph>
-            <Label>Fornavn</Label>
-            <InputName type="text" name="first_name" required />
-            <Label>Etternavn</Label>
-            <InputName type="text" name="last_name" required />
-          </Paragraph>
-          <Paragraph>
-            <Label>E-post</Label>
-            <InputEmail type="email" name="user_email" required />
-          </Paragraph>
 
-          <Paragraph>
-            <Label>Mobil</Label>
-            <InputEmail type="email" name="user_phone" required />
-          </Paragraph>
+        <ContactInfo>
+          <HeadingTwo>Kontakt info</HeadingTwo>
+          <Ul>
+            <Li>Mobil: 91691334</Li>
+            <Li>Epost: trude@phillipskarriere.no</Li>
+            <Li>LinkedIn</Li>
+          </Ul>
+        </ContactInfo>
+        <Contact>
+          <Form ref={form} onSubmit={sendEmail}>
+            <Paragraph>
+              <Label>Fornavn</Label>
+              <InputName type="text" name="first_name" required />
+            </Paragraph>
+            <Paragraph>
+              <Label>Etternavn</Label>
+              <InputName type="text" name="last_name" required />
+            </Paragraph>
+            <Paragraph>
+              <Label>E-post</Label>
+              <InputEmail type="email" name="user_email" required />
+            </Paragraph>
 
-          <Paragraph>
-            <Label>Melding</Label>
-            <TextArea
-              name="message"
-              rows="5"
-              placeholder="Skriv her..."
-              required
-            />
-          </Paragraph>
+            <Paragraph>
+              <Label>Mobil</Label>
+              <InputEmail type="email" name="user_phone" required />
+            </Paragraph>
 
-          <Paragraph>
-            <SubmitButton type="submit" value="Send" />
-          </Paragraph>
+            <Paragraph>
+              <Label>Melding</Label>
+              <TextArea
+                name="message"
+                rows="5"
+                placeholder="Skriv her..."
+                required
+              />
+            </Paragraph>
 
-          {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
-        </Form>
-      </Container>
-    </>
+            <Paragraph>
+              <SubmitButton type="submit" value="Send" />
+            </Paragraph>
+
+            {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
+          </Form>
+        </Contact>
+      </Wrapper>
+    </Container>
   );
 }
 
