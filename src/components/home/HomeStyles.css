@@ -1,0 +1,5 @@
+section#home{
+    background: conic-gradient(from -89.99deg at 50.03% 100%, #FFCB8D 0deg, rgba(234, 205, 154, 0.402865) 234.38deg, rgba(217, 217, 217, 0) 360deg);
+    height: 100vh;
+    margin: 0;
+}
