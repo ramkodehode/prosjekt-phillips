@@ -1,26 +1,17 @@
-import styled from "styled-components";
 import Intro from "./components/Intro";
 import KarriereValg from "./components/KarriereValg";
 import KomIgjen from "./components/komIgjen";
 import KursDeltaker from "./components/kursDeltaker";
 import PictureBoxes from "./components/pictureBoxes";
+import { EmptySpace } from "./components/styles/emptySpace";
 import InfoTrude from "./components/trudeInfo";
 import VartAnsvar from "./components/vartAnsvar";
+// import Navbar from "./components/nav/Navbar";
 
-export const EmptySpace = styled.div`
-  width: auto;
-  height: 300px;
-
-  background: rgba(0, 0, 0, 0.8);
-
-  @media only screen and (max-width: 40em) {
-    width: 90rem;
-  }
-`;
-
-function App() {
+export default function App() {
   return (
     <div>
+      {/* <Navbar /> */}
       <Intro />
       <KarriereValg />
       <VartAnsvar />
@@ -32,5 +23,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
