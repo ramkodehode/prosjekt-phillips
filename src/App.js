@@ -4,6 +4,7 @@ import KarriereValg from "./components/KarriereValg";
 import KomIgjen from "./components/komIgjen";
 import KursDeltaker from "./components/kursDeltaker";
 import PictureBoxes from "./components/pictureBoxes";
+import InfoTrude from "./components/trudeInfo";
 import VartAnsvar from "./components/vartAnsvar";
 
 export const EmptySpace = styled.div`
@@ -24,6 +25,7 @@ function App() {
       <KarriereValg />
       <VartAnsvar />
       <KursDeltaker />
+      <InfoTrude />
       <KomIgjen />
       <PictureBoxes />
       <EmptySpace />
