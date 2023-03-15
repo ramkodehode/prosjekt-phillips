@@ -80,7 +80,7 @@ export const UnderTitle = styled.h2`
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 165%;
 
   color: #ae6208;

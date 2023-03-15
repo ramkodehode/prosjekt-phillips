@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CarrierContainer = styled.section`
-  display: flex;
+  display: none;
   flex-direction: column;
   text-align: center;
 

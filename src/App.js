@@ -94,11 +94,12 @@ function App() {
         </NavTitle>
         <Navdiv>
           <StyledLink to="/"> Hjem </StyledLink>
-          <StyledLink to="/"> Tjenester </StyledLink>
+          <StyledLink to="Tjenester"> Tjenester </StyledLink>
           <StyledLink to="/"> Om </StyledLink>
           <StyledLink to="/"> Kontakt</StyledLink>
         </Navdiv>
       </Navbar>
+
       {/* Everything above to be deleted */}
       <Intro />
       <KarriereValg />
