@@ -1,50 +1,21 @@
 import React, { useRef } from 'react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import styled, { createGlobalStyle } from 'styled-components';
-
-const GlobalStyle = createGlobalStyle`
-
-* {
-  box-sizing: border-box;
-}
-body {
-
-  background-color: #FCD19B;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1em;
-}
-`;
-
-const ContactInfo = styled.div``;
-const Ul = styled.ul``;
-const Li = styled.li``;
-const Contact = styled.div``;
-
-const Heading = styled.h1``;
-const HeadingTwo = styled.h2``;
-
-const Paragraph = styled.p``;
-
-const Container = styled.div`
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-`;
-
-const Wrapper = styled.div``;
-
-const Form = styled.form``;
-
-const Label = styled.label``;
-
-const InputName = styled.input``;
-const InputEmail = styled.input``;
-const TextArea = styled.textarea``;
-const SubmitButton = styled.input``;
-
-const Message = styled.p``;
+import {
+  Container,
+  GlobalStyle,
+  Wrapper,
+  Ul,
+  Li,
+  ContactInfo,
+  Form,
+  Paragraph,
+  Label,
+  InputName,
+  InputEmail,
+  TextArea,
+  SubmitButton,
+} from './Contact.styled';
 
 function ContactForm() {
   const form = useRef();
