@@ -17,7 +17,7 @@ export const EmptySpace = styled.div`
   background: rgba(0, 0, 0, 0.8);
 
   @media only screen and (max-width: 40em) {
-    width: 90rem;
+    width: auto;
   }
 `;
 

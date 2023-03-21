@@ -5,6 +5,20 @@ import { Column, Container, NewSection } from "./styles/styledIntro";
 export const ImgTrude = styled.img`
   height: 100vh;
   width: auto;
+
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
+`;
+
+export const PhoneImgTrude = styled.img`
+  display: none;
+  @media only screen and (max-width: 40em) {
+    display: block;
+    height: 50vh;
+    width: auto;
+    padding: 50px;
+  }
 `;
 
 export const ContainerTrude = styled.section`
@@ -12,6 +26,10 @@ export const ContainerTrude = styled.section`
   flex-direction: column; */
   margin-left: 50px;
   margin-bottom: 100px;
+
+  @media only screen and (max-width: 40em) {
+    margin: 10px;
+  }
 `;
 
 export const TrudeText = styled.h3`
@@ -20,6 +38,10 @@ export const TrudeText = styled.h3`
   font-weight: 600;
 
   color: #faa100;
+
+  @media only screen and (max-width: 40em) {
+    font-size: 1em;
+  }
 `;
 
 export const TitleTrude = styled.h1`
@@ -28,6 +50,9 @@ export const TitleTrude = styled.h1`
   font-weight: 600;
   font-size: 2rem;
   color: #272521;
+  @media only screen and (max-width: 40em) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const MainTextTrude = styled.p`
@@ -39,6 +64,10 @@ export const MainTextTrude = styled.p`
   color: #272521;
 
   max-width: 70%;
+
+  @media only screen and (max-width: 40em) {
+    font-size: 1.1rem;
+  }
 `;
 
 const InfoTrude = () => {
@@ -70,6 +99,7 @@ const InfoTrude = () => {
           </Column>
         </NewSection>
       </Container>
+      <PhoneImgTrude src={Trude} alt="Picture of Trude" />
     </div>
   );
 };

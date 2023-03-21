@@ -18,10 +18,9 @@ export const MainBox = styled.div`
     rgba(217, 217, 217, 0) 360deg
   );
 
-  /* @media only screen and (max-width: 40em) {
-    width: 30rem;
+  @media only screen and (max-width: 40em) {
     height: 50rem;
-  } */
+  }
 `;
 
 export const CaricatureImg = styled.img`
@@ -33,6 +32,17 @@ export const CaricatureImg = styled.img`
 
   @media only screen and (max-width: 40em) {
     display: none;
+  }
+`;
+
+export const PhoneCaricatureImg = styled.img`
+  display: none;
+  @media only screen and (max-width: 40em) {
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+    width: auto;
+    z-index: 1;
   }
 `;
 
@@ -58,9 +68,10 @@ export const MarginDiv = styled.div`
   margin-top: 50px;
 
   max-width: 80%;
-  /* @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 40em) {
     margin-top: 50px;
-  } */
+    margin-left: 25px;
+  }
 `;
 
 export const Tittel = styled.h1`
@@ -70,10 +81,11 @@ export const Tittel = styled.h1`
   font-size: 2.5rem;
   line-height: 50px;
 
-  /* @media only screen and (max-width: 40em) {
-    font-size: 2rem;
-    max-width: 11em;
-  } */
+  @media only screen and (max-width: 40em) {
+    font-size: 1.5rem;
+    max-width: 15em;
+    line-height: 40px;
+  }
 `;
 
 export const UnderTitle = styled.h2`
@@ -85,10 +97,10 @@ export const UnderTitle = styled.h2`
 
   color: #ae6208;
 
-  /* @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
-    max-width: 15em;
-  } */
+    max-width: 20em;
+  }
 `;
 
 export const IntroText = styled.p`
@@ -98,8 +110,8 @@ export const IntroText = styled.p`
   font-size: 19px;
   line-height: 165%;
 
-  /* @media only screen and (max-width: 40em) {
-    font-size: 1.2rem;
-    max-width: 15em;
-  } */
+  @media only screen and (max-width: 40em) {
+    font-size: 1rem;
+    max-width: 20em;
+  }
 `;
