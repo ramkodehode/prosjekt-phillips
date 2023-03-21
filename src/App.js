@@ -86,7 +86,7 @@ function App() {
   return (
     <div>
       {/* Everything NAV related to be deleted after meeting with Trude 14.03 */}
-      <Navbar>
+      {/* <Navbar>
         <NavTitle>
           {" "}
           <ImageLogo src={PhillipLogo} alt="logo" /> <pr /> <pr />
@@ -98,7 +98,7 @@ function App() {
           <StyledLink to="/"> Om </StyledLink>
           <StyledLink to="/"> Kontakt</StyledLink>
         </Navdiv>
-      </Navbar>
+      </Navbar> */}
 
       {/* Everything above to be deleted */}
       <Intro />
