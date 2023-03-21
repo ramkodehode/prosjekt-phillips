@@ -6,7 +6,7 @@ import KursDeltaker from "./components/kursDeltaker";
 import PictureBoxes from "./components/pictureBoxes";
 import InfoTrude from "./components/trudeInfo";
 import VartAnsvar from "./components/vartAnsvar";
-import PhillipLogo from "../src/components/img/PhillipLogo.png";
+// import PhillipLogo from "../src/components/img/PhillipLogo.png";
 
 import { NavLink } from "react-router-dom";
 

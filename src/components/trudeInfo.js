@@ -67,6 +67,8 @@ export const MainTextTrude = styled.p`
 
   @media only screen and (max-width: 40em) {
     font-size: 1.1rem;
+    max-width: 100%;
+    margin: 5px;
   }
 `;
 
