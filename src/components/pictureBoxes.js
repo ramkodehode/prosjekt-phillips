@@ -38,6 +38,18 @@ export const PicBoxes = styled.img`
   }
 `;
 
+export const PhonePicBox = styled.img`
+  display: none;
+
+  @media only screen and (max-width: 40em) {
+    width: auto;
+    height: 30vh;
+    padding: 0 2.5em;
+    top: -100px;
+    position: relative;
+  }
+`;
+
 const PictureBoxes = () => {
   return (
     <div>
@@ -56,7 +68,7 @@ const PictureBoxes = () => {
           </Column>
         </NewSection>
       </Container>
-      <PicBoxes src={highfive} alt="highfive" />
+      <PhonePicBox src={highfive} alt="highfive" />
     </div>
   );
 };
