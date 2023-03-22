@@ -42,6 +42,7 @@ export const PhonePicBox = styled.img`
   display: none;
 
   @media only screen and (max-width: 40em) {
+    display: block;
     width: auto;
     height: 30vh;
     padding: 0 2.5em;
