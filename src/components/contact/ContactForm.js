@@ -1,50 +1,28 @@
 import React, { useRef } from 'react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import styled, { createGlobalStyle } from 'styled-components';
-
-const GlobalStyle = createGlobalStyle`
-
-* {
-  box-sizing: border-box;
-}
-body {
-
-  background-color: #FCD19B;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1em;
-}
-`;
-
-const ContactInfo = styled.div``;
-const Ul = styled.ul``;
-const Li = styled.li``;
-const Contact = styled.div``;
-
-const Heading = styled.h1``;
-const HeadingTwo = styled.h2``;
-
-const Paragraph = styled.p``;
-
-const Container = styled.div`
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-`;
-
-const Wrapper = styled.div``;
-
-const Form = styled.form``;
-
-const Label = styled.label``;
-
-const InputName = styled.input``;
-const InputEmail = styled.input``;
-const TextArea = styled.textarea``;
-const SubmitButton = styled.input``;
-
-const Message = styled.p``;
+import {
+  Container,
+  GlobalStyle,
+  Wrapper,
+  Ul,
+  Li,
+  ContactInfo,
+  Form,
+  Paragraph,
+  Label,
+  InputName,
+  InputEmail,
+  TextArea,
+  SubmitButton,
+  HeadingTwo,
+  Heading,
+  Message,
+  Contact,
+  Span,
+  Full,
+  AllInput,
+} from './Contact.styled';
 
 function ContactForm() {
   const form = useRef();
@@ -72,15 +50,14 @@ function ContactForm() {
   return (
     <Container>
       <GlobalStyle />
+      <Heading>Kontakt Trude</Heading>
 
       <Wrapper>
-        <Heading>Kontakt Trude</Heading>
-
         <ContactInfo>
           <HeadingTwo>Kontakt info</HeadingTwo>
           <Ul>
-            <Li>Mobil: 91691334</Li>
-            <Li>Epost: trude@phillipskarriere.no</Li>
+            <Li>+47 91691334</Li>
+            <Li>trude@phillipskarriere.no</Li>
             <Li>LinkedIn</Li>
           </Ul>
         </ContactInfo>
@@ -101,22 +78,26 @@ function ContactForm() {
 
             <Paragraph>
               <Label>Mobil</Label>
-              <InputEmail type="email" name="user_phone" required />
-            </Paragraph>
 
-            <Paragraph>
-              <Label>Melding</Label>
-              <TextArea
-                name="message"
-                rows="5"
-                placeholder="Skriv her..."
-                required
-              />
+              <InputEmail type="text" name="user_phone" required />
             </Paragraph>
+            <Full>
+              <Paragraph>
+                <Label>Melding</Label>
 
-            <Paragraph>
-              <SubmitButton type="submit" value="Send" />
-            </Paragraph>
+                <TextArea
+                  name="message"
+                  rows="5"
+                  placeholder="Skriv her..."
+                  required
+                />
+              </Paragraph>
+            </Full>
+            <Full>
+              <Paragraph>
+                <SubmitButton type="submit" value="Send" />
+              </Paragraph>
+            </Full>
 
             {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
           </Form>

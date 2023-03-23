@@ -7,6 +7,7 @@ import {
   MainBox,
   MarginDiv,
   NewSection,
+  PhoneCaricatureImg,
   Tittel,
   UnderTitle,
 } from "./styles/styledIntro";
@@ -45,6 +46,10 @@ const Intro = () => {
                     karrierelæringsprogram og digitale verktøy følger Nasjonalt
                     kvalitetsrammeverk for karriereveiledning.
                   </IntroText>
+                  <PhoneCaricatureImg
+                    src={caricature}
+                    alt="caricature of people"
+                  />
                 </MarginDiv>
               </Container>
 

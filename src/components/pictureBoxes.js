@@ -23,12 +23,32 @@ export const PictureBoxesContainer = styled.section`
   top: -200px;
 
   @media only screen and (max-width: 40em) {
+    display: none;
   }
 `;
 
 export const PicBoxes = styled.img`
   width: auto;
   height: 40vh;
+  @media only screen and (max-width: 40em) {
+    height: 30vh;
+    padding: 0 2.5em;
+    top: -100px;
+    position: relative;
+  }
+`;
+
+export const PhonePicBox = styled.img`
+  display: none;
+
+  @media only screen and (max-width: 40em) {
+    display: block;
+    width: auto;
+    height: 30vh;
+    padding: 0 2.5em;
+    top: -100px;
+    position: relative;
+  }
 `;
 
 const PictureBoxes = () => {
@@ -49,6 +69,7 @@ const PictureBoxes = () => {
           </Column>
         </NewSection>
       </Container>
+      <PhonePicBox src={highfive} alt="highfive" />
     </div>
   );
 };

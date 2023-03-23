@@ -3,20 +3,24 @@ import { IntroText, Tittel } from "./styles/styledIntro";
 
 export const BoxToo = styled.div`
   width: auto;
-  height: 35rem;
+  height: 30rem;
   margin: 0 auto;
   z-index: -1;
 
   background: #fbd19c;
 
   @media only screen and (max-width: 40em) {
-    width: 90rem;
+    width: auto;
   }
 `;
 
 export const KomIgjenText = styled.section`
   padding: 5rem;
   text-align: center;
+
+  @media only screen and (max-width: 40em) {
+    padding: 1rem;
+  }
 `;
 
 const KomIgjen = () => {

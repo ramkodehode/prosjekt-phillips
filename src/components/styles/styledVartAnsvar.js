@@ -11,7 +11,6 @@ export const BigBox = styled.div`
   top: -150px;
 
   @media only screen and (max-width: 40em) {
-    width: 90rem;
   }
 `;
 
@@ -30,6 +29,11 @@ export const VartAnsvarContainer = styled.section`
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 165%;
+
+  @media only screen and (max-width: 40em) {
+    margin-left: 25px;
+    max-width: 80%;
+  }
 `;
 
 export const PicBox = styled.div`
@@ -41,15 +45,44 @@ export const PicBox = styled.div`
   top: 120px;
   right: 25px;
   @media only screen and (max-width: 40em) {
+    display: none;
+  }
+`;
+
+export const PhonePicBox = styled.div`
+  display: none;
+
+  @media only screen and (max-width: 40em) {
+    display: block;
+
+    background: #e9a75a;
+    width: 13em;
+    height: 13em;
+    z-index: -1;
+    position: relative;
+    margin: 0 15%;
   }
 `;
 
 export const SittingStudents = styled.img`
   width: auto;
   height: 80vh;
-  top: 20px;
-  left: 30px;
+  padding: 30px;
   position: relative;
+
+  @media only screen and (max-width: 40em) {
+  }
+`;
+
+export const PhoneSittingStudents = styled.img`
+  display: none;
+  @media only screen and (max-width: 40em) {
+    display: block;
+    width: auto;
+    height: 30vh;
+    position: relative;
+    padding: 15px;
+  }
 `;
 
 export const Rectangle = styled.div`
@@ -59,4 +92,7 @@ export const Rectangle = styled.div`
   height: 80px;
   float: left;
   margin-right: 15px;
+
+  @media only screen and (max-width: 40em) {
+  }
 `;

@@ -11,6 +11,8 @@ import {
 } from "./styles/styledIntro";
 import {
   BigBox,
+  PhonePicBox,
+  PhoneSittingStudents,
   PicBox,
   Rectangle,
   SittingStudents,
@@ -52,6 +54,9 @@ const VartAnsvar = () => {
             </Column>
           </NewSection>
         </Container>
+        <PhonePicBox>
+          <PhoneSittingStudents src={seatedstudent} alt="sitting students" />
+        </PhonePicBox>
       </BigBox>
     </div>
   );
