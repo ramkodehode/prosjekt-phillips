@@ -1,14 +1,15 @@
-import styled from "styled-components";
-import Intro from "./components/Intro";
-import KarriereValg from "./components/KarriereValg";
-import KomIgjen from "./components/komIgjen";
-import KursDeltaker from "./components/kursDeltaker";
-import PictureBoxes from "./components/pictureBoxes";
-import InfoTrude from "./components/trudeInfo";
-import VartAnsvar from "./components/vartAnsvar";
+import styled from 'styled-components';
+import Intro from './components/Intro';
+import KarriereValg from './components/KarriereValg';
+import KomIgjen from './components/komIgjen';
+import KursDeltaker from './components/kursDeltaker';
+import PictureBoxes from './components/pictureBoxes';
+import InfoTrude from './components/trudeInfo';
+import VartAnsvar from './components/vartAnsvar';
 // import PhillipLogo from "../src/components/img/PhillipLogo.png";
 
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
+import ContactForm from './components/contact/ContactForm';
 
 export const EmptySpace = styled.div`
   width: auto;
@@ -24,7 +25,7 @@ export const EmptySpace = styled.div`
 //Everything Nav related to be deleted. It's only for showing Trude Wednesday 14.03
 
 export const NavTitle = styled.h1`
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
@@ -62,7 +63,7 @@ export const StyledLink = styled(NavLink)`
   font-weight: bold;
   cursor: pointer;
 
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -109,6 +110,7 @@ function App() {
       <KomIgjen />
       <PictureBoxes />
       <EmptySpace />
+      <ContactForm />
     </div>
   );
 }
