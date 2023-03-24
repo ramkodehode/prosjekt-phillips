@@ -8,7 +8,6 @@ export const BigBox = styled.div`
 
   background: #fbd19c;
   position: relative;
-  top: -150px;
 
   @media only screen and (max-width: 40em) {
   }
@@ -20,7 +19,7 @@ export const VartAnsvarContainer = styled.section`
 
   justify-content: center;
 
-  margin-left: 50px;
+  margin: 150px 50px;
 
   max-width: 50%;
 
@@ -42,7 +41,7 @@ export const PicBox = styled.div`
   height: 25em;
   z-index: -1;
   position: relative;
-  top: 120px;
+
   right: 25px;
   @media only screen and (max-width: 40em) {
     display: none;

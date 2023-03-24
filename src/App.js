@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import Intro from "./components/Intro";
-import KarriereValg from "./components/KarriereValg";
 import KomIgjen from "./components/komIgjen";
 import KursDeltaker from "./components/kursDeltaker";
 import PictureBoxes from "./components/pictureBoxes";
 import InfoTrude from "./components/trudeInfo";
 import VartAnsvar from "./components/vartAnsvar";
+import Tjenester from "./components/Tjenester";
+import Veiledning from "./components/Veiledning";
 
 export const EmptySpace = styled.div`
   width: auto;
@@ -22,8 +23,9 @@ function App() {
   return (
     <div>
       <Intro />
-      <KarriereValg />
       <VartAnsvar />
+      <Tjenester />
+      <Veiledning />
       <KursDeltaker />
       <InfoTrude />
       <KomIgjen />
