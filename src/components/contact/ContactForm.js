@@ -15,6 +15,13 @@ import {
   InputEmail,
   TextArea,
   SubmitButton,
+  HeadingTwo,
+  Heading,
+  Message,
+  Contact,
+  Span,
+  Full,
+  AllInput,
 } from './Contact.styled';
 
 function ContactForm() {
@@ -43,15 +50,14 @@ function ContactForm() {
   return (
     <Container>
       <GlobalStyle />
+      <Heading>Kontakt Trude</Heading>
 
       <Wrapper>
-        <Heading>Kontakt Trude</Heading>
-
         <ContactInfo>
           <HeadingTwo>Kontakt info</HeadingTwo>
           <Ul>
-            <Li>Mobil: 91691334</Li>
-            <Li>Epost: trude@phillipskarriere.no</Li>
+            <Li>+47 91691334</Li>
+            <Li>trude@phillipskarriere.no</Li>
             <Li>LinkedIn</Li>
           </Ul>
         </ContactInfo>
@@ -72,22 +78,26 @@ function ContactForm() {
 
             <Paragraph>
               <Label>Mobil</Label>
-              <InputEmail type="email" name="user_phone" required />
-            </Paragraph>
 
-            <Paragraph>
-              <Label>Melding</Label>
-              <TextArea
-                name="message"
-                rows="5"
-                placeholder="Skriv her..."
-                required
-              />
+              <InputEmail type="text" name="user_phone" required />
             </Paragraph>
+            <Full>
+              <Paragraph>
+                <Label>Melding</Label>
 
-            <Paragraph>
-              <SubmitButton type="submit" value="Send" />
-            </Paragraph>
+                <TextArea
+                  name="message"
+                  rows="5"
+                  placeholder="Skriv her..."
+                  required
+                />
+              </Paragraph>
+            </Full>
+            <Full>
+              <Paragraph>
+                <SubmitButton type="submit" value="Send" />
+              </Paragraph>
+            </Full>
 
             {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
           </Form>

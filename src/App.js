@@ -7,6 +7,7 @@ import InfoTrude from "./components/trudeInfo";
 import VartAnsvar from "./components/vartAnsvar";
 import Tjenester from "./components/Tjenester";
 import Veiledning from "./components/Veiledning";
+import ContactForm from "./components/contact/ContactForm";
 
 export const EmptySpace = styled.div`
   width: auto;
@@ -30,6 +31,7 @@ function App() {
       <InfoTrude />
       <KomIgjen />
       <PictureBoxes />
+      <ContactForm />
       <EmptySpace />
     </div>
   );
