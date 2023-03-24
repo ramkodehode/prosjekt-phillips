@@ -29,7 +29,7 @@ export const DivPrice = styled.div`
   justify-content: space-between;
 
   font-family: "Poppins";
-  font-size; 1.2rem;
+  font-size: 1.2rem;
 
   top: -300px;
 `;
