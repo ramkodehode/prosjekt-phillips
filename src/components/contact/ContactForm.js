@@ -49,7 +49,6 @@ function ContactForm() {
 
   return (
     <Container>
-      <GlobalStyle />
       <Heading>Kontakt Trude</Heading>
 
       <Wrapper>
