@@ -3,7 +3,7 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import {
   Container,
-  GlobalStyle,
+  ContactGlobal,
   Wrapper,
   Ul,
   Li,
@@ -19,9 +19,7 @@ import {
   Heading,
   Message,
   Contact,
-  Span,
   Full,
-  AllInput,
 } from './Contact.styled';
 
 function ContactForm() {
@@ -48,61 +46,63 @@ function ContactForm() {
   };
 
   return (
-    <Container>
-      <Heading>Kontakt Trude</Heading>
+    <ContactGlobal>
+      <Container>
+        <Heading>Kontakt Trude</Heading>
 
-      <Wrapper>
-        <ContactInfo>
-          <HeadingTwo>Kontakt info</HeadingTwo>
-          <Ul>
-            <Li>+47 91691334</Li>
-            <Li>trude@phillipskarriere.no</Li>
-            <Li>LinkedIn</Li>
-          </Ul>
-        </ContactInfo>
-        <Contact>
-          <Form ref={form} onSubmit={sendEmail}>
-            <Paragraph>
-              <Label>Fornavn</Label>
-              <InputName type="text" name="first_name" required />
-            </Paragraph>
-            <Paragraph>
-              <Label>Etternavn</Label>
-              <InputName type="text" name="last_name" required />
-            </Paragraph>
-            <Paragraph>
-              <Label>E-post</Label>
-              <InputEmail type="email" name="user_email" required />
-            </Paragraph>
-
-            <Paragraph>
-              <Label>Mobil</Label>
-
-              <InputEmail type="text" name="user_phone" required />
-            </Paragraph>
-            <Full>
+        <Wrapper>
+          <ContactInfo>
+            <HeadingTwo>Kontakt info</HeadingTwo>
+            <Ul>
+              <Li>+47 91691334</Li>
+              <Li>trude@phillipskarriere.no</Li>
+              <Li>LinkedIn</Li>
+            </Ul>
+          </ContactInfo>
+          <Contact>
+            <Form ref={form} onSubmit={sendEmail}>
               <Paragraph>
-                <Label>Melding</Label>
-
-                <TextArea
-                  name="message"
-                  rows="5"
-                  placeholder="Skriv her..."
-                  required
-                />
+                <Label>Fornavn</Label>
+                <InputName type="text" name="first_name" required />
               </Paragraph>
-            </Full>
-            <Full>
               <Paragraph>
-                <SubmitButton type="submit" value="Send" />
+                <Label>Etternavn</Label>
+                <InputName type="text" name="last_name" required />
               </Paragraph>
-            </Full>
+              <Paragraph>
+                <Label>E-post</Label>
+                <InputEmail type="email" name="user_email" required />
+              </Paragraph>
 
-            {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
-          </Form>
-        </Contact>
-      </Wrapper>
-    </Container>
+              <Paragraph>
+                <Label>Mobil</Label>
+
+                <InputEmail type="text" name="user_phone" required />
+              </Paragraph>
+              <Full>
+                <Paragraph>
+                  <Label>Melding</Label>
+
+                  <TextArea
+                    name="message"
+                    rows="5"
+                    placeholder="Skriv her..."
+                    required
+                  />
+                </Paragraph>
+              </Full>
+              <Full>
+                <Paragraph>
+                  <SubmitButton type="submit" value="Send" />
+                </Paragraph>
+              </Full>
+
+              {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
+            </Form>
+          </Contact>
+        </Wrapper>
+      </Container>
+    </ContactGlobal>
   );
 }
 
