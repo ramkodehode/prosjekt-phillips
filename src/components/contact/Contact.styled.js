@@ -1,16 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
-
-export const GlobalStyle = createGlobalStyle`
-* {
-  box-sizing: border-box;
-}
-body {
-
-  background-color: #ffcb8d;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1em;
-}
-`;
+import styled from 'styled-components';
 
 export const ContactInfo = styled.div`
   background: #fcd19b;
@@ -18,9 +6,7 @@ export const ContactInfo = styled.div`
   margin: 0 0 rem 0;
 `;
 
-export const Contact = styled.div`
-  background: white;
-`;
+export const Contact = styled.div``;
 
 export const Heading = styled.h1`
   text-align: center;

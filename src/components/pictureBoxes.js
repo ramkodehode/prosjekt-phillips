@@ -15,12 +15,10 @@ export const PictureBoxesContainer = styled.section`
 
   max-width: 50%;
 
-  justify-content: center;
-
   padding: 0 10px;
 
   position: relative;
-  top: -200px;
+  top: -150px;
 
   @media only screen and (max-width: 40em) {
     display: none;

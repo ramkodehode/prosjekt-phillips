@@ -93,9 +93,8 @@ export const UnderTitle = styled.h2`
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
-  line-height: 165%;
 
-  color: #ae6208;
+  color: #fe8900;
 
   @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
