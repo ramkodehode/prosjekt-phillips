@@ -37,7 +37,7 @@ export const VartAnsvarContainer = styled.section`
 
 export const PicBox = styled.div`
   background: #ffcb8f;
-  width: 22em;
+  width: 23em;
   height: 22em;
   z-index: -1;
   position: relative;
@@ -65,8 +65,8 @@ export const PhonePicBox = styled.div`
 
 export const SittingStudents = styled.img`
   width: auto;
-  height: 78vh;
-  padding: 1.2rem;
+  height: 70vh;
+  padding: 2rem;
   /* top: 10px;
   left: 10px; */
 

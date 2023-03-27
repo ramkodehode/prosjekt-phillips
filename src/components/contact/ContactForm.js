@@ -1,9 +1,8 @@
-import React, { useRef } from 'react';
-import { useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import {
   Container,
-  GlobalStyle,
   Wrapper,
   Ul,
   Li,
@@ -19,10 +18,8 @@ import {
   Heading,
   Message,
   Contact,
-  Span,
   Full,
-  AllInput,
-} from './Contact.styled';
+} from "./Contact.styled";
 
 function ContactForm() {
   const form = useRef();
@@ -33,10 +30,10 @@ function ContactForm() {
     setStatus(true);
     emailjs
       .sendForm(
-        'service_6ogjgdz',
-        'template_pg7job2',
+        "service_6ogjgdz",
+        "template_pg7job2",
         form.current,
-        'user_eDz6z61ypctV8WwCbGfsH'
+        "user_eDz6z61ypctV8WwCbGfsH"
       )
       .then(
         (result) => {},
@@ -98,7 +95,7 @@ function ContactForm() {
               </Paragraph>
             </Full>
 
-            {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
+            {status ? <Message>Meldingen din har blitt sendt!</Message> : ""}
           </Form>
         </Contact>
       </Wrapper>
