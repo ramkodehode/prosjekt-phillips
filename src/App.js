@@ -9,6 +9,9 @@ import Tjenester from "./components/Tjenester";
 import Veiledning from "./components/Veiledning";
 import ContactForm from "./components/contact/ContactForm";
 
+import Home from "./Home";
+
+
 export const EmptySpace = styled.div`
   width: auto;
   height: 300px;
@@ -23,6 +26,8 @@ export const EmptySpace = styled.div`
 function App() {
   return (
     <div>
+      <Home/>
+      
       <Intro />
       <VartAnsvar />
       <Tjenester />
