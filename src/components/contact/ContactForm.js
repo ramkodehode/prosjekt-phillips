@@ -3,7 +3,6 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import {
   Container,
-  ContactGlobal,
   Wrapper,
   Ul,
   Li,
@@ -20,6 +19,7 @@ import {
   Message,
   Contact,
   Full,
+  ContactGlobal,
 } from './Contact.styled';
 
 function ContactForm() {
@@ -44,7 +44,6 @@ function ContactForm() {
       );
     e.target.reset();
   };
-
   return (
     <ContactGlobal>
       <Container>
@@ -96,7 +95,6 @@ function ContactForm() {
                   <SubmitButton type="submit" value="Send" />
                 </Paragraph>
               </Full>
-
               {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
             </Form>
           </Contact>

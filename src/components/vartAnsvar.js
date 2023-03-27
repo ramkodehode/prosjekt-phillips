@@ -19,11 +19,6 @@ import {
 const VartAnsvar = () => {
   return (
     <div>
-      {/* <ImgStudentBehindFence
-        src={studentsbehindfence}
-        alt="Students standing behind a fence"
-      /> */}
-
       <Container>
         <NewSection>
           <Column>
