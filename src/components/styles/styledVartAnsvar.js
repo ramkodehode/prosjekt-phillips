@@ -36,9 +36,9 @@ export const VartAnsvarContainer = styled.section`
 `;
 
 export const PicBox = styled.div`
-  background: #e9a75a;
-  width: 26em;
-  height: 25em;
+  background: #ffcb8f;
+  width: 22em;
+  height: 22em;
   z-index: -1;
   position: relative;
 
@@ -54,7 +54,7 @@ export const PhonePicBox = styled.div`
   @media only screen and (max-width: 40em) {
     display: block;
 
-    background: #e9a75a;
+    background: #ffcb8f;
     width: 13em;
     height: 13em;
     z-index: -1;
@@ -65,8 +65,11 @@ export const PhonePicBox = styled.div`
 
 export const SittingStudents = styled.img`
   width: auto;
-  height: 80vh;
-  padding: 30px;
+  height: 78vh;
+  padding: 1.2rem;
+  /* top: 10px;
+  left: 10px; */
+
   position: relative;
 
   @media only screen and (max-width: 40em) {

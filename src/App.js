@@ -11,7 +11,8 @@ import ContactForm from "./components/contact/ContactForm";
 
 export const EmptySpace = styled.div`
   width: auto;
-  height: 300px;
+  height: 200px;
+  margin-top: 100px;
 
   background: rgba(0, 0, 0, 0.8);
 

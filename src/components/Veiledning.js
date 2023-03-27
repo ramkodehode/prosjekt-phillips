@@ -47,7 +47,7 @@ const Veiledning = () => {
             <Column>
               {/* Left side */}
               <ContainerVeiledning>
-                <h1>Studieveiledning</h1>
+                <h2>Studieveiledning</h2>
                 {/* First Phase box */}
                 <UnderTitle>Fase 1</UnderTitle>
                 <p>Utforsk mine interesser</p>
@@ -83,7 +83,7 @@ const Veiledning = () => {
               </ContainerVeiledning>
               {/* Right side */}
               <ContainerVeiledning>
-                <h1>Karriereveiledning</h1>
+                <h2>Karriereveiledning</h2>
                 {/* First Phase box */}
                 <UnderTitle>Fase 1</UnderTitle>
                 <p>Utforske meg selv​</p>
