@@ -14,7 +14,8 @@ import Home from "./Home";
 
 export const EmptySpace = styled.div`
   width: auto;
-  height: 300px;
+  height: 200px;
+  margin-top: 100px;
 
   background: rgba(0, 0, 0, 0.8);
 
@@ -32,10 +33,10 @@ function App() {
       <VartAnsvar />
       <Tjenester />
       <Veiledning />
-      <KursDeltaker />
       <InfoTrude />
       <KomIgjen />
       <PictureBoxes />
+      <KursDeltaker /> {/* <------------ Her skal Karuselen inn Monica */}
       <ContactForm />
       <EmptySpace />
     </div>
