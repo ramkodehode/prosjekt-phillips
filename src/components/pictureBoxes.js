@@ -15,8 +15,6 @@ export const PictureBoxesContainer = styled.section`
 
   max-width: 50%;
 
-  justify-content: center;
-
   padding: 0 10px;
 
   position: relative;

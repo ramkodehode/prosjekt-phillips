@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 
 export const ContactInfo = styled.div`
   background: #fcd19b;
