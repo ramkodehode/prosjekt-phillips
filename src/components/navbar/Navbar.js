@@ -17,10 +17,10 @@ const Navbar = () => {
       <MobileIcon onClick={handleClick}>
         {click ? <FaTimes /> : <FaBars />}
       </MobileIcon>
-      <NavbarLink>Hjem</NavbarLink>
-      <NavbarLink>Tjenester</NavbarLink>
-      <NavbarLink>Om oss</NavbarLink>
-      <NavbarLink>Kontakt</NavbarLink>
+      <NavbarLink to="/">Hjem</NavbarLink>
+      <NavbarLink to="/tjenester">Tjenester</NavbarLink>
+      <NavbarLink to="/om_oss">Om oss</NavbarLink>
+      <NavbarLink to="kontakt">Kontakt</NavbarLink>
     </NavbarContainer>
   );
 };
