@@ -53,7 +53,7 @@ export const Wrapper = styled.div`
     padding: 1em;
   }
 
-  @media (min-width: 786px) {
+  @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 2fr;
     > * {
