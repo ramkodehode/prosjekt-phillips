@@ -28,10 +28,10 @@ function App() {
       <VartAnsvar />
       <Tjenester />
       <Veiledning />
-      <KursDeltaker />
       <InfoTrude />
       <KomIgjen />
       <PictureBoxes />
+      <KursDeltaker /> {/* <------------ Her skal Karuselen inn Monica */}
       <ContactForm />
       <EmptySpace />
     </div>
