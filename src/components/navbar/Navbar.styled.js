@@ -2,14 +2,17 @@ import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
 
-export const NavbarContainer = styled.nav`
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: space-between;
-`;
+export const NavbarContainer = styled.nav``;
 
 export const NavbarLogo = styled.img``;
+
+export const NavbarLinkWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
+  text-align: center;
+`;
 
 export const NavbarLink = styled(LinkS)`
   padding: 30px;
