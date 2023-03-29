@@ -36,7 +36,7 @@ export const MobileIcon = styled.div`
   top: 0;
   right: 0;
   transform: translate(-100%, 60%);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   cursor: pointer;
 `;
 
@@ -58,6 +58,7 @@ export const UnorderedList = styled.ul`
   float: right;
   background-color: #fad4a3;
   text-align: center;
+  transition: all 0.5s;
 `;
 
 export const Item = styled.li`
@@ -68,7 +69,7 @@ export const Item = styled.li`
 
 export const Anchor = styled.a`
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
   &:hover {
     color: orange;
