@@ -4,7 +4,9 @@ import {
   NavbarContainer,
   NavbarLink,
   NavbarLogo,
-  NavbarLinkWrapper,
+  NavbarLinkContainer,
+  Header,
+  NavbarLogoContainer,
 } from './Navbar.styled';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -13,18 +15,20 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
 
   return (
-    <NavbarContainer>
-      <NavbarLogo src="" />
-      <MobileIcon onClick={handleClick}>
-        {click ? <FaTimes /> : <FaBars />}
-      </MobileIcon>
-      <NavbarLinkWrapper>
-        <NavbarLink to="/">Hjem</NavbarLink>
-        <NavbarLink to="/tjenester">Tjenester</NavbarLink>
-        <NavbarLink to="/om_oss">Om oss</NavbarLink>
-        <NavbarLink to="kontakt">Kontakt</NavbarLink>
-      </NavbarLinkWrapper>
-    </NavbarContainer>
+    <Header>
+      <NavbarContainer>
+        <MobileIcon onClick={handleClick}>
+          {click ? <FaTimes /> : <FaBars />}
+        </MobileIcon>
+
+        <NavbarLinkContainer>
+          <NavbarLink to="/">Hjem</NavbarLink>
+          <NavbarLink to="/tjenester">Tjenester</NavbarLink>
+          <NavbarLink to="/om_oss">Om oss</NavbarLink>
+          <NavbarLink to="kontakt">Kontakt</NavbarLink>
+        </NavbarLinkContainer>
+      </NavbarContainer>
+    </Header>
   );
 };
 
