@@ -1,16 +1,25 @@
-import styled from "styled-components";
-import { Link as LinkS } from "react-scroll";
+import styled from 'styled-components';
+import { Link as LinkS } from 'react-scroll';
+
+export const Header = styled.header`
+  background: #fcd6a7;
+`;
 
 export const NavbarContainer = styled.nav``;
 
 export const NavbarLogo = styled.img``;
 
-export const NavbarLinkWrapper = styled.div`
+export const NavbarLinkContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 40px;
   text-align: center;
+
+  @media (min-width: 700px) {
+    display: flex;
+    flex-direction: row;
+  }
 `;
 
 export const NavbarLink = styled(LinkS)`
