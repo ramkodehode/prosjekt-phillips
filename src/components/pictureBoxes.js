@@ -1,9 +1,7 @@
 import styled from "styled-components";
-import { Column, Container, NewSection } from "./styles/styledIntro";
+// import { Column, Container, NewSection } from "./styles/styledIntro";
 
-import highfive from "./img/highfive.png";
-import writing from "./img/writing.png";
-import claspedarms from "./img/claspedarms.png";
+import studensitting from "./img/studensitting.png";
 
 export const PictureBoxesContainer = styled.section`
   display: flex;
@@ -11,14 +9,12 @@ export const PictureBoxesContainer = styled.section`
 
   justify-content: center;
 
-  margin: 35px;
-
-  max-width: 50%;
-
-  padding: 0 10px;
+  padding: 50px;
 
   position: relative;
   top: -150px;
+
+  margin: 0 auto;
 
   @media only screen and (max-width: 40em) {
     display: none;
@@ -26,13 +22,26 @@ export const PictureBoxesContainer = styled.section`
 `;
 
 export const PicBoxes = styled.img`
+  display: block;
+  width: auto;
+  height: 30vh;
+
+  top: -100px;
+  position: relative;
+  border: 6px solid #fe8900;
+
+  margin: 0 auto;
+
+  align-items: center;
+
   width: auto;
   height: 40vh;
   @media only screen and (max-width: 40em) {
-    height: 30vh;
+    /* height: 30vh;
     padding: 0 2.5em;
     top: -100px;
-    position: relative;
+    position: relative; */
+    display: none;
   }
 `;
 
@@ -42,32 +51,38 @@ export const PhonePicBox = styled.img`
   @media only screen and (max-width: 40em) {
     display: block;
     width: auto;
-    height: 30vh;
-    padding: 0 2.5em;
+    height: 20vh;
+
     top: -100px;
     position: relative;
+    border: 6px solid #fe8900;
+
+    margin: 0 auto;
+
+    align-items: center;
   }
 `;
 
 const PictureBoxes = () => {
   return (
     <div>
-      <Container>
+      {/* <Container>
         <NewSection>
           <Column>
             <PictureBoxesContainer>
               <PicBoxes src={writing} alt="writing" />
             </PictureBoxesContainer>
             <PictureBoxesContainer>
-              <PicBoxes src={claspedarms} alt="clapsed arms" />
+              <PicBoxes src={studensitting} alt="clapsed arms" />
             </PictureBoxesContainer>
             <PictureBoxesContainer>
               <PicBoxes src={highfive} alt="highfive" />
             </PictureBoxesContainer>
           </Column>
         </NewSection>
-      </Container>
-      <PhonePicBox src={highfive} alt="highfive" />
+      </Container> */}
+      <PicBoxes src={studensitting} alt="clapsed arms" />
+      <PhonePicBox src={studensitting} alt="highfive" />
     </div>
   );
 };
