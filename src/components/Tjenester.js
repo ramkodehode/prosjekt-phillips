@@ -43,32 +43,45 @@ const Tjenester = () => {
             <ContainerVareProgrammer>
               <UnderTitle>
                 <Rectangle />
-                Studieveiledning - for deg som er usikker på veien etter
-                videregående skole
+                Studieveiledning – Mitt studievalg
               </UnderTitle>
               <TextVareProgrammer>
-                Karrierelærings programmet gjennomføres ved tre fysiske
-                samlinger og består av tre faser. Du starter med å jobbe frem
-                din interesseprofil som er utgangspunktet for veien videre.
-                Mellom hver samling jobber du med ulike øvelser på vår digitale
-                læringsplattform. Du har tett oppfølgling av din
-                karriereveileder under hele prosessen.{" "}
+                Programmet gjennomføres med utgangspunkt i tre faser. Vi starter
+                med forventningsavklaring, blir bedre kjent med deg; historien
+                din, hvor du er nå, og litt om tankene dine for fremtiden. Du
+                starter med å utforske interessene dine som er utgangspunktet
+                for veien videre. Mellom hver samling jobber du med ulike
+                øvelser i vår digitale karrierelæringsplattform. Du får tett
+                oppfølging av din karriereveileder under hele prosessen. Husk
+                valget er ditt, det er du som har «fasiten» ingen andre. Det
+                handler heller ikke om hva du skal bli, men mer om hvem du vil
+                være. Lev livet ditt her og nå! Vær nysgjerrig på egne
+                interesser, høyst sannsynlig finner du noen du ikke ante du
+                hadde. Reflektere over verdiene, og utforsk mulighetene dine .
+                Fremtiden kan fremstå usikker og det fine med det er at der
+                ligger mulighetene.
               </TextVareProgrammer>
             </ContainerVareProgrammer>
             <ContainerVareProgrammer>
               <UnderTitle>
                 <Rectangle />
-                Karriereveiledning - for arbeidsgivere og deg som er i
-                omstilling.{" "}
+                Karriereveiledning – for arbeidsgivere og deg som er i
+                omstilling Ta kontroll mot nye jobb!
               </UnderTitle>
               <TextVareProgrammer>
-                Programmet gjennomføres ved seks fysiske samlinger og består av
-                tre faser. Du starter med å jobbe frem din kompetanse- og
-                verdiprofil. Mellom hver samling jobber du med ulike øvelser på
-                vår digitale læringsplattform. Dette foregår med tett
-                oppfølgling av din karriereveileder. Programmet er tilrettelagt
-                individuelt, for grupper og i kombinasjon av disse. Avhenging av
-                om prosessen er avtalt med deg privat, eller din arbeidsgiver.
+                Programmet er utviklet med utgangspunkt i tre faser. Du starter
+                med å jobbe frem din kompetanse- og verdiprofil. Mellom hver
+                samling jobber du med ulike øvelser. Dette foregår med tett
+                oppfølging av din karriereveileder, som er tilgjengelig mellom
+                øvelsene. Programmet er tilrettelagt for fysiske og digitale
+                samlinger, individuelt, for grupper og i kombinasjon av disse.
+                Vi vektlegger verdien av det fysiske møte og tilliten mellom deg
+                og din karriereveileder. I tillegg er vi tydelig på at det er du
+                selv som skaffer deg ny jobb, vi bidrar til at du kommer dit.
+                Prosessen kan være avtalt med deg privat, eller din arbeidsgiver
+                som resultat av en omstillingsprosess. Positiv usikkerhet er et
+                av våre perspektiv - fremtiden kan fremstå usikker og det fine
+                med det er at der ligger alle mulighetene.
               </TextVareProgrammer>
             </ContainerVareProgrammer>
           </Column>
