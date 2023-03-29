@@ -1,31 +1,28 @@
-import { useState } from 'react';
-import {
-  MobileIcon,
-  NavbarContainer,
-  NavbarLink,
-  NavbarLogo,
-  NavbarLinkContainer,
-  NavbarLogoContainer,
-} from './Navbar.styled';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
+import { Header, List, Nav, UnorderedList } from './Navbar.styled';
 
 const Navbar = () => {
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
-
   return (
-    <NavbarContainer>
-      <MobileIcon onClick={handleClick}>
-        {click ? <FaTimes /> : <FaBars />}
-      </MobileIcon>
-
-      <NavbarLinkContainer>
-        <NavbarLink to="/">Hjem</NavbarLink>
-        <NavbarLink to="/tjenester">Tjenester</NavbarLink>
-        <NavbarLink to="/om_oss">Om oss</NavbarLink>
-        <NavbarLink to="kontakt">Kontakt</NavbarLink>
-      </NavbarLinkContainer>
-    </NavbarContainer>
+    <>
+      <Header>
+        <Nav>
+          <UnorderedList>
+            <List>
+              <NavLink>Hjem</NavLink>
+            </List>
+            <List>
+              <NavLink>Tjenester</NavLink>
+            </List>
+            <List>
+              <NavLink>Om oss</NavLink>
+            </List>
+            <List>
+              <NavLink>Kontakt</NavLink>
+            </List>
+          </UnorderedList>
+        </Nav>
+      </Header>
+    </>
   );
 };
 
