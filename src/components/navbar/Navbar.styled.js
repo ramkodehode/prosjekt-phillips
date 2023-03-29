@@ -42,7 +42,7 @@ export const MobileIcon = styled.div`
 
 export const Nav = styled.nav`
   height: 75px;
-  position: fixed;
+  position: absolute;
 
   width: 100%;
   background-color: #fad4a3;
@@ -51,7 +51,7 @@ export const Nav = styled.nav`
 `;
 
 export const UnorderedList = styled.ul`
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100vh;
   top: 75px;
@@ -67,10 +67,10 @@ export const Item = styled.li`
 `;
 
 export const Anchor = styled.a`
-  color: white;
+  color: black;
   font-size: 20px;
-
+  cursor: pointer;
   &:hover {
-    color: black;
+    color: orange;
   }
 `;
