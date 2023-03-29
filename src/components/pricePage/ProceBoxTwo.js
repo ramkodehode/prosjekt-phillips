@@ -56,11 +56,11 @@ const PriceBoxTwo = () => {
             <ContainerDesktop>
               <p>Individuelt:</p>
               <br />
-              <p>6 timer 7200,- </p>
+              <p>3 møter: 7200,- </p>
               <br />
-              <p>12 timer 14.400,-</p>
+              <p>6 møter: 14.400,-</p>
               <br />
-              <p>18 timer 21.600,-</p>
+              <p>9 møter: 21.600,-</p>
             </ContainerDesktop>
           </ContainerGroup>
           <ContainerGroup>
@@ -77,11 +77,11 @@ const PriceBoxTwo = () => {
             <ContainerGroup>
               <p>Individuelt:</p>
               <br />
-              <p>3 møter 6 timer 7200,- </p>
+              <p>3 møter: 7200,- </p>
               <br />
-              <p>6 møter 12 timer 14.400,-</p>
+              <p>6 møter: 14.400,-</p>
               <br />
-              <p>9 møter 18 timer 21.600,-</p>
+              <p>9 møter: 21.600,-</p>
             </ContainerGroup>
             <ContainerGroup>
               <p>Grupper på forespørsel</p>
