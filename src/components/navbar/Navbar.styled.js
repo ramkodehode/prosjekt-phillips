@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 
-export const Header = styled.header`
-  background: #fcd6a7;
-`;
+export const Header = styled.header``;
 
 export const NavbarContainer = styled.nav``;
 
