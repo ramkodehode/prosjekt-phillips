@@ -9,33 +9,12 @@ import Tjenester from './components/Tjenester';
 import Veiledning from './components/Veiledning';
 import ContactForm from './components/contact/ContactForm';
 import Navbar from './components/navbar/Navbar';
-
-export const EmptySpace = styled.div`
-  width: auto;
-  height: 200px;
-  margin-top: 100px;
-
-  background: rgba(0, 0, 0, 0.8);
-
-  @media only screen and (max-width: 40em) {
-    width: auto;
-  }
-`;
+import Hjem from './components/Hjem';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Intro />
-      <VartAnsvar />
-      <Tjenester />
-      <Veiledning />
-      <InfoTrude />
-      <KomIgjen />
-      <PictureBoxes />
-      <KursDeltaker /> {/* <------------ Her skal Karuselen inn Monica */}
-      <ContactForm />
-      <EmptySpace />
+      <Hjem />
     </>
   );
 }
