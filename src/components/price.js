@@ -44,7 +44,25 @@ export const TextTaKontakt = styled.p`
 
   border-bottom: 1.5px solid #fe8900;
 
-  width: 50%;
+  width: 20%;
+  position: relative;
+  top: -300px;
+
+  @media only screen and (max-width: 40em) {
+    width: 50%;
+  }
+`;
+
+export const TextArbeidsgiver = styled.p`
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0 auto;
+  padding: 20px;
+
+  align-items: center;
+
+  width: 70%;
   position: relative;
   top: -300px;
 `;
@@ -52,7 +70,7 @@ export const TextTaKontakt = styled.p`
 export const ImgPrice = styled.img`
   height: 5em;
   width: auto;
-  padding-top: 30px;
+  padding-top: 20px;
 `;
 
 export const Underline = styled.div`
@@ -89,7 +107,7 @@ const PriceBox = () => {
                 <BoxPrice>
                   <ImgPrice src={priceicon} alt="icon" />
                   <h2>Priser</h2>
-                  <TextYellow>Studier videre</TextYellow>
+                  <TextYellow>Studieveiledning</TextYellow>
                   <p>3 samlinger hvor en hver økt varer 2 timer</p>
                   <p>Øvelser mellom hver økt</p>
                   <p>
@@ -100,11 +118,11 @@ const PriceBox = () => {
                   <Column>
                     <ContainerGroup>
                       <p>Individuelt</p>
-                      <p>6995,-</p>
+                      <p>6570,-</p>
                     </ContainerGroup>
                     <ContainerGroup>
                       <p>Grupper</p>
-                      <p>4995,-</p>
+                      <p>4570,-</p>
                     </ContainerGroup>
                   </Column>
                 </BoxPrice>
@@ -114,7 +132,7 @@ const PriceBox = () => {
                 <BoxPrice>
                   <ImgPrice src={iconprice} alt="icon" />
                   <h2>Priser</h2>
-                  <TextYellow>Omstilling</TextYellow>
+                  <TextYellow>Karriereveiledning</TextYellow>
                   <p>6-9 samlinger hvor en hver økt varer 2 timer </p>
                   <p>Øvelser mellom hver økt </p>{" "}
                   <p>
@@ -125,11 +143,13 @@ const PriceBox = () => {
                   <Column>
                     <ContainerGroup>
                       <p>Individuelt</p>
-                      <p>6995,-</p>
+                      <p>6 timer 7200,- </p>
+                      <p>12 timer 14.400,-</p>
+                      <p>18 timer 21.600,-</p>
                     </ContainerGroup>
                     <ContainerGroup>
                       <p>Grupper</p>
-                      <p>4995,-</p>
+                      <p>På forespørsel</p>
                     </ContainerGroup>
                   </Column>
                 </BoxPrice>
@@ -138,9 +158,14 @@ const PriceBox = () => {
           </NewSection>
         </Container>
       </DivPrice>
-      <TextTaKontakt>
-        Ta kontakt dersom du er en arbeidsgiver og ønsker et program
-      </TextTaKontakt>
+      <TextTaKontakt>For arbeidsgiver</TextTaKontakt>
+      <TextArbeidsgiver>
+        Etter inngått avtale starter vi med oppstartsmøte hvor vi foretar en
+        gjensidig forventningsavklaring for mål og gjennomføring av programmet.
+        Karrierelæringsprogrammet tar utgangspunkt i modellen; Ta kontroll mot
+        ny jobb
+      </TextArbeidsgiver>
+      <p></p>
     </div>
   );
 };
