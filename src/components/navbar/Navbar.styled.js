@@ -13,7 +13,7 @@ export const NavbarContainer = styled.nav`
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 
-  @media (min-width: 700px;) {
+  @media (min-width: 700px) {
     height: 75px;
   }
 `;
