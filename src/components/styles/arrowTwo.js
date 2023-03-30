@@ -4,9 +4,7 @@ export const ArrowLine = styled.div`
   width: 72px;
   height: 0px;
   position: relative;
-
   top: -1px;
-
   border: 2px solid #000000;
   transform: rotate(90deg);
 `;
