@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import {
   NavbarContainer,
   LeftContainer,
@@ -7,11 +8,16 @@ import {
   NavbarLinkContainer,
   NavbarLink,
   Logo,
+  OpenLinksButton,
+  Xbutton,
+  NavbarLinkExtended,
 } from './Navbar.styled';
 
-import LogoImg from '../img/logo.png';
+import LogoImg from '../assets/image.png';
 
 const Navbar = () => {
+  const [extendNavbar, setExtendNavbar] = useState(false);
+
   return (
     <>
       <NavbarContainer>
@@ -26,10 +32,22 @@ const Navbar = () => {
               <NavbarLink>Tjenester</NavbarLink>
               <NavbarLink>Om oss</NavbarLink>
               <NavbarLink>Kontakt</NavbarLink>
+              <OpenLinksButton
+                onClick={() => {
+                  setExtendNavbar((curr) => !curr);
+                }}
+              >
+                {extendNavbar ? <>&#10005;</> : <>&#8801;</>}
+              </OpenLinksButton>
             </NavbarLinkContainer>
           </RightContainer>
         </NavbarInnerContainer>
-        <NavbarExtendedContainer></NavbarExtendedContainer>
+        <NavbarExtendedContainer>
+          <NavbarLinkExtended>Hjem</NavbarLinkExtended>
+          <NavbarLinkExtended>Tjenester</NavbarLinkExtended>
+          <NavbarLinkExtended>Om oss</NavbarLinkExtended>
+          <NavbarLinkExtended>Kontakt oss</NavbarLinkExtended>
+        </NavbarExtendedContainer>
       </NavbarContainer>
     </>
   );
