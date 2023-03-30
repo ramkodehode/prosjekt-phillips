@@ -10,10 +10,11 @@ export const ClientContainer = styled.div`
     
     @media only screen and (max-width: 600px) {
         width: 90%;
-        height: 150vh;
+        height: 80vh;
     
     }
 `;
+
 
 
 export const Clients = styled.div`
@@ -23,7 +24,7 @@ export const Clients = styled.div`
     user-select: none;
 
     @media only screen and (max-width: 600px) {
-        
+  
     }
 `;
 
@@ -39,11 +40,16 @@ export const ClientImage = styled.div`
     margin: 0 auto 1rem;
   
     @media only screen and (max-width: 600px) {
-      
+        width: 5rem;
     }
 `;
 export const ClientName = styled.h1`
     text-align: center;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 18px;
+      text-align: center;
+    }
 `;
 export const ClientReview  = styled.p`
     font-weight: 300;
@@ -51,6 +57,11 @@ export const ClientReview  = styled.p`
     width: 80%;
     margin: 0.8rem auto 0;
     text-align: center;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 14px;
+      text-align: left;
+    }
 
 `;
 

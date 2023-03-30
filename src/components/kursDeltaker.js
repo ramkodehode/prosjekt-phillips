@@ -16,14 +16,19 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+
+
 import { 
   ClientContainer,
   Title, 
   ClientImage,
   ClientName,
   ClientReview,
-  Clients
+  Clients,
+ 
+ 
       } from './styles/styledDeltakere';
+
 
 const data = [
   {
@@ -67,7 +72,9 @@ const data = [
   },
 ]
 
+
 const KursDeltaker = () => {
+
   return (
     
     <ClientContainer>
@@ -79,12 +86,14 @@ const KursDeltaker = () => {
    
     <Swiper 
     modules={[Pagination ]}  spaceBetween={40}
-    slidesPerView={3}
-    pagination={{ clickable: true }}  >
+    slidesPerView={3} 
+    pagination={{ clickable: true  }}  >
     {
-
+      
       data.map(({image, name, review}, index) => {
+        
         return(
+          
           <Clients>
           <SwiperSlide key={index} >
 
@@ -102,12 +111,14 @@ const KursDeltaker = () => {
         
       </SwiperSlide>
       </Clients>
+      
     
         )
       })
     }
 
     </Swiper>
+   
    </ClientContainer>
   )
 }
