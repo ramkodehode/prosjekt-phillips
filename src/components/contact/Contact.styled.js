@@ -1,4 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+
+export const ContactGlobal = styled.div`
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    padding: 1em;
+  }
+`;
 
 export const ContactInfo = styled.div`
   background: #fcd19b;
@@ -29,7 +38,6 @@ export const Container = styled.div`
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em;
 `;
 
 export const Ul = styled.ul`
@@ -45,10 +53,9 @@ export const Wrapper = styled.div`
     padding: 1em;
   }
 
-  @media (min-width: 786px) {
+  @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 2fr;
-
     > * {
       padding: 2em;
     }

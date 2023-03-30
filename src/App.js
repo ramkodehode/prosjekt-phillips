@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import styled from "styled-components";
 import Intro from "./components/Intro";
 import KomIgjen from "./components/komIgjen";
@@ -21,11 +22,15 @@ export const EmptySpace = styled.div`
     width: auto;
   }
 `;
+=======
+import Hjem from "./components/Hjem";
+>>>>>>> a7fefcef2ddc9d18d5eb50aab89d4ac4ec08a0d5
 
 
 function App() {
  
   return (
+<<<<<<< HEAD
     <div>
      
       <Intro />
@@ -40,6 +45,11 @@ function App() {
       <ContactForm />
       <EmptySpace />
     </div>
+=======
+    <>
+      <Hjem />
+    </>
+>>>>>>> a7fefcef2ddc9d18d5eb50aab89d4ac4ec08a0d5
   );
 }
 

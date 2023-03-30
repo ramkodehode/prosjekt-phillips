@@ -83,7 +83,7 @@ export const Tittel = styled.h1`
 
   @media only screen and (max-width: 40em) {
     font-size: 1.5rem;
-    max-width: 15em;
+    max-width: 100%;
     line-height: 40px;
   }
 `;
@@ -98,7 +98,6 @@ export const UnderTitle = styled.h2`
 
   @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
-    max-width: 20em;
   }
 `;
 
@@ -111,6 +110,5 @@ export const IntroText = styled.p`
 
   @media only screen and (max-width: 40em) {
     font-size: 1rem;
-    max-width: 20em;
   }
 `;

@@ -7,6 +7,9 @@ import {
   NewSection,
   UnderTitle,
 } from "./styles/styledIntro";
+import { ContainerPhone } from "./Tjenester";
+import PriceBoxOne from "./pricePage/PriceBoxOne";
+import PriceBoxTwo from "./pricePage/ProceBoxTwo";
 
 export const BoxVeiledning = styled.div`
   display: flex;
@@ -27,6 +30,10 @@ export const BoxVeiledning = styled.div`
   flex-basis: 100%;
   align-items: center;
   justify-content: space-between;
+
+  @media only screen and (max-width: 40em) {
+    height: 300rem;
+  }
 `;
 
 export const ContainerVeiledning = styled.section`
@@ -38,6 +45,13 @@ export const ContainerVeiledning = styled.section`
   font-size: 1.2em;
 `;
 
+export const NotDisplayed = styled.section`
+  display: none;
+  @media only screen and (max-width: 40em) {
+    display: block;
+  }
+`;
+
 const Veiledning = () => {
   return (
     <div>
@@ -45,77 +59,92 @@ const Veiledning = () => {
         <Container>
           <NewSection>
             <Column>
-              {/* Left side */}
-              <ContainerVeiledning>
-                <h2>Studieveiledning</h2>
-                {/* First Phase box */}
-                <UnderTitle>Fase 1</UnderTitle>
-                <p>Utforsk mine interesser</p>
-                <ul>
-                  <li>Interessespørsmål</li>
+              <ContainerPhone>
+                {/* Left side */}
+                <ContainerVeiledning>
+                  <h2>Studieveiledning</h2>
+                  {/* First Phase box */}
+                  <UnderTitle>Fase 1</UnderTitle>
+                  <p>Utforsk mine interesser</p>
+                  <ul>
+                    <li>Interessespørsmål</li>
 
-                  <li>Interessebilder</li>
-                  <li>
-                    Strukturert dybdeintervju (interesser, evner, ferdigheter og
-                    verdier)
-                  </li>
-                  <li>Interesseprofil</li>
-                </ul>
-                <Arrow />
-                {/* Second Phase box */}
-                <UnderTitle>Fase 2</UnderTitle>
-                <p>Utforske mine muligheter​</p>
-                <ul>
-                  <li>Undersøke ulike studie- og yrkesretninger​</li>
-                  <li>Velge bort</li>
-                  <li>Velge</li>
-                  <li>Mitt mulighetsrom</li>
-                </ul>
-                <Arrow />
-                {/* Third Phase box */}
-                <UnderTitle>Fase 3</UnderTitle>
-                <p>Utforske mitt mulighetsrom ​</p>
-                <ul>
-                  <li>Definere mine vurderingskriterier​</li>
-                  <li>Definere mine tre alternative valg​</li>
-                  <li>Mitt valg ​</li>
-                </ul>
-              </ContainerVeiledning>
-              {/* Right side */}
-              <ContainerVeiledning>
-                <h2>Karriereveiledning</h2>
-                {/* First Phase box */}
-                <UnderTitle>Fase 1</UnderTitle>
-                <p>Utforske meg selv​</p>
-                <ul>
-                  <li>Personlige egenskaper og styrker​</li>
-                  <li>Kompetanser​</li>
-                  <li>Verdier​</li>
-                  <li>Interesser​</li>
-                  <li>Definere mål</li>
-                </ul>
-                <Arrow />
-                {/* Second Phase box */}
-                <UnderTitle>Fase 2</UnderTitle>
-                <p>Utforske mine muligheter​</p>
-                <ul>
-                  <li>Mitt marked/mulighetsrom​</li>
-                  <li>Mine verktøy ​</li>
-                  <li>Situasjon, atferd, resultat - SAR​</li>
-                  <li>Egen profil – ønsket rolle​</li>
-                  <li>Handlingsplan</li>
-                </ul>
-                <Arrow />
-                {/* Third Phase box */}
-                <UnderTitle>Fase 3</UnderTitle>
-                <p>Ta kontroll</p>
-                <ul>
-                  <li>Trene på bruk av mine verktøy​</li>
-                  <li>Ta initiativ og ansvar​</li>
-                  <li>Kommunisere</li>
-                  <li>Forhandle</li>
-                </ul>
-              </ContainerVeiledning>
+                    <li>Interessebilder</li>
+                    <li>
+                      Strukturert dybdeintervju (interesser, evner, ferdigheter
+                      og verdier)
+                    </li>
+                    <li>Interesseprofil</li>
+                  </ul>
+                  <Arrow />
+                  {/* Second Phase box */}
+                  <UnderTitle>Fase 2</UnderTitle>
+                  <p>Utforske mine muligheter​</p>
+                  <ul>
+                    <li>Undersøke ulike studie- og yrkesretninger​</li>
+                    <li>Velge bort</li>
+                    <li>Velge</li>
+                    <li>Mitt mulighetsrom</li>
+                  </ul>
+                  <Arrow />
+                  {/* Third Phase box */}
+                  <UnderTitle>Fase 3</UnderTitle>
+                  <p>Utforske mitt mulighetsrom ​</p>
+                  <ul>
+                    <li>Definere mine vurderingskriterier​</li>
+                    <li>Definere mine tre alternative valg​</li>
+                    <li>Mitt valg ​</li>
+                  </ul>
+
+                  {/* This is only displayed on phone: */}
+                  <NotDisplayed>
+                    <PriceBoxOne />
+                  </NotDisplayed>
+                </ContainerVeiledning>
+                {/* The above only displayed on phone */}
+
+                {/* Right side */}
+                <ContainerVeiledning>
+                  <h2>Karriereveiledning</h2>
+                  {/* First Phase box */}
+                  <UnderTitle>Fase 1</UnderTitle>
+                  <p>Utforske meg selv​</p>
+                  <ul>
+                    <li>Personlige egenskaper og styrker​</li>
+                    <li>Kompetanser​</li>
+                    <li>Verdier​</li>
+                    <li>Interesser​</li>
+                    <li>Definere mål</li>
+                  </ul>
+                  <Arrow />
+                  {/* Second Phase box */}
+                  <UnderTitle>Fase 2</UnderTitle>
+                  <p>Utforske mine muligheter​</p>
+                  <ul>
+                    <li>Mitt marked/mulighetsrom​</li>
+                    <li>Mine verktøy ​</li>
+                    <li>Situasjon, atferd, resultat - SAR​</li>
+                    <li>Egen profil – ønsket rolle​</li>
+                    <li>Handlingsplan</li>
+                  </ul>
+                  <Arrow />
+                  {/* Third Phase box */}
+                  <UnderTitle>Fase 3</UnderTitle>
+                  <p>Ta kontroll</p>
+                  <ul>
+                    <li>Trene på bruk av mine verktøy​</li>
+                    <li>Ta initiativ og ansvar​</li>
+                    <li>Kommunisere</li>
+                    <li>Forhandle</li>
+                  </ul>
+
+                  {/* This is only displayed on phone: */}
+                  <NotDisplayed>
+                    <PriceBoxTwo />
+                  </NotDisplayed>
+                  {/* The above only displayed on phone */}
+                </ContainerVeiledning>
+              </ContainerPhone>
             </Column>
           </NewSection>
         </Container>

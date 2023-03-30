@@ -31,7 +31,7 @@ export const VartAnsvarContainer = styled.section`
 
   @media only screen and (max-width: 40em) {
     margin-left: 25px;
-    max-width: 80%;
+    max-width: 100%;
   }
 `;
 
@@ -59,7 +59,9 @@ export const PhonePicBox = styled.div`
     height: 13em;
     z-index: -1;
     position: relative;
-    margin: 0 15%;
+    margin: 0 20px;
+
+    top: -100px;
   }
 `;
 
@@ -67,8 +69,6 @@ export const SittingStudents = styled.img`
   width: auto;
   height: 70vh;
   padding: 2rem;
-  /* top: 10px;
-  left: 10px; */
 
   position: relative;
 
@@ -91,10 +91,11 @@ export const Rectangle = styled.div`
   background: #e4973c;
   transform: matrix(-1, 0, 0, 1, 0, 0);
   width: 7px;
-  height: 80px;
+  height: 50px;
   float: left;
   margin-right: 15px;
 
   @media only screen and (max-width: 40em) {
+    height: 100px;
   }
 `;
