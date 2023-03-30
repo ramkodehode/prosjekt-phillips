@@ -9,8 +9,6 @@ import Tjenester from "./components/Tjenester";
 import Veiledning from "./components/Veiledning";
 import ContactForm from "./components/contact/ContactForm";
 
-import Home from "./Home";
-
 
 export const EmptySpace = styled.div`
   width: auto;
@@ -24,11 +22,12 @@ export const EmptySpace = styled.div`
   }
 `;
 
+
 function App() {
+ 
   return (
     <div>
-      <Home/>
-      
+     
       <Intro />
       <VartAnsvar />
       <Tjenester />
@@ -36,7 +35,8 @@ function App() {
       <InfoTrude />
       <KomIgjen />
       <PictureBoxes />
-      <KursDeltaker /> {/* <------------ Her skal Karuselen inn Monica */}
+      <KursDeltaker/>
+      
       <ContactForm />
       <EmptySpace />
     </div>
