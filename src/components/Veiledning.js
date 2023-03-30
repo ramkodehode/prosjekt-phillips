@@ -19,7 +19,6 @@ export const BoxVeiledning = styled.div`
   height: 86rem;
 
   margin: 0 auto;
-  top: -150px;
 
   position: relative;
 

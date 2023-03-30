@@ -39,22 +39,19 @@ export const DivPrice = styled.div`
   font-family: "Poppins";
   font-size: 1.2rem;
 
-  top: -300px;
+  top: -150px;
 `;
 
-export const TextTaKontakt = styled.p`
+export const TextTaKontakt = styled.h1`
   font-family: "Poppins";
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: 0 auto;
 
   align-items: center;
 
-  border-bottom: 1.5px solid #fe8900;
-
-  width: 20%;
   position: relative;
-  top: -300px;
+  top: -150px;
 
   @media only screen and (max-width: 40em) {
     width: 50%;
@@ -68,11 +65,13 @@ export const TextArbeidsgiver = styled.p`
   margin: 0 auto;
   padding: 20px;
 
-  align-items: center;
+  max-width: 50%;
 
+  align-items: center;
+  top: -150px;
   width: 70%;
   position: relative;
-  top: -300px;
+
   @media only screen and (max-width: 40em) {
     top: 0px;
   }
