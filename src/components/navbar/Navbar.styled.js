@@ -1,45 +1,47 @@
 import styled from 'styled-components';
-import { Link as LinkS } from 'react-scroll';
+import { Link } from 'react-scroll';
 
-export const NavbarContainer = styled.main`
-  display: flex;
-  justify-content: center;
-  background-color: #fad4a3;
+export const NavbarContainer = styled.nav`
   width: 100%;
-
-  @media screen (min-width: 768px) {
-  }
-`;
-
-export const LogoContainer = styled.section`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-
-  @media (min-width: 768px) {
-  }
-`;
-
-export const Nav = styled.nav`
+  height: 75px;
+  background-color: #fad4a3;
   display: flex;
   flex-direction: column;
-
-  @media (min-width: 768px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-    position: fixed;
-    z-index: 99999;
-    background-color: #fad4a3;
-  }
+  position: fixed;
 `;
 
-export const Link = styled(LinkS)`
-  padding: 20px;
-  cursor: pointer;
+export const LeftContainer = styled.div`
+  flex: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+`;
 
-  &:hover {
-    color: orange;
-  }
+export const RightContainer = styled.div`
+  flex: -70%;
+  display: flex;
+  align-items: center;
+  padding-right: 5%;
+`;
+
+export const NavbarInnerContainer = styled.div`
+  width: 100%;
+  height: 75px;
+  display: flex;
+`;
+export const NavbarExtendedContainer = styled.div``;
+
+export const NavbarLinkContainer = styled.div`
+  display: flex;
+`;
+
+export const NavbarLink = styled(Link)`
+  text-decoration: none;
+  margin: 10px;
+`;
+
+export const Logo = styled.img`
+  margin: 10px;
+  max-width: 40px;
+  height: auto;
 `;

@@ -10,6 +10,8 @@ import {
 import { ContainerPhone } from "./Tjenester";
 import PriceBoxOne from "./pricePage/PriceBoxOne";
 import PriceBoxTwo from "./pricePage/ProceBoxTwo";
+import { TextArbeidsgiver, TextTaKontakt } from "./pricePage/StyledPrice";
+import ArrowTwo from "./styles/arrowTwo";
 
 export const BoxVeiledning = styled.div`
   display: flex;
@@ -31,7 +33,7 @@ export const BoxVeiledning = styled.div`
   justify-content: space-between;
 
   @media only screen and (max-width: 40em) {
-    height: 300rem;
+    height: 312rem;
   }
 `;
 
@@ -147,7 +149,31 @@ const Veiledning = () => {
             </Column>
           </NewSection>
         </Container>
+        {/* Only displayed on phone */}
+        <NotDisplayed>
+          <TextTaKontakt>For arbeidsgiver</TextTaKontakt>
+          <TextArbeidsgiver>
+            Etter inngått avtale starter vi med oppstartsmøte hvor vi foretar en
+            gjensidig forventingsavklaring for mål og gjennomføring av
+            programmet. Karrierelæringsprogrammet tar utgangspunkt i modellen;
+            Ta kontroll mot ny jobb.
+          </TextArbeidsgiver>
+
+          <UnderTitle>Fase 1</UnderTitle>
+          <TextArbeidsgiver>Oppstartsmøte </TextArbeidsgiver>
+          <ArrowTwo />
+          <UnderTitle>Fase 2</UnderTitle>
+          <TextArbeidsgiver>
+            Gjennomføring av karriereveiledning for medarbeidere, statusmøter
+            følger fase 1, fase 2 og fase 3.{" "}
+          </TextArbeidsgiver>
+          <ArrowTwo />
+          <UnderTitle>Fase 3</UnderTitle>
+          <TextArbeidsgiver> Evaluering.</TextArbeidsgiver>
+        </NotDisplayed>
+        {/* Above is only displayed on phone */}
       </BoxVeiledning>
+
       <PriceBox />
     </div>
   );

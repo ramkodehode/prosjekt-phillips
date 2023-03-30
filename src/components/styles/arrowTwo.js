@@ -7,6 +7,9 @@ export const ArrowLine = styled.div`
   top: -1px;
   border: 2px solid #000000;
   transform: rotate(90deg);
+
+  @media only screen and (max-width: 40em) {
+  }
 `;
 
 export const ArrowLeft = styled.div`
@@ -21,6 +24,9 @@ export const ArrowLeft = styled.div`
 
   right: 58px;
   top: 30px;
+
+  @media only screen and (max-width: 40em) {
+  }
 `;
 
 export const ArrowRight = styled.div`
@@ -35,6 +41,9 @@ export const ArrowRight = styled.div`
   background-color: black;
 
   transform: rotate(-45deg);
+
+  @media only screen and (max-width: 40em) {
+  }
 `;
 
 export const ArrowDiv = styled.div`
@@ -42,11 +51,14 @@ export const ArrowDiv = styled.div`
 
   justify-content: center;
 
-  padding: 80px 100px;
+  margin: 80px 100px;
 
   position: relative;
 
   left: 20px;
+
+  @media only screen and (max-width: 40em) {
+  }
 `;
 
 const ArrowTwo = () => {

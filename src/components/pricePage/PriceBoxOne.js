@@ -16,7 +16,7 @@ const PriceBoxOne = () => {
         <h2>Priser</h2>
         <TextYellow>Studieveiledning</TextYellow>
         <p>3 samlinger hvor en hver økt varer 2 timer</p>
-        <p>Øvelser mellom hver økt</p>
+        <p>Øvelser mellom hver veiledningsmøte</p>
         <p>
           Individuell oppmerksomhet på din <br /> karriereretning
         </p>
@@ -25,7 +25,7 @@ const PriceBoxOne = () => {
         <Column>
           <ContainerGroup>
             <p>Individuelt</p>
-            <p>6570,-</p>
+            <p>5970,-</p>
           </ContainerGroup>
           <ContainerGroup>
             <p>Grupper</p>

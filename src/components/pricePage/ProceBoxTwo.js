@@ -45,7 +45,7 @@ const PriceBoxTwo = () => {
         <h2>Priser</h2>
         <TextYellow>Karriereveiledning</TextYellow>
         <p>6-9 samlinger hvor en hver økt varer 2 timer </p>
-        <p>Øvelser mellom hver økt </p>{" "}
+        <p>Øvelser mellom hver veiledningsmøte </p>{" "}
         <p>
           Individuell oppmerksomhet på din <br /> karriereretning
         </p>{" "}
@@ -56,11 +56,13 @@ const PriceBoxTwo = () => {
             <ContainerDesktop>
               <p>Individuelt:</p>
               <br />
-              <p>3 møter: 7200,- </p>
+              <p>3 møter: 6690,- </p>
               <br />
-              <p>6 møter: 14.400,-</p>
+              <p>6 møter: 11.150,-</p>
               <br />
-              <p>9 møter: 21.600,-</p>
+              <p>9 møter: 16.725,-</p>
+              <br />
+              <p>Enkeltimer: 1200,-</p>
             </ContainerDesktop>
           </ContainerGroup>
           <ContainerGroup>
