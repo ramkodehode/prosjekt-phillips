@@ -1,4 +1,4 @@
-import caricature from "./img/caricature.png";
+import caricature from './img/caricature.png';
 import {
   CaricatureImg,
   Column,
@@ -10,11 +10,11 @@ import {
   PhoneCaricatureImg,
   Tittel,
   UnderTitle,
-} from "./styles/styledIntro";
+} from './styles/styledIntro';
 
 const Intro = () => {
   return (
-    <div>
+    <div id="/">
       <MainBox>
         <Container>
           <NewSection>

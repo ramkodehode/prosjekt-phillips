@@ -11,27 +11,65 @@ import {
   OpenLinksButton,
   Xbutton,
   NavbarLinkExtended,
+  LogoText,
+  LogoContainer,
 } from './Navbar.styled';
 
-import LogoImg from '../assets/image.png';
+import { RxHamburgerMenu } from 'react-icons/fa';
+
+import LogoImg from './assets/image.png';
 
 const Navbar = () => {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
   return (
     <>
-      <NavbarContainer>
+      <NavbarContainer extendNavbar={extendNavbar}>
         <NavbarInnerContainer>
           <LeftContainer>
-            <Logo src={LogoImg}></Logo>
-            <h3> Phillips Karriere</h3>
+            <LogoContainer>
+              <Logo src={LogoImg}></Logo>
+              <LogoText> Phillips Karriere</LogoText>
+            </LogoContainer>
           </LeftContainer>
           <RightContainer>
             <NavbarLinkContainer>
-              <NavbarLink>Hjem</NavbarLink>
-              <NavbarLink>Tjenester</NavbarLink>
-              <NavbarLink>Om oss</NavbarLink>
-              <NavbarLink>Kontakt</NavbarLink>
+              <NavbarLink
+                to="/"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Hjem
+              </NavbarLink>
+              <NavbarLink
+                to="tjenester"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Tjenester
+              </NavbarLink>
+              <NavbarLink
+                to="om"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Om oss
+              </NavbarLink>
+              <NavbarLink
+                to="kontakt"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Kontakt
+              </NavbarLink>
               <OpenLinksButton
                 onClick={() => {
                   setExtendNavbar((curr) => !curr);
@@ -42,12 +80,15 @@ const Navbar = () => {
             </NavbarLinkContainer>
           </RightContainer>
         </NavbarInnerContainer>
-        <NavbarExtendedContainer>
-          <NavbarLinkExtended>Hjem</NavbarLinkExtended>
-          <NavbarLinkExtended>Tjenester</NavbarLinkExtended>
-          <NavbarLinkExtended>Om oss</NavbarLinkExtended>
-          <NavbarLinkExtended>Kontakt oss</NavbarLinkExtended>
-        </NavbarExtendedContainer>
+
+        {extendNavbar && (
+          <NavbarExtendedContainer>
+            <NavbarLinkExtended to="/">Hjem</NavbarLinkExtended>
+            <NavbarLinkExtended to="/products"> Tjenester</NavbarLinkExtended>
+            <NavbarLinkExtended to="/contact">Om oss</NavbarLinkExtended>
+            <NavbarLinkExtended to="/about">Kontakt</NavbarLinkExtended>
+          </NavbarExtendedContainer>
+        )}
       </NavbarContainer>
     </>
   );

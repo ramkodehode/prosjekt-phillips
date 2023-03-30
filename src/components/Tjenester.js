@@ -1,14 +1,14 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import {
   Column,
   Container,
   NewSection,
   UnderTitle,
-} from "./styles/styledIntro";
-import { Rectangle } from "./styles/styledVartAnsvar";
+} from './styles/styledIntro';
+import { Rectangle } from './styles/styledVartAnsvar';
 
-import { ImgStudentBehindFence } from "./styles/styledKarriere";
-import studentsbehindfence from "./img/studentsbehindfence.png";
+import { ImgStudentBehindFence } from './styles/styledKarriere';
+import studentsbehindfence from './img/studentsbehindfence.png';
 
 export const ContainerPhone = styled.section`
   display: flex;
@@ -38,7 +38,7 @@ export const ContainerVareProgrammer = styled.section`
 
 export const TitleVareProgrammer = styled.h1`
   text-align: center;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
 
   @media only screen and (max-width: 40em) {
@@ -49,7 +49,7 @@ export const TitleVareProgrammer = styled.h1`
 `;
 
 export const TextVareProgrammer = styled.p`
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 1.2em;
@@ -58,7 +58,7 @@ export const TextVareProgrammer = styled.p`
 
 const Tjenester = () => {
   return (
-    <div>
+    <div id="tjenester">
       <TitleVareProgrammer>Våre Tjenester</TitleVareProgrammer>
 
       <Container>

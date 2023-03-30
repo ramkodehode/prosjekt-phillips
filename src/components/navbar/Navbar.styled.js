@@ -3,12 +3,19 @@ import { Link } from 'react-scroll';
 
 export const NavbarContainer = styled.nav`
   width: 100%;
-  height: 75px;
+  height: ${(props) => (props.extendNavbar ? '100vh' : '75px')};
   background-color: #fad4a3;
   display: flex;
   flex-direction: column;
   position: fixed;
   z-index: 9999;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  @media (min-width: 700px;) {
+    height: 75px;
+  }
 `;
 
 export const LeftContainer = styled.div`
@@ -47,6 +54,12 @@ export const NavbarLinkContainer = styled.div`
 export const NavbarLink = styled(Link)`
   text-decoration: none;
   margin: 10px;
+  cursor: pointer;
+
+  &:hover {
+    color: orange;
+  }
+
   @media (max-width: 700px) {
     display: none;
   }
@@ -56,15 +69,21 @@ export const NavbarLinkExtended = styled(Link)`
   margin: 10px;
 `;
 
+export const LogoContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+export const LogoText = styled.label`
+  font-size: 20px;
+  padding-left: 9px;
+`;
 export const Logo = styled.img`
-  margin: 10px;
-  max-width: 40px;
-  height: auto;
+  max-width: 35px;
 `;
 
 export const OpenLinksButton = styled.button`
   width: 70px;
-  height: 80px;
+  height: 75px;
   background: none;
   border: none;
   color: black;

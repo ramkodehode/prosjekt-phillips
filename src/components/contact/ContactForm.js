@@ -45,7 +45,7 @@ function ContactForm() {
     e.target.reset();
   };
   return (
-    <ContactGlobal>
+    <ContactGlobal id="kontakt">
       <Container>
         <Heading>Kontakt Trude</Heading>
 
