@@ -19,7 +19,7 @@ export const MainBox = styled.div`
   );
 
   @media only screen and (max-width: 40em) {
-    height: 50rem;
+    height: 40rem;
   }
 `;
 
@@ -71,6 +71,7 @@ export const MarginDiv = styled.div`
   @media only screen and (max-width: 40em) {
     margin-top: 50px;
     margin-left: 25px;
+    max-width: 100%;
   }
 `;
 
@@ -98,6 +99,8 @@ export const UnderTitle = styled.h2`
 
   @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
+
+    text-align: center;
   }
 `;
 
