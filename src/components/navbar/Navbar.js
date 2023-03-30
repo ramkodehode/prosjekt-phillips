@@ -97,6 +97,9 @@ const Navbar = () => {
         {extendNavbar && (
           <NavbarExtendedContainer>
             <NavbarLinkExtended
+              onClick={() => {
+                setExtendNavbar((curr) => !curr);
+              }}
               to="/"
               spy={true}
               smooth={true}
@@ -106,6 +109,9 @@ const Navbar = () => {
               Hjem
             </NavbarLinkExtended>
             <NavbarLinkExtended
+              onClick={() => {
+                setExtendNavbar((curr) => !curr);
+              }}
               to="tjenester"
               spy={true}
               smooth={true}
@@ -115,6 +121,9 @@ const Navbar = () => {
               Tjenester
             </NavbarLinkExtended>
             <NavbarLinkExtended
+              onClick={() => {
+                setExtendNavbar((curr) => !curr);
+              }}
               to="om"
               spy={true}
               smooth={true}
@@ -124,6 +133,9 @@ const Navbar = () => {
               Om oss
             </NavbarLinkExtended>
             <NavbarLinkExtended
+              onClick={() => {
+                setExtendNavbar((curr) => !curr);
+              }}
               to="kontakt"
               spy={true}
               smooth={true}
