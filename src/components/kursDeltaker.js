@@ -1,6 +1,5 @@
 import React from 'react';
-import './styles/styledDeltakere';
-
+import './css/swiper.css';
 
 import IMG01 from './img/kursdeltaker01.png';
 import IMG02 from './img/kursdeltaker02.png';
@@ -15,19 +14,6 @@ import {Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
-
-
-import { 
-  ClientContainer,
-  Title, 
-  ClientImage,
-  ClientName,
-  ClientReview,
-  Clients,
- 
- 
-      } from './styles/styledDeltakere';
 
 
 const data = [
@@ -76,50 +62,31 @@ const data = [
 const KursDeltaker = () => {
 
   return (
-    
-    <ClientContainer>
-    
-    <Title>
-    <h5>Hva våre kursdeltakere sier:</h5>
-    </Title>
+  
+          <section id='client_section'>
+          <h5 className='title'>Hva våre kursdeltakere sier:</h5>
 
-   
-    <Swiper 
-    modules={[Pagination ]}  spaceBetween={40}
-    slidesPerView={3} 
-    pagination={{ clickable: true  }}  >
-    {
+          <Swiper className='container clients__container'
+         
+          modules={[Pagination]} spaceBetween={40}
+          slidesPerView={3.5}
+          pagination={{ clickable: true }}>
+          {
+            data.map(({image, name, review}, index) => {
+              return(
+                <SwiperSlide key={index} className="clients">
+                <div className="client__image">
+                  <img src={image} alt="ImageOne" />
+                </div>
+                 <h5 className='client__name'>{name}</h5>
+                 <small className='client__review'>{review}</small>
+            </SwiperSlide>
+              )
+            })
+          }
       
-      data.map(({image, name, review}, index) => {
-        
-        return(
-          
-          <Clients>
-          <SwiperSlide key={index} >
-
-          <ClientImage>
-            <img src={image} alt="ClientImage" />
-          </ClientImage>
-
-          <ClientName>
-           <h5>{name}</h5>
-           </ClientName>
-
-           <ClientReview>
-            {review}
-            </ClientReview>
-        
-      </SwiperSlide>
-      </Clients>
-      
-    
-        )
-      })
-    }
-
-    </Swiper>
-   
-   </ClientContainer>
+          </Swiper>
+         </section>
   )
 }
 
