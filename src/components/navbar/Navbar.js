@@ -13,9 +13,10 @@ import {
   NavbarLinkExtended,
   LogoText,
   LogoContainer,
+  LogoLink,
 } from './Navbar.styled';
-
-import { RxHamburgerMenu } from 'react-icons/fa';
+import { RxHamburgerMenu } from 'react-icons/rx';
+import { AiOutlineClose } from 'react-icons/ai';
 
 import LogoImg from './assets/image.png';
 
@@ -27,10 +28,18 @@ const Navbar = () => {
       <NavbarContainer extendNavbar={extendNavbar}>
         <NavbarInnerContainer>
           <LeftContainer>
-            <LogoContainer>
-              <Logo src={LogoImg}></Logo>
-              <LogoText> Phillips Karriere</LogoText>
-            </LogoContainer>
+            <LogoLink
+              to="/"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              <LogoContainer>
+                <Logo src={LogoImg}></Logo>
+                <LogoText> Phillips Karriere</LogoText>
+              </LogoContainer>
+            </LogoLink>
           </LeftContainer>
           <RightContainer>
             <NavbarLinkContainer>
@@ -75,7 +84,11 @@ const Navbar = () => {
                   setExtendNavbar((curr) => !curr);
                 }}
               >
-                {extendNavbar ? <>&#10005;</> : <>&#8801;</>}
+                {extendNavbar ? (
+                  <AiOutlineClose size={32} />
+                ) : (
+                  <RxHamburgerMenu size={32} />
+                )}
               </OpenLinksButton>
             </NavbarLinkContainer>
           </RightContainer>

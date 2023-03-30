@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
+import { Link as LogoLinkS } from 'react-scroll';
 
 export const NavbarContainer = styled.nav`
   width: 100%;
@@ -17,6 +18,8 @@ export const NavbarContainer = styled.nav`
     height: 75px;
   }
 `;
+
+export const LogoLink = styled(LogoLinkS)``;
 
 export const LeftContainer = styled.div`
   flex: 30%;
@@ -81,8 +84,14 @@ export const LogoContainer = styled.div`
 export const LogoText = styled.label`
   font-size: 20px;
   padding-left: 9px;
+  cursor: pointer;
+
+  &:hover {
+    color: orange;
+  }
 `;
 export const Logo = styled.img`
+  cursor: pointer;
   max-width: 35px;
 `;
 
