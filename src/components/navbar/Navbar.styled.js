@@ -67,6 +67,11 @@ export const NavbarLink = styled(Link)`
 export const NavbarLinkExtended = styled(Link)`
   text-decoration: none;
   margin: 10px;
+  cursor: pointer;
+
+  &:hover {
+    color: orange;
+  }
 `;
 
 export const LogoContainer = styled.div`

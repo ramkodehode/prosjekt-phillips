@@ -83,10 +83,42 @@ const Navbar = () => {
 
         {extendNavbar && (
           <NavbarExtendedContainer>
-            <NavbarLinkExtended to="/">Hjem</NavbarLinkExtended>
-            <NavbarLinkExtended to="/products"> Tjenester</NavbarLinkExtended>
-            <NavbarLinkExtended to="/contact">Om oss</NavbarLinkExtended>
-            <NavbarLinkExtended to="/about">Kontakt</NavbarLinkExtended>
+            <NavbarLinkExtended
+              to="/"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Hjem
+            </NavbarLinkExtended>
+            <NavbarLinkExtended
+              to="tjenester"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Tjenester
+            </NavbarLinkExtended>
+            <NavbarLinkExtended
+              to="om"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Om oss
+            </NavbarLinkExtended>
+            <NavbarLinkExtended
+              to="kontakt"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Kontakt
+            </NavbarLinkExtended>
           </NavbarExtendedContainer>
         )}
       </NavbarContainer>
