@@ -1,4 +1,9 @@
-import { Column, Container, NewSection } from "./styles/styledIntro";
+import {
+  Column,
+  Container,
+  NewSection,
+  UnderTitle,
+} from "./styles/styledIntro";
 import { ContainerPhone } from "./Tjenester";
 import {
   ContainerPrice,
@@ -8,6 +13,14 @@ import {
 } from "./pricePage/StyledPrice";
 import PriceBoxOne from "./pricePage/PriceBoxOne";
 import PriceBoxTwo from "./pricePage/ProceBoxTwo";
+import styled from "styled-components";
+import ArrowTwo from "./styles/arrowTwo";
+
+export const DivPhoneArbeidsgiver = styled.div`
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
+`;
 
 const PriceBox = () => {
   return (
@@ -30,13 +43,24 @@ const PriceBox = () => {
           </NewSection>
         </Container>
       </DivPrice>
-      <TextTaKontakt>For arbeidsgiver</TextTaKontakt>
-      <TextArbeidsgiver>
-        Etter inngått avtale starter vi med oppstartsmøte hvor vi foretar en
-        gjensidig forventningsavklaring for mål og gjennomføring av programmet.
-        Karrierelæringsprogrammet tar utgangspunkt i modellen; Ta kontroll mot
-        ny jobb
-      </TextArbeidsgiver>
+      <DivPhoneArbeidsgiver>
+        <TextTaKontakt>For arbeidsgiver</TextTaKontakt>
+        <TextArbeidsgiver>
+          Etter inngått avtale starter vi med oppstartsmøte hvor vi foretar en
+          gjensidig forventingsavklaring for mål og gjennomføring av programmet.
+          Karrierelæringsprogrammet tar utgangspunkt i modellen; Ta kontroll mot
+          ny jobb.
+          <UnderTitle>Fase 1</UnderTitle>
+          Oppstartsmøte
+          <ArrowTwo />
+          <UnderTitle>Fase 2</UnderTitle>
+          Gjennomføring av karriereveiledning for medarbeidere, statusmøter
+          følger fase 1, fase 2 og fase 3.
+          <ArrowTwo />
+          <UnderTitle>Fase 3</UnderTitle>
+          Evaluering.
+        </TextArbeidsgiver>
+      </DivPhoneArbeidsgiver>
     </div>
   );
 };
