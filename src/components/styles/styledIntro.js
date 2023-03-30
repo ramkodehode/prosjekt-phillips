@@ -99,6 +99,8 @@ export const UnderTitle = styled.h2`
 
   @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
+
+    text-align: center;
   }
 `;
 

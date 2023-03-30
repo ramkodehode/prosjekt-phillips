@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BoxPrice = styled.div`
-  height: 32em;
+  height: 33em;
   width: 20em;
   border: 1.5px solid #fe8900;
   padding: 20px;
@@ -55,6 +55,7 @@ export const TextTaKontakt = styled.h1`
 
   @media only screen and (max-width: 40em) {
     width: 50%;
+    top: 0;
   }
 `;
 
@@ -74,6 +75,7 @@ export const TextArbeidsgiver = styled.p`
 
   @media only screen and (max-width: 40em) {
     top: 0px;
+    max-width: 100%;
   }
 `;
 

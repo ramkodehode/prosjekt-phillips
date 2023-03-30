@@ -30,7 +30,7 @@ export const VartAnsvarContainer = styled.section`
   line-height: 165%;
 
   @media only screen and (max-width: 40em) {
-    margin-left: 25px;
+    margin: 50px 20px;
     max-width: 100%;
   }
 `;
@@ -59,9 +59,9 @@ export const PhonePicBox = styled.div`
     height: 13em;
     z-index: -1;
     position: relative;
-    margin: 0 20px;
+    margin: 0 auto;
 
-    top: -100px;
+    align-items: center;
   }
 `;
 

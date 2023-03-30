@@ -28,6 +28,10 @@ export const ContainerVareProgrammer = styled.section`
     margin-left: 25px;
     padding: 0px;
 
+    position: relative;
+
+    top: 100px;
+
     font-size: 0.9em;
   }
 `;
@@ -39,6 +43,8 @@ export const TitleVareProgrammer = styled.h1`
 
   @media only screen and (max-width: 40em) {
     font-size: 1.2em;
+    position: relative;
+    top: 100px;
   }
 `;
 
