@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 import {
   NavbarContainer,
   LeftContainer,
@@ -9,16 +9,15 @@ import {
   NavbarLink,
   Logo,
   OpenLinksButton,
-  Xbutton,
   NavbarLinkExtended,
   LogoText,
   LogoContainer,
   LogoLink,
-} from './Navbar.styled';
-import { RxHamburgerMenu } from 'react-icons/rx';
-import { AiOutlineClose } from 'react-icons/ai';
+} from "./Navbar.styled";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { AiOutlineClose } from "react-icons/ai";
 
-import LogoImg from './assets/image.png';
+import LogoImg from "./assets/image.png";
 
 const Navbar = () => {
   const [extendNavbar, setExtendNavbar] = useState(false);
