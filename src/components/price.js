@@ -7,6 +7,7 @@ import {
 import { ContainerPhone } from "./Tjenester";
 import {
   ContainerPrice,
+  DivPhoneArbeidsgiver,
   DivPrice,
   TextArbeidsgiver,
   TextTaKontakt,
@@ -15,12 +16,6 @@ import PriceBoxOne from "./pricePage/PriceBoxOne";
 import PriceBoxTwo from "./pricePage/ProceBoxTwo";
 import styled from "styled-components";
 import ArrowTwo from "./styles/arrowTwo";
-
-export const DivPhoneArbeidsgiver = styled.div`
-  @media only screen and (max-width: 40em) {
-    display: none;
-  }
-`;
 
 const PriceBox = () => {
   return (

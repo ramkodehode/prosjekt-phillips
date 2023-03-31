@@ -37,10 +37,6 @@ export const PicBoxes = styled.img`
   width: auto;
   height: 40vh;
   @media only screen and (max-width: 40em) {
-    /* height: 30vh;
-    padding: 0 2.5em;
-    top: -100px;
-    position: relative; */
     display: none;
   }
 `;

@@ -120,3 +120,9 @@ export const TextYellow = styled.h1`
   @media only screen and (max-width: 40em) {
   }
 `;
+
+export const DivPhoneArbeidsgiver = styled.div`
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
+`;
