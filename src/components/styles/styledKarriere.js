@@ -35,6 +35,7 @@ export const ImgStudentBehindFence = styled.img`
   margin: 0 auto;
   z-index: -1;
   position: relative;
+  top: 150px;
 
   @media only screen and (max-width: 40em) {
     height: 30vh;

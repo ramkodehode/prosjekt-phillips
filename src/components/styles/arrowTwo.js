@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const ArrowLine = styled.div`
-  margin-top: 50px;
   width: 72px;
   height: 0px;
   position: relative;
-
   top: -1px;
-
   border: 2px solid #000000;
   transform: rotate(90deg);
+
+  @media only screen and (max-width: 40em) {
+  }
 `;
 
 export const ArrowLeft = styled.div`
@@ -17,11 +17,16 @@ export const ArrowLeft = styled.div`
   height: 0px;
   border: 2px solid #000000;
   position: relative;
-  top: 26px;
-  left: 18.5px;
+
   background-color: black;
 
   transform: rotate(45deg);
+
+  right: 58px;
+  top: 30px;
+
+  @media only screen and (max-width: 40em) {
+  }
 `;
 
 export const ArrowRight = styled.div`
@@ -29,18 +34,34 @@ export const ArrowRight = styled.div`
   height: 0px;
   border: 2px solid #000000;
   position: relative;
-  top: 21px;
-  left: 33px;
+
+  right: 67px;
+  top: 30px;
+
   background-color: black;
 
   transform: rotate(-45deg);
+
+  @media only screen and (max-width: 40em) {
+  }
 `;
 
 export const ArrowDiv = styled.div`
+  display: flex;
+
+  justify-content: center;
+
   margin: 80px 100px;
+
+  position: relative;
+
+  left: 20px;
+
+  @media only screen and (max-width: 40em) {
+  }
 `;
 
-const Arrow = () => {
+const ArrowTwo = () => {
   return (
     <div>
       <ArrowDiv>
@@ -51,4 +72,4 @@ const Arrow = () => {
   );
 };
 
-export default Arrow;
+export default ArrowTwo;

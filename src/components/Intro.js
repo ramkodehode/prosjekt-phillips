@@ -1,4 +1,4 @@
-import caricature from "./img/caricature.png";
+import caricature from './img/caricature.png';
 import {
   CaricatureImg,
   Column,
@@ -10,11 +10,11 @@ import {
   PhoneCaricatureImg,
   Tittel,
   UnderTitle,
-} from "./styles/styledIntro";
+} from './styles/styledIntro';
 
 const Intro = () => {
   return (
-    <div>
+    <div id="/">
       <MainBox>
         <Container>
           <NewSection>
@@ -38,13 +38,16 @@ const Intro = () => {
                     studie- og yrkesretning ut i fra egne ønsker, interesser og
                     forutsetninger. Vi bidrar på veien til selvstendige studie-
                     og yrkesvalg. */}
-                    Vår ambisjon er å møte deg der du er. Dine behov er
+                    {/* Vår ambisjon er å møte deg der du er. Dine behov er
                     utgangspunktet og det sentrale er din læring frem mot ditt
                     selvstendige valg av studie-/yrkesretning. Vi vektlegger en
                     trygg og profesjonell ramme for samspillet mellom deg og din
                     karriereveileder, hvor du er den aktive. Våre
                     karrierelæringsprogram og digitale verktøy følger Nasjonalt
-                    kvalitetsrammeverk for karriereveiledning.
+                    kvalitetsrammeverk for karriereveiledning. */}
+                    Er du usikker på studievalget ditt? <br /> Er målet ny jobb?
+                    <br />
+                    Representerer du arbeidsgiver og står foran nedbemanning?
                   </IntroText>
                   <PhoneCaricatureImg
                     src={caricature}

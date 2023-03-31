@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import Trude from "./img/Trude.jpg";
-import { Column, Container, NewSection } from "./styles/styledIntro";
+import styled from 'styled-components';
+import Trude from './img/Trude.jpg';
+import { Column, Container, NewSection } from './styles/styledIntro';
 
 export const ImgTrude = styled.img`
   height: 100vh;
@@ -33,7 +33,7 @@ export const ContainerTrude = styled.section`
 `;
 
 export const TrudeText = styled.h3`
-  font-family: "Rajdhani";
+  font-family: 'Rajdhani';
   font-style: normal;
   font-weight: 600;
 
@@ -45,7 +45,7 @@ export const TrudeText = styled.h3`
 `;
 
 export const TitleTrude = styled.h1`
-  font-family: "Poppins";
+  font-family: 'Poppins';
 
   font-weight: 600;
   font-size: 2rem;
@@ -56,25 +56,23 @@ export const TitleTrude = styled.h1`
 `;
 
 export const MainTextTrude = styled.p`
-  font-family: "Poppins";
+  font-family: 'Poppins';
+  max-width: 90%;
 
   font-weight: 400;
   line-height: 165%;
   font-size: 1.2rem;
   color: #272521;
 
-  max-width: 70%;
-
   @media only screen and (max-width: 40em) {
     font-size: 1.1rem;
     max-width: 100%;
-    margin: 5px;
   }
 `;
 
 const InfoTrude = () => {
   return (
-    <div>
+    <div id="om">
       <Container>
         <NewSection>
           <Column>
@@ -86,14 +84,23 @@ const InfoTrude = () => {
               <TitleTrude>Trude Skarstein Phillips</TitleTrude>
               <MainTextTrude>
                 Karriereveileder og rådgiver i eget selskap. Jeg utvikler og
-                leverer ulike karrierelæringsprogram. Kundene mine er unge og
-                voksne i omstilling på studie- og arbeidsmarkedet. Foreleser i
-                tillegg på høyskolenivå innen HR, organisasjon og ledelse. Har
+                leverer karrierelæringsprogram for mennesker i ulike overganger.
+                Mange unge opplever studievalget vanskelig og har behov for
+                profesjonell veiledning frem mot valget. Å bidra til deres
+                læring frem mot selvstendige studievalg er spesielt givende.
+                Raske endringer på arbeidsmarkedet gjør at stadig flere opplever
+                omstilling i arbeidssituasjonen og har behov for profesjonell
+                karriereveiledning for å nå nye mål. I tillegg bidrar jeg inn
+                til ulike virksomheter for ulike HR relaterte prosjekter, holder
+                foredrag innen temaet karrierelæring og karrierekompetanse, samt
+                foreleser på høyskolenivå innen HR, organisasjon og ledelse. Har
                 mange års erfaring fra ulike roller innen hotelledelse,
                 prosjektledelse og forretningsutvikling. De siste 12 årene som
-                selvstendig næringsdrivende innen rekruttering og omstilling.
-                Formal kompetanse; Økonomi, markedsføring, prosjektledelse,
-                pedagogikk, og master i karriereveiledning.
+                selvstendig næringsdrivende innen rekruttering og omstilling. Er
+                DNV sertifisert rekrutterer og sertifisert i bruk av ulike DNV
+                godkjente test- og kartleggingsverktøy. Formal kompetanse;
+                Økonomi, markedsføring, prosjektledelse, pedagogikk, og master i
+                karriereveiledning.
               </MainTextTrude>
               <TrudeText>MOBIL: 91691334</TrudeText>
               <TrudeText>EMAIL: trude@phillipskarriere.no </TrudeText>
