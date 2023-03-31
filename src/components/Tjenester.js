@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import {
   Column,
   Container,
@@ -13,6 +12,7 @@ import {
   ContainerPhone,
   ContainerVareProgrammer,
   TextVareProgrammer,
+  TitleVareProgrammer,
 } from "./styles/styledTjenester";
 
 const Tjenester = () => {

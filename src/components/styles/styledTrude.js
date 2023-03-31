@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 export const ImgTrude = styled.img`
   height: 100vh;
   width: auto;

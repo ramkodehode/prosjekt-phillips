@@ -7,11 +7,11 @@ import {
   NewSection,
   UnderTitle,
 } from "./styles/styledIntro";
-import { ContainerPhone } from "./Tjenester";
 import PriceBoxOne from "./pricePage/PriceBoxOne";
 import PriceBoxTwo from "./pricePage/ProceBoxTwo";
 import { TextArbeidsgiver, TextTaKontakt } from "./pricePage/StyledPrice";
 import ArrowTwo from "./styles/arrowTwo";
+import { ContainerPhone } from "./styles/styledTjenester";
 
 export const BoxVeiledning = styled.div`
   display: flex;

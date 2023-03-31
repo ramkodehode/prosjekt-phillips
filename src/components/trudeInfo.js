@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import Trude from "./img/Trude.jpg";
 import { Column, Container, NewSection } from "./styles/styledIntro";
 import {

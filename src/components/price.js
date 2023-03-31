@@ -4,7 +4,7 @@ import {
   NewSection,
   UnderTitle,
 } from "./styles/styledIntro";
-import { ContainerPhone } from "./Tjenester";
+
 import {
   ContainerPrice,
   DivPhoneArbeidsgiver,
@@ -14,8 +14,9 @@ import {
 } from "./pricePage/StyledPrice";
 import PriceBoxOne from "./pricePage/PriceBoxOne";
 import PriceBoxTwo from "./pricePage/ProceBoxTwo";
-import styled from "styled-components";
+
 import ArrowTwo from "./styles/arrowTwo";
+import { ContainerPhone } from "./styles/styledTjenester";
 
 const PriceBox = () => {
   return (
