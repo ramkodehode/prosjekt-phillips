@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CarrierContainer = styled.section`
   display: none;
@@ -11,7 +11,6 @@ export const CarrierContainer = styled.section`
 
   max-width: 25%;
 
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;

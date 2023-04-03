@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const EmptySpace = styled.div`
   width: auto;
@@ -19,7 +19,6 @@ export const FooterContainer = styled.div`
   justify-content: space-between;
   display: flex;
 
-  font-family: "Poppins";
   padding: 25px;
   margin: 0 auto;
   @media only screen and (max-width: 40em) {

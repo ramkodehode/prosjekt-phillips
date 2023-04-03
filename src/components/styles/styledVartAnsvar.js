@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const BigBox = styled.div`
   width: auto;
@@ -23,7 +23,6 @@ export const VartAnsvarContainer = styled.section`
 
   max-width: 50%;
 
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;

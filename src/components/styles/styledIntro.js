@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const MainBox = styled.div`
   display: flex;
@@ -76,7 +76,6 @@ export const MarginDiv = styled.div`
 `;
 
 export const Tittel = styled.h1`
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
@@ -90,7 +89,6 @@ export const Tittel = styled.h1`
 `;
 
 export const UnderTitle = styled.h2`
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
@@ -105,7 +103,6 @@ export const UnderTitle = styled.h2`
 `;
 
 export const IntroText = styled.p`
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
