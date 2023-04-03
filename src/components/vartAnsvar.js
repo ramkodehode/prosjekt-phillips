@@ -1,11 +1,6 @@
 import seatedstudent from "./img/seatedstudent.png";
-import {
-  Column,
-  Container,
-  IntroText,
-  NewSection,
-  UnderTitle,
-} from "./styles/styledIntro";
+import { Column, Container, IntroText, NewSection } from "./styles/styledIntro";
+import { TitleTrude } from "./styles/styledTrude";
 import {
   PhonePicBox,
   PhoneSittingStudents,
@@ -22,10 +17,9 @@ const VartAnsvar = () => {
         <NewSection>
           <Column>
             <VartAnsvarContainer>
-              <UnderTitle>
-                <Rectangle />
+              <TitleTrude>
                 Våre program gir deg verktøyene du trenger for veien videre.
-              </UnderTitle>
+              </TitleTrude>
               <IntroText>
                 Vi møter deg der du er, og vektlegger en trygg ramme basert på
                 gjensidig tillit. Din læring frem mot målet er det sentrale om

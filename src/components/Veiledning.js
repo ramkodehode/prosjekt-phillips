@@ -40,7 +40,7 @@ export const BoxVeiledning = styled.div`
 export const ContainerVeiledning = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 50px 150px;
 
   font-family: "Poppins";
   font-size: 1.2em;
@@ -71,10 +71,7 @@ const Veiledning = () => {
                     <li>Interessespørsmål</li>
 
                     <li>Interessebilder</li>
-                    <li>
-                      Strukturert dybdeintervju (interesser, evner, ferdigheter
-                      og verdier)
-                    </li>
+                    <li>Strukturert dybdeintervju</li>
                     <li>Interesseprofil</li>
                   </ul>
                   <Arrow />

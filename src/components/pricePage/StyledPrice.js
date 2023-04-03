@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BoxPrice = styled.div`
-  height: 33em;
+  height: 28em;
   width: 20em;
   border: 1.5px solid #fe8900;
   padding: 20px;

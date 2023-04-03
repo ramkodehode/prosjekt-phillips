@@ -37,7 +37,7 @@ export const ArrowRight = styled.div`
 `;
 
 export const ArrowDiv = styled.div`
-  margin: 80px 100px;
+  margin: 50px 60px;
 `;
 
 const Arrow = () => {
