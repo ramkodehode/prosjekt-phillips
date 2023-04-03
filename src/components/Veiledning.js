@@ -7,11 +7,11 @@ import {
   NewSection,
   UnderTitle,
 } from "./styles/styledIntro";
-import { ContainerPhone } from "./Tjenester";
 import PriceBoxOne from "./pricePage/PriceBoxOne";
 import PriceBoxTwo from "./pricePage/ProceBoxTwo";
 import { TextArbeidsgiver, TextTaKontakt } from "./pricePage/StyledPrice";
 import ArrowTwo from "./styles/arrowTwo";
+import { ContainerPhone } from "./styles/styledTjenester";
 
 export const BoxVeiledning = styled.div`
   display: flex;
@@ -40,7 +40,7 @@ export const BoxVeiledning = styled.div`
 export const ContainerVeiledning = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 50px 150px;
 
   font-family: "Poppins";
   font-size: 1.2em;
@@ -71,10 +71,7 @@ const Veiledning = () => {
                     <li>Interessespørsmål</li>
 
                     <li>Interessebilder</li>
-                    <li>
-                      Strukturert dybdeintervju (interesser, evner, ferdigheter
-                      og verdier)
-                    </li>
+                    <li>Strukturert dybdeintervju</li>
                     <li>Interesseprofil</li>
                   </ul>
                   <Arrow />
@@ -122,10 +119,10 @@ const Veiledning = () => {
                   <UnderTitle>Fase 2</UnderTitle>
                   <p>Utforske mine muligheter​</p>
                   <ul>
-                    <li>Mitt marked/mulighetsrom​</li>
+                    <li>Mitt mulighetsrom​</li>
                     <li>Mine verktøy ​</li>
                     <li>Situasjon, atferd, resultat - SAR​</li>
-                    <li>Egen profil – ønsket rolle​</li>
+
                     <li>Handlingsplan</li>
                   </ul>
                   <Arrow />

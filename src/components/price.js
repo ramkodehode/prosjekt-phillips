@@ -4,23 +4,19 @@ import {
   NewSection,
   UnderTitle,
 } from "./styles/styledIntro";
-import { ContainerPhone } from "./Tjenester";
+
 import {
   ContainerPrice,
+  DivPhoneArbeidsgiver,
   DivPrice,
   TextArbeidsgiver,
   TextTaKontakt,
 } from "./pricePage/StyledPrice";
 import PriceBoxOne from "./pricePage/PriceBoxOne";
 import PriceBoxTwo from "./pricePage/ProceBoxTwo";
-import styled from "styled-components";
-import ArrowTwo from "./styles/arrowTwo";
 
-export const DivPhoneArbeidsgiver = styled.div`
-  @media only screen and (max-width: 40em) {
-    display: none;
-  }
-`;
+import ArrowTwo from "./styles/arrowTwo";
+import { ContainerPhone } from "./styles/styledTjenester";
 
 const PriceBox = () => {
   return (

@@ -15,12 +15,9 @@ const PriceBoxOne = () => {
         <ImgPrice src={priceicon} alt="icon" />
         <h2>Priser</h2>
         <TextYellow>Studieveiledning</TextYellow>
-        <p>3 samlinger hvor en hver økt varer 2 timer</p>
+        <p>3 samlinger hvor hver økt varer 2 timer</p>
         <p>Øvelser mellom hver veiledningsmøte</p>
-        <p>
-          Individuell oppmerksomhet på din <br /> karriereretning
-        </p>
-        <p>Spesifikke råd tilpasset din situasjon</p>
+
         <Underline />
         <Column>
           <ContainerGroup>

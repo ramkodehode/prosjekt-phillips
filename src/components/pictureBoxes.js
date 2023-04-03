@@ -1,7 +1,7 @@
 import styled from "styled-components";
 // import { Column, Container, NewSection } from "./styles/styledIntro";
 
-import studensitting from "./img/studensitting.png";
+import undervisning from "./img/undervisning.jpg";
 
 export const PictureBoxesContainer = styled.section`
   display: flex;
@@ -37,10 +37,6 @@ export const PicBoxes = styled.img`
   width: auto;
   height: 40vh;
   @media only screen and (max-width: 40em) {
-    /* height: 30vh;
-    padding: 0 2.5em;
-    top: -100px;
-    position: relative; */
     display: none;
   }
 `;
@@ -81,8 +77,8 @@ const PictureBoxes = () => {
           </Column>
         </NewSection>
       </Container> */}
-      <PicBoxes src={studensitting} alt="clapsed arms" />
-      <PhonePicBox src={studensitting} alt="highfive" />
+      <PicBoxes src={undervisning} alt="clapsed arms" />
+      <PhonePicBox src={undervisning} alt="highfive" />
     </div>
   );
 };

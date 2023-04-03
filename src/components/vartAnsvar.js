@@ -1,11 +1,6 @@
 import seatedstudent from "./img/seatedstudent.png";
-import {
-  Column,
-  Container,
-  IntroText,
-  NewSection,
-  UnderTitle,
-} from "./styles/styledIntro";
+import { Column, Container, IntroText, NewSection } from "./styles/styledIntro";
+import { TitleTrude } from "./styles/styledTrude";
 import {
   PhonePicBox,
   PhoneSittingStudents,
@@ -22,19 +17,18 @@ const VartAnsvar = () => {
         <NewSection>
           <Column>
             <VartAnsvarContainer>
-              <UnderTitle>
-                <Rectangle />
+              <TitleTrude>
                 Våre program gir deg verktøyene du trenger for veien videre.
-              </UnderTitle>
+              </TitleTrude>
               <IntroText>
                 Vi møter deg der du er, og vektlegger en trygg ramme basert på
                 gjensidig tillit. Din læring frem mot målet er det sentrale om
                 det gjelder studievalg eller ny jobb. I samspillet med
                 karriereveileder er du den aktive. Våre karrierelæringsprogram
                 er tilrettelagt individuelt, for grupper og i kombinasjonen av
-                fysisk og digitale møter. Våre programmer med digitale verktøy,
-                personlighet-/kartleggingstester og metodikk følger Nasjonalt
-                kvalitetsrammeverk for karriereveiledning og DNV sertifisering.
+                fysisk og digitale møter. Metodik, ulike test-og
+                kartleggingsverktøy føler Nasjonalt kvalitetsrammeverk for
+                karriereveiledning og DNV sertfisering.
               </IntroText>
               <IntroText>
                 {" "}

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BoxPrice = styled.div`
-  height: 33em;
+  height: 28em;
   width: 20em;
   border: 1.5px solid #fe8900;
   padding: 20px;
@@ -118,5 +118,11 @@ export const TextYellow = styled.h1`
   font-weight: 400;
   font-size: 1.2rem;
   @media only screen and (max-width: 40em) {
+  }
+`;
+
+export const DivPhoneArbeidsgiver = styled.div`
+  @media only screen and (max-width: 40em) {
+    display: none;
   }
 `;
