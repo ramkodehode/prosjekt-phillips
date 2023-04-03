@@ -40,10 +40,9 @@ const Tjenester = () => {
                   prosessen. Husk valget er ditt, det er du som har «fasiten»
                   ingen andre. Det handler heller ikke om hva du skal bli, men
                   mer om hvem du vil være. Lev livet ditt her og nå! Vær
-                  nysgjerrig på egne interesser, høyst sannsynlig finner du noen
-                  du ikke ante du hadde. Reflektere over verdiene, og utforsk
-                  mulighetene dine . Fremtiden kan fremstå usikker og det fine
-                  med det er at der ligger mulighetene.
+                  nysgjerrig på egne interesser, høyst sannsynlig vil du oppdage
+                  flere. Fremtiden kan fremstå usikker og det fine med det er at
+                  der ligger mulighetene.
                 </TextVareProgrammer>
               </ContainerVareProgrammer>
               <ContainerVareProgrammer>

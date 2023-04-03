@@ -26,9 +26,9 @@ const VartAnsvar = () => {
                 det gjelder studievalg eller ny jobb. I samspillet med
                 karriereveileder er du den aktive. Våre karrierelæringsprogram
                 er tilrettelagt individuelt, for grupper og i kombinasjonen av
-                fysisk og digitale møter. Våre programmer med digitale verktøy,
-                personlighet-/kartleggingstester og metodikk følger Nasjonalt
-                kvalitetsrammeverk for karriereveiledning og DNV sertifisering.
+                fysisk og digitale møter. Metodik, ulike test-og
+                kartleggingsverktøy føler Nasjonalt kvalitetsrammeverk for
+                karriereveiledning og DNV sertfisering.
               </IntroText>
               <IntroText>
                 {" "}
