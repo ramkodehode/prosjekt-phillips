@@ -1,19 +1,23 @@
 import React from "react";
-import "./css/swiper.css";
 
 import IMG01 from "./img/kursdeltaker01.png";
 import IMG02 from "./img/kursdeltaker02.png";
 import IMG03 from "./img/kursdeltaker03.png";
 import IMG04 from "./img/kursdeltaker04.png";
-
 import IMG05 from "./img/kursdeltaker05.png";
-import IMG06 from "./img/kursdeltaker07.png";
+import IMG06 from "./img/kursdeltaker06.png";
 import IMG07 from "./img/kursdeltaker07.png";
 
-import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "./css/swiper.css";
+
+import { Keyboard, Pagination, Navigation } from "swiper";
+import "swiper/css/effect-coverflow";
 
 const data = [
   {
@@ -66,11 +70,17 @@ const KursDeltaker = () => {
       <h5 className="title">Hva våre kursdeltakere sier:</h5>
 
       <Swiper
-        className="container clients__container"
-        modules={[Pagination]}
-        spaceBetween={40}
-        slidesPerView={3.5}
-        pagination={{ clickable: true }}
+        className="container swiper__container"
+        slidesPerView={3.6}
+        spaceBetween={100}
+        keyboard={{
+          enabled: true,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Keyboard, Pagination, Navigation]}
       >
         {data.map(({ image, name, review }, index) => {
           return (
@@ -78,7 +88,9 @@ const KursDeltaker = () => {
               <div className="client__image">
                 <img src={image} alt="ImageOne" />
               </div>
+
               <h5 className="client__name">{name}</h5>
+
               <small className="client__review">{review}</small>
             </SwiperSlide>
           );
