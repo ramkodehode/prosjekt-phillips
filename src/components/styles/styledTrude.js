@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ImgTrude = styled.img`
   height: 100vh;
@@ -31,7 +31,6 @@ export const ContainerTrude = styled.section`
 `;
 
 export const TrudeText = styled.h3`
-  font-family: "Rajdhani";
   font-style: normal;
   font-weight: 600;
 
@@ -43,8 +42,6 @@ export const TrudeText = styled.h3`
 `;
 
 export const TitleTrude = styled.h1`
-  font-family: "Poppins";
-
   font-weight: 600;
   font-size: 2rem;
   color: #272521;
@@ -54,7 +51,6 @@ export const TitleTrude = styled.h1`
 `;
 
 export const MainTextTrude = styled.p`
-  font-family: "Poppins";
   max-width: 90%;
 
   font-weight: 400;
