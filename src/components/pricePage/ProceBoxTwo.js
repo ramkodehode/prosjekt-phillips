@@ -44,7 +44,7 @@ const PriceBoxTwo = () => {
         <ImgPrice src={iconprice} alt="icon" />
         <h2>Priser</h2>
         <TextYellow>Karriereveiledning</TextYellow>
-        <p>6-9 samlinger hvor en hver økt varer 2 timer </p>
+        <p>3-9 samlinger hvor hver økt varer 2 timer </p>
         <p>Øvelser mellom hver veiledningsmøte </p> <Underline />
         <Column>
           <ContainerGroup>

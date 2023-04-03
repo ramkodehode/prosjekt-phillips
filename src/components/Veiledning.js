@@ -119,10 +119,10 @@ const Veiledning = () => {
                   <UnderTitle>Fase 2</UnderTitle>
                   <p>Utforske mine muligheter​</p>
                   <ul>
-                    <li>Mitt marked/mulighetsrom​</li>
+                    <li>Mitt mulighetsrom​</li>
                     <li>Mine verktøy ​</li>
                     <li>Situasjon, atferd, resultat - SAR​</li>
-                    <li>Egen profil – ønsket rolle​</li>
+
                     <li>Handlingsplan</li>
                   </ul>
                   <Arrow />
