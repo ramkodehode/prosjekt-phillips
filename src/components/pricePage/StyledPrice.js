@@ -13,6 +13,10 @@ export const BoxPrice = styled.div`
     text-align: center;
     border: 4px solid #fe8900;
   }
+  @media only screen and (min-width: 2400px) {
+    border: 5px solid #fe8900;
+    height: 26em;
+  }
 `;
 
 export const ContainerPrice = styled.section`
@@ -40,6 +44,11 @@ export const DivPrice = styled.div`
   font-size: 1.2rem;
 
   top: -150px;
+
+  @media only screen and (min-width: 2400px) {
+    font-size: 4rem;
+    top: -30rem;
+  }
 `;
 
 export const TextTaKontakt = styled.h1`
@@ -56,6 +65,10 @@ export const TextTaKontakt = styled.h1`
   @media only screen and (max-width: 40em) {
     width: 50%;
     top: 0;
+  }
+
+  @media only screen and (min-width: 2400px) {
+    font-size: 7rem;
   }
 `;
 
@@ -76,6 +89,9 @@ export const TextArbeidsgiver = styled.p`
   @media only screen and (max-width: 40em) {
     top: 0px;
     max-width: 100%;
+  }
+  @media only screen and (min-width: 2400px) {
+    font-size: 4rem;
   }
 `;
 

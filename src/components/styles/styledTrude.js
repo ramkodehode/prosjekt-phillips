@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ImgTrude = styled.img`
   height: 100vh;
@@ -39,6 +39,9 @@ export const TrudeText = styled.h3`
   @media only screen and (max-width: 40em) {
     font-size: 1em;
   }
+  @media only screen and (min-width: 2400px) {
+    font-size: 3rem;
+  }
 `;
 
 export const TitleTrude = styled.h1`
@@ -47,6 +50,10 @@ export const TitleTrude = styled.h1`
   color: #272521;
   @media only screen and (max-width: 40em) {
     font-size: 1.5rem;
+  }
+  @media only screen and (min-width: 2400px) {
+    font-size: 6.5rem;
+    line-height: 100%;
   }
 `;
 
@@ -61,5 +68,8 @@ export const MainTextTrude = styled.p`
   @media only screen and (max-width: 40em) {
     font-size: 1.1rem;
     max-width: 100%;
+  }
+  @media only screen and (min-width: 2400px) {
+    font-size: 3.5rem;
   }
 `;

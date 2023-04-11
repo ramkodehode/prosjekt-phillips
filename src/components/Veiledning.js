@@ -35,6 +35,10 @@ export const BoxVeiledning = styled.div`
   @media only screen and (max-width: 40em) {
     height: 312rem;
   }
+  @media only screen and (min-width: 2400px) {
+    height: 200rem;
+    font-size: 3rem;
+  }
 `;
 
 export const ContainerVeiledning = styled.section`

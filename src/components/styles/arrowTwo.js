@@ -59,6 +59,8 @@ export const ArrowDiv = styled.div`
 
   @media only screen and (max-width: 40em) {
   }
+  @media only screen and (min-width: 2400px) {
+  }
 `;
 
 const ArrowTwo = () => {
