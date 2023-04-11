@@ -1,10 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-    body {
+    * {
         
-        font-family: 'Poppins';
-
+        font-family: 'Poppins', sans-serif;
         @media only screen and (max-width: 40em) {
           
     }}`;

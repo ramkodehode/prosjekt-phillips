@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContainerPhone = styled.section`
   display: flex;
@@ -28,7 +28,6 @@ export const ContainerVareProgrammer = styled.section`
 
 export const TitleVareProgrammer = styled.h1`
   text-align: center;
-  font-family: "Poppins";
   font-style: normal;
 
   @media only screen and (max-width: 40em) {
@@ -39,7 +38,6 @@ export const TitleVareProgrammer = styled.h1`
 `;
 
 export const TextVareProgrammer = styled.p`
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 1.2em;
