@@ -71,7 +71,7 @@ const KursDeltaker = () => {
       <h5 className="title">Hva våre kursdeltakere sier:</h5>
 
           <Swiper className='container swiper__container'
-        slidesPerView={3.1}
+        slidesPerView={3}
         spaceBetween={100}
         keyboard={{
           enabled: true,
