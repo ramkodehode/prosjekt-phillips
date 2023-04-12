@@ -15,6 +15,7 @@ import { ContainerPhone } from "./styles/styledTjenester";
 
 export const BoxVeiledning = styled.div`
   display: flex;
+
   flex-direction: column;
 
   width: auto;
@@ -46,12 +47,12 @@ export const ContainerVeiledning = styled.section`
   flex-direction: column;
   padding: 50px 150px;
 
-  font-family: "Poppins";
   font-size: 1.2em;
 `;
 
 export const NotDisplayed = styled.section`
   display: none;
+
   @media only screen and (max-width: 40em) {
     display: block;
   }

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const BoxPrice = styled.div`
   height: 28em;
@@ -42,7 +42,6 @@ export const DivPrice = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  font-family: "Poppins";
   font-size: 1.2rem;
 
   top: -150px;
@@ -54,7 +53,6 @@ export const DivPrice = styled.div`
 `;
 
 export const TextTaKontakt = styled.h1`
-  font-family: "Poppins";
   text-align: center;
   font-size: 1.5em;
   margin: 0 auto;
@@ -75,7 +73,7 @@ export const TextTaKontakt = styled.h1`
 `;
 
 export const TextArbeidsgiver = styled.p`
-  font-family: "Poppins";
+  font-family: 'Poppins';
   text-align: center;
   font-size: 1.2em;
   margin: 0 auto;

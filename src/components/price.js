@@ -33,7 +33,7 @@ export const UnderTitleArbeidsgiver = styled.h2`
 
 const PriceBox = () => {
   return (
-    <div>
+    <div id="priser">
       <DivPrice>
         <Container>
           <NewSection>
