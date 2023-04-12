@@ -1,20 +1,21 @@
-import styled from "styled-components";
-import Arrow from "./styles/arrow";
-import PriceBox from "./price";
+import styled from 'styled-components';
+import Arrow from './styles/arrow';
+import PriceBox from './price';
 import {
   Column,
   Container,
   NewSection,
   UnderTitle,
-} from "./styles/styledIntro";
-import PriceBoxOne from "./pricePage/PriceBoxOne";
-import PriceBoxTwo from "./pricePage/ProceBoxTwo";
-import { TextArbeidsgiver, TextTaKontakt } from "./pricePage/StyledPrice";
-import ArrowTwo from "./styles/arrowTwo";
-import { ContainerPhone } from "./styles/styledTjenester";
+} from './styles/styledIntro';
+import PriceBoxOne from './pricePage/PriceBoxOne';
+import PriceBoxTwo from './pricePage/ProceBoxTwo';
+import { TextArbeidsgiver, TextTaKontakt } from './pricePage/StyledPrice';
+import ArrowTwo from './styles/arrowTwo';
+import { ContainerPhone } from './styles/styledTjenester';
 
 export const BoxVeiledning = styled.div`
   display: flex;
+
   flex-direction: column;
 
   width: auto;
@@ -46,12 +47,12 @@ export const ContainerVeiledning = styled.section`
   flex-direction: column;
   padding: 50px 150px;
 
-  font-family: "Poppins";
   font-size: 1.2em;
 `;
 
 export const NotDisplayed = styled.section`
   display: none;
+
   @media only screen and (max-width: 40em) {
     display: block;
   }
@@ -166,7 +167,7 @@ const Veiledning = () => {
           <UnderTitle>Fase 2</UnderTitle>
           <TextArbeidsgiver>
             Gjennomføring av karriereveiledning for medarbeidere, statusmøter
-            følger fase 1, fase 2 og fase 3.{" "}
+            følger fase 1, fase 2 og fase 3.{' '}
           </TextArbeidsgiver>
           <ArrowTwo />
           <UnderTitle>Fase 3</UnderTitle>

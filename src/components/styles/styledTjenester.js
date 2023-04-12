@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContainerPhone = styled.section`
   display: flex;
@@ -43,6 +43,7 @@ export const TitleVareProgrammer = styled.h1`
 export const TextVareProgrammer = styled.p`
   font-style: normal;
   font-weight: 400;
+
   font-size: 1.2em;
   line-height: 165%;
   @media only screen and (min-width: 2400px) {

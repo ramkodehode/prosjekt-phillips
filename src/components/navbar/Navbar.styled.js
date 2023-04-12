@@ -10,7 +10,6 @@ export const NavbarContainer = styled.nav`
   flex-direction: column;
   position: fixed;
   z-index: 9999;
-  font-family: 'Poppins';
 
   @media (min-width: 700px) {
     height: 75px;
