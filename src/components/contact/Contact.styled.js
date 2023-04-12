@@ -44,7 +44,10 @@ export const Ul = styled.ul`
   list-style: none;
   padding: 0;
 `;
-export const Li = styled.li``;
+export const Li = styled.li`
+  display: flex;
+  padding: 5px;
+`;
 
 export const Wrapper = styled.div`
   box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
@@ -104,6 +107,10 @@ export const SubmitButton = styled.input`
     outline: 0;
     transition: background-color 0.5s ease-out;
   }
+`;
+
+export const AnchorTag = styled.a`
+  text-decoration: none;
 `;
 
 export const Message = styled.p``;

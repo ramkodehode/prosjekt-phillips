@@ -20,7 +20,11 @@ import {
   Contact,
   Full,
   ContactGlobal,
+  AnchorTag,
 } from './Contact.styled';
+
+import { AiFillPhone, AiFillLinkedin } from 'react-icons/ai';
+import { MdEmail } from 'react-icons/md';
 
 function ContactForm() {
   const form = useRef();
@@ -53,9 +57,16 @@ function ContactForm() {
           <ContactInfo>
             <HeadingTwo>Kontakt info</HeadingTwo>
             <Ul>
-              <Li>+47 91691334</Li>
-              <Li>trude@phillipskarriere.no</Li>
-              <Li>LinkedIn</Li>
+              <Li>
+                <AiFillPhone /> +47 91691334
+              </Li>
+              <Li>
+                <MdEmail /> trude@phillipskarriere.no
+              </Li>
+              <Li>
+                <AiFillLinkedin />
+                <AnchorTag href="https://www.w3schools.com">LinkedIn</AnchorTag>
+              </Li>
             </Ul>
           </ContactInfo>
           <Contact>
