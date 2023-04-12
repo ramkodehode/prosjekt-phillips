@@ -1,16 +1,16 @@
-import styled from "styled-components";
-import { Link } from "react-scroll";
-import { Link as LogoLinkS } from "react-scroll";
+import styled from 'styled-components';
+import { Link } from 'react-scroll';
+import { Link as LogoLinkS } from 'react-scroll';
 
 export const NavbarContainer = styled.nav`
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? "100vh" : "75px")};
+  height: ${(props) => (props.extendNavbar ? '100vh' : '75px')};
   background-color: #fad4a3;
   display: flex;
   flex-direction: column;
   position: fixed;
   z-index: 9999;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 
   @media (min-width: 700px) {
     height: 75px;
@@ -90,7 +90,7 @@ export const LogoText = styled.label`
 `;
 export const Logo = styled.img`
   cursor: pointer;
-  max-width: 35px;
+  max-width: 180px;
 `;
 
 export const OpenLinksButton = styled.button`

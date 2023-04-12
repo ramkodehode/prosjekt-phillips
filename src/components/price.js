@@ -3,7 +3,7 @@ import {
   Container,
   NewSection,
   UnderTitle,
-} from "./styles/styledIntro";
+} from './styles/styledIntro';
 
 import {
   ContainerPrice,
@@ -11,16 +11,16 @@ import {
   DivPrice,
   TextArbeidsgiver,
   TextTaKontakt,
-} from "./pricePage/StyledPrice";
-import PriceBoxOne from "./pricePage/PriceBoxOne";
-import PriceBoxTwo from "./pricePage/ProceBoxTwo";
+} from './pricePage/StyledPrice';
+import PriceBoxOne from './pricePage/PriceBoxOne';
+import PriceBoxTwo from './pricePage/ProceBoxTwo';
 
-import ArrowTwo from "./styles/arrowTwo";
-import { ContainerPhone } from "./styles/styledTjenester";
+import ArrowTwo from './styles/arrowTwo';
+import { ContainerPhone } from './styles/styledTjenester';
 
 const PriceBox = () => {
   return (
-    <div>
+    <div id="priser">
       <DivPrice>
         <Container>
           <NewSection>

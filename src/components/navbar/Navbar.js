@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 import {
   NavbarContainer,
   LeftContainer,
@@ -13,11 +13,11 @@ import {
   LogoText,
   LogoContainer,
   LogoLink,
-} from "./Navbar.styled";
-import { RxHamburgerMenu } from "react-icons/rx";
-import { AiOutlineClose } from "react-icons/ai";
+} from './Navbar.styled';
+import { RxHamburgerMenu } from 'react-icons/rx';
+import { AiOutlineClose } from 'react-icons/ai';
 
-import LogoImg from "./assets/image.png";
+import LogoImg from './assets/image.png';
 
 const Navbar = () => {
   const [extendNavbar, setExtendNavbar] = useState(false);
@@ -36,7 +36,7 @@ const Navbar = () => {
             >
               <LogoContainer>
                 <Logo src={LogoImg}></Logo>
-                <LogoText> Phillips Karriere</LogoText>
+                <LogoText> </LogoText>
               </LogoContainer>
             </LogoLink>
           </LeftContainer>
@@ -59,6 +59,15 @@ const Navbar = () => {
                 duration={500}
               >
                 Tjenester
+              </NavbarLink>
+              <NavbarLink
+                to="priser"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Priser
               </NavbarLink>
               <NavbarLink
                 to="om"
@@ -118,6 +127,18 @@ const Navbar = () => {
               duration={500}
             >
               Tjenester
+            </NavbarLinkExtended>
+            <NavbarLinkExtended
+              onClick={() => {
+                setExtendNavbar((curr) => !curr);
+              }}
+              to="priser"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Priser
             </NavbarLinkExtended>
             <NavbarLinkExtended
               onClick={() => {
