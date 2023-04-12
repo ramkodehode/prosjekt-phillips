@@ -9,7 +9,7 @@ import {
   NewSection,
   PhoneCaricatureImg,
   Tittel,
-  UnderTitle,
+  UnderTitleYellow,
 } from "./styles/styledIntro";
 
 const Intro = () => {
@@ -27,11 +27,11 @@ const Intro = () => {
                     Karriereveiledning - en god investering for mennesker i
                     omstilling
                   </Tittel>
-                  <UnderTitle>
+                  <UnderTitleYellow>
                     {/* Kanskje er du usikker på studievalget? <br></br>Kanskje er
                     du i omstilling i forbindelse med jobb? */}
                     Dine muligheter - vårt ansvar!
-                  </UnderTitle>
+                  </UnderTitleYellow>
                   <IntroText>
                     {/* Lev livet ditt her og nå, og vær samtidig nysgjerrig på
                     fremtiden din! Du skal ha mulighet til å finne og velge din

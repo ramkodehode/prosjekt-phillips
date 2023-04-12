@@ -16,8 +16,9 @@ export const ContainerPhoneBox = styled.div`
   @media only screen and (max-width: 40em) {
     display: block;
     margin: 0 auto;
+    position: relative;
 
-    text-align: center;
+    text-align: left;
 
     padding: 10px;
 
@@ -27,8 +28,8 @@ export const ContainerPhoneBox = styled.div`
 `;
 
 export const ContainerDesktop = styled.div`
-  text-align: center;
   padding: 10px;
+  text-align: left;
 
   flex-basis: 100%;
   align-items: center;
@@ -44,20 +45,20 @@ const PriceBoxTwo = () => {
         <ImgPrice src={iconprice} alt="icon" />
         <h2>Priser</h2>
         <TextYellow>Karriereveiledning</TextYellow>
-        <p>3-9 samlinger hvor hver økt varer 2 timer </p>
+        <p>3-9 samlinger hvor hver økt varer 1,5 - 2 timer </p>
         <p>Øvelser mellom hver veiledningsmøte </p> <Underline />
         <Column>
           <ContainerGroup>
             <ContainerDesktop>
               <p>Individuelt:</p>
               <br />
-              <p>3 møter: 6690,- </p>
+              <p>3 møter: 6570,-</p>
               <br />
-              <p>6 møter: 11.150,-</p>
+              <p>6 møter: 13.140,-</p>
               <br />
-              <p>9 møter: 16.725,-</p>
+              <p>9 møter: 19.710,-</p>
               <br />
-              <p>Enkeltimer: 1200,-</p>
+              <p>Enkeltimer 1200,-</p>
             </ContainerDesktop>
           </ContainerGroup>
           <ContainerGroup>
@@ -81,7 +82,8 @@ const PriceBoxTwo = () => {
               <p>9 møter: 21.600,-</p>
             </ContainerGroup>
             <ContainerGroup>
-              <p>Grupper på forespørsel</p>
+              <p>Grupper:</p>
+              <p>På forespørsel</p>
             </ContainerGroup>
           </ContainerPhoneBox>
           {/* Gave up. This is phone version */}

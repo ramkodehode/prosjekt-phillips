@@ -102,7 +102,7 @@ export const Rectangle = styled.div`
   margin-right: 15px;
 
   @media only screen and (max-width: 40em) {
-    height: 100px;
+    height: 30px;
   }
   @media only screen and (min-width: 2400px) {
     height: 100%;

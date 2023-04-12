@@ -1,9 +1,4 @@
-import {
-  Column,
-  Container,
-  NewSection,
-  UnderTitle,
-} from './styles/styledIntro';
+import { Column, Container, NewSection } from "./styles/styledIntro";
 
 import {
   ContainerPrice,
@@ -11,12 +6,30 @@ import {
   DivPrice,
   TextArbeidsgiver,
   TextTaKontakt,
-} from './pricePage/StyledPrice';
-import PriceBoxOne from './pricePage/PriceBoxOne';
-import PriceBoxTwo from './pricePage/ProceBoxTwo';
+} from "./pricePage/StyledPrice";
+import PriceBoxOne from "./pricePage/PriceBoxOne";
+import PriceBoxTwo from "./pricePage/ProceBoxTwo";
 
-import ArrowTwo from './styles/arrowTwo';
-import { ContainerPhone } from './styles/styledTjenester';
+import ArrowTwo from "./styles/arrowTwo";
+import { ContainerPhone } from "./styles/styledTjenester";
+
+import styled from "styled-components";
+
+export const UnderTitleArbeidsgiver = styled.h2`
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+
+  color: #e5701b;
+
+  @media only screen and (max-width: 40em) {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  @media only screen and (min-width: 2400px) {
+    font-size: 5rem;
+  }
+`;
 
 const PriceBox = () => {
   return (
@@ -46,14 +59,13 @@ const PriceBox = () => {
           gjensidig forventingsavklaring for mål og gjennomføring av programmet.
           Karrierelæringsprogrammet tar utgangspunkt i modellen; Ta kontroll mot
           ny jobb.
-          <UnderTitle>Fase 1</UnderTitle>
+          <UnderTitleArbeidsgiver>Fase 1</UnderTitleArbeidsgiver>
           Oppstartsmøte
           <ArrowTwo />
-          <UnderTitle>Fase 2</UnderTitle>
-          Gjennomføring av karriereveiledning for medarbeidere, statusmøter
-          følger fase 1, fase 2 og fase 3.
+          <UnderTitleArbeidsgiver>Fase 2</UnderTitleArbeidsgiver>
+          Gjennomføring av karriereveiledning for medarbeidere.
           <ArrowTwo />
-          <UnderTitle>Fase 3</UnderTitle>
+          <UnderTitleArbeidsgiver>Fase 3</UnderTitleArbeidsgiver>
           Evaluering.
         </TextArbeidsgiver>
       </DivPhoneArbeidsgiver>

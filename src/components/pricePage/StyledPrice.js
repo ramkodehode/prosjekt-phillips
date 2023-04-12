@@ -4,7 +4,7 @@ export const BoxPrice = styled.div`
   height: 28em;
   width: 20em;
   border: 1.5px solid #fe8900;
-  padding: 20px;
+  padding: 25px;
   background-color: white;
 
   @media only screen and (max-width: 40em) {
@@ -12,6 +12,8 @@ export const BoxPrice = styled.div`
     width: 100%;
     text-align: center;
     border: 4px solid #fe8900;
+    padding: 10px 30px;
+    margin-top: 80px;
   }
   @media only screen and (min-width: 2400px) {
     border: 5px solid #fe8900;

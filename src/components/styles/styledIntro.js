@@ -101,12 +101,25 @@ export const UnderTitle = styled.h2`
   font-weight: 400;
   font-size: 1.5rem;
 
-  color: #fe8900;
+  color: #e5701b;
 
   @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
+  }
+  @media only screen and (min-width: 2400px) {
+    font-size: 5rem;
+  }
+`;
 
-    text-align: center;
+export const UnderTitleYellow = styled.h2`
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  color: #e5701b;
+
+  @media only screen and (max-width: 40em) {
+    font-size: 1.2rem;
   }
   @media only screen and (min-width: 2400px) {
     font-size: 5rem;
