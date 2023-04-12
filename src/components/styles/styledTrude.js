@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ImgTrude = styled.img`
-  height: 100vh;
+  height: 80vh;
   width: auto;
 
   @media only screen and (max-width: 40em) {
