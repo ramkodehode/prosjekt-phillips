@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const MainBox = styled.div`
   display: flex;
@@ -20,6 +20,10 @@ export const MainBox = styled.div`
 
   @media only screen and (max-width: 40em) {
     height: 40rem;
+  }
+
+  @media only screen and (min-width: 2040px) {
+    height: 130em;
   }
 `;
 
@@ -86,6 +90,10 @@ export const Tittel = styled.h1`
     max-width: 100%;
     line-height: 40px;
   }
+  @media only screen and (min-width: 2400px) {
+    font-size: 8rem;
+    line-height: 100%;
+  }
 `;
 
 export const UnderTitle = styled.h2`
@@ -100,6 +108,9 @@ export const UnderTitle = styled.h2`
 
     text-align: center;
   }
+  @media only screen and (min-width: 2400px) {
+    font-size: 5rem;
+  }
 `;
 
 export const IntroText = styled.p`
@@ -110,5 +121,8 @@ export const IntroText = styled.p`
 
   @media only screen and (max-width: 40em) {
     font-size: 1rem;
+  }
+  @media only screen and (min-width: 2400px) {
+    font-size: 4rem;
   }
 `;

@@ -5,7 +5,6 @@ import {
   PhonePicBox,
   PhoneSittingStudents,
   PicBox,
-  Rectangle,
   SittingStudents,
   VartAnsvarContainer,
 } from "./styles/styledVartAnsvar";

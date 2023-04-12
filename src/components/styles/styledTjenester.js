@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContainerPhone = styled.section`
   display: flex;
@@ -35,6 +35,9 @@ export const TitleVareProgrammer = styled.h1`
     position: relative;
     top: 100px;
   }
+  @media only screen and (min-width: 2400px) {
+    font-size: 6rem;
+  }
 `;
 
 export const TextVareProgrammer = styled.p`
@@ -42,4 +45,7 @@ export const TextVareProgrammer = styled.p`
   font-weight: 400;
   font-size: 1.2em;
   line-height: 165%;
+  @media only screen and (min-width: 2400px) {
+    font-size: 3.5rem;
+  }
 `;
