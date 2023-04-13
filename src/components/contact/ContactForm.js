@@ -65,7 +65,9 @@ function ContactForm() {
               </Li>
               <Li>
                 <AiFillLinkedin />
-                <AnchorTag href="https://www.w3schools.com">LinkedIn</AnchorTag>
+                <AnchorTag href="https://www.linkedin.com/in/trude-skarstein-phillips-68635159">
+                  LinkedIn
+                </AnchorTag>
               </Li>
             </Ul>
           </ContactInfo>
