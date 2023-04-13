@@ -21,6 +21,7 @@ import {
   Full,
   ContactGlobal,
   AnchorTag,
+  Details,
 } from './Contact.styled';
 
 import { AiFillPhone, AiFillLinkedin } from 'react-icons/ai';
@@ -55,17 +56,21 @@ function ContactForm() {
 
         <Wrapper>
           <ContactInfo>
-            <HeadingTwo>Kontakt info</HeadingTwo>
             <Ul>
+              <HeadingTwo>Kontakt info</HeadingTwo>
+
               <Li>
-                <AiFillPhone /> +47 91691334
+                <AiFillPhone /> <Details>+47 91691334</Details>
               </Li>
               <Li>
-                <MdEmail /> trude@phillipskarriere.no
+                <MdEmail /> <Details>trude@phillipskarriere.no</Details>
               </Li>
               <Li>
                 <AiFillLinkedin />
-                <AnchorTag href="https://www.linkedin.com/in/trude-skarstein-phillips-68635159">
+                <AnchorTag
+                  href="https://www.linkedin.com/in/trude-skarstein-phillips-68635159"
+                  target="_blank"
+                >
                   LinkedIn
                 </AnchorTag>
               </Li>
