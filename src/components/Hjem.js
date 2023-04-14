@@ -5,7 +5,7 @@ import Intro from "./Intro";
 import KomIgjen from "./komIgjen";
 import KursDeltaker from "./kursDeltaker";
 import Navbar from "./navbar/Navbar";
-import PictureBoxes from "./pictureBoxes";
+
 import GlobalStyle from "./styles/Globalstyle";
 import Tjenester from "./Tjenester";
 import InfoTrude from "./trudeInfo";
@@ -24,7 +24,6 @@ const Hjem = () => {
       <InfoTrude />
       <KursDeltaker /> {/* <------------ Her skal Karuselen inn Monica */}
       <KomIgjen />
-      <PictureBoxes />
       <ContactForm />
       <Footer />
     </>
