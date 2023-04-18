@@ -1,4 +1,12 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+
+const StyledLink = styled(Link)`
+  color: Blue;
+  text-decoration: none;
+  margin: 1rem;
+  position: relative;
+`;
 
 export const EmptySpace = styled.div`
   width: auto;
@@ -38,6 +46,7 @@ const Footer = () => {
             Copyright 2023 © All Rights Reserved. <br />
             Built by K3
           </p>
+          <StyledLink to="/privacy">Personvernerklæring</StyledLink>
         </FooterContainer>
       </EmptySpace>
     </div>
