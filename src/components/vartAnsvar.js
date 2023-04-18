@@ -1,11 +1,11 @@
 import seatedstudent from "./img/seatedstudent.png";
+
 import { Column, Container, IntroText, NewSection } from "./styles/styledIntro";
 import { TitleTrude } from "./styles/styledTrude";
 import {
   PhonePicBox,
   PhoneSittingStudents,
   PicBox,
-  Rectangle,
   SittingStudents,
   VartAnsvarContainer,
 } from "./styles/styledVartAnsvar";
@@ -20,15 +20,25 @@ const VartAnsvar = () => {
               <TitleTrude>
                 Våre program gir deg verktøyene du trenger for veien videre.
               </TitleTrude>
+
               <IntroText>
-                Vi møter deg der du er, og vektlegger en trygg ramme basert på
-                gjensidig tillit. Din læring frem mot målet er det sentrale om
-                det gjelder studievalg eller ny jobb. I samspillet med
-                karriereveileder er du den aktive. Våre karrierelæringsprogram
-                er tilrettelagt individuelt, for grupper og i kombinasjonen av
-                fysisk og digitale møter. Metodik, ulike test-og
-                kartleggingsverktøy føler Nasjonalt kvalitetsrammeverk for
-                karriereveiledning og DNV sertfisering.
+                Mange unge kjenner på usikkerhet i valget av høyere utdanning.
+                Arbeidsmarkedet er i rask endring og gjør at flere opplever
+                endret arbeidssituasjon. Mange arbeidsgivere ser verdien av å
+                tilby ansatte karriereveiledning i forbindelse med omstilling.
+                Det skaper verdi for den enkelte medarbeider, bedriftens omdømme
+                og for samfunnet.
+              </IntroText>
+              <IntroText>
+                I vår veiledning møter vi deg der du er, og vektlegger en trygg
+                ramme basert på gjensidig tillit. Din læring frem mot ditt mål
+                er det sentrale om det gjelder studievalg, ny jobb, eller en
+                kombinasjon. I samspillet med karriereveileder er du den aktive
+                i prosessen dit du ønsker. Våre karrierelæringsprogram er
+                tilrettelagt individuelt, for grupper og i kombinasjonen av
+                fysisk og digitale møter. Undervisning, verktøy og metodikk
+                følger Nasjonalt kvalitetsrammeverk for karriereveiledning og
+                DNV sertifisering.
               </IntroText>
               <IntroText>
                 {" "}

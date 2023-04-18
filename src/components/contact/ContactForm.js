@@ -20,7 +20,12 @@ import {
   Contact,
   Full,
   ContactGlobal,
+  AnchorTag,
+  Details,
 } from './Contact.styled';
+
+import { AiFillPhone, AiFillLinkedin } from 'react-icons/ai';
+import { MdEmail } from 'react-icons/md';
 
 function ContactForm() {
   const form = useRef();
@@ -51,11 +56,24 @@ function ContactForm() {
 
         <Wrapper>
           <ContactInfo>
-            <HeadingTwo>Kontakt info</HeadingTwo>
             <Ul>
-              <Li>+47 91691334</Li>
-              <Li>trude@phillipskarriere.no</Li>
-              <Li>LinkedIn</Li>
+              <HeadingTwo>Kontakt info</HeadingTwo>
+
+              <Li>
+                <AiFillPhone /> <Details>+47 91691334</Details>
+              </Li>
+              <Li>
+                <MdEmail /> <Details>trude@phillipskarriere.no</Details>
+              </Li>
+              <Li>
+                <AiFillLinkedin />
+                <AnchorTag
+                  href="https://www.linkedin.com/in/trude-skarstein-phillips-68635159"
+                  target="_blank"
+                >
+                  LinkedIn
+                </AnchorTag>
+              </Li>
             </Ul>
           </ContactInfo>
           <Contact>

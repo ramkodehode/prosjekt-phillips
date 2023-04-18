@@ -45,6 +45,10 @@ export const PicBox = styled.div`
   @media only screen and (max-width: 40em) {
     display: none;
   }
+  @media only screen and (min-width: 2400px) {
+    width: 77em;
+    height: 75em;
+  }
 `;
 
 export const PhonePicBox = styled.div`
@@ -73,6 +77,9 @@ export const SittingStudents = styled.img`
 
   @media only screen and (max-width: 40em) {
   }
+  @media only screen and (min-width: 2400px) {
+    padding: 5rem;
+  }
 `;
 
 export const PhoneSittingStudents = styled.img`
@@ -95,6 +102,9 @@ export const Rectangle = styled.div`
   margin-right: 15px;
 
   @media only screen and (max-width: 40em) {
-    height: 100px;
+    height: 30px;
+  }
+  @media only screen and (min-width: 2400px) {
+    height: 100%;
   }
 `;

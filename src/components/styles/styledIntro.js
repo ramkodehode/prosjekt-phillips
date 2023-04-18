@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const MainBox = styled.div`
   display: flex;
@@ -20,6 +20,10 @@ export const MainBox = styled.div`
 
   @media only screen and (max-width: 40em) {
     height: 40rem;
+  }
+
+  @media only screen and (min-width: 2040px) {
+    height: 130em;
   }
 `;
 
@@ -86,6 +90,10 @@ export const Tittel = styled.h1`
     max-width: 100%;
     line-height: 40px;
   }
+  @media only screen and (min-width: 2400px) {
+    font-size: 8rem;
+    line-height: 100%;
+  }
 `;
 
 export const UnderTitle = styled.h2`
@@ -93,12 +101,28 @@ export const UnderTitle = styled.h2`
   font-weight: 400;
   font-size: 1.5rem;
 
-  color: #fe8900;
+  color: #e5701b;
 
   @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
+  }
+  @media only screen and (min-width: 2400px) {
+    font-size: 5rem;
+  }
+`;
 
-    text-align: center;
+export const UnderTitleYellow = styled.h2`
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  color: #e5701b;
+
+  @media only screen and (max-width: 40em) {
+    font-size: 1.2rem;
+  }
+  @media only screen and (min-width: 2400px) {
+    font-size: 5rem;
   }
 `;
 
@@ -110,5 +134,8 @@ export const IntroText = styled.p`
 
   @media only screen and (max-width: 40em) {
     font-size: 1rem;
+  }
+  @media only screen and (min-width: 2400px) {
+    font-size: 4rem;
   }
 `;
