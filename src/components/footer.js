@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 import { Link } from 'react-router-dom';
-=======
 import React from 'react';
->>>>>>> 66028b12d068cbf404476d67100c53a0dba39fdc
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
-
-
 
 const StyledLink = styled(Link)`
   color: Blue;
@@ -44,44 +38,26 @@ export const PolicyLink = styled(Link)`
   color: #fff;
   text-decoration: none;
 
-  &:hover{
-    color:#E5701B;
+  &:hover {
+    color: #e5701b;
   }
-`
-
+`;
 
 const Footer = () => {
- 
   return (
-  
     <div>
-
-     
-
       <EmptySpace>
         <FooterContainer>
           <p>Phillips Karriere</p>
-                  
+
           <p>
             Copyright 2023 © All Rights Reserved. <br />
             Built by K3
           </p>
-<<<<<<< HEAD
           <StyledLink to="/privacy">Personvernerklæring</StyledLink>
-=======
-
-      
-        <Link to='/Personvern' >
-          <p>Personvernerklæring</p>
-          </Link>
-        
-     
->>>>>>> 66028b12d068cbf404476d67100c53a0dba39fdc
         </FooterContainer>
       </EmptySpace>
-     
     </div>
-    
   );
 };
 
