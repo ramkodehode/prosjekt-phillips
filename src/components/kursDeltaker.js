@@ -71,18 +71,47 @@ const KursDeltaker = () => {
       <h5 className="title">Hva våre kursdeltakere sier:</h5>
 
           <Swiper className='container swiper__container'
+
+breakpoints={{
+  0: {
+    slidesPerView: 1,
+  },
+  400:{
+    slidesPerView:1,
+  },
+  639: {
+    slidesPerView: 1,
+  },
+  865:{
+    slidesPerView:2,
+  },
+  1000:{
+    slidesPerView:3,
+  },
+  1500:{
+    slidesPerView:3,
+  },
+  1700:{
+    slidesPerView:3,
+  }
+}}
+
         slidesPerView={3}
-        spaceBetween={100}
+        spaceBetween={40}
         keyboard={{
           enabled: true,
         }}
+
+        
         pagination={{
           clickable: true,
         }}
         navigation={true}
         modules={[Keyboard, Pagination, Navigation]}
-        
       >
+
+        
+        
           {
             data.map(({image, name, review}, index) => {
               return(
@@ -95,11 +124,17 @@ const KursDeltaker = () => {
                  <h5 className='client__name'>{name}</h5>
                  
                  <small className='client__review'>{review}</small>
+
+                 
+
             </SwiperSlide>
               )
             })
           }
-      
+
+
+
+
           </Swiper>
         </section>
   )

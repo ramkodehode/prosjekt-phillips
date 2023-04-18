@@ -15,10 +15,28 @@ import {
   TitleVareProgrammer,
 } from "./styles/styledTjenester";
 
+import styled from "styled-components";
+
+import computer from "./img/computer.png";
+
+export const IMGcomputer = styled.img`
+  width: auto;
+  height: 50vh;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
+`;
+
 const Tjenester = () => {
   return (
     <div id="tjenester">
       <TitleVareProgrammer>Våre Tjenester</TitleVareProgrammer>
+      <IMGcomputer src={computer} alt="student on a laptop" />
 
       <Container>
         <NewSection>
@@ -40,6 +58,7 @@ const Tjenester = () => {
                   mulighetene.
                 </TextVareProgrammer>
               </ContainerVareProgrammer>
+
               <ContainerVareProgrammer>
                 <UnderTitle>
                   <Rectangle />

@@ -1,4 +1,5 @@
 import seatedstudent from "./img/seatedstudent.png";
+
 import { Column, Container, IntroText, NewSection } from "./styles/styledIntro";
 import { TitleTrude } from "./styles/styledTrude";
 import {
@@ -19,6 +20,7 @@ const VartAnsvar = () => {
               <TitleTrude>
                 Våre program gir deg verktøyene du trenger for veien videre.
               </TitleTrude>
+
               <IntroText>
                 Mange unge kjenner på usikkerhet i valget av høyere utdanning.
                 Arbeidsmarkedet er i rask endring og gjør at flere opplever
