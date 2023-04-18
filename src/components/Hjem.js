@@ -12,9 +12,16 @@ import InfoTrude from "./trudeInfo";
 import VartAnsvar from "./vartAnsvar";
 import Veiledning from "./Veiledning";
 
+
+
+
+
+
+
 const Hjem = () => {
   return (
     <>
+    
       <GlobalStyle />
       <Navbar />
       <Intro />
@@ -27,7 +34,17 @@ const Hjem = () => {
       <PictureBoxes />
       <ContactForm />
       <Footer />
-    </>
+
+    
+       
+     
+    
+</>
+ 
+     
+    
+
+
   );
 };
 
