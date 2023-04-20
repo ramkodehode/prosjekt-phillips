@@ -1,4 +1,5 @@
 import React from 'react';
+import PrivacyNavbar from './PrivacyNavbar';
 
 
 import {
@@ -123,8 +124,17 @@ const Privacy = () => {
       </PolicySection>
       
     </PolicyContainer>
+
+    
+    <PrivacyNavbar />
+    
   </>
   
+  
+
+  
+    
+
   )
 };
 
