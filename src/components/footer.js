@@ -2,12 +2,12 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledLink = styled(Link)`
+/*const StyledLink = styled(Link)`
   color: Blue;
   text-decoration: none;
   margin: 1rem;
   position: relative;
-`;
+`;*/
 
 export const EmptySpace = styled.div`
   width: auto;
@@ -34,7 +34,7 @@ export const FooterContainer = styled.div`
   }
 `;
 
-export const PolicyLink = styled(Link)`
+export const StyledLink = styled(Link)`
   color: #fff;
   text-decoration: none;
 
@@ -54,7 +54,9 @@ const Footer = () => {
             Copyright 2023 © All Rights Reserved. <br />
             Built by K3
           </p>
+
           <StyledLink to="/privacy">Personvernerklæring</StyledLink>
+          
         </FooterContainer>
       </EmptySpace>
     </div>
