@@ -1,7 +1,6 @@
 import React from 'react';
 import PrivacyNavbar from './PrivacyNavbar';
 
-
 import {
   PolicyTitle,
   PolicySubTitle,
@@ -12,17 +11,14 @@ import {
   WebLink,
   PolicySection,
   Li,
-  Ul
- 
-} 
-from './Privacy.styled';
+  Ul,
+} from './Privacy.styled';
+
 
 
 const Privacy = () => {
   return (
   <>
-
-
   <PolicyContainer>
     <PolicySection>
 <PolicyTitle>
@@ -125,10 +121,12 @@ const Privacy = () => {
   </PolicySection>
 
 </PolicyContainer>
+
   <PrivacyNavbar />
   </>
 
-  )
+  );
+
 };
 
 export default Privacy;
