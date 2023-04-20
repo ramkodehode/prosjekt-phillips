@@ -10,55 +10,25 @@ export const NavbarContainer = styled.nav`
   flex-direction: column;
   position: relative;
   z-index: 9999;
-
-  @media (min-width: 700px) {
-    height: 75px;
-  }
 `;
 
 export const LogoLink = styled(LogoLinkS)``;
 
 export const LeftContainer = styled.div`
-  flex: 30%;
   display: flex;
   align-items: center;
-  padding-left: 5%;
-`;
-
-export const RightContainer = styled.div`
-  flex: -70%;
-  display: flex;
-  align-items: center;
-  padding-right: 5%;
 `;
 
 export const NavbarInnerContainer = styled.div`
   width: 100%;
   height: 75px;
   display: flex;
+  justify-content: center;
 `;
 export const NavbarExtendedContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  @media (min-width: 700px) {
-    display: none;
-  }
-`;
-
-export const NavbarLinkContainer = styled.div`
-  display: flex;
-`;
-
-export const NavbarLink = styled(Link)`
-  text-decoration: none;
-  margin: 10px;
-  cursor: pointer;
-
-  &:hover {
-    color: orange;
-  }
 
   @media (max-width: 700px) {
     display: none;
