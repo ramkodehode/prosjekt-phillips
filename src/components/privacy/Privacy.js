@@ -12,6 +12,7 @@ import {
   PolicySection,
   Li,
   Ul,
+  Scroll
 } from './Privacy.styled';
 
 
@@ -19,6 +20,7 @@ import {
 const Privacy = () => {
   return (
   <>
+   <PrivacyNavbar />
   <PolicyContainer>
     <PolicySection>
 <PolicyTitle>
@@ -120,9 +122,12 @@ const Privacy = () => {
         juridiske eller sikkerhetsmessige årsaker.</p>
   </PolicySection>
 
+
+  <Scroll to='#' className='scroll__down'>Til toppen</Scroll>
+
 </PolicyContainer>
 
-  <PrivacyNavbar />
+ 
   </>
 
   );

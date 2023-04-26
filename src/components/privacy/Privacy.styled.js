@@ -69,3 +69,17 @@ export const WebLink = styled(Link)`
     color: #e5701b;
   }
 `;
+
+
+export const Scroll = styled(Link)`
+  position: fixed;
+  
+  right: -2.3rem;
+  bottom: 5rem;
+  transform:rotate(90deg);
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000;
+`
+;
