@@ -87,9 +87,10 @@ export const InputEmail = styled.input`
   border: 1px solid #fbd19c;
 `;
 export const TextArea = styled.textarea`
-  width: 100%;
+  max-width: 100%;
   padding: 1em;
   border: 1px solid #fbd19c;
+  resize: none;
 `;
 
 export const SubmitButton = styled.input`

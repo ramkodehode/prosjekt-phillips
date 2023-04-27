@@ -76,7 +76,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={500}
               >
-                Om oss
+                Om
               </NavbarLink>
               <NavbarLink
                 to="kontakt"
