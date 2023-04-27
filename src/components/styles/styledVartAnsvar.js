@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const BigBox = styled.div`
   width: auto;
@@ -17,11 +17,7 @@ export const VartAnsvarContainer = styled.section`
   display: flex;
   flex-direction: column;
 
-  justify-content: center;
-
   margin: 150px 50px;
-
-  max-width: 50%;
 
   font-style: normal;
   font-weight: 400;

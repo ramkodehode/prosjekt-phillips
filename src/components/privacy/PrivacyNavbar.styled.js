@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-scroll';
+
 import { Link as LogoLinkS } from 'react-router-dom';
 
 export const NavbarContainer = styled.nav`

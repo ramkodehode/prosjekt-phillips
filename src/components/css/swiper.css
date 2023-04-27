@@ -40,12 +40,11 @@ background: #000;
   width: 10rem;
   aspect-ratio: 1/1;
   overflow: hidden;
-  border-radius: 50%;
-  border: 2px solid #fff;
-
+  /*border-radius: 50%;*/
+  /*border: 2px solid #fff;
   -webkit-border-radius:55%;
-  -moz-border-radius:55%;
-  border-radius:55%;
+  -moz-border-radius:55%;*/
+  clip-path: circle(50%); 
   box-shadow:0 0 10px rgba(0,0,0,0.3);
 }
 
