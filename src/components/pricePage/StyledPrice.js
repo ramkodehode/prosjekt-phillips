@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const BoxPrice = styled.div`
   height: 28em;
@@ -44,7 +44,7 @@ export const DivPrice = styled.div`
 
   font-size: 1.2rem;
 
-  top: -150px;
+  top: -10rem;
 
   @media only screen and (min-width: 2400px) {
     font-size: 4rem;
@@ -73,7 +73,7 @@ export const TextTaKontakt = styled.h1`
 `;
 
 export const TextArbeidsgiver = styled.p`
-  font-family: 'Poppins';
+  font-family: "Poppins";
   text-align: center;
   font-size: 1.2em;
   margin: 0 auto;
