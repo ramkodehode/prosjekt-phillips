@@ -54,6 +54,7 @@ export const NavbarLinkContainer = styled.div`
 export const NavbarLink = styled(Link)`
   text-decoration: none;
   margin: 10px;
+  padding-left: 16px;
   cursor: pointer;
 
   &:hover {
