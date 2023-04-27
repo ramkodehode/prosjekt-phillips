@@ -19,7 +19,7 @@ export const BoxVeiledning = styled.div`
   flex-direction: column;
 
   width: auto;
-  height: 75rem;
+  height: 78rem;
 
   margin: 0 auto;
 

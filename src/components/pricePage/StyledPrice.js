@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const BoxPrice = styled.div`
   height: 28em;
-  width: 20em;
+  width: 21em;
   border: 1.5px solid #fe8900;
-  padding: 25px;
+  padding: 5rem 2rem;
   background-color: white;
 
   @media only screen and (max-width: 40em) {
