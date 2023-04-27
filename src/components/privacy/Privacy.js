@@ -12,14 +12,14 @@ import {
   PolicySection,
   Li,
   Ul,
-  Scroll
+  Footer
 } from './Privacy.styled';
-
 
 
 const Privacy = () => {
   return (
-  <>
+    <>
+
    <PrivacyNavbar />
   <PolicyContainer>
     <PolicySection>
@@ -37,8 +37,6 @@ const Privacy = () => {
   {" "}og selskapet som står bak er Phillips Karriere med organisasjonsnummer; <OrgNr>829590352. </OrgNr> </p>
 </PolicyInfo>
     </PolicySection>
-
-
 
     <PolicySection>
       <PolicyLevel>
@@ -122,12 +120,9 @@ const Privacy = () => {
         juridiske eller sikkerhetsmessige årsaker.</p>
   </PolicySection>
 
-
-  <Scroll to='#' className='scroll__down'>Til toppen</Scroll>
-
 </PolicyContainer>
 
- 
+<Footer/>
   </>
 
   );

@@ -3,15 +3,18 @@ import { Link } from 'react-router-dom';
 
 export const PolicyContainer = styled.div`
   font-family: 'Poppins', sans-serif;
+ 
+  margin: 0 3rem 0 3rem;
 
   @media screen and (max-width: 600px) {
     width: 90%;
+    margin: 0;
   }
 `;
 
 export const PolicyTitle = styled.h1`
   text-transform: uppercase;
-  font-size: 1.8em;
+  font-size: 1.3em;
   text-align: center;
   color: black;
   padding-bottom: 1rem;
@@ -54,7 +57,13 @@ export const OrgNr = styled.div`
 `;
 
 export const PolicySection = styled.div`
-  padding: 1rem 2rem 0 5rem;
+  padding: 2rem 2rem 0 5rem;
+  font-size: 20px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 1rem;
+  }
+
 `;
 
 export const Li = styled.li``;
@@ -70,16 +79,10 @@ export const WebLink = styled(Link)`
   }
 `;
 
-
-export const Scroll = styled(Link)`
-  position: fixed;
-  
-  right: -2.3rem;
-  bottom: 5rem;
-  transform:rotate(90deg);
-  font-weight: 300;
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #000;
+export const Footer = styled.div`
+     height: 120px;
+     margin-top: 100px;
 `
-;
+
+
+
