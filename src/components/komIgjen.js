@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
-import undervisningOP from "./img/undervisningOP.png";
+import computer from "./img/computer.png";
 
 export const KomIgjenText = styled.h1`
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  color: white;
+  color: black;
+  z-index: 1;
 
   @media only screen and (max-width: 40em) {
     font-size: 1rem;
@@ -17,6 +18,17 @@ export const KomIgjenText = styled.h1`
   @media only screen and (min-width: 2400px) {
     font-size: 7rem;
   }
+`;
+
+export const OpacityBox = styled.div`
+  opacity: 0.5;
+
+  padding: 6rem 13rem;
+  background-color: white;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 `;
 
 export const PictureBoxesContainer = styled.section`
@@ -38,10 +50,11 @@ export const PictureBoxesContainer = styled.section`
 `;
 
 export const PicBoxes = styled.img`
-  width: 100%;
-  z-index: 0;
+  height: 98vh;
+  width: auto;
 
-  top: -100px;
+  padding: 50px;
+  padding-top: 0;
 
   @media only screen and (max-width: 40em) {
   }
@@ -54,12 +67,32 @@ export const DivImg = styled.div`
   padding-bottom: 100px;
 `;
 
+export const IMGlaptop = styled.img`
+  height: 80vh;
+  width: auto;
+  position: relative;
+  text-align: center;
+
+  display: flex;
+
+  justify-content: center;
+
+  position: relative;
+  padding-bottom: 100px;
+
+  margin: 0 auto;
+
+  z-index: -1;
+`;
+
 const KomIgjen = () => {
   return (
     <div>
       <DivImg>
+        <OpacityBox />
         <KomIgjenText>Så la oss komme i gang!</KomIgjenText>
-        <PicBoxes src={undervisningOP} alt="clapsed arms" />
+
+        <IMGlaptop src={computer} alt="person on laptop" />
       </DivImg>
     </div>
   );

@@ -6,8 +6,6 @@ import {
 } from "./styles/styledIntro";
 import { Rectangle } from "./styles/styledVartAnsvar";
 
-import { ImgStudentBehindFence } from "./styles/styledKarriere";
-import studentsbehindfence from "./img/studentsbehindfence.png";
 import {
   ContainerPhone,
   ContainerVareProgrammer,
@@ -17,26 +15,34 @@ import {
 
 import styled from "styled-components";
 
-import computer from "./img/computer.png";
+import undervisning from "./img/undervisning.jpg";
+import seatedstudents from "./img/seatedstudent.png";
+
+import { PicBoxes } from "./komIgjen";
 
 export const IMGcomputer = styled.img`
   width: auto;
   height: 50vh;
 
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid orange;
 
   @media only screen and (max-width: 40em) {
     display: none;
   }
 `;
 
+export const IMGtjenester = styled.img`
+  height: 70%;
+  width: 70%;
+`;
+
 const Tjenester = () => {
   return (
     <div id="tjenester">
+      <PicBoxes src={undervisning} alt="student on a laptop" />
       <TitleVareProgrammer>Våre Tjenester</TitleVareProgrammer>
-      <IMGcomputer src={computer} alt="student on a laptop" />
 
       <Container>
         <NewSection>
@@ -57,6 +63,7 @@ const Tjenester = () => {
                   fremstå usikker og det fine med det er at der ligger
                   mulighetene.
                 </TextVareProgrammer>
+                <IMGtjenester src={seatedstudents} alt="studenter" />
               </ContainerVareProgrammer>
 
               <ContainerVareProgrammer>
@@ -72,16 +79,17 @@ const Tjenester = () => {
                   med deg privat, eller din arbeidsgiver som resultat av en
                   omstillingsprosess.
                 </TextVareProgrammer>
+                <IMGtjenester src="" alt="placeholder" />
               </ContainerVareProgrammer>
             </ContainerPhone>
           </Column>
         </NewSection>
       </Container>
 
-      <ImgStudentBehindFence
+      {/* <ImgStudentBehindFence
         src={studentsbehindfence}
         alt="Students standing behind a fence"
-      />
+      /> */}
     </div>
   );
 };

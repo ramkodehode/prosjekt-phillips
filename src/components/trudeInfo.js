@@ -27,9 +27,9 @@ const InfoTrude = () => {
                 omstillingsfaser. Holder foredrag innen temaet karrierelæring og
                 karrierekompetanse. Har mange års erfaring fra ulike lederroller
                 i næringslivet. De siste 12 årene som selvstendig
-                næringsdrivende innen rekruttering og omstilling. Er DNV
-                sertifisert rekrutterer og sertifisert i bruk av ulike DNV
-                godkjente test- og kartleggingsverktøy. Formal kompetanse;
+                næringsdrivende innen rekruttering og omstilling. Er
+                DNV-sertifisert rekrutterer og sertifisert i bruk av ulike
+                DNV-godkjente test- og kartleggingsverktøy. Formell kompetanse;
                 Økonomi, markedsføring, prosjektledelse, pedagogikk, og master i
                 karriereveiledning.
               </MainTextTrude>
