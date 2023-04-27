@@ -1,14 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import { BrowserRouter as Router } from "react-router-dom";
+import React from 'react';
+import './index.css';
+import App from './App';
+import './index.css';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import ScrollToTop from './components/privacy/ScrollToTop';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById('root'));
+
 root.render(
-  <Router basename={process.env.PUBLIC_URL}>
-    <React.StrictMode>
+  <BrowserRouter>
+    <ScrollToTop>
       <App />
-    </React.StrictMode>
-  </Router>
+    </ScrollToTop>
+  </BrowserRouter>
 );

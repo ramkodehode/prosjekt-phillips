@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const BigBox = styled.div`
   width: auto;
@@ -17,11 +17,7 @@ export const VartAnsvarContainer = styled.section`
   display: flex;
   flex-direction: column;
 
-  justify-content: center;
-
   margin: 150px 50px;
-
-  max-width: 50%;
 
   font-style: normal;
   font-weight: 400;
@@ -44,6 +40,10 @@ export const PicBox = styled.div`
   right: 25px;
   @media only screen and (max-width: 40em) {
     display: none;
+  }
+  @media only screen and (min-width: 2400px) {
+    width: 77em;
+    height: 75em;
   }
 `;
 
@@ -73,6 +73,9 @@ export const SittingStudents = styled.img`
 
   @media only screen and (max-width: 40em) {
   }
+  @media only screen and (min-width: 2400px) {
+    padding: 5rem;
+  }
 `;
 
 export const PhoneSittingStudents = styled.img`
@@ -95,6 +98,9 @@ export const Rectangle = styled.div`
   margin-right: 15px;
 
   @media only screen and (max-width: 40em) {
-    height: 100px;
+    height: 30px;
+  }
+  @media only screen and (min-width: 2400px) {
+    height: 100%;
   }
 `;

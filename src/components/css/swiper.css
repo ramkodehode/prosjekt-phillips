@@ -1,16 +1,20 @@
 .container.swiper__container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 4rem;
   width: 90%;
   height: 50%;
-  padding-bottom: 4rem;
   cursor: pointer;
 }
 
-section#client_section {
+section#client_section{
   padding-top: 5rem;
   padding-bottom: 8rem;
 }
 
-.title {
+.title{
   text-align: left;
   margin-left: 10rem;
   font-style: normal;
@@ -19,45 +23,49 @@ section#client_section {
   line-height: 56px;
 }
 
-.swiper-pagination-clickable .swiper-pagination-bullet {
-  background: #000;
+.swiper-pagination-clickable .swiper-pagination-bullet{
+background: #000;
 }
 
-.swiper-button-next {
+.swiper-button-next{
   color: #000;
 }
 
-.swiper-button-prev {
+.swiper-button-prev{
   color: #000;
 }
 
 .client__image img {
+  text-align: left;
   width: 10rem;
   aspect-ratio: 1/1;
   overflow: hidden;
   border-radius: 50%;
-  margin: 0 auto 1rem;
-  -webkit-border-radius: 55%;
-  -moz-border-radius: 55%;
-  border-radius: 55%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid #fff;
+
+  -webkit-border-radius:55%;
+  -moz-border-radius:55%;
+  border-radius:55%;
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
 }
 
 .clients {
   text-align: center;
-  padding: 2rem;
+  padding-top: 2rem;
   user-select: none;
 }
 
-.client__review {
-  color: var(--color-light);
+.client__review{
+  text-align: left;
+  color: #000;
   font-weight: 300;
   display: block;
-  width: 80%;
-  margin: 0.8rem auto 0;
+
+  margin: 0 auto 5rem;
+  width: 250px;
 }
 
-.client__name {
+.client__name{
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -65,64 +73,63 @@ section#client_section {
   text-align: center;
 }
 
+
 /* Media (Laptop)*/
-@media screen and (max-width: 1024px) {
-  .container.clients__container {
-    width: 60%;
+@media screen and (max-width: 1024px){
+  .container.swiper__container {
+      width: 90%;
   }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
-@media screen and (max-width: 600px) {
-  .container.clients__container {
-    width: var(--container-width-sm);
-  }
-  .client__review {
-    width: var(--container-width-sm);
-  }
+@media screen and (max-width: 600px){
+  .container.swiper__container {
+      width: 90%;
+      
+}
+.swiper-button-next{
+  color: #000;
+  display: none;
+}
 
-  .swiper-button-next {
-    color: #000;
-    display: none;
-  }
+.swiper-button-prev{
+  color: #000;
+  display: none;
+}
 
-  .swiper-button-prev {
-    color: #000;
-    display: none;
-  }
+.client__review{
+  
+  text-align: center;
+  width: 70%;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 160%;
+  margin: 1rem auto 0;
+}
 
-  .client__review {
-    width: 150px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 165%;
-    text-align: center;
-  }
+.client__image img {
+  width: 10rem;
+  text-align: left;
+  overflow: hidden;
+  border-radius: 50%;
+ 
+}
 
-  .client__image img {
-    width: 5rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
-  }
+.title{
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 1rem;
+}
 
-  .title {
-    text-align: left;
-    margin-left: 3rem;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-  }
+.client__name{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+}
 
-  .client__name {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 165%;
-    text-align: center;
-  }
 }
