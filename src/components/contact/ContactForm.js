@@ -57,7 +57,7 @@ function ContactForm() {
         <Wrapper>
           <ContactInfo>
             <Ul>
-              <HeadingTwo>Kontakt info</HeadingTwo>
+              <HeadingTwo>Kontaktinfo</HeadingTwo>
 
               <Li>
                 <AiFillPhone /> <Details>+47 91691334</Details>
