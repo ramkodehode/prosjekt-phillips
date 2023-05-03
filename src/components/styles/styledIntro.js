@@ -11,15 +11,17 @@ export const MainBox = styled.div`
 
   z-index: -1;
 
-  background: conic-gradient(
+  /* background: conic-gradient(
     from -89.99deg at 50.03% 100%,
     #ffcb8d 0deg,
     rgba(234, 205, 154, 0.402865) 234.38deg,
     rgba(217, 217, 217, 0) 360deg
-  );
+  ); */
+
+  background-image: linear-gradient(to right, #fbd19c, #fbd19c, #ffe6c7);
 
   @media only screen and (max-width: 40em) {
-    height: 40rem;
+    height: 45rem;
   }
 
   @media only screen and (min-width: 2040px) {
