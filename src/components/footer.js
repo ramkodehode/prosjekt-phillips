@@ -1,8 +1,6 @@
-import { Link } from 'react-router-dom';
-import React from 'react';
-import styled from 'styled-components';
-
-
+import { Link } from "react-router-dom";
+import React from "react";
+import styled from "styled-components";
 
 /*const StyledLink = styled(Link)`
   color: Blue;
@@ -58,16 +56,14 @@ const Footer = () => {
     <div>
       <EmptySpace>
         <FooterContainer>
-       
           <p>Phillips Karriere</p>
+
+          <StyledLink to="/privacy">Personvernerklæring</StyledLink>
 
           <p>
             Copyright 2023 © All Rights Reserved. <br />
             Built by K3
           </p>
-
-          <StyledLink to="/privacy">Personvernerklæring</StyledLink>
-          
         </FooterContainer>
       </EmptySpace>
     </div>
