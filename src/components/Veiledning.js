@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Arrow from "./styles/arrow";
-import PriceBox, { UnderTitleArbeidsgiver } from "./price";
+
+import PriceBox, { Arrows, UnderTitleArbeidsgiver } from "./price";
 import {
   Column,
   Container,
@@ -10,7 +10,7 @@ import {
 import PriceBoxOne from "./pricePage/PriceBoxOne";
 import PriceBoxTwo from "./pricePage/ProceBoxTwo";
 import { TextArbeidsgiver, TextTaKontakt } from "./pricePage/StyledPrice";
-import ArrowTwo from "./styles/arrowTwo";
+
 import { ContainerPhone } from "./styles/styledTjenester";
 
 export const BoxVeiledning = styled.div`
@@ -84,7 +84,7 @@ const Veiledning = () => {
                     <li>Strukturert dybdeintervju</li>
                     <li>Interesseprofil</li>
                   </ListItem>
-                  <Arrow />
+                  <Arrows> ↓</Arrows>
                   {/* Second Phase box */}
                   <UnderTitle>Fase 2</UnderTitle>
                   <p>Utforske mine muligheter​</p>
@@ -94,7 +94,7 @@ const Veiledning = () => {
                     <li>Velge</li>
                     <li>Mitt mulighetsrom</li>
                   </ListItem>
-                  <Arrow />
+                  <Arrows> ↓</Arrows>
                   {/* Third Phase box */}
                   <UnderTitle>Fase 3</UnderTitle>
                   <p>Utforske mitt mulighetsrom ​</p>
@@ -123,7 +123,7 @@ const Veiledning = () => {
                     <li>Verdier og interesser​</li>
                     <li>Definere mål</li>
                   </ListItem>
-                  <Arrow />
+                  <Arrows> ↓</Arrows>
                   {/* Second Phase box */}
                   <UnderTitle>Fase 2</UnderTitle>
                   <p>Utforske mine muligheter​</p>
@@ -137,7 +137,7 @@ const Veiledning = () => {
 
                     <li>Handlingsplan</li>
                   </ListItem>
-                  <Arrow />
+                  <Arrows> ↓</Arrows>
                   {/* Third Phase box */}
                   <UnderTitle>Fase 3</UnderTitle>
                   <p>Ta kontroll</p>
@@ -173,12 +173,12 @@ const Veiledning = () => {
 
           <UnderTitleArbeidsgiver>Fase 1</UnderTitleArbeidsgiver>
           <TextArbeidsgiver>Oppstartsmøte </TextArbeidsgiver>
-          <ArrowTwo />
+          <Arrows> ↓</Arrows>
           <UnderTitleArbeidsgiver>Fase 2</UnderTitleArbeidsgiver>
           <TextArbeidsgiver>
             Gjennomføring av karriereveiledning for medarbeidere.
           </TextArbeidsgiver>
-          <ArrowTwo />
+          <Arrows> ↓</Arrows>
           <UnderTitleArbeidsgiver>Fase 3</UnderTitleArbeidsgiver>
           <TextArbeidsgiver> Evaluering.</TextArbeidsgiver>
         </NotDisplayed>
