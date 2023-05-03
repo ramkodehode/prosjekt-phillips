@@ -4,15 +4,18 @@ import { Link as LogoLinkS } from 'react-scroll';
 
 export const NavbarContainer = styled.nav`
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? '100vh' : '75px')};
+  height: ${(props) => (props.extendNavbar ? '100vh' : '60px')};
   background-color: #fad4a3;
   display: flex;
   flex-direction: column;
   position: fixed;
   z-index: 9999;
 
-  @media (min-width: 700px) {
-    height: 75px;
+  @media (min-width: 2160px) {
+    height: ${(props) => (props.extendNavbar ? '100vh' : '90px')};
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 `;
 
@@ -22,14 +25,22 @@ export const LeftContainer = styled.div`
   flex: 30%;
   display: flex;
   align-items: center;
-  padding-left: 5%;
+  padding-left: 50px;
+
+  @media (min-width: 2160px) {
+    justify-content: center;
+  }
 `;
 
 export const RightContainer = styled.div`
-  flex: -70%;
   display: flex;
   align-items: center;
   padding-right: 5%;
+
+  @media (min-width: 2160px) {
+    font-size: 2rem;
+    flex: 4%;
+  }
 `;
 
 export const NavbarInnerContainer = styled.div`
@@ -90,6 +101,10 @@ export const LogoText = styled.label`
 export const Logo = styled.img`
   cursor: pointer;
   max-width: 180px;
+
+  @media (min-width: 2160px) {
+    max-width: 260px;
+  }
 `;
 
 export const OpenLinksButton = styled.button`
