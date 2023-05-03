@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContainerPhone = styled.section`
   display: flex;
@@ -20,8 +20,6 @@ export const ContainerVareProgrammer = styled.section`
 
     position: relative;
 
-    top: 100px;
-
     font-size: 0.9em;
   }
 `;
@@ -33,7 +31,6 @@ export const TitleVareProgrammer = styled.h1`
   @media only screen and (max-width: 40em) {
     font-size: 1.2em;
     position: relative;
-    top: 100px;
   }
   @media only screen and (min-width: 2400px) {
     font-size: 6rem;

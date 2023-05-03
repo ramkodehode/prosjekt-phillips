@@ -15,10 +15,7 @@ import {
 
 import styled from "styled-components";
 
-import undervisning from "./img/undervisning.jpg";
 import seatedstudents from "./img/seatedstudent.png";
-
-import { PicBoxes } from "./komIgjen";
 
 export const IMGcomputer = styled.img`
   width: auto;
@@ -34,6 +31,9 @@ export const IMGcomputer = styled.img`
 `;
 
 export const IMGtjenester = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: 70%;
   width: 70%;
 `;
@@ -41,7 +41,6 @@ export const IMGtjenester = styled.img`
 const Tjenester = () => {
   return (
     <div id="tjenester">
-      <PicBoxes src={undervisning} alt="student on a laptop" />
       <TitleVareProgrammer>Våre Tjenester</TitleVareProgrammer>
 
       <Container>
@@ -85,11 +84,6 @@ const Tjenester = () => {
           </Column>
         </NewSection>
       </Container>
-
-      {/* <ImgStudentBehindFence
-        src={studentsbehindfence}
-        alt="Students standing behind a fence"
-      /> */}
     </div>
   );
 };
