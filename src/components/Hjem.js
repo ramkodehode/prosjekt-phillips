@@ -20,9 +20,11 @@ const Hjem = () => {
       <Intro />
       <VartAnsvar />
       <Tjenester />
-      <Veiledning />
+      <Veiledning />{" "}
+      {/* Dette er filen med karriere og studie veiledning som du ville forandre på Ram */}
       <InfoTrude />
-      <KursDeltaker /> {/* <------------ Her skal Karuselen inn Monica */}
+      {/* <------------- Her skal visjon, mål og verdier inn Ram */}
+      <KursDeltaker />
       <KomIgjen />
       <ContactForm />
       <Footer />
