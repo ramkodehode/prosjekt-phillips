@@ -1,18 +1,18 @@
-import styled from 'styled-components';
-import { Link } from 'react-scroll';
-import { Link as LogoLinkS } from 'react-scroll';
+import styled from "styled-components";
+import { Link } from "react-scroll";
+import { Link as LogoLinkS } from "react-scroll";
 
 export const NavbarContainer = styled.nav`
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? '100vh' : '60px')};
-  background-color: #fad4a3;
+  height: ${(props) => (props.extendNavbar ? "100vh" : "60px")};
+  background-color: #ffe6c7;
   display: flex;
   flex-direction: column;
   position: fixed;
   z-index: 9999;
 
   @media (min-width: 2160px) {
-    height: ${(props) => (props.extendNavbar ? '100vh' : '90px')};
+    height: ${(props) => (props.extendNavbar ? "100vh" : "90px")};
     display: flex;
     flex-direction: column;
     justify-content: center;

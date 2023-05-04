@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContactGlobal = styled.div`
   * {
@@ -35,7 +35,7 @@ export const Container = styled.div`
 `;
 
 export const ContactInfo = styled.div`
-  background: #fcd19b;
+  background: #ffe6c7;
   margin: 0 0 rem 0;
   display: flex;
   flex-direction: row;
@@ -95,7 +95,7 @@ export const TextArea = styled.textarea`
 `;
 
 export const SubmitButton = styled.input`
-  background: #fbd19c;
+  background: #ffe6c7;
   border: 0;
   text-transform: uppercase;
 
