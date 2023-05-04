@@ -2,13 +2,6 @@ import { Link } from "react-router-dom";
 import React from "react";
 import styled from "styled-components";
 
-/*const StyledLink = styled(Link)`
-  color: Blue;
-  text-decoration: none;
-  margin: 1rem;
-  position: relative;
-`;*/
-
 export const EmptySpace = styled.div`
   width: auto;
   height: 130px;

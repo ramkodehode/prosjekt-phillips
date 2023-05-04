@@ -47,3 +47,24 @@ export const TextVareProgrammer = styled.p`
     font-size: 3.5rem;
   }
 `;
+
+export const IMGcomputer = styled.img`
+  width: auto;
+  height: 50vh;
+
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid orange;
+
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
+`;
+
+export const IMGtjenester = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  width: 70%;
+`;

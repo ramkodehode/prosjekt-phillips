@@ -1,9 +1,6 @@
-import { PicBoxes } from "./komIgjen";
 import { IntroText } from "./styles/styledIntro";
 import { TitleTrude } from "./styles/styledTrude";
 import { VartAnsvarContainer } from "./styles/styledVartAnsvar";
-
-import undervisning from "./img/undervisning.jpg";
 
 const VartAnsvar = () => {
   return (
@@ -37,8 +34,6 @@ const VartAnsvar = () => {
           karriereveiledning.
         </IntroText>
       </VartAnsvarContainer>
-
-      <PicBoxes src={undervisning} alt="student on a laptop" />
     </div>
   );
 };
