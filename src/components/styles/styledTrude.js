@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const ImgTrude = styled.img`
-  height: 80vh;
+  height: 60vh;
   width: auto;
+  padding-top: 5rem;
 
   @media only screen and (max-width: 40em) {
     display: none;
