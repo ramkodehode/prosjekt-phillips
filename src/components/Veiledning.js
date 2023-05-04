@@ -27,7 +27,7 @@ export const BoxVeiledning = styled.div`
 
   z-index: -1;
 
-  background-color: #fbd19c;
+  background-color: #ffe6c7;
 
   flex-basis: 100%;
   align-items: center;

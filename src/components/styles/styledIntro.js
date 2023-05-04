@@ -18,7 +18,7 @@ export const MainBox = styled.div`
     rgba(217, 217, 217, 0) 360deg
   ); */
 
-  background-image: linear-gradient(to right, #fbd19c, #fbd19c, #ffe6c7);
+  background-color: #ffe6c7;
 
   @media only screen and (max-width: 40em) {
     height: 45rem;
@@ -84,7 +84,7 @@ export const MarginDiv = styled.div`
 export const Tittel = styled.h1`
   font-style: normal;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   line-height: 50px;
 
   @media only screen and (max-width: 40em) {
@@ -115,7 +115,7 @@ export const UnderTitle = styled.h2`
 
 export const UnderTitleYellow = styled.h2`
   font-style: normal;
-  font-weight: 400;
+  font-weight: 550;
   font-size: 1.8rem;
 
   color: #e5701b;
