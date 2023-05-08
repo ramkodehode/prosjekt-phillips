@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #ffe6c7;
-  padding: 20px;
   display: flex;
+  padding: 20px;
+  justify-content: center;
 `;
 
 export const HeadingTwoWrapper = styled.div`
@@ -23,6 +24,8 @@ export const HeadingTwo = styled.h2`
 
 export const HeadingThree = styled.h2`
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 `;
 
 export const UnorderedList = styled.ul``;
@@ -47,4 +50,7 @@ export const Wrapper = styled.div`
   flex-direction: row;
 `;
 
-export const InfoWrapper = styled.div``;
+export const InfoContainerWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
