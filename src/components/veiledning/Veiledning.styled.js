@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background-color: #ffe6c7;
   display: flex;
-  padding: 20px;
+  padding: 80px;
   justify-content: center;
 `;
 
@@ -28,9 +28,13 @@ export const HeadingThree = styled.h2`
   padding: 0;
 `;
 
-export const UnorderedList = styled.ul``;
+export const UnorderedList = styled.ul`
+  list-style-type: square;
+`;
 
-export const List = styled.li``;
+export const List = styled.li`
+  padding: 2px;
+`;
 
 export const ArrowContainer = styled.div`
   display: flex;
