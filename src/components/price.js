@@ -1,4 +1,4 @@
-import { Column, Container, NewSection } from "./styles/styledIntro";
+import { Column, Container, NewSection } from './styles/styledIntro';
 
 import {
   ContainerPrice,
@@ -6,13 +6,13 @@ import {
   DivPrice,
   TextArbeidsgiver,
   TextTaKontakt,
-} from "./pricePage/StyledPrice";
-import PriceBoxOne from "./pricePage/PriceBoxOne";
-import PriceBoxTwo from "./pricePage/ProceBoxTwo";
+} from './pricePage/StyledPrice';
+import PriceBoxOne from './pricePage/PriceBoxOne';
+import PriceBoxTwo from './pricePage/ProceBoxTwo';
 
-import { ContainerPhone } from "./styles/styledTjenester";
+import { ContainerPhone } from './styles/styledTjenester';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const UnderTitleArbeidsgiver = styled.h2`
   font-style: normal;

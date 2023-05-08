@@ -1,32 +1,25 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-import PriceBox, { Arrows, UnderTitleArbeidsgiver } from "./price";
+import PriceBox, { Arrows, UnderTitleArbeidsgiver } from './price';
 import {
   Column,
   Container,
   NewSection,
   UnderTitle,
-} from "./styles/styledIntro";
-import PriceBoxOne from "./pricePage/PriceBoxOne";
-import PriceBoxTwo from "./pricePage/ProceBoxTwo";
-import { TextArbeidsgiver, TextTaKontakt } from "./pricePage/StyledPrice";
+} from './styles/styledIntro';
+import PriceBoxOne from './pricePage/PriceBoxOne';
+import PriceBoxTwo from './pricePage/ProceBoxTwo';
+import { TextArbeidsgiver, TextTaKontakt } from './pricePage/StyledPrice';
 
-import { ContainerPhone } from "./styles/styledTjenester";
+import { ContainerPhone } from './styles/styledTjenester';
 
 export const BoxVeiledning = styled.div`
   display: flex;
-
-  flex-direction: column;
-
   width: auto;
   height: 78rem;
-
   margin: 0 auto;
-
   position: relative;
-
   z-index: -1;
-
   background-color: #ffe6c7;
 
   flex-basis: 100%;
