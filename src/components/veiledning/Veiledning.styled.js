@@ -35,7 +35,7 @@ export const ArrowContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  @media (max-width: 700px) {
+  @media (max-width: 760px) {
     flex-direction: row;
   }
 `;
@@ -45,7 +45,7 @@ export const Arrow = styled.img`
   height: 90px;
   padding: 40px;
 
-  @media (max-width: 700px) {
+  @media (max-width: 760px) {
     transform: rotate(90deg);
   }
 `;
@@ -58,7 +58,7 @@ export const InfoContainer = styled.div``;
 
 export const Wrapper = styled.div`
   display: flex;
-  @media (max-width: 700px) {
+  @media (max-width: 760px) {
     display: flex;
     flex-direction: column;
   }
@@ -67,7 +67,7 @@ export const Wrapper = styled.div`
 export const InfoContainerWrapper = styled.div`
   display: flex;
 
-  @media (max-width: 700px) {
+  @media (max-width: 760px) {
     display: flex;
     flex-direction: column;
   }

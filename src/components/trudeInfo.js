@@ -1,5 +1,5 @@
-import Trude from "./img/Trude.jpg";
-import { Column, Container, NewSection } from "./styles/styledIntro";
+import Trude from './img/Trude.jpg';
+import { Column, Container, NewSection } from './styles/styledIntro';
 import {
   ContainerTrude,
   ImgTrude,
@@ -7,11 +7,11 @@ import {
   PhoneImgTrude,
   TitleTrude,
   TrudeText,
-} from "./styles/styledTrude";
+} from './styles/styledTrude';
 
 const InfoTrude = () => {
   return (
-    <div id="om">
+    <div>
       <Container>
         <NewSection>
           <Column>
@@ -19,7 +19,7 @@ const InfoTrude = () => {
               <ImgTrude src={Trude} alt="Picture of Trude" />
             </ContainerTrude>
             <ContainerTrude>
-              <TitleTrude>Trude Skarstein Phillips</TitleTrude>
+              <TitleTrude id="om">Trude Skarstein Phillips</TitleTrude>
               <MainTextTrude>
                 Arbeider i dag som karriereveileder og underviser på
                 høyskolenivå innen HR, organisasjon og ledelse. Utvikler og

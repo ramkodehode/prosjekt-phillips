@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
-import { useState } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useRef } from 'react';
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import {
   Container,
   Wrapper,
@@ -22,10 +22,10 @@ import {
   ContactGlobal,
   AnchorTag,
   Details,
-} from "./Contact.styled";
+} from './Contact.styled';
 
-import { AiFillPhone, AiFillLinkedin } from "react-icons/ai";
-import { MdEmail } from "react-icons/md";
+import { AiFillPhone, AiFillLinkedin } from 'react-icons/ai';
+import { MdEmail } from 'react-icons/md';
 
 function ContactForm() {
   const form = useRef();
@@ -36,10 +36,10 @@ function ContactForm() {
     setStatus(true);
     emailjs
       .sendForm(
-        "service_6ogjgdz",
-        "template_pg7job2",
+        'service_6ogjgdz',
+        'template_pg7job2',
         form.current,
-        "user_eDz6z61ypctV8WwCbGfsH"
+        'user_eDz6z61ypctV8WwCbGfsH'
       )
       .then(
         (result) => {},
@@ -50,9 +50,9 @@ function ContactForm() {
     e.target.reset();
   };
   return (
-    <ContactGlobal id="kontakt">
+    <ContactGlobal>
       <Container>
-        <Heading>Kontakt Trude</Heading>
+        <Heading id="kontakt">Kontakt Trude</Heading>
 
         <Wrapper>
           <ContactInfo>
@@ -114,7 +114,7 @@ function ContactForm() {
                   <SubmitButton type="submit" value="Send" />
                 </Paragraph>
               </Full>
-              {status ? <Message>Meldingen din har blitt sendt!</Message> : ""}
+              {status ? <Message>Meldingen din har blitt sendt!</Message> : ''}
             </Form>
           </Contact>
         </Wrapper>

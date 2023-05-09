@@ -3,8 +3,8 @@ import {
   Container,
   NewSection,
   UnderTitle,
-} from "./styles/styledIntro";
-import { Rectangle } from "./styles/styledVartAnsvar";
+} from './styles/styledIntro';
+import { Rectangle } from './styles/styledVartAnsvar';
 
 import {
   ContainerPhone,
@@ -12,19 +12,19 @@ import {
   IMGtjenester,
   TextVareProgrammer,
   TitleVareProgrammer,
-} from "./styles/styledTjenester";
+} from './styles/styledTjenester';
 
-import seatedstudents from "./img/seatedstudent.png";
+import seatedstudents from './img/seatedstudent.png';
 
-import undervisning from "./img/undervisning.jpg";
-import { PicBoxes } from "./komIgjen";
+import undervisning from './img/undervisning.jpg';
+import { PicBoxes } from './komIgjen';
 
 const Tjenester = () => {
   return (
-    <div id="tjenester">
+    <div>
       <PicBoxes src={undervisning} alt="students in a classroom" />
 
-      <TitleVareProgrammer>Våre Tjenester</TitleVareProgrammer>
+      <TitleVareProgrammer id="tjenester">Våre Tjenester</TitleVareProgrammer>
       <TextVareProgrammer>
         Vi tilbyr to forskjellige program; Et for unge som står foran valg av
         studie- og yrkesretning, og et for voksne i omstilling. Disse er
