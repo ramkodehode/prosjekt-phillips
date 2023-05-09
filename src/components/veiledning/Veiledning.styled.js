@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background-color: #ffe6c7;
   padding: 40px 70px 40px 70px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
 `;
 
 export const HeadingTwoWrapper = styled.div``;
@@ -66,7 +69,6 @@ export const Wrapper = styled.div`
 
 export const InfoContainerWrapper = styled.div`
   display: flex;
-
   @media (max-width: 760px) {
     display: flex;
     flex-direction: column;

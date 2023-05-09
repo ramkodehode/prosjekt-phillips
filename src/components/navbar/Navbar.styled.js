@@ -1,10 +1,10 @@
-import styled from "styled-components";
-import { Link } from "react-scroll";
-import { Link as LogoLinkS } from "react-scroll";
+import styled from 'styled-components';
+import { Link } from 'react-scroll';
+import { Link as LogoLinkS } from 'react-scroll';
 
 export const NavbarContainer = styled.nav`
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? "100vh" : "60px")};
+  height: ${(props) => (props.extendNavbar ? '100vh' : '60px')};
   background-color: #ffe6c7;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@ export const NavbarContainer = styled.nav`
   z-index: 9999;
 
   @media (min-width: 2160px) {
-    height: ${(props) => (props.extendNavbar ? "100vh" : "90px")};
+    height: ${(props) => (props.extendNavbar ? '100vh' : '200px')};
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +38,7 @@ export const RightContainer = styled.div`
   padding-right: 5%;
 
   @media (min-width: 2160px) {
-    font-size: 2rem;
+    font-size: 3.8rem;
     flex: 4%;
   }
 `;
@@ -103,7 +103,8 @@ export const Logo = styled.img`
   max-width: 180px;
 
   @media (min-width: 2160px) {
-    max-width: 260px;
+    max-width: 660px;
+    height: 100px;
   }
 `;
 
