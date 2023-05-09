@@ -3,14 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background-color: #ffe6c7;
   display: flex;
-  padding: 80px;
   justify-content: center;
+  padding: 30px 50px 30px 50px;
 `;
 
-export const HeadingTwoWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-`;
+export const HeadingTwoWrapper = styled.div``;
 
 export const Content = styled.div``;
 
@@ -38,23 +35,45 @@ export const List = styled.li`
 
 export const ArrowContainer = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: center;
+
+  @media (max-width: 700px) {
+    flex-direction: row;
+  }
 `;
+
 export const Arrow = styled.img`
   width: 70px;
   height: 90px;
-  padding-left: 30px;
+  padding: 40px;
+
+  @media (max-width: 700px) {
+    transform: rotate(90deg);
+  }
 `;
 
-export const InfoContainer = styled.div``;
+export const Spacing = styled.div`
+  padding: 20px 0 20px 0;
+`;
+
+export const InfoContainer = styled.div`
+  max-width: 100%;
+`;
 
 export const Wrapper = styled.div`
   display: flex;
-  flex-direction: row;
+
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const InfoContainerWrapper = styled.div`
   display: flex;
-  flex-direction: row;
+
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;

@@ -14,6 +14,7 @@ import {
   HeadingTwoWrapper,
   InfoWrapper,
   InfoContainerWrapper,
+  Spacing,
 } from './Veiledning.styled';
 import Pil from './polygon.png';
 
@@ -42,7 +43,7 @@ const Veiledning = () => {
             </InfoContainerWrapper>
           </InfoContainer>
           <InfoContainer>
-            <HeadingTwo>Fase 1</HeadingTwo>
+            <HeadingTwo>Fase 2</HeadingTwo>
             <HeadingThree>Utforsk mine interesser</HeadingThree>
 
             <InfoContainerWrapper>
@@ -59,7 +60,7 @@ const Veiledning = () => {
             </InfoContainerWrapper>
           </InfoContainer>
           <InfoContainer>
-            <HeadingTwo>Fase 1</HeadingTwo>
+            <HeadingTwo>Fase 3</HeadingTwo>
             <HeadingThree>Utforsk mine interesser</HeadingThree>
 
             <InfoContainerWrapper>
@@ -73,6 +74,8 @@ const Veiledning = () => {
             </InfoContainerWrapper>
           </InfoContainer>
         </Wrapper>
+
+        <Spacing></Spacing>
         <HeadingOne>Karriereveiledning</HeadingOne>
 
         <Wrapper>
@@ -94,7 +97,7 @@ const Veiledning = () => {
             </InfoContainerWrapper>
           </InfoContainer>
           <InfoContainer>
-            <HeadingTwo>Fase 1</HeadingTwo>
+            <HeadingTwo>Fase 2</HeadingTwo>
             <HeadingThree>Utforsk mine interesser</HeadingThree>
 
             <InfoContainerWrapper>
@@ -111,7 +114,7 @@ const Veiledning = () => {
             </InfoContainerWrapper>
           </InfoContainer>
           <InfoContainer>
-            <HeadingTwo>Fase 1</HeadingTwo>
+            <HeadingTwo>Fase 3</HeadingTwo>
             <HeadingThree>Utforsk mine interesser</HeadingThree>
 
             <InfoContainerWrapper>
