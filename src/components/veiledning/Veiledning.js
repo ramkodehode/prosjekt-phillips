@@ -34,7 +34,7 @@ const Veiledning = () => {
                 <List>Interessespørsmål​</List>
                 <List>Interessebilder</List>
                 <List>Strukturert dybdeintervju​</List>
-                <div> (interesser, evner, ferdigheter og verdier)</div>
+                <span> (interesser, evner, ferdigheter og verdier)</span>
                 <List>Interesseprofil</List>
               </UnorderedList>
               <ArrowContainer>
@@ -84,10 +84,9 @@ const Veiledning = () => {
             <InfoContainerWrapper>
               <UnorderedList>
                 <List>Personlige egenskaper og styrker</List>
-                <List>Interessebilder</List>
-                <List>Strukturert dybdeintervju​</List>
-                <div> (interesser, evner, ferdigheter og verdier)</div>
-                <List>Interesseprofil</List>
+                <List>Kompetanser​</List>
+                <List>Verdi og interesser</List>
+                <List>Definere mål</List>
               </UnorderedList>
               <ArrowContainer>
                 <Arrow src={Pil}></Arrow>
@@ -100,10 +99,13 @@ const Veiledning = () => {
 
             <InfoContainerWrapper>
               <UnorderedList>
-                <List>Undersøke ulike studie- og yrkesretninger​</List>
-                <List>Velge bort</List>
-                <List>Velge</List>
-                <List>Mitt mulighetsrom</List>
+                <List>Mitt muligheter​srom</List>
+                <List>Mine verktøy</List>
+                <UnorderedList>
+                  <List>Situasjon, atferd, resultat - SAR</List>
+                  <List>Egen profil - ønsket rolle</List>
+                </UnorderedList>
+                <List>Handlingsplan</List>
               </UnorderedList>
               <ArrowContainer>
                 <Arrow src={Pil}></Arrow>
@@ -112,12 +114,16 @@ const Veiledning = () => {
           </InfoContainer>
           <InfoContainer>
             <HeadingTwo>Fase 3</HeadingTwo>
-            <HeadingThree>Utforske mitt mulighetsrom</HeadingThree>
+            <HeadingThree>Ta kontroll</HeadingThree>
 
             <InfoContainerWrapper>
               <UnorderedList>
-                <List>Definere mine vurderingskriterier</List>
-                <List>Definere mine tre alternative valg</List>
+                <List>Trene på bruk av mine verktøy</List>
+                <UnorderedList>
+                  <List>Ta initiativ og ansvar​</List>
+                  <List>Kommunisere</List>
+                  <List>Forhandle</List>
+                </UnorderedList>
                 <List>Mitt valg</List>
               </UnorderedList>
             </InfoContainerWrapper>

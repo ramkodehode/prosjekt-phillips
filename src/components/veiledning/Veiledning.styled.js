@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #ffe6c7;
-  padding: 30px 50px 30px 50px;
+  padding: 40px 70px 40px 70px;
 `;
 
 export const HeadingTwoWrapper = styled.div``;
@@ -54,13 +54,10 @@ export const Spacing = styled.div`
   padding: 20px 0 20px 0;
 `;
 
-export const InfoContainer = styled.div`
-  max-width: 100%;
-`;
+export const InfoContainer = styled.div``;
 
 export const Wrapper = styled.div`
   display: flex;
-
   @media (max-width: 700px) {
     display: flex;
     flex-direction: column;
