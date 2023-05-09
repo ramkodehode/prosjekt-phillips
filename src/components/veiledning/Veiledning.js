@@ -44,15 +44,14 @@ const Veiledning = () => {
           </InfoContainer>
           <InfoContainer>
             <HeadingTwo>Fase 2</HeadingTwo>
-            <HeadingThree>Utforsk mine interesser</HeadingThree>
+            <HeadingThree>Utforsk mine muligheter​</HeadingThree>
 
             <InfoContainerWrapper>
               <UnorderedList>
-                <List>Interessespørsmål​</List>
-                <List>Interessebilder</List>
-                <List>Strukturert dybdeintervju​</List>
-                <div> (interesser, evner, ferdigheter og verdier)</div>
-                <List>Interesseprofil</List>
+                <List>Undersøke ulike studie- og yrkesretninger​</List>
+                <List>Velge bort</List>
+                <List>Velge</List>
+                <List>Mitt mulighetsrom</List>
               </UnorderedList>
               <ArrowContainer>
                 <Arrow src={Pil}></Arrow>
@@ -61,31 +60,30 @@ const Veiledning = () => {
           </InfoContainer>
           <InfoContainer>
             <HeadingTwo>Fase 3</HeadingTwo>
-            <HeadingThree>Utforsk mine interesser</HeadingThree>
+            <HeadingThree>Utforske mitt mulighetsrom</HeadingThree>
 
             <InfoContainerWrapper>
               <UnorderedList>
-                <List>Interessespørsmål​</List>
-                <List>Interessebilder</List>
-                <List>Strukturert dybdeintervju​</List>
-                <div> (interesser, evner, ferdigheter og verdier)</div>
-                <List>Interesseprofil</List>
+                <List>Definere mine vurderingskriterier</List>
+                <List>Definere mine tre alternative valg</List>
+                <List>Mitt valg</List>
               </UnorderedList>
             </InfoContainerWrapper>
           </InfoContainer>
         </Wrapper>
 
         <Spacing></Spacing>
+
         <HeadingOne>Karriereveiledning</HeadingOne>
 
         <Wrapper>
           <InfoContainer>
             <HeadingTwo>Fase 1</HeadingTwo>
-            <HeadingThree>Utforsk mine interesser</HeadingThree>
+            <HeadingThree>Utforske - bevisstgjøre</HeadingThree>
 
             <InfoContainerWrapper>
               <UnorderedList>
-                <List>Interessespørsmål​</List>
+                <List>Personlige egenskaper og styrker</List>
                 <List>Interessebilder</List>
                 <List>Strukturert dybdeintervju​</List>
                 <div> (interesser, evner, ferdigheter og verdier)</div>
@@ -98,15 +96,14 @@ const Veiledning = () => {
           </InfoContainer>
           <InfoContainer>
             <HeadingTwo>Fase 2</HeadingTwo>
-            <HeadingThree>Utforsk mine interesser</HeadingThree>
+            <HeadingThree>Utforsk mine muligheter​</HeadingThree>
 
             <InfoContainerWrapper>
               <UnorderedList>
-                <List>Interessespørsmål​</List>
-                <List>Interessebilder</List>
-                <List>Strukturert dybdeintervju​</List>
-                <div> (interesser, evner, ferdigheter og verdier)</div>
-                <List>Interesseprofil</List>
+                <List>Undersøke ulike studie- og yrkesretninger​</List>
+                <List>Velge bort</List>
+                <List>Velge</List>
+                <List>Mitt mulighetsrom</List>
               </UnorderedList>
               <ArrowContainer>
                 <Arrow src={Pil}></Arrow>
@@ -115,15 +112,13 @@ const Veiledning = () => {
           </InfoContainer>
           <InfoContainer>
             <HeadingTwo>Fase 3</HeadingTwo>
-            <HeadingThree>Utforsk mine interesser</HeadingThree>
+            <HeadingThree>Utforske mitt mulighetsrom</HeadingThree>
 
             <InfoContainerWrapper>
               <UnorderedList>
-                <List>Interessespørsmål​</List>
-                <List>Interessebilder</List>
-                <List>Strukturert dybdeintervju​</List>
-                <div> (interesser, evner, ferdigheter og verdier)</div>
-                <List>Interesseprofil</List>
+                <List>Definere mine vurderingskriterier</List>
+                <List>Definere mine tre alternative valg</List>
+                <List>Mitt valg</List>
               </UnorderedList>
             </InfoContainerWrapper>
           </InfoContainer>
