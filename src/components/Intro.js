@@ -22,8 +22,6 @@ const Intro = () => {
               <Container>
                 <MarginDiv>
                   <Tittel>
-                    {/* Vår karriereveildning <br></br>hjelper deg å finne veien
-                    videre */}
                     Karriereveiledning - en god investering for mennesker i
                     omstilling
                   </Tittel>

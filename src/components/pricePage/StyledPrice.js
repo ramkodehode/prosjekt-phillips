@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const BoxPrice = styled.div`
   height: 28em;
@@ -37,8 +37,6 @@ export const DivPrice = styled.div`
   display: flex;
   flex-direction: column;
 
-  position: relative;
-
   align-items: center;
   justify-content: space-between;
 
@@ -59,7 +57,6 @@ export const TextTaKontakt = styled.h1`
 
   align-items: center;
 
-  position: relative;
   top: -150px;
 
   @media only screen and (max-width: 40em) {
@@ -73,7 +70,7 @@ export const TextTaKontakt = styled.h1`
 `;
 
 export const TextArbeidsgiver = styled.p`
-  font-family: "Poppins";
+  font-family: 'Poppins';
   text-align: center;
   font-size: 1.2em;
   margin: 0 auto;
@@ -84,7 +81,6 @@ export const TextArbeidsgiver = styled.p`
   align-items: center;
   top: -150px;
   width: 70%;
-  position: relative;
 
   @media only screen and (max-width: 40em) {
     top: 0px;
@@ -138,6 +134,7 @@ export const TextYellow = styled.h1`
 `;
 
 export const DivPhoneArbeidsgiver = styled.div`
+  background-color: #ffe6c7;
   @media only screen and (max-width: 40em) {
     display: none;
   }

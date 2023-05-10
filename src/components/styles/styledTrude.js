@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const ImgTrude = styled.img`
-  height: 80vh;
+  height: 60vh;
   width: auto;
+  padding-top: 5rem;
 
   @media only screen and (max-width: 40em) {
     display: none;
@@ -36,7 +37,7 @@ export const TrudeText = styled.h3`
   font-style: normal;
   font-weight: 600;
 
-  color: #faa100;
+  color: #e5701b;
 
   @media only screen and (max-width: 40em) {
     font-size: 1em;

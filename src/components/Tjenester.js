@@ -3,17 +3,19 @@ import {
   Container,
   NewSection,
   UnderTitle,
-} from "./styles/styledIntro";
-import { Rectangle } from "./styles/styledVartAnsvar";
+} from './styles/styledIntro';
+import { Rectangle } from './styles/styledVartAnsvar';
 
 import {
   ContainerPhone,
   ContainerVareProgrammer,
+  IMGtjenester,
   TextVareProgrammer,
   TitleVareProgrammer,
-} from "./styles/styledTjenester";
+} from './styles/styledTjenester';
 
-import styled from "styled-components";
+import seatedstudents from './img/seatedstudent.png';
+
 
 import undervisning from "./img/undervisning.jpg";
 import seatedstudents from "./img/seatedstudent.png";
@@ -37,11 +39,22 @@ export const IMGtjenester = styled.img`
   width: 70%;
 `;
 
+import undervisning from './img/undervisning.jpg';
+import { PicBoxes } from './komIgjen';
+
+
 const Tjenester = () => {
   return (
-    <div id="tjenester">
-      <PicBoxes src={undervisning} alt="student on a laptop" />
-      <TitleVareProgrammer>Våre Tjenester</TitleVareProgrammer>
+    <div>
+      <PicBoxes src={undervisning} alt="students in a classroom" />
+
+      <TitleVareProgrammer id="tjenester">Våre Tjenester</TitleVareProgrammer>
+      <TextVareProgrammer>
+        Vi tilbyr to forskjellige program; Et for unge som står foran valg av
+        studie- og yrkesretning, og et for voksne i omstilling. Disse er
+        tilrettelagt individuelt, for grupper og i kombinasjonen av fysisk og
+        digitale møter.
+      </TextVareProgrammer>
 
       <Container>
         <NewSection>
@@ -68,7 +81,7 @@ const Tjenester = () => {
               <ContainerVareProgrammer>
                 <UnderTitle>
                   <Rectangle />
-                  Karriereveiledning - Ta kontroll mot ny jobb
+                  Karriereveiledning - Ta kontroll mot nye muligheter
                 </UnderTitle>
                 <TextVareProgrammer>
                   Programmet består av tre faser. Ny jobb er ditt ansvar, vi
@@ -84,11 +97,6 @@ const Tjenester = () => {
           </Column>
         </NewSection>
       </Container>
-
-      {/* <ImgStudentBehindFence
-        src={studentsbehindfence}
-        alt="Students standing behind a fence"
-      /> */}
     </div>
   );
 };

@@ -50,9 +50,9 @@ function ContactForm() {
     e.target.reset();
   };
   return (
-    <ContactGlobal id="kontakt">
+    <ContactGlobal>
       <Container>
-        <Heading>Kontakt Trude</Heading>
+        <Heading id="kontakt">Kontakt Trude</Heading>
 
         <Wrapper>
           <ContactInfo>
@@ -74,6 +74,7 @@ function ContactForm() {
                   LinkedIn
                 </AnchorTag>
               </Li>
+              {/* <Li>Fysisk undervisning vil fåregå i Bergen media city</Li> */}
             </Ul>
           </ContactInfo>
           <Contact>
