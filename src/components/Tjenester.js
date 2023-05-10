@@ -15,12 +15,9 @@ import {
 } from './styles/styledTjenester';
 
 import seatedstudents from './img/seatedstudent.png';
-
-
-import undervisning from "./img/undervisning.jpg";
-import seatedstudents from "./img/seatedstudent.png";
-
-import { PicBoxes } from "./komIgjen";
+import styled from 'styled-components';
+import undervisning from './img/undervisning.jpg';
+import { PicBoxes } from './komIgjen';
 
 export const IMGcomputer = styled.img`
   width: auto;
@@ -33,15 +30,6 @@ export const IMGcomputer = styled.img`
     display: none;
   }
 `;
-
-export const IMGtjenester = styled.img`
-  height: 70%;
-  width: 70%;
-`;
-
-import undervisning from './img/undervisning.jpg';
-import { PicBoxes } from './komIgjen';
-
 
 const Tjenester = () => {
   return (
