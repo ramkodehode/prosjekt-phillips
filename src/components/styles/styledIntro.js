@@ -3,12 +3,9 @@ import styled from "styled-components";
 export const MainBox = styled.div`
   display: flex;
   flex-direction: row;
-
   width: auto;
   height: 40rem;
-
   margin: 0 auto;
-
   z-index: -1;
 
   background: conic-gradient(
