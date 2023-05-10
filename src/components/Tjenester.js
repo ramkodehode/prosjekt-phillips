@@ -23,7 +23,6 @@ import { PicBoxes } from "./komIgjen";
 export const IMGcomputer = styled.img`
   width: auto;
   height: 50vh;
-
   margin-left: auto;
   margin-right: auto;
   border: 5px solid orange;

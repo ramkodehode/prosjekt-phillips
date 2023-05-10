@@ -28,6 +28,7 @@ export const ContainerTrude = styled.section`
 
   @media only screen and (max-width: 40em) {
     margin: 10px;
+    
   }
 `;
 
