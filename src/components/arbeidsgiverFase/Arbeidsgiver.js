@@ -37,7 +37,8 @@ const Arbeidsgiver = () => {
         </ArrowContainer>
         <FaseInnerContainer>
           <HeadingTwoFase>Fase 2</HeadingTwoFase>
-          <Text>Gjennomføring av karriereveiledning for medarbeidere.</Text>
+          <Text>Gjennomføring av karriereveiledning</Text>
+          <div>for medarbeidere</div>
         </FaseInnerContainer>
         <ArrowContainer>
           <Arrow src={Pil}></Arrow>
