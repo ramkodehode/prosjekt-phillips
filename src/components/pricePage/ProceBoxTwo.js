@@ -17,11 +17,8 @@ export const ContainerPhoneBox = styled.div`
     display: block;
     margin: 0 auto;
     position: relative;
-
     text-align: left;
-
     padding: 10px;
-
     flex-basis: 100%;
     align-items: center;
   }

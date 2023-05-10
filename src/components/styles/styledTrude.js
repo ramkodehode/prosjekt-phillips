@@ -25,9 +25,11 @@ export const ContainerTrude = styled.section`
   flex-direction: column; */
   margin-left: 50px;
   margin-bottom: 100px;
+  
 
   @media only screen and (max-width: 40em) {
     margin: 10px;
+    
   }
 `;
 

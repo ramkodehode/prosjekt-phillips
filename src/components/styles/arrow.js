@@ -32,7 +32,6 @@ export const ArrowRight = styled.div`
   top: 21px;
   left: 33px;
   background-color: black;
-
   transform: rotate(-45deg);
 `;
 

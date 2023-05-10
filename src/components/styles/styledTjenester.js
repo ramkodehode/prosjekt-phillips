@@ -17,9 +17,8 @@ export const ContainerVareProgrammer = styled.section`
   @media only screen and (max-width: 40em) {
     margin-left: 25px;
     padding: 0px;
-
     position: relative;
-
+    top: 100px;
     font-size: 0.9em;
   }
 `;

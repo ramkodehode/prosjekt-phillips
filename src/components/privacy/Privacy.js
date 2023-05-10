@@ -11,10 +11,8 @@ import {
   WebLink,
   PolicySection,
   Li,
-  Ul,
-  Footer
+  Ul
 } from './Privacy.styled';
-
 
 const Privacy = () => {
   return (
@@ -122,7 +120,6 @@ const Privacy = () => {
 
 </PolicyContainer>
 
-<Footer/>
   </>
 
   );

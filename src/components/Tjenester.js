@@ -16,8 +16,32 @@ import {
 
 import seatedstudents from './img/seatedstudent.png';
 
+
+import undervisning from "./img/undervisning.jpg";
+import seatedstudents from "./img/seatedstudent.png";
+
+import { PicBoxes } from "./komIgjen";
+
+export const IMGcomputer = styled.img`
+  width: auto;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid orange;
+
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
+`;
+
+export const IMGtjenester = styled.img`
+  height: 70%;
+  width: 70%;
+`;
+
 import undervisning from './img/undervisning.jpg';
 import { PicBoxes } from './komIgjen';
+
 
 const Tjenester = () => {
   return (
