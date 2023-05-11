@@ -11,6 +11,7 @@ import {
   ContainerPhone,
   ContainerVareProgrammer,
   IMGtjenester,
+  IntroVareProgrammer,
   TextVareProgrammer,
   TitleVareProgrammer,
 } from "./styles/styledTjenester";
@@ -21,19 +22,32 @@ import undervisning from "./img/undervisning.jpg";
 
 import { PicBoxes } from "./komIgjen";
 
+import styled from "styled-components";
+
+export const IMGphoneTjenester = styled.img`
+  display: none;
+
+  @media only screen and (max-width: 40em) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+    padding: 50px;
+  }
+`;
+
 const Tjenester = () => {
   return (
     <div>
       <PicBoxes src={undervisning} alt="students in a classroom" />
-
       <TitleVareProgrammer id="tjenester">Våre Tjenester</TitleVareProgrammer>
-      <TextVareProgrammer>
+      <IntroVareProgrammer>
         Vi tilbyr to forskjellige program; Et for unge som står foran valg av
         studie- og yrkesretning, og et for voksne i omstilling. Disse er
         tilrettelagt individuelt, for grupper og i kombinasjonen av fysisk og
         digitale møter.
-      </TextVareProgrammer>
-
+      </IntroVareProgrammer>
       <Container>
         <NewSection>
           <Column>
@@ -54,6 +68,7 @@ const Tjenester = () => {
                   mulighetene.
                 </TextVareProgrammer>
               </ContainerVareProgrammer>
+              <IMGphoneTjenester src={seatedstudents} alt="studenter" />
 
               <ContainerVareProgrammer>
                 <BoxTjenester>
@@ -93,6 +108,7 @@ const Tjenester = () => {
           </Column>
         </NewSection>
       </Container>
+      <IMGphoneTjenester src="" alt="Placeholder" />
     </div>
   );
 };
