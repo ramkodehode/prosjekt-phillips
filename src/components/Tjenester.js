@@ -3,45 +3,23 @@ import {
   Container,
   NewSection,
   UnderTitle,
-} from './styles/styledIntro';
-import { Rectangle } from './styles/styledVartAnsvar';
+} from "./styles/styledIntro";
+import { Rectangle } from "./styles/styledVartAnsvar";
 
 import {
+  BoxTjenester,
   ContainerPhone,
   ContainerVareProgrammer,
   IMGtjenester,
   TextVareProgrammer,
   TitleVareProgrammer,
-} from './styles/styledTjenester';
+} from "./styles/styledTjenester";
 
-import seatedstudents from './img/seatedstudent.png';
-
-
-import undervisning from "./img/undervisning.jpg";
 import seatedstudents from "./img/seatedstudent.png";
 
+import undervisning from "./img/undervisning.jpg";
+
 import { PicBoxes } from "./komIgjen";
-
-export const IMGcomputer = styled.img`
-  width: auto;
-  height: 50vh;
-  margin-left: auto;
-  margin-right: auto;
-  border: 5px solid orange;
-
-  @media only screen and (max-width: 40em) {
-    display: none;
-  }
-`;
-
-export const IMGtjenester = styled.img`
-  height: 70%;
-  width: 70%;
-`;
-
-import undervisning from './img/undervisning.jpg';
-import { PicBoxes } from './komIgjen';
-
 
 const Tjenester = () => {
   return (
@@ -75,7 +53,26 @@ const Tjenester = () => {
                   fremstå usikker og det fine med det er at der ligger
                   mulighetene.
                 </TextVareProgrammer>
-                <IMGtjenester src={seatedstudents} alt="studenter" />
+              </ContainerVareProgrammer>
+
+              <ContainerVareProgrammer>
+                <BoxTjenester>
+                  <IMGtjenester src={seatedstudents} alt="studenter" />
+                </BoxTjenester>
+              </ContainerVareProgrammer>
+            </ContainerPhone>
+          </Column>
+        </NewSection>
+      </Container>
+
+      <Container>
+        <NewSection>
+          <Column>
+            <ContainerPhone>
+              <ContainerVareProgrammer>
+                <BoxTjenester>
+                  <IMGtjenester src="" alt="placeholder" />
+                </BoxTjenester>
               </ContainerVareProgrammer>
 
               <ContainerVareProgrammer>
@@ -91,7 +88,6 @@ const Tjenester = () => {
                   med deg privat, eller din arbeidsgiver som resultat av en
                   omstillingsprosess.
                 </TextVareProgrammer>
-                <IMGtjenester src="" alt="placeholder" />
               </ContainerVareProgrammer>
             </ContainerPhone>
           </Column>

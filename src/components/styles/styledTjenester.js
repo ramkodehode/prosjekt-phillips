@@ -17,8 +17,9 @@ export const ContainerVareProgrammer = styled.section`
   @media only screen and (max-width: 40em) {
     margin-left: 25px;
     padding: 0px;
+
     position: relative;
-    top: 100px;
+
     font-size: 0.9em;
   }
 `;
@@ -61,9 +62,15 @@ export const IMGcomputer = styled.img`
 `;
 
 export const IMGtjenester = styled.img`
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 70%;
-  width: 70%;
+  height: 60vh;
+  width: auto;
+`;
+
+export const BoxTjenester = styled.div`
+  height: 40vh;
+  width: 40vh;
+
+  padding: 10vh;
+
+  background-color: #ffe6c7;
 `;
