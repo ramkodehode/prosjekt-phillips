@@ -1,18 +1,17 @@
-import React from 'react';
+import React from "react";
 import {
   Container,
   FaseContainer,
   HeadingOne,
   HeadingTextContainer,
-  HeadingThree,
   HeadingTwoFase,
   Text,
   Arrow,
   ArrowContainer,
   FaseInnerContainer,
-} from './Arbeidsgiver.styled';
+} from "./Arbeidsgiver.styled";
 
-import Pil from '../veiledning/polygon.png';
+import Pil from "../veiledning/polygon.png";
 
 const Arbeidsgiver = () => {
   return (

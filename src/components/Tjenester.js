@@ -10,6 +10,7 @@ import {
   BoxTjenester,
   ContainerPhone,
   ContainerVareProgrammer,
+  IMGphoneTjenester,
   IMGtjenester,
   IntroVareProgrammer,
   TextVareProgrammer,
@@ -17,24 +18,8 @@ import {
 } from "./styles/styledTjenester";
 
 import seatedstudents from "./img/seatedstudent.png";
-import styled from "styled-components";
 import undervisning from "./img/undervisning.jpg";
 import { PicBoxes } from "./komIgjen";
-
-import styled from "styled-components";
-
-export const IMGphoneTjenester = styled.img`
-  display: none;
-
-  @media only screen and (max-width: 40em) {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-
-    padding: 50px;
-  }
-`;
 
 const Tjenester = () => {
   return (

@@ -102,3 +102,16 @@ export const BoxTjenester = styled.div`
     display: none;
   }
 `;
+
+export const IMGphoneTjenester = styled.img`
+  display: none;
+
+  @media only screen and (max-width: 40em) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+    padding: 50px;
+  }
+`;
