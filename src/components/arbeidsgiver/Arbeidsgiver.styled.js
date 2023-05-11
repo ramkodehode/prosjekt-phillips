@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  justify-content: center;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+
   background-color: rgb(255, 230, 199);
+  max-width: 100%;
+  padding: 40px;
 `;
 
 export const HeadingOne = styled.h1`
@@ -17,12 +20,15 @@ export const HeadingTwoFase = styled.h2`
 
 export const Text = styled.div``;
 
-export const HeadingTextContainer = styled.div``;
+export const HeadingTextContainer = styled.div`
+  text-align: center;
+`;
 
 export const FaseContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 50px;
 `;
 
 export const FaseInnerContainer = styled.div`

@@ -1,16 +1,14 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const MainContainer = styled.div`
   background-color: #ffe6c7;
-  padding: 40px 70px 40px 70px;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
 `;
 
-export const HeadingTwoWrapper = styled.div``;
-
-export const Content = styled.div``;
+export const Container = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`;
 
 export const HeadingOne = styled.h1`
   font-size: 24px;
@@ -22,12 +20,13 @@ export const HeadingTwo = styled.h2`
 
 export const HeadingThree = styled.h2`
   font-size: 16px;
-  margin: 0;
-  padding: 0;
 `;
 
-export const UnorderedList = styled.ul`
-  list-style-type: square;
+export const UnorderedList = styled.ul``;
+
+export const UlWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
 `;
 
 export const List = styled.li`
@@ -36,17 +35,16 @@ export const List = styled.li`
 
 export const ArrowContainer = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
-
+  padding: 20px;
   @media (max-width: 760px) {
-    flex-direction: row;
   }
 `;
 
 export const Arrow = styled.img`
   width: 70px;
   height: 90px;
-  padding: 40px;
 
   @media (max-width: 760px) {
     transform: rotate(90deg);
@@ -57,20 +55,7 @@ export const Spacing = styled.div`
   padding: 20px 0 20px 0;
 `;
 
-export const InfoContainer = styled.div``;
-
-export const Wrapper = styled.div`
+export const InfoContainer = styled.div`
   display: flex;
-  @media (max-width: 760px) {
-    display: flex;
-    flex-direction: column;
-  }
-`;
-
-export const InfoContainerWrapper = styled.div`
-  display: flex;
-  @media (max-width: 760px) {
-    display: flex;
-    flex-direction: column;
-  }
+  flex-direction: column;
 `;

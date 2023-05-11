@@ -15,122 +15,118 @@ import {
   InfoWrapper,
   InfoContainerWrapper,
   Spacing,
+  HeadingWrapper,
+  UlWrapper,
+  MainContainer,
 } from './Veiledning.styled';
 import Pil from './polygon.png';
 
 const Veiledning = () => {
   return (
-    <Container>
-      <Content>
-        <HeadingOne>Studieveiledning</HeadingOne>
+    <MainContainer>
+      <HeadingOne>Studieveiledning</HeadingOne>
+      <Container>
+        <InfoContainer>
+          <HeadingTwo>Fase 1</HeadingTwo>
+          <HeadingThree>Utforsk mine interesser</HeadingThree>
 
-        <Wrapper>
-          <InfoContainer>
-            <HeadingTwo>Fase 1</HeadingTwo>
-            <HeadingThree>Utforsk mine interesser</HeadingThree>
+          <UlWrapper>
+            <UnorderedList>
+              <List>Interessespørsmål​</List>
+              <List>Interessebilder</List>
+              <List>Strukturert dybdeintervju​</List>
+              <span> (interesser, evner, ferdigheter og verdier)</span>
+              <List>Interesseprofil</List>
+            </UnorderedList>
+            <ArrowContainer>
+              <Arrow src={Pil}></Arrow>
+            </ArrowContainer>
+          </UlWrapper>
+        </InfoContainer>
+        <InfoContainer>
+          <HeadingTwo>Fase 2</HeadingTwo>
+          <HeadingThree>Utforsk mine interesser</HeadingThree>
 
-            <InfoContainerWrapper>
-              <UnorderedList>
-                <List>Interessespørsmål​</List>
-                <List>Interessebilder</List>
-                <List>Strukturert dybdeintervju​</List>
-                <span> (interesser, evner, ferdigheter og verdier)</span>
-                <List>Interesseprofil</List>
-              </UnorderedList>
-              <ArrowContainer>
-                <Arrow src={Pil}></Arrow>
-              </ArrowContainer>
-            </InfoContainerWrapper>
-          </InfoContainer>
-          <InfoContainer>
-            <HeadingTwo>Fase 2</HeadingTwo>
-            <HeadingThree>Utforsk mine muligheter​</HeadingThree>
+          <UlWrapper>
+            <UnorderedList>
+              <List>Interessespørsmål​</List>
+              <List>Interessebilder</List>
+              <List>Strukturert dybdeintervju​</List>
+              <span> (interesser, evner, ferdigheter og verdier)</span>
+              <List>Interesseprofil</List>
+            </UnorderedList>
+            <ArrowContainer>
+              <Arrow src={Pil}></Arrow>
+            </ArrowContainer>
+          </UlWrapper>
+        </InfoContainer>
+        <InfoContainer>
+          <HeadingTwo>Fase 1</HeadingTwo>
+          <HeadingThree>Utforsk mine interesser</HeadingThree>
 
-            <InfoContainerWrapper>
-              <UnorderedList>
-                <List>Undersøke ulike studie- og yrkesretninger​</List>
-                <List>Velge bort</List>
-                <List>Velge</List>
-                <List>Mitt mulighetsrom</List>
-              </UnorderedList>
-              <ArrowContainer>
-                <Arrow src={Pil}></Arrow>
-              </ArrowContainer>
-            </InfoContainerWrapper>
-          </InfoContainer>
-          <InfoContainer>
-            <HeadingTwo>Fase 3</HeadingTwo>
-            <HeadingThree>Utforske mitt mulighetsrom</HeadingThree>
+          <UlWrapper>
+            <UnorderedList>
+              <List>Interessespørsmål​</List>
+              <List>Interessebilder</List>
+              <List>Strukturert dybdeintervju​</List>
+              <span> (interesser, evner, ferdigheter og verdier)</span>
+              <List>Interesseprofil</List>
+            </UnorderedList>
+          </UlWrapper>
+        </InfoContainer>
+      </Container>
+      <HeadingOne>Studieveiledning</HeadingOne>
+      <Container>
+        <InfoContainer>
+          <HeadingTwo>Fase 1</HeadingTwo>
+          <HeadingThree>Utforsk mine interesser</HeadingThree>
 
-            <InfoContainerWrapper>
-              <UnorderedList>
-                <List>Definere mine vurderingskriterier</List>
-                <List>Definere mine tre alternative valg</List>
-                <List>Mitt valg</List>
-              </UnorderedList>
-            </InfoContainerWrapper>
-          </InfoContainer>
-        </Wrapper>
+          <UlWrapper>
+            <UnorderedList>
+              <List>Interessespørsmål​</List>
+              <List>Interessebilder</List>
+              <List>Strukturert dybdeintervju​</List>
+              <span> (interesser, evner, ferdigheter og verdier)</span>
+              <List>Interesseprofil</List>
+            </UnorderedList>
+            <ArrowContainer>
+              <Arrow src={Pil}></Arrow>
+            </ArrowContainer>
+          </UlWrapper>
+        </InfoContainer>
+        <InfoContainer>
+          <HeadingTwo>Fase 2</HeadingTwo>
+          <HeadingThree>Utforsk mine interesser</HeadingThree>
 
-        <Spacing></Spacing>
+          <UlWrapper>
+            <UnorderedList>
+              <List>Interessespørsmål​</List>
+              <List>Interessebilder</List>
+              <List>Strukturert dybdeintervju​</List>
+              <span> (interesser, evner, ferdigheter og verdier)</span>
+              <List>Interesseprofil</List>
+            </UnorderedList>
+            <ArrowContainer>
+              <Arrow src={Pil}></Arrow>
+            </ArrowContainer>
+          </UlWrapper>
+        </InfoContainer>
+        <InfoContainer>
+          <HeadingTwo>Fase 1</HeadingTwo>
+          <HeadingThree>Utforsk mine interesser</HeadingThree>
 
-        <HeadingOne>Karriereveiledning</HeadingOne>
-
-        <Wrapper>
-          <InfoContainer>
-            <HeadingTwo>Fase 1</HeadingTwo>
-            <HeadingThree>Utforske - bevisstgjøre</HeadingThree>
-
-            <InfoContainerWrapper>
-              <UnorderedList>
-                <List>Personlige egenskaper og styrker</List>
-                <List>Kompetanser​</List>
-                <List>Verdi og interesser</List>
-                <List>Definere mål</List>
-              </UnorderedList>
-              <ArrowContainer>
-                <Arrow src={Pil}></Arrow>
-              </ArrowContainer>
-            </InfoContainerWrapper>
-          </InfoContainer>
-          <InfoContainer>
-            <HeadingTwo>Fase 2</HeadingTwo>
-            <HeadingThree>Utforsk mine muligheter​</HeadingThree>
-
-            <InfoContainerWrapper>
-              <UnorderedList>
-                <List>Mitt muligheter​srom</List>
-                <List>Mine verktøy</List>
-                <UnorderedList>
-                  <List>Situasjon, atferd, resultat - SAR</List>
-                  <List>Egen profil - ønsket rolle</List>
-                </UnorderedList>
-                <List>Handlingsplan</List>
-              </UnorderedList>
-              <ArrowContainer>
-                <Arrow src={Pil}></Arrow>
-              </ArrowContainer>
-            </InfoContainerWrapper>
-          </InfoContainer>
-          <InfoContainer>
-            <HeadingTwo>Fase 3</HeadingTwo>
-            <HeadingThree>Ta kontroll</HeadingThree>
-
-            <InfoContainerWrapper>
-              <UnorderedList>
-                <List>Trene på bruk av mine verktøy</List>
-                <UnorderedList>
-                  <List>Ta initiativ og ansvar​</List>
-                  <List>Kommunisere</List>
-                  <List>Forhandle</List>
-                </UnorderedList>
-                <List>Mitt valg</List>
-              </UnorderedList>
-            </InfoContainerWrapper>
-          </InfoContainer>
-        </Wrapper>
-      </Content>
-    </Container>
+          <UlWrapper>
+            <UnorderedList>
+              <List>Interessespørsmål​</List>
+              <List>Interessebilder</List>
+              <List>Strukturert dybdeintervju​</List>
+              <span> (interesser, evner, ferdigheter og verdier)</span>
+              <List>Interesseprofil</List>
+            </UnorderedList>
+          </UlWrapper>
+        </InfoContainer>
+      </Container>
+    </MainContainer>
   );
 };
 

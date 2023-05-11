@@ -17,9 +17,8 @@ import {
 } from "./styles/styledTjenester";
 
 import seatedstudents from "./img/seatedstudent.png";
-
+import styled from "styled-components";
 import undervisning from "./img/undervisning.jpg";
-
 import { PicBoxes } from "./komIgjen";
 
 import styled from "styled-components";
