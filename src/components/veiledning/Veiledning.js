@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Container,
   HeadingOne,
@@ -6,20 +6,13 @@ import {
   HeadingTwo,
   UnorderedList,
   List,
-  Content,
   Arrow,
   ArrowContainer,
   InfoContainer,
-  Wrapper,
-  HeadingTwoWrapper,
-  InfoWrapper,
-  InfoContainerWrapper,
-  Spacing,
-  HeadingWrapper,
   UlWrapper,
   MainContainer,
-} from './Veiledning.styled';
-import Pil from './polygon.png';
+} from "./Veiledning.styled";
+import Pil from "./polygon.png";
 
 const Veiledning = () => {
   return (
@@ -28,7 +21,7 @@ const Veiledning = () => {
       <Container>
         <InfoContainer>
           <HeadingTwo>Fase 1</HeadingTwo>
-          <HeadingThree>Utforsk mine interesser</HeadingThree>
+          <HeadingThree>Utforske interesser</HeadingThree>
 
           <UlWrapper>
             <UnorderedList>

@@ -29,7 +29,7 @@ const Intro = () => {
                     Dine muligheter - vår målsetning
                   </UnderTitleYellow>
                   <IntroText>
-                    Usikker på studievalg? <br /> Klar for ny jobb?
+                    Usikker på studievalg? <br /> Er målet ny jobb?
                     <br /> Leder du mennesker i nedbemanning eller omstilling?
                   </IntroText>
                   <PhoneCaricatureImg

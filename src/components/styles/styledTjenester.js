@@ -44,9 +44,8 @@ export const IntroVareProgrammer = styled.p`
   font-style: normal;
   font-weight: 400;
 
-  width: 70%;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 
   font-size: 1.2em;
   line-height: 165%;
@@ -95,6 +94,8 @@ export const BoxTjenester = styled.div`
   width: 40vh;
 
   padding: 10vh;
+
+  margin-bottom: 10vh;
 
   background-color: #ffe6c7;
 

@@ -19,19 +19,18 @@ const VartAnsvar = () => {
         </IntroText>
         <IntroText>
           I vår veiledning møter vi deg der du er, og vektlegger en trygg ramme
-          basert på gjensidig tillit. Din læring frem mot ditt mål er det
+          basert på gjensidig tillit. Din læring frem mot eget mål er det
           sentrale om det gjelder studievalg, ny jobb, eller en kombinasjon. I
-          samspillet med karriereveileder er du den aktive i prosessen dit du
-          ønsker. Våre karrierelæringsprogram er tilrettelagt individuelt, for
-          grupper og i kombinasjonen av fysisk og digitale møter. Undervisning,
-          verktøy og metodikk følger Nasjonalt kvalitetsrammeverk for
-          karriereveiledning og DNV sertifisering.
+          samspillet med karriereveileder er du den aktive i prosessen. Våre
+          karrierelæringsprogram er tilrettelagt individuelt, for grupper og i
+          kombinasjonen av fysisk og digitale møter. Undervisning, verktøy og
+          metodikk følger Nasjonalt kvalitetsrammeverk for karriereveiledning og
+          DNV sertifisering.
         </IntroText>
         <IntroText>
           {" "}
           Representerer du arbeidsgiver møter vi deg for behovsavklaring og
-          følger raskt opp med tilbud basert på dine behov og vår
-          karriereveiledning.
+          følger raskt opp med tilbud basert på dine behov.
         </IntroText>
       </VartAnsvarContainer>
     </div>
