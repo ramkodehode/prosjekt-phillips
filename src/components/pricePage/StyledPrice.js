@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const BoxPrice = styled.div`
   height: 28em;
-  width: 20em;
+  width: 21em;
   border: 1.5px solid #fe8900;
-  padding: 25px;
+  padding: 5rem 2rem;
   background-color: white;
 
   @media only screen and (max-width: 40em) {
@@ -37,14 +37,12 @@ export const DivPrice = styled.div`
   display: flex;
   flex-direction: column;
 
-  position: relative;
-
   align-items: center;
   justify-content: space-between;
 
   font-size: 1.2rem;
 
-  top: -150px;
+  top: -10rem;
 
   @media only screen and (min-width: 2400px) {
     font-size: 4rem;
@@ -59,7 +57,6 @@ export const TextTaKontakt = styled.h1`
 
   align-items: center;
 
-  position: relative;
   top: -150px;
 
   @media only screen and (max-width: 40em) {
@@ -84,7 +81,6 @@ export const TextArbeidsgiver = styled.p`
   align-items: center;
   top: -150px;
   width: 70%;
-  position: relative;
 
   @media only screen and (max-width: 40em) {
     top: 0px;
@@ -138,6 +134,7 @@ export const TextYellow = styled.h1`
 `;
 
 export const DivPhoneArbeidsgiver = styled.div`
+  background-color: #ffe6c7;
   @media only screen and (max-width: 40em) {
     display: none;
   }

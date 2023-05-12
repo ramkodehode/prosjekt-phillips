@@ -3,23 +3,22 @@ import styled from "styled-components";
 export const MainBox = styled.div`
   display: flex;
   flex-direction: row;
-
   width: auto;
   height: 40rem;
-
   margin: 0 auto;
-
   z-index: -1;
 
-  background: conic-gradient(
+  /* background: conic-gradient(
     from -89.99deg at 50.03% 100%,
     #ffcb8d 0deg,
     rgba(234, 205, 154, 0.402865) 234.38deg,
     rgba(217, 217, 217, 0) 360deg
-  );
+  ); */
+
+  background-color: #ffe6c7;
 
   @media only screen and (max-width: 40em) {
-    height: 40rem;
+    height: 45rem;
   }
 
   @media only screen and (min-width: 2040px) {
@@ -82,7 +81,7 @@ export const MarginDiv = styled.div`
 export const Tittel = styled.h1`
   font-style: normal;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   line-height: 50px;
 
   @media only screen and (max-width: 40em) {
@@ -113,7 +112,7 @@ export const UnderTitle = styled.h2`
 
 export const UnderTitleYellow = styled.h2`
   font-style: normal;
-  font-weight: 400;
+  font-weight: 550;
   font-size: 1.8rem;
 
   color: #e5701b;

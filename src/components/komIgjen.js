@@ -29,6 +29,10 @@ export const OpacityBox = styled.div`
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  @media only screen and (max-width: 40em) {
+    padding: 2.5rem 7rem;
+  }
 `;
 
 export const PictureBoxesContainer = styled.section`
@@ -56,7 +60,13 @@ export const PicBoxes = styled.img`
   padding: 50px;
   padding-top: 0;
 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   @media only screen and (max-width: 40em) {
+    height: 25vh;
+    padding: 0;
   }
 `;
 
@@ -70,19 +80,21 @@ export const DivImg = styled.div`
 export const IMGlaptop = styled.img`
   height: 80vh;
   width: auto;
-  position: relative;
-  text-align: center;
 
-  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-  justify-content: center;
-
-  position: relative;
   padding-bottom: 100px;
 
   margin: 0 auto;
 
   z-index: -1;
+
+  @media only screen and (max-width: 40em) {
+    height: 30vh;
+    padding-bottom: 0;
+  }
 `;
 
 const KomIgjen = () => {

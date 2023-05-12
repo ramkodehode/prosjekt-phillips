@@ -1,16 +1,17 @@
-import React from "react";
-import ContactForm from "./contact/ContactForm";
-import Footer from "./footer";
-import Intro from "./Intro";
+import React from 'react';
+import ContactForm from './contact/ContactForm';
+import Footer from './footer';
+import Intro from './Intro';
 
-import KursDeltaker from "./kursDeltaker";
-import Navbar from "./navbar/Navbar";
-import GlobalStyle from "./styles/Globalstyle";
-import Tjenester from "./Tjenester";
-import InfoTrude from "./trudeInfo";
-import VartAnsvar from "./vartAnsvar";
-import Veiledning from "./Veiledning";
-import KomIgjen from "./komIgjen";
+import KursDeltaker from './kursDeltaker';
+import Navbar from './navbar/Navbar';
+import GlobalStyle from './styles/Globalstyle';
+import Tjenester from './Tjenester';
+import InfoTrude from './trudeInfo';
+import VartAnsvar from './vartAnsvar';
+import KomIgjen from './komIgjen';
+import Veiledning from './veiledning/Veiledning';
+import PriceBox from './price';
 
 const Hjem = () => {
   return (
@@ -21,8 +22,11 @@ const Hjem = () => {
       <VartAnsvar />
       <Tjenester />
       <Veiledning />
+      <PriceBox />
+      {/* Dette er filen med karriere og studie veiledning som du ville forandre på Ram */}
       <InfoTrude />
-      <KursDeltaker /> {/* <------------ Her skal Karuselen inn Monica */}
+      {/* <------------- Her skal visjon, mål og verdier inn Ram */}
+      <KursDeltaker />
       <KomIgjen />
       <ContactForm />
       <Footer />
