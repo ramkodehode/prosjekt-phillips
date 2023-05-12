@@ -27,16 +27,17 @@ const data = [
       "Etter lang yrkeskarrire i samme selskap flyttet jeg i 2017 til Bergen, og opplevde stor usikkerhet. Trude gav meg profesjonell karriereveiledning og hun evnet å møte meg der jeg var. Kort tid etter veiledningsprosessen fikk jeg ny jobb hvor jeg fortsatt trives. Jobber i dag som akturator.",
   },
   {
-    image: IMG02,
-    name: "Deborah",
+    image: IMG07,
+    name: "Thomas",
     review:
-      "Trude sin ekspertise, kunnskap, støtte, og ikke minst klokskap kunne jeg ikke vært foruten da jeg ble rammet av nedbemanning. I denne perioden bidro hun til å gi meg troen tilbake på egne styrker og kvaliteter. Jobber i dag som Key Account Manager.",
+      "Å kontakte Trude åpnet dører jeg ikke visste fantes, som har ført til to spennende jobber og videre karrieremuligheter i det selskapet jeg jobber i dag. Uten Trude hadde jeg aldri vært der jeg er i dag- og mulighetene mine fremover er mange. Tusen takk!",
+    
   },
   {
-    image: IMG03,
-    name: "Mathilde",
+    image: IMG06,
+    name: "Sondre ",
     review:
-      "Veiledningen hjalp meg  å finne retning når jeg stod i noe som føltes ut som et umulig veivalg. Nå er jeg i gang med siste året på politiutdanningen som jeg opplever er et veldig riktig valg for meg!",
+      "Veiledningen hjalp meg å få oversikt, og jeg vil særlig trekke frem de gode samtalene vi hadde og personlighetstestene vi brukte for å kartlegge egenskapene og interessene mine. I tillegg fikk jeg veldig god hjelp til søknadsskriving og cv. Jobber i dag som offiser i Kystvakten.",
   },
   {
     image: IMG04,
@@ -51,16 +52,17 @@ const data = [
       "Eg var usikker på kva eg ville etter vidaregåande og fekk kartlegging og veiledning av Trude. Det endte med at eg søkte ei utdanning eg aldri hadde hørt om. Det var full klaff! Etter fire år i arbeid og to vidareutdanningar innan feltet ergoterapi stortrivast eg med valet eg tok.",
   },
   {
-    image: IMG06,
-    name: "Sondre ",
+    image: IMG03,
+    name: "Mathilde",
     review:
-      "Veiledningen hjalp meg å få oversikt, og jeg vil særlig trekke frem de gode samtalene vi hadde og personlighetstestene vi brukte for å kartlegge egenskapene og interessene mine. I tillegg fikk jeg veldig god hjelp til søknadsskriving og cv. Jobber i dag som offiser i Kystvakten.",
+      "Veiledningen hjalp meg  å finne retning når jeg stod i noe som føltes ut som et umulig veivalg. Nå er jeg i gang med siste året på politiutdanningen som jeg opplever er et veldig riktig valg for meg!",
   },
   {
-    image: IMG07,
-    name: "Thomas",
+    image: IMG02,
+    name: "Deborah",
     review:
-      "Å kontakte Trude åpnet dører jeg ikke visste fantes, som har ført til to spennende jobber og videre karrieremuligheter i det selskapet jeg jobber i dag. Uten Trude hadde jeg aldri vært der jeg er i dag- og mulighetene mine fremover er mange. Tusen takk!",
+      "Trude sin ekspertise, kunnskap, støtte, og ikke minst klokskap kunne jeg ikke vært foruten da jeg ble rammet av nedbemanning. I denne perioden bidro hun til å gi meg troen tilbake på egne styrker og kvaliteter. Jobber i dag som Key Account Manager.",
+    
   },
 ];
 
