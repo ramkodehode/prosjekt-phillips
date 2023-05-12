@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const MainContainer = styled.div`
   background-color: #ffe6c7;
@@ -24,6 +24,7 @@ export const HeadingThree = styled.h2`
 
 export const UnorderedList = styled.ul`
   list-style-type: square;
+  padding: 0;
 `;
 
 export const UlWrapper = styled.div`
@@ -32,7 +33,7 @@ export const UlWrapper = styled.div`
 `;
 
 export const List = styled.li`
-  padding: 2px;
+  margin-left: 1rem;
 `;
 
 export const ArrowContainer = styled.div`

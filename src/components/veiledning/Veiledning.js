@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Container,
   HeadingOne,
@@ -11,8 +11,8 @@ import {
   InfoContainer,
   UlWrapper,
   MainContainer,
-} from './Veiledning.styled';
-import Pil from './polygon.png';
+} from "./Veiledning.styled";
+import Pil from "./polygon.png";
 
 const Veiledning = () => {
   return (
@@ -21,7 +21,7 @@ const Veiledning = () => {
       <Container>
         <InfoContainer>
           <HeadingTwo>Fase 1</HeadingTwo>
-          <HeadingThree>Utforske mine interesser</HeadingThree>
+          <HeadingThree>Utforske interesser</HeadingThree>
 
           <UlWrapper>
             <UnorderedList>
@@ -37,7 +37,7 @@ const Veiledning = () => {
         </InfoContainer>
         <InfoContainer>
           <HeadingTwo>Fase 2</HeadingTwo>
-          <HeadingThree>Utforske mine muligheter</HeadingThree>
+          <HeadingThree>Utforske muligheter</HeadingThree>
 
           <UlWrapper>
             <UnorderedList>
@@ -45,7 +45,6 @@ const Veiledning = () => {
               <span> yrkesretning</span>
               <List>Velge bort</List>
               <List>Velge</List>
-              <List>Mitt mulighetsrom</List>
             </UnorderedList>
             <ArrowContainer>
               <Arrow src={Pil}></Arrow>
@@ -54,12 +53,12 @@ const Veiledning = () => {
         </InfoContainer>
         <InfoContainer>
           <HeadingTwo>Fase 3</HeadingTwo>
-          <HeadingThree>Utforsk mitt mulighetsrom</HeadingThree>
+          <HeadingThree>Mitt mulighetsrom</HeadingThree>
 
           <UlWrapper>
             <UnorderedList>
-              <List>Definere mine vurderingskriterier</List>
-              <List>Definere mine tre alternative valg</List>
+              <List>Definere vurderingskriterier</List>
+              <List>Definere alternative valg</List>
               <List>Mitt valg </List>
             </UnorderedList>
           </UlWrapper>
@@ -74,10 +73,10 @@ const Veiledning = () => {
           <UlWrapper>
             <UnorderedList>
               <List>Personlige egenskaper</List>
-              <span> og styrker</span>
 
               <List>Kompetanser</List>
               <List>Verdier og interesser</List>
+              <List>Situasjon, atferd, resulat - SAR</List>
               <List>Definere mål</List>
             </UnorderedList>
             <ArrowContainer>
@@ -87,17 +86,15 @@ const Veiledning = () => {
         </InfoContainer>
         <InfoContainer>
           <HeadingTwo>Fase 2</HeadingTwo>
-          <HeadingThree>Utforske mine interesser</HeadingThree>
+          <HeadingThree>Utforske muligheter</HeadingThree>
 
           <UlWrapper>
             <UnorderedList>
-              <List>Mitt mulighetsrom</List>
-              <List>Interessebilder</List>
-              <List>Mine verktøy</List>
-              <UnorderedList>
-                <List>Situasjon, atferd, resulat - SAR</List>
-                <List>Egen profil - ønsket rolle </List>
-              </UnorderedList>
+              <List>Forstå arbeidsmarkedet</List>
+              <List>Nettverk og relasjonsbygging</List>
+
+              <List>Egen profil - ønsket rolle </List>
+
               <List>Handlingsplan</List>
             </UnorderedList>
             <ArrowContainer>
