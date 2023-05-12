@@ -42,14 +42,14 @@ const PriceBoxTwo = () => {
         <ImgPrice src={iconprice} alt="icon" />
         <h2>Priser</h2>
         <TextYellow>Karriereveiledning</TextYellow>
-        <p>3-9 samlinger hvor hver økt varer 1,5 - 2 timer </p>
+        <p>3-9 samlinger hvor hver økt varer 2 timer </p>
         <p>Øvelser mellom hver veiledningsmøte </p> <Underline />
         <Column>
           <ContainerGroup>
             <ContainerDesktop>
               <p>Individuelt:</p>
               <br />
-              <p>3 møter: 6570,-</p>
+              <p>3 møter: 7200,-</p>
               <br />
               <p>6 møter: 13.140,-</p>
               <br />
