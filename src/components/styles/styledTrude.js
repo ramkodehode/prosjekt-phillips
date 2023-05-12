@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ImgTrude = styled.img`
   height: 60vh;
   width: auto;
-  padding-top: 5rem;
+  padding: 3rem;
 
   @media only screen and (max-width: 40em) {
     display: none;
@@ -25,11 +25,9 @@ export const ContainerTrude = styled.section`
   flex-direction: column; */
   margin-left: 50px;
   margin-bottom: 100px;
-  
 
   @media only screen and (max-width: 40em) {
     margin: 10px;
-    
   }
 `;
 
