@@ -22,7 +22,9 @@ export const HeadingThree = styled.h2`
   font-size: 16px;
 `;
 
-export const UnorderedList = styled.ul``;
+export const UnorderedList = styled.ul`
+  list-style-type: square;
+`;
 
 export const UlWrapper = styled.div`
   display: flex;
