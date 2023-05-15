@@ -33,16 +33,14 @@ export const PolicyTitle = styled.h1`
   font-weight: 500;
 
   @media screen and (max-width: 600px) {
-    width: 90%;
-    font-size: 0.8rem;
-    margin: 0 3rem 0 3rem;
+    width: 100%;
+    font-size: 0.7rem;
   }
 
   @media screen and (min-width: 1024px) {
     width: 90%;
     font-size: 1rem;
     margin: 0 3rem 0 3rem;
-
   }
 
   @media screen and (min-width: 2400px) {
@@ -62,10 +60,9 @@ export const PolicySubTitle = styled.h2`
     margin: 0;
     font-size: 0.6rem;
   }
-    @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     width: 90%;
     font-size: 0.8rem;
-
   }
 
   @media screen and (min-width: 2400px) {
@@ -73,7 +70,6 @@ export const PolicySubTitle = styled.h2`
     font-size: 2.3rem;
   }
 `;
- 
 
 export const PolicyLevel = styled.p`
   font-size: 1rem;
@@ -85,10 +81,9 @@ export const PolicyLevel = styled.p`
     margin: 0;
     font-size: 0.8rem;
   }
-    @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     width: 90%;
     font-size: 1rem;
-
   }
 
   @media screen and (min-width: 2400px) {
@@ -106,10 +101,9 @@ export const PolicyInfo = styled.p`
     margin: 0;
     font-size: 0.8rem;
   }
-    @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     width: 90%;
     font-size: 1rem;
-
   }
   @media screen and (min-width: 2400px) {
     width: 100%;
@@ -130,7 +124,7 @@ export const PolicySection = styled.p`
     width: 90%;
     font-size: 1rem;
   }
-  
+
   @media screen and (min-width: 2400px) {
     width: 100%;
     font-size: 2.3rem;
@@ -141,8 +135,6 @@ export const PolicySection = styled.p`
 export const OrgNr = styled.div`
   color: #e5701b;
 `;
-
-
 
 export const Li = styled.li``;
 
