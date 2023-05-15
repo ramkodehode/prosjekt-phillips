@@ -38,6 +38,7 @@ const Veiledning = () => {
             </UlWrapper>
           </InfoContainer>
         </InfoContainerMobil>
+
         <InfoContainerMobil>
           <InfoContainer>
             <HeadingTwo>Fase 2</HeadingTwo>
@@ -45,7 +46,7 @@ const Veiledning = () => {
 
             <UlWrapper>
               <UnorderedList>
-                <List>Undersøke ulike studie- og yrkesretning</List>
+                <List>Undersøke uddlike studie- og yrkesretning</List>
                 <List>Velge bort</List>
                 <List>Velge</List>
               </UnorderedList>
@@ -55,21 +56,6 @@ const Veiledning = () => {
             </UlWrapper>
           </InfoContainer>
         </InfoContainerMobil>
-        <InfoContainer>
-          <UlWrapper>
-            <UnorderedList>
-              <List>Undersøke ulike studie- og</List>
-              <span> yrkesretninger</span>
-              <List>Velge bort</List>
-              <List>Velge</List>
-            </UnorderedList>
-            <ArrowContainer>
-              <Arrow src={Pil}></Arrow>
-            </ArrowContainer>
-          </UlWrapper>
-        </InfoContainer>
-        <HeadingTwo>Fase 3</HeadingTwo>
-        <HeadingThree>Mitt mulighetsrom</HeadingThree>
 
         <InfoContainerMobil>
           <InfoContainer>
