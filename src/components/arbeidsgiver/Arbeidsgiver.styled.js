@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  font-size: 24px;
+  font-size: 1.8em;
 `;
 
 export const HeadingTwoFase = styled.h2`
@@ -29,6 +29,11 @@ export const FaseContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   padding-top: 50px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
 `;
 
 export const FaseInnerContainer = styled.div`
