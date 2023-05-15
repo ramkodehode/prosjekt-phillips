@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const BoxPrice = styled.div`
   height: 28em;
@@ -17,7 +17,7 @@ export const BoxPrice = styled.div`
   }
   @media only screen and (min-width: 2400px) {
     border: 5px solid #fe8900;
-    height: 26em;
+    height: 28em;
   }
 `;
 
@@ -30,6 +30,9 @@ export const ContainerPrice = styled.section`
 
   @media only screen and (max-width: 40em) {
     display: none;
+  }
+  @media only screen and (min-width: 2400px) {
+    margin: 0 -10rem;
   }
 `;
 
@@ -47,6 +50,8 @@ export const DivPrice = styled.div`
   @media only screen and (min-width: 2400px) {
     font-size: 4rem;
     top: -30rem;
+
+    margin: 10rem;
   }
 `;
 
@@ -70,7 +75,7 @@ export const TextTaKontakt = styled.h1`
 `;
 
 export const TextArbeidsgiver = styled.p`
-  font-family: 'Poppins';
+  font-family: "Poppins";
   text-align: center;
   font-size: 1.2em;
   margin: 0 auto;
@@ -108,6 +113,10 @@ export const Underline = styled.div`
   @media only screen and (max-width: 40em) {
     height: 2px;
   }
+
+  @media only screen and (min-width: 2400px) {
+    height: 3px;
+  }
 `;
 
 export const ContainerGroup = styled.section`
@@ -129,7 +138,8 @@ export const TextYellow = styled.h1`
   color: #fe8900;
   font-weight: 400;
   font-size: 1.2rem;
-  @media only screen and (max-width: 40em) {
+  @media only screen and (min-width: 2400px) {
+    font-size: 5rem;
   }
 `;
 
