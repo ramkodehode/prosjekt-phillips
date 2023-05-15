@@ -142,20 +142,7 @@ export const OrgNr = styled.div`
   color: #e5701b;
 `;
 
-export const PolicySection = styled.div`
-  padding: 2rem 2rem 0 5rem;
-  font-size: 20px;
 
-  @media screen and (max-width: 600px) {
-    font-size: 10px;
-  }
-
-  @media screen and (min-width: 2400px) {
-    width: 90%;
-    margin: 0;
-    font-size: 14px;
-  }
-`;
 
 export const Li = styled.li``;
 
