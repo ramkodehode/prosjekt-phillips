@@ -8,6 +8,9 @@ export const ImgTrude = styled.img`
   @media only screen and (max-width: 40em) {
     display: none;
   }
+  @media only screen and (min-width: 2400px) {
+    padding: 10rem;
+  }
 `;
 
 export const PhoneImgTrude = styled.img`
@@ -42,6 +45,7 @@ export const TrudeText = styled.h3`
   }
   @media only screen and (min-width: 2400px) {
     font-size: 3rem;
+    margin-left: 10rem;
   }
 `;
 
@@ -55,6 +59,7 @@ export const TitleTrude = styled.h1`
   @media only screen and (min-width: 2400px) {
     font-size: 6.5rem;
     line-height: 100%;
+    margin-left: 10rem;
   }
 `;
 
@@ -72,5 +77,6 @@ export const MainTextTrude = styled.p`
   }
   @media only screen and (min-width: 2400px) {
     font-size: 3.5rem;
+    margin-left: 10rem;
   }
 `;

@@ -91,7 +91,7 @@ const Tjenester = () => {
           </Column>
         </NewSection>
       </Container>
-      <IMGphoneTjenester src="" alt="Placeholder" />
+      <IMGphoneTjenester src={trudestudent} alt="Placeholder" />
     </div>
   );
 };

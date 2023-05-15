@@ -1,20 +1,18 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const PolicyContainer = styled.div`
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0 3rem 0 3rem;
 
   @media screen and (max-width: 600px) {
     width: 90%;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 2400px) {
     width: 90%;
-
   }
 `;
-
 
 export const PolicyTitle = styled.h1`
   text-transform: uppercase;
@@ -23,9 +21,7 @@ export const PolicyTitle = styled.h1`
   color: black;
   padding-bottom: 1rem;
   font-weight: 500;
-
 `;
-  
 
 export const PolicySubTitle = styled.h2`
   font-weight: 100;
@@ -34,13 +30,11 @@ export const PolicySubTitle = styled.h2`
   text-align: left;
   color: black;
 
-  
   @media screen and (max-width: 600px) {
     width: 90%;
     margin: 0;
     font-size: 14px;
   }
-  
 `;
 
 export const PolicyLevel = styled.p`
@@ -66,12 +60,11 @@ export const PolicySection = styled.div`
     font-size: 10px;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 2400px) {
     width: 90%;
     margin: 0;
     font-size: 14px;
   }
-
 `;
 
 export const Li = styled.li``;
@@ -86,7 +79,3 @@ export const WebLink = styled(Link)`
     color: #e5701b;
   }
 `;
-
-
-
-
