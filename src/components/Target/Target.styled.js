@@ -16,16 +16,25 @@ export const Vision = styled.div`
   padding: 29px;
   border: 2px solid #fe8900;
   margin: 30px;
+  flex: 2;
 `;
 
 export const Goal = styled.div`
   padding: 29px;
   border: 2px solid #fe8900;
   margin: 30px;
+  flex: 2;
 `;
 
 export const Values = styled.div`
   padding: 29px;
   border: 2px solid #fe8900;
   margin: 30px;
+  flex: 2;
 `;
+
+export const HeadingOne = styled.h1`
+  font-size: 22px;
+`;
+
+export const Paragraph = styled.p``;
