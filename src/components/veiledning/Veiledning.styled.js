@@ -11,6 +11,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 40px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -18,7 +19,9 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  font-size: 24px;
+  font-size: 1.8em;
+  text-align: center;
+  padding-top: 40px;
 `;
 export const HeadingTwo = styled.h2`
   font-size: 18px;
