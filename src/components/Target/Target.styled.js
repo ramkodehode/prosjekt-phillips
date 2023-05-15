@@ -10,27 +10,32 @@ export const InnerContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   padding: 20px;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const Vision = styled.div`
   padding: 29px;
   border: 2px solid #fe8900;
   margin: 30px;
-  flex: 2;
+  flex: 2.8;
 `;
 
 export const Goal = styled.div`
   padding: 29px;
   border: 2px solid #fe8900;
   margin: 30px;
-  flex: 2;
+  flex: 2.8;
 `;
 
 export const Values = styled.div`
   padding: 29px;
   border: 2px solid #fe8900;
   margin: 30px;
-  flex: 2;
+  flex: 2.8;
 `;
 
 export const HeadingOne = styled.h1`
