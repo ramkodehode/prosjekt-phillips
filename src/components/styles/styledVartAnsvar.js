@@ -92,15 +92,13 @@ export const PhoneSittingStudents = styled.img`
 export const Rectangle = styled.div`
   background: #e4973c;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  width: 7px;
-  height: 50px;
+  width: 0.6vw;
+  height: 100%;
   float: left;
   margin-right: 15px;
 
   @media only screen and (max-width: 40em) {
     height: 30px;
-  }
-  @media only screen and (min-width: 2400px) {
-    height: 100%;
+    width: 5px;
   }
 `;
