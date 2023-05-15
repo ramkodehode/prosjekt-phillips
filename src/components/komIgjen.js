@@ -17,6 +17,7 @@ export const KomIgjenText = styled.h1`
 
   @media only screen and (min-width: 2400px) {
     font-size: 7rem;
+    top: 40%;
   }
 `;
 
@@ -32,6 +33,11 @@ export const OpacityBox = styled.div`
 
   @media only screen and (max-width: 40em) {
     padding: 2.5rem 7rem;
+  }
+
+  @media only screen and (min-width: 2400px) {
+    padding: 20rem 45rem;
+    top: 45%;
   }
 `;
 
@@ -57,8 +63,7 @@ export const PicBoxes = styled.img`
   height: 98vh;
   width: auto;
 
-  padding: 50px;
-  padding-top: 0;
+  margin-bottom: 5rem;
 
   display: block;
   margin-left: auto;
@@ -67,6 +72,10 @@ export const PicBoxes = styled.img`
   @media only screen and (max-width: 40em) {
     height: 25vh;
     padding: 0;
+  }
+
+  @media only screen and (min-width: 2400px) {
+    height: 87vh;
   }
 `;
 

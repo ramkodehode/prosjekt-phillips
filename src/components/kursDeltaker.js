@@ -31,7 +31,6 @@ const data = [
     name: "Thomas",
     review:
       "Å kontakte Trude åpnet dører jeg ikke visste fantes, som har ført til to spennende jobber og videre karrieremuligheter i det selskapet jeg jobber i dag. Uten Trude hadde jeg aldri vært der jeg er i dag- og mulighetene mine fremover er mange. Tusen takk!",
-    
   },
   {
     image: IMG06,
@@ -62,14 +61,13 @@ const data = [
     name: "Deborah",
     review:
       "Trude sin ekspertise, kunnskap, støtte, og ikke minst klokskap kunne jeg ikke vært foruten da jeg ble rammet av nedbemanning. I denne perioden bidro hun til å gi meg troen tilbake på egne styrker og kvaliteter. Jobber i dag som Key Account Manager.",
-    
   },
 ];
 
 const KursDeltaker = () => {
   return (
     <section id="client_section">
-      <h5 className="title">Hva våre kursdeltakere sier:</h5>
+      <h5 className="title">Hva noen av våre deltakere sier:</h5>
       <Swiper
         className="swiper__container"
         breakpoints={{

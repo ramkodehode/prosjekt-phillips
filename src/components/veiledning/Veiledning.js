@@ -55,6 +55,21 @@ const Veiledning = () => {
             </UlWrapper>
           </InfoContainer>
         </InfoContainerMobil>
+        <InfoContainer>
+          <UlWrapper>
+            <UnorderedList>
+              <List>Undersøke ulike studie- og</List>
+              <span> yrkesretninger</span>
+              <List>Velge bort</List>
+              <List>Velge</List>
+            </UnorderedList>
+            <ArrowContainer>
+              <Arrow src={Pil}></Arrow>
+            </ArrowContainer>
+          </UlWrapper>
+        </InfoContainer>
+        <HeadingTwo>Fase 3</HeadingTwo>
+        <HeadingThree>Mitt mulighetsrom</HeadingThree>
 
         <InfoContainerMobil>
           <InfoContainer>

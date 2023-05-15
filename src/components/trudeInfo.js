@@ -1,3 +1,4 @@
+import styled from "styled-components";
 import Trude from "./img/Trude.jpg";
 import { Column, Container, NewSection } from "./styles/styledIntro";
 import {
@@ -9,6 +10,17 @@ import {
   TrudeText,
 } from "./styles/styledTrude";
 
+export const BoxTrude = styled.div`
+  height: 60vh;
+  width: 45vh;
+  background-color: #ffe6c7;
+  margin: 5em;
+
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
+`;
+
 const InfoTrude = () => {
   return (
     <div>
@@ -16,7 +28,9 @@ const InfoTrude = () => {
         <NewSection>
           <Column>
             <ContainerTrude>
-              <ImgTrude src={Trude} alt="Picture of Trude" />
+              <BoxTrude>
+                <ImgTrude src={Trude} alt="Picture of Trude" />
+              </BoxTrude>
             </ContainerTrude>
             <ContainerTrude>
               <TitleTrude id="om">Trude Skarstein Phillips</TitleTrude>
