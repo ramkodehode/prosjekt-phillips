@@ -59,23 +59,6 @@ const PriceBox = () => {
         </Container>
       </DivPrice>
       <Arbeidsgiver />
-      {/* <DivPhoneArbeidsgiver>
-        <TextTaKontakt>For arbeidsgiver</TextTaKontakt>
-        <TextArbeidsgiver>
-          Etter inngått avtale starter vi med oppstartsmøte hvor vi foretar en
-          gjensidig forventingsavklaring for mål og gjennomføring av programmet.
-          Karrierelæringsprogrammet tar utgangspunkt i modellen; Ta kontroll mot
-          ny jobb.
-          <UnderTitleArbeidsgiver>Fase 1</UnderTitleArbeidsgiver>
-          Oppstartsmøte
-          <Arrows> ↓</Arrows>
-          <UnderTitleArbeidsgiver>Fase 2</UnderTitleArbeidsgiver>
-          Gjennomføring av karriereveiledning for medarbeidere.
-          <Arrows> ↓</Arrows>
-          <UnderTitleArbeidsgiver>Fase 3</UnderTitleArbeidsgiver>
-          Evaluering.
-        </TextArbeidsgiver>
-      </DivPhoneArbeidsgiver> */}
     </div>
   );
 };
