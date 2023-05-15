@@ -1,13 +1,20 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const MainContainer = styled.div`
   background-color: #ffe6c7;
+  @media (max-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const HeadingOne = styled.h1`
@@ -25,11 +32,17 @@ export const HeadingThree = styled.h2`
 export const UnorderedList = styled.ul`
   list-style-type: square;
   padding: 0;
+  height: 100px;
+  width: 230px;
 `;
 
 export const UlWrapper = styled.div`
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const List = styled.li`
@@ -42,6 +55,7 @@ export const ArrowContainer = styled.div`
   justify-content: center;
   padding: 20px;
   @media (max-width: 760px) {
+    flex-direction: row;
   }
 `;
 
@@ -61,4 +75,16 @@ export const Spacing = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+`;
+
+export const InfoContainerMobil = styled.div`
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 `;
