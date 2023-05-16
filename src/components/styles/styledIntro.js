@@ -4,7 +4,7 @@ export const MainBox = styled.div`
   display: flex;
   flex-direction: row;
   width: auto;
-  height: 40rem;
+  height: 120vh;
   margin: 0 auto;
   z-index: -1;
 
@@ -19,14 +19,6 @@ export const MainBox = styled.div`
 
   @media only screen and (max-width: 40em) {
     height: 45rem;
-  }
-
-  @media only screen and (min-width: 1300px) {
-    height: 60em;
-  }
-
-  @media only screen and (min-width: 2400px) {
-    height: 130em;
   }
 
   /* @media only screen and (min-width: 1300px) {
