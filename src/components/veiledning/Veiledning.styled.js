@@ -36,7 +36,7 @@ export const UnorderedList = styled.ul`
   list-style-type: square;
   padding: 0;
   height: 100px;
-  width: 230px;
+  width: 200px;
 `;
 
 export const UlWrapper = styled.div`
@@ -57,7 +57,7 @@ export const ArrowContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  padding: 35px;
   @media (max-width: 760px) {
     flex-direction: row;
   }
