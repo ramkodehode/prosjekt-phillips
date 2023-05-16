@@ -11,8 +11,8 @@ import InfoTrude from './trudeInfo';
 import VartAnsvar from './vartAnsvar';
 import KomIgjen from './komIgjen';
 import Veiledning from './veiledning/Veiledning';
-import PriceBox from './price';
 import Target from './Target/Target';
+import Price from './price/Price';
 
 const Hjem = () => {
   return (
@@ -23,7 +23,7 @@ const Hjem = () => {
       <VartAnsvar />
       <Tjenester />
       <Veiledning />
-      <PriceBox />
+      <Price />
       {/* Dette er filen med karriere og studie veiledning som du ville forandre på Ram */}
       <InfoTrude />
       {/* <------------- Her skal visjon, mål og verdier inn Ram */}
