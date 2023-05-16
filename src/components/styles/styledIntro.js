@@ -21,13 +21,17 @@ export const MainBox = styled.div`
     height: 45rem;
   }
 
-  @media only screen and (min-width: 2040px) {
+  @media only screen and (min-width: 1300px) {
+    height: 50em;
+  }
+
+  @media only screen and (min-width: 2400px) {
     height: 130em;
   }
 
-  @media only screen and (min-width: 1300px) {
-    height: 50rem;
-  }
+  /* @media only screen and (min-width: 1300px) {
+    height: 60rem;
+  } */
 `;
 
 export const CaricatureImg = styled.img`
@@ -35,7 +39,7 @@ export const CaricatureImg = styled.img`
   flex-direction: row;
   height: 80vh;
   width: auto;
-  margin-top: 85px;
+  margin-top: 8rem;
 
   @media only screen and (max-width: 40em) {
     display: none;
