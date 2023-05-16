@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     * {
@@ -7,6 +7,11 @@ const GlobalStyle = createGlobalStyle`
         @media only screen and (max-width: 40em) {
             
           
-    }}`;
+    }
+    @media only screen and (max-width: 1300px) {
+            
+          
+        }
+    }`;
 
 export default GlobalStyle;

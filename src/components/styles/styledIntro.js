@@ -25,8 +25,8 @@ export const MainBox = styled.div`
     height: 130em;
   }
 
-  @media only screen and (min-height: 750px) {
-    height: 50em;
+  @media only screen and (min-width: 1300px) {
+    height: 50rem;
   }
 `;
 
