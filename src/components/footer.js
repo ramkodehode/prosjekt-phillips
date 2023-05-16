@@ -4,28 +4,27 @@ import styled from "styled-components";
 
 export const EmptySpace = styled.div`
   width: auto;
-  height: 130px;
+  height: 25vh;
   margin-top: 100px;
   background: rgba(0, 0, 0, 0.8);
   color: white;
-
-  @media only screen and (max-width: 40em) {
-    width: auto;
-    height: 150px;
-  }
 `;
 
 export const FooterContainer = styled.div`
   justify-content: space-around;
   text-align: center;
   display: flex;
-  padding: 25px;
+  padding: 2.5rem;
   margin: 0 auto;
 
   @media only screen and (max-width: 40em) {
     font-size: 0.8rem;
     padding: 10px;
     display: block;
+  }
+
+  @media only screen and (min-width: 2400px) {
+    font-size: 3rem;
   }
 `;
 
@@ -39,7 +38,6 @@ export const StyledLink = styled(Link)`
   }
 
   @media only screen and (max-width: 40em) {
-    font-size: 0.8rem;
     padding-top: 13px;
   }
 `;

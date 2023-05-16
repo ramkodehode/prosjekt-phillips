@@ -22,7 +22,7 @@ const Arbeidsgiver = () => {
           Etter inngått avtale starter vi med oppstartsmøte hvor vi foretar en
           gjensidig forventingsavklaring for mål og gjennomføring av programmet.
           Karrierelæringsprogrammet tar utgangspunkt i modellen; Ta kontroll mot
-          ny jobb.
+          nye muligheter.
         </Text>
       </HeadingTextContainer>
 
@@ -37,7 +37,7 @@ const Arbeidsgiver = () => {
         <FaseInnerContainer>
           <HeadingTwoFase>Fase 2</HeadingTwoFase>
           <Text>Gjennomføring av karriereveiledning</Text>
-          <div>for medarbeidere</div>
+          <div>for medarbeidere i omstilling.</div>
         </FaseInnerContainer>
         <ArrowContainer>
           <Arrow src={Pil}></Arrow>
