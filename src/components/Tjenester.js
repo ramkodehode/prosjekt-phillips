@@ -79,12 +79,12 @@ const Tjenester = () => {
                   Karriereveiledning - Ta kontroll mot nye muligheter
                 </UnderTitle>
                 <TextVareProgrammer>
-                  Programmet består av tre faser. Nye muligheter er ditt ansvar,
-                  vi er med å bidra til at du kommer dit. Positiv usikkerhet er
-                  et av våre perspektiv. Fremtiden kan fremstå usikker og det
-                  fine med det er at der ligger alle mulighetene. Prosessen kan
-                  være avtalt med deg privat, eller din arbeidsgiver som
-                  resultat av en omstillingsprosess.
+                  Programmet består av tre faser. Vi hjelper deg med utforske
+                  nye muligheter og å nå målet ditt. Positiv usikkerhet er et av
+                  våre perspektiv. Fremtiden kan fremstå usikker og det fine med
+                  det er at der ligger alle mulighetene. Prosessen kan være
+                  avtalt med deg privat, eller din arbeidsgiver som resultat av
+                  en omstillingsprosess.
                 </TextVareProgrammer>
               </ContainerVareProgrammer>
             </ContainerPhone>
