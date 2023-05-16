@@ -127,11 +127,9 @@ const Veiledning = () => {
             <UlWrapper>
               <UnorderedList>
                 <List>Trene på bruk av mine verktøy</List>
-                <UnorderedList>
-                  <List>Ta initiativ og ansvar</List>
-                  <List>Kommunisere</List>
-                  <List>Forhandle</List>
-                </UnorderedList>
+                <List>Ta initiativ og ansvar</List>
+                <List>Kommunisere</List>
+                <List>Forhandle</List>
               </UnorderedList>
             </UlWrapper>
           </InfoContainer>
