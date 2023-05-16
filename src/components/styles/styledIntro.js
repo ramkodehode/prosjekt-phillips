@@ -4,7 +4,7 @@ export const MainBox = styled.div`
   display: flex;
   flex-direction: row;
   width: auto;
-  height: 120vh;
+  height: 110vh;
   margin: 0 auto;
   z-index: -1;
 
