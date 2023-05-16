@@ -32,6 +32,7 @@ const Price = () => {
               <Paragraph></Paragraph>
 
               <Line></Line>
+              <Paragraph></Paragraph>
 
               <Paragraph>Induviduelt</Paragraph>
               <Paragraph>6549,-</Paragraph>
@@ -49,8 +50,13 @@ const Price = () => {
               <Paragraph>Spesifikke råd tilpasset din situasjon</Paragraph>
               <Paragraph></Paragraph>
               <Line></Line>
+              <Paragraph></Paragraph>
+
               <Paragraph>Induviduelt</Paragraph>
-              <Paragraph>6549,-</Paragraph>
+              <Paragraph>3 møter, 6 timer: 6690,-</Paragraph>
+              <Paragraph>6 møter, 10 timer: 14.400,-</Paragraph>
+              <Paragraph>9 møter, 15 timer: 16.725,-</Paragraph>
+              <Paragraph>Enkeltimer: 1200,-</Paragraph>
             </Content>
           </PriceBox>
         </PriceBoxContainer>

@@ -28,10 +28,15 @@ export const PriceBoxContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 55%;
+  width: 70%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 50px;
+  }
 `;
 export const PriceBox = styled.div`
-  padding: 20px;
+  padding: 60px;
   border: 1.5px solid #fe8900;
   display: flex;
   flex-direction: column;

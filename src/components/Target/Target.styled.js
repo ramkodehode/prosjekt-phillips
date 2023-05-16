@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #ffe6c7;
@@ -40,6 +40,7 @@ export const Values = styled.div`
 
 export const HeadingOne = styled.h1`
   font-size: 22px;
+  color: #fe8900;
 `;
 
 export const Paragraph = styled.p`
