@@ -24,6 +24,10 @@ export const MainBox = styled.div`
   @media only screen and (min-width: 2040px) {
     height: 130em;
   }
+
+  @media only screen and (min-height: 750px) {
+    height: 50em;
+  }
 `;
 
 export const CaricatureImg = styled.img`
