@@ -127,7 +127,7 @@ export const PolicySection = styled.p`
   @media screen and (min-width: 2400px) {
     width: 100%;
     font-size: 2.3rem;
-    margin: 0 3rem 0 3rem;
+    margin: 0 3rem 0 5rem;
   }
 `;
 
