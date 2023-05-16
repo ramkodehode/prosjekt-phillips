@@ -11,7 +11,7 @@ const VartAnsvar = () => {
         </TitleTrude>
 
         <IntroText>
-          Mange unge kjenner på usikkerhet i valget av høyere utdanning.
+          De unge kjenner på usikkerhet i valg av høyere utdanning.
           Arbeidsmarkedet er i rask endring og gjør at flere opplever endret
           arbeidssituasjon. Mange arbeidsgivere ser verdien av å tilby ansatte
           karriereveiledning i forbindelse med omstilling. Det skaper verdi for

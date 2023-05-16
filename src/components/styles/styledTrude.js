@@ -56,6 +56,7 @@ export const TitleTrude = styled.h1`
   @media only screen and (max-width: 40em) {
     font-size: 1.5rem;
   }
+
   @media only screen and (min-width: 2400px) {
     font-size: 6.5rem;
     line-height: 100%;
