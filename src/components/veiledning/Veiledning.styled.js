@@ -20,7 +20,7 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  font-size: 1.8em;
+  font-size: 2em;
   text-align: center;
 `;
 export const HeadingTwo = styled.h2`

@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const MainContainer = styled.main`
+  padding: 50px 0 50px 0;
+`;
+
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
@@ -7,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  font-size: 1.8rem;
+  font-size: 2em;
   text-align: center;
   padding: 50px;
 `;
@@ -26,9 +30,11 @@ export const HeadingThree = styled.h3``;
 
 export const PriceBoxContainer = styled.div`
   display: flex;
+
   flex-direction: row;
-  justify-content: space-between;
-  width: 70%;
+  gap: 100px;
+  /* justify-content: space-between;
+  width: 70%; */
 
   @media (max-width: 768px) {
     flex-direction: column;
