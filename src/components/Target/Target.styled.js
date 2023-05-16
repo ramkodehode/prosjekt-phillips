@@ -19,22 +19,22 @@ export const InnerContainer = styled.div`
 
 export const Vision = styled.div`
   padding: 29px;
-  border: 2px solid #fe8900;
-  margin: 30px;
+  border: 1.5px solid #fe8900;
+  margin: 25px;
   flex: 2.8;
 `;
 
 export const Goal = styled.div`
   padding: 29px;
-  border: 2px solid #fe8900;
-  margin: 30px;
+  border: 1.5px solid #fe8900;
+  margin: 25px;
   flex: 2.8;
 `;
 
 export const Values = styled.div`
   padding: 29px;
-  border: 2px solid #fe8900;
-  margin: 30px;
+  border: 1.5px solid #fe8900;
+  margin: 25px;
   flex: 2.8;
 `;
 

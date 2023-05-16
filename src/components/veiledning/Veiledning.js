@@ -12,6 +12,7 @@ import {
   UlWrapper,
   MainContainer,
   InfoContainerMobil,
+  Spacing,
 } from './Veiledning.styled';
 import Pil from './polygon.png';
 
@@ -72,6 +73,8 @@ const Veiledning = () => {
           </InfoContainer>
         </InfoContainerMobil>
       </Container>
+
+      <Spacing />
       <HeadingOne>Karriereveiledning</HeadingOne>
       <Container>
         <InfoContainerMobil>
