@@ -43,7 +43,7 @@ const PriceBoxTwo = () => {
         <h2>Priser</h2>
         <TextYellow>Karriereveiledning</TextYellow>
         <p>3-9 samlinger hvor hver økt varer 2 timer </p>
-        <p>Øvelser mellom hver veiledningsmøte </p> <Underline />
+        <p>Øvelser mellom hvert veiledningsmøte </p> <Underline />
         <Column>
           <ContainerGroup>
             <ContainerDesktop>

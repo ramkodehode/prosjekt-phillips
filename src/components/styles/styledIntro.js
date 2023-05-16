@@ -4,7 +4,7 @@ export const MainBox = styled.div`
   display: flex;
   flex-direction: row;
   width: auto;
-  height: 40rem;
+  height: 110vh;
   margin: 0 auto;
   z-index: -1;
 
@@ -21,9 +21,9 @@ export const MainBox = styled.div`
     height: 45rem;
   }
 
-  @media only screen and (min-width: 2040px) {
-    height: 130em;
-  }
+  /* @media only screen and (min-width: 1300px) {
+    height: 60rem;
+  } */
 `;
 
 export const CaricatureImg = styled.img`
@@ -31,7 +31,7 @@ export const CaricatureImg = styled.img`
   flex-direction: row;
   height: 80vh;
   width: auto;
-  margin-top: 85px;
+  margin-top: 8rem;
 
   @media only screen and (max-width: 40em) {
     display: none;
@@ -128,7 +128,7 @@ export const UnderTitleYellow = styled.h2`
 export const IntroText = styled.p`
   font-style: normal;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 1.2;
   line-height: 165%;
 
   @media only screen and (max-width: 40em) {

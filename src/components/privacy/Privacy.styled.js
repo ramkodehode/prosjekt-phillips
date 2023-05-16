@@ -7,7 +7,6 @@ export const PolicyContainer = styled.div`
 
   @media screen and (max-width: 600px) {
     width: 90%;
-    margin: 0 3rem 0 3rem;
   }
 
   @media screen and (min-width: 1024px) {
@@ -18,9 +17,6 @@ export const PolicyContainer = styled.div`
   @media screen and (max-width: 2400px) {
     width: 90%;
     margin: 0 3rem 0 3rem;
-  }
-  @media screen and (min-width: 2400px) {
-    width: 90%;
   }
 `;
 
@@ -60,6 +56,7 @@ export const PolicySubTitle = styled.h2`
     margin: 0;
     font-size: 0.6rem;
   }
+
   @media screen and (min-width: 1024px) {
     width: 90%;
     font-size: 0.8rem;
@@ -78,9 +75,9 @@ export const PolicyLevel = styled.p`
 
   @media screen and (max-width: 600px) {
     width: 90%;
-    margin: 0;
     font-size: 0.8rem;
   }
+
   @media screen and (min-width: 1024px) {
     width: 90%;
     font-size: 1rem;
@@ -101,10 +98,12 @@ export const PolicyInfo = styled.p`
     margin: 0;
     font-size: 0.8rem;
   }
+  
   @media screen and (min-width: 1024px) {
     width: 90%;
     font-size: 1rem;
   }
+
   @media screen and (min-width: 2400px) {
     width: 100%;
     font-size: 2.3rem;
@@ -128,7 +127,7 @@ export const PolicySection = styled.p`
   @media screen and (min-width: 2400px) {
     width: 100%;
     font-size: 2.3rem;
-    margin: 0 3rem 0 3rem;
+    margin: 0 3rem 0 5rem;
   }
 `;
 
