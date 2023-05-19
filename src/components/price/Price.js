@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import studieicon from '../pricePage/priceicon.png';
-import karriereicon from '../pricePage/iconprice.png';
+import studieicon from "../pricePage/priceicon.png";
+import karriereicon from "../pricePage/iconprice.png";
 import {
   Container,
   HeadingOne,
@@ -14,7 +14,7 @@ import {
   Content,
   Line,
   MainContainer,
-} from './Price.styled';
+} from "./Price.styled";
 
 const Price = () => {
   return (
@@ -36,7 +36,7 @@ const Price = () => {
                 <Line></Line>
                 <Paragraph></Paragraph>
 
-                <Paragraph>Induviduelt</Paragraph>
+                <Paragraph>Individuelt</Paragraph>
                 <Paragraph>6549,-</Paragraph>
                 <Paragraph>Grupper</Paragraph>
                 <Paragraph>5940,-</Paragraph>
@@ -54,7 +54,7 @@ const Price = () => {
                 <Line></Line>
                 <Paragraph></Paragraph>
 
-                <Paragraph>Induviduelt</Paragraph>
+                <Paragraph>Individuelt</Paragraph>
                 <Paragraph>3 møter, 6 timer: 6690,-</Paragraph>
                 <Paragraph>6 møter, 10 timer: 14.400,-</Paragraph>
                 <Paragraph>9 møter, 15 timer: 16.725,-</Paragraph>
