@@ -74,8 +74,8 @@ export const PicBoxes = styled.img`
     padding: 0;
   }
 
-  @media only screen and (min-width: 2400px) {
-    height: 87vh;
+  @media only screen and (min-width: 1440px) {
+    height: 72vh;
   }
 `;
 
