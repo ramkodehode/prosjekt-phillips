@@ -26,7 +26,7 @@ const Hjem = () => {
       <Price />
       <InfoTrude />
       <Target />
-      {/* <KursDeltaker /> */}
+      <KursDeltaker />
       <KomIgjen />
       <ContactForm />
       <Footer />
