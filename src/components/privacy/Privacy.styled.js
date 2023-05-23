@@ -5,7 +5,11 @@ export const PolicyContainer = styled.div`
   font-family: "Poppins", sans-serif;
   margin: 0 3rem 0 3rem;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 425px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 768px) {
     width: 90%;
   }
 
@@ -14,7 +18,12 @@ export const PolicyContainer = styled.div`
     margin: 0 3rem 0 3rem;
   }
 
-  @media screen and (max-width: 2400px) {
+  @media screen and (min-width: 1280px) {
+    width: 90%;
+    margin: 0 3rem 0 3rem;
+  }
+
+  @media screen and (max-width: 1440px) {
     width: 90%;
     margin: 0 3rem 0 3rem;
   }
@@ -28,20 +37,31 @@ export const PolicyTitle = styled.h1`
   padding-bottom: 1rem;
   font-weight: 500;
 
-  @media screen and (max-width: 600px) {
-    width: 100%;
-    font-size: 0.7rem;
+  @media screen and (max-width: 425px) {
+    width: 90%;
+    font-size: 0.5rem;
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 768px) {
     width: 90%;
     font-size: 1rem;
+  }
+    
+  @media screen and (min-width: 1024px) {
+    width: 90%;
+    font-size: 1.2rem;
+    margin: 0 3rem 0 3rem;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    width: 90%;
+    font-size: 1.5rem;
     margin: 0 3rem 0 3rem;
   }
 
-  @media screen and (min-width: 2400px) {
+  @media screen and (min-width: 1440px) {
     width: 100%;
-    font-size: 3.7rem;
+    font-size: 2rem;
   }
 `;
 
@@ -51,7 +71,13 @@ export const PolicySubTitle = styled.h2`
   text-align: left;
   color: black;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 425px) {
+    width: 90%;
+    margin: 0;
+    font-size: 0.6rem;
+  }
+
+  @media screen and (max-width: 768px) {
     width: 90%;
     margin: 0;
     font-size: 0.6rem;
@@ -62,9 +88,14 @@ export const PolicySubTitle = styled.h2`
     font-size: 0.8rem;
   }
 
-  @media screen and (min-width: 2400px) {
+  @media screen and (min-width: 1280px) {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  @media screen and (min-width: 1440px) {
     width: 100%;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
   }
 `;
 
@@ -73,17 +104,29 @@ export const PolicyLevel = styled.p`
   text-align: left;
   color: black;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 425px) {
     width: 90%;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: 0;
+    font-size: 0.6rem;
+  }
+
 
   @media screen and (min-width: 1024px) {
     width: 90%;
     font-size: 1rem;
   }
 
-  @media screen and (min-width: 2400px) {
+  @media screen and (min-width: 1280px) {
+    width: 90%;
+    font-size: 1.3rem;
+  }
+
+  @media screen and (min-width: 1440px) {
     width: 100%;
     font-size: 2.3rem;
   }
@@ -93,10 +136,16 @@ export const PolicyInfo = styled.p`
   padding-top: 0.5rem;
   text-align: left;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 425px) {
     width: 90%;
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: 0;
+    font-size: 0.7rem;
   }
   
   @media screen and (min-width: 1024px) {
@@ -104,9 +153,14 @@ export const PolicyInfo = styled.p`
     font-size: 1rem;
   }
 
-  @media screen and (min-width: 2400px) {
-    width: 100%;
-    font-size: 2.3rem;
+  @media screen and (min-width: 1280px) {
+    width: 90%;
+    font-size: 1.3rem;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 90%;
+    font-size: 2rem;
   }
 `;
 
@@ -114,20 +168,31 @@ export const PolicySection = styled.p`
   padding-top: 0.5rem;
   text-align: left;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 425px) {
     width: 90%;
-    font-size: 0.7rem;
+    margin: 0;
+    font-size: 0.6rem;
   }
 
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: 0;
+    font-size: 0.7rem;
+  }
+  
   @media screen and (min-width: 1024px) {
     width: 90%;
     font-size: 1rem;
   }
 
-  @media screen and (min-width: 2400px) {
-    width: 100%;
-    font-size: 2.3rem;
-    margin: 0 3rem 0 5rem;
+  @media screen and (min-width: 1280px) {
+    width: 90%;
+    font-size: 1.3rem;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 90%;
+    font-size: 2rem;
   }
 `;
 
