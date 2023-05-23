@@ -18,17 +18,17 @@ const Hjem = () => {
   return (
     <>
       <GlobalStyle />
-      {/* <Navbar /> */}
+      <Navbar />
       <Intro />
       <VartAnsvar />
       <Tjenester />
-      {/* <Veiledning />
-      <Price /> */}
+      <Veiledning />
+      <Price />
       <InfoTrude />
-      {/* <Target /> */}
-      {/* <KursDeltaker /> */}
+      <Target />
+      <KursDeltaker />
       <KomIgjen />
-      {/* <ContactForm /> */}
+      <ContactForm />
       <Footer />
     </>
   );
