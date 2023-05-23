@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const EmptySpace = styled.div`
   width: auto;
   height: 25vh;
-  margin-top: 100px;
+  margin-top: 5rem;
   background: rgba(0, 0, 0, 0.8);
   color: white;
 `;
@@ -23,14 +23,14 @@ export const FooterContainer = styled.div`
     display: block;
   }
 
-  @media only screen and (min-width: 2400px) {
-    font-size: 3rem;
+  @media only screen and (min-width: 1400px) {
+    font-size: 1.5rem;
   }
 `;
 
 export const StyledLink = styled(Link)`
   color: #fff;
-  padding-top: 13px;
+  padding-top: 1rem;
   text-decoration: none;
 
   &:hover {
@@ -39,6 +39,10 @@ export const StyledLink = styled(Link)`
 
   @media only screen and (max-width: 40em) {
     padding-top: 13px;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    padding-top: 1.42rem;
   }
 `;
 
