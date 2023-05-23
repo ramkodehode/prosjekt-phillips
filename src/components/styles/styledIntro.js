@@ -105,8 +105,8 @@ export const UnderTitle = styled.h2`
   @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
   }
-  @media only screen and (min-width: 2400px) {
-    font-size: 5rem;
+  @media only screen and (min-width: 1400px) {
+    font-size: 2.5rem;
   }
 `;
 
@@ -128,7 +128,7 @@ export const UnderTitleYellow = styled.h2`
 export const IntroText = styled.p`
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2;
+  font-size: 1.5rem;
   line-height: 165%;
 
   @media only screen and (max-width: 40em) {
