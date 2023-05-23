@@ -111,11 +111,33 @@ background: #000;
    width: 10rem;
    
   }
-
 }
 
+/*
+@media screen and (max-width: 425px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}
+
+@media screen and (min-width: 1280px) {
+ 
+}
+
+@media screen and (min-width: 1440px) {
+  
+}
+`; /
+
+
 /****************** Media Queries (Tablet)**********************/
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
    .swiper__container {
       width: 90%;
   }
@@ -159,7 +181,7 @@ background: #000;
 
 
 /****************** Media Queries (Laptop)**********************/
-  @media only screen and (min-width: 2400px) {
+  @media only screen and (max-width: 1440px) {
    .swiper__container {
       width: 100%;
     }
