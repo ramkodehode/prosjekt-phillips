@@ -4,7 +4,7 @@ import computer from "./img/computer.png";
 
 export const KomIgjenText = styled.h1`
   position: absolute;
-  top: 30%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -15,9 +15,8 @@ export const KomIgjenText = styled.h1`
     font-size: 1rem;
   }
 
-  @media only screen and (min-width: 2400px) {
-    font-size: 7rem;
-    top: 40%;
+  @media only screen and (min-width: 1440px) {
+    font-size: 2.5rem;
   }
 `;
 
@@ -27,7 +26,7 @@ export const OpacityBox = styled.div`
   padding: 6rem 13rem;
   background-color: white;
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -35,27 +34,8 @@ export const OpacityBox = styled.div`
     padding: 2.5rem 7rem;
   }
 
-  @media only screen and (min-width: 2400px) {
-    padding: 20rem 45rem;
-    top: 45%;
-  }
-`;
-
-export const PictureBoxesContainer = styled.section`
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-
-  padding: 50px;
-
-  position: relative;
-  top: -150px;
-
-  margin: 0 auto;
-
-  @media only screen and (max-width: 40em) {
-    display: none;
+  @media only screen and (min-width: 1400px) {
+    padding: 8rem 18rem;
   }
 `;
 
@@ -83,7 +63,7 @@ export const DivImg = styled.div`
   position: relative;
   text-align: center;
 
-  padding-bottom: 100px;
+  margin: 8rem 0;
 `;
 
 export const IMGlaptop = styled.img`
@@ -94,15 +74,12 @@ export const IMGlaptop = styled.img`
   margin-left: auto;
   margin-right: auto;
 
-  padding-bottom: 100px;
-
   margin: 0 auto;
 
   z-index: -1;
 
   @media only screen and (max-width: 40em) {
     height: 30vh;
-    padding-bottom: 0;
   }
 `;
 
