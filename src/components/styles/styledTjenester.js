@@ -91,6 +91,10 @@ export const IMGtjenester = styled.img`
   @media only screen and (min-width: 1440px) {
     height: 55vh;
   }
+
+  @media only screen and (min-width: 1024px) {
+    height: 45vh;
+  }
 `;
 
 export const BoxTjenester = styled.div`
@@ -110,6 +114,11 @@ export const BoxTjenester = styled.div`
   @media only screen and (min-width: 1440px) {
     height: 35vh;
     width: 35vh;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    height: 25vh;
+    width: 25vh;
   }
 `;
 

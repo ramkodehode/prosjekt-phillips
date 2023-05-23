@@ -39,6 +39,10 @@ export const CaricatureImg = styled.img`
   @media only screen and (min-width: 1440px) {
     height: 70vh;
   }
+
+  @media only screen and (min-width: 1024px) {
+    height: 65vh;
+  }
 `;
 
 export const PhoneCaricatureImg = styled.img`

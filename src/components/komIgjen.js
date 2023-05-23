@@ -61,6 +61,10 @@ export const PicBoxes = styled.img`
   @media only screen and (min-width: 1280px) {
     height: 67vh;
   }
+
+  @media only screen and (min-width: 1024px) {
+    height: 67vh;
+  }
 `;
 
 export const DivImg = styled.div`
