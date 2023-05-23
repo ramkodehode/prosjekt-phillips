@@ -19,6 +19,10 @@ export const BoxTrude = styled.div`
   @media only screen and (max-width: 40em) {
     display: none;
   }
+
+  @media only screen and (min-width: 1440px) {
+    margin-top: 15rem;
+  }
 `;
 
 const InfoTrude = () => {
