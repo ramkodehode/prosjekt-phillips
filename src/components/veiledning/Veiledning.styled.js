@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const MainContainer = styled.div`
   background-color: #ffe6c7;
   padding: 80px 0 80px 0;
+  @media (min-width: 2160px) {
+    height: 2300px;
+  }
 
   @media (max-width: 768px) {
     flex-direction: row;
@@ -13,6 +16,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  @media (min-width: 2160px) {
+  }
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -20,16 +25,27 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
+  @media (min-width: 2160px) {
+    font-size: 6rem;
+  }
+
   font-size: 2em;
   text-align: center;
 `;
 export const HeadingTwo = styled.h2`
+  @media (min-width: 2160px) {
+    font-size: 4rem;
+  }
+
   font-size: 18px;
   color: rgb(229, 112, 27);
 `;
 
 export const HeadingThree = styled.h2`
   font-size: 16px;
+  @media (min-width: 2160px) {
+    font-size: 4rem;
+  }
 `;
 
 export const UnorderedList = styled.ul`
@@ -37,6 +53,12 @@ export const UnorderedList = styled.ul`
   padding: 0;
   height: 100px;
   width: 200px;
+
+  @media (min-width: 2160px) {
+    font-size: 35px;
+    height: 300px;
+    width: 600px;
+  }
 `;
 
 export const UlWrapper = styled.div`
@@ -51,21 +73,34 @@ export const UlWrapper = styled.div`
 export const List = styled.li`
   margin-left: 1rem;
   line-height: 165%;
+
+  @media (min-width: 2160px) {
+    font-size: 3.5rem;
+  }
 `;
 
 export const ArrowContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 35px;
   @media (max-width: 760px) {
     flex-direction: row;
+  }
+  @media (min-width: 2160px) {
+    width: 250px;
+    padding: 50px;
   }
 `;
 
 export const Arrow = styled.img`
-  width: 70px;
-  height: 90px;
+  width: 50px;
+  height: 60px;
+  padding: 30px;
+
+  @media (min-width: 2160px) {
+    height: 240px;
+    width: 220px;
+  }
 
   @media (max-width: 760px) {
     transform: rotate(90deg);
@@ -79,6 +114,9 @@ export const Spacing = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 2160px) {
+  }
 
   @media (max-width: 768px) {
     justify-content: center;
