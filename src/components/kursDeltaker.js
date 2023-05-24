@@ -70,8 +70,8 @@ const KursDeltaker = () => {
           400: {
             slidesPerView: 1,
           },
-          639: {
-            slidesPerView: 1,
+          768: {
+            slidesPerView: 2,
           },
           865: {
             slidesPerView: 2,
