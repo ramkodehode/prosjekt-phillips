@@ -35,8 +35,8 @@ export const TitleVareProgrammer = styled.h1`
     font-size: 1.8em;
     position: relative;
   }
-  @media only screen and (min-width: 2400px) {
-    font-size: 6rem;
+  @media only screen and (min-width: 1440px) {
+    font-size: 3.5rem;
   }
 `;
 
@@ -49,8 +49,8 @@ export const IntroVareProgrammer = styled.p`
 
   font-size: 1.2em;
   line-height: 165%;
-  @media only screen and (min-width: 2400px) {
-    font-size: 3.5rem;
+  @media only screen and (min-width: 1440px) {
+    font-size: 2rem;
   }
 
   @media only screen and (max-width: 40em) {
@@ -66,8 +66,8 @@ export const TextVareProgrammer = styled.p`
 
   font-size: 1.2em;
   line-height: 165%;
-  @media only screen and (min-width: 2400px) {
-    font-size: 3.5rem;
+  @media only screen and (min-width: 1400px) {
+    font-size: 2rem;
   }
 `;
 
@@ -87,6 +87,14 @@ export const IMGcomputer = styled.img`
 export const IMGtjenester = styled.img`
   height: 60vh;
   width: auto;
+
+  @media only screen and (min-width: 1440px) {
+    height: 55vh;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    height: 45vh;
+  }
 `;
 
 export const BoxTjenester = styled.div`
@@ -101,6 +109,16 @@ export const BoxTjenester = styled.div`
 
   @media only screen and (max-width: 40em) {
     display: none;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    height: 35vh;
+    width: 35vh;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    height: 25vh;
+    width: 25vh;
   }
 `;
 

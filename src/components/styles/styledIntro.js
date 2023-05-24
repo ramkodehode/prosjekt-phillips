@@ -21,20 +21,28 @@ export const MainBox = styled.div`
     height: 45rem;
   }
 
-  /* @media only screen and (min-width: 1300px) {
-    height: 60rem;
-  } */
+  @media only screen and (min-width: 1440px) {
+    height: 100vh;
+  }
 `;
 
 export const CaricatureImg = styled.img`
   display: flex;
   flex-direction: row;
-  height: 80vh;
+  height: 90vh;
   width: auto;
-  margin-top: 8rem;
+
+  padding: 10rem 2rem;
 
   @media only screen and (max-width: 40em) {
     display: none;
+  }
+  @media only screen and (min-width: 1440px) {
+    height: 70vh;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    height: 75vh;
   }
 `;
 
@@ -67,14 +75,11 @@ export const NewSection = styled.section`
 `;
 
 export const MarginDiv = styled.div`
-  margin-left: 50px;
-  margin-top: 50px;
+  padding: 2.5rem;
 
-  max-width: 80%;
   @media only screen and (max-width: 40em) {
     margin-top: 50px;
     margin-left: 25px;
-    max-width: 100%;
   }
 `;
 
@@ -89,8 +94,8 @@ export const Tittel = styled.h1`
     max-width: 100%;
     line-height: 40px;
   }
-  @media only screen and (min-width: 2400px) {
-    font-size: 8rem;
+  @media only screen and (min-width: 1440px) {
+    font-size: 3.5rem;
     line-height: 100%;
   }
 `;
@@ -105,8 +110,8 @@ export const UnderTitle = styled.h2`
   @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
   }
-  @media only screen and (min-width: 2400px) {
-    font-size: 5rem;
+  @media only screen and (min-width: 1400px) {
+    font-size: 2.5rem;
   }
 `;
 
@@ -120,21 +125,21 @@ export const UnderTitleYellow = styled.h2`
   @media only screen and (max-width: 40em) {
     font-size: 1.2rem;
   }
-  @media only screen and (min-width: 2400px) {
-    font-size: 5rem;
+  @media only screen and (min-width: 1440px) {
+    font-size: 2.5rem;
   }
 `;
 
 export const IntroText = styled.p`
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2;
+  font-size: 1.5rem;
   line-height: 165%;
 
   @media only screen and (max-width: 40em) {
     font-size: 1rem;
   }
-  @media only screen and (min-width: 2400px) {
-    font-size: 4rem;
+  @media only screen and (min-width: 1440px) {
+    font-size: 2rem;
   }
 `;
