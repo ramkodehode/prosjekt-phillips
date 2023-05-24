@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const MainContainer = styled.div`
   background-color: #ffe6c7;
+  width: 100%;
   padding: 80px 0 80px 0;
   @media (min-width: 2160px) {
     height: 2300px;
@@ -79,6 +80,8 @@ export const List = styled.li`
 
 export const ArrowContainer = styled.div`
   display: flex;
+  padding: 0 30px 0 30px;
+
   flex-direction: column;
   justify-content: center;
   @media (max-width: 760px) {
