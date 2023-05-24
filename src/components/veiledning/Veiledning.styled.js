@@ -5,7 +5,6 @@ export const MainContainer = styled.div`
   width: 100%;
   padding: 80px 0 80px 0;
   @media (min-width: 2160px) {
-    height: 2300px;
   }
 
   @media (max-width: 768px) {
@@ -45,7 +44,6 @@ export const HeadingTwo = styled.h2`
 export const HeadingThree = styled.h2`
   font-size: 16px;
   @media (min-width: 2160px) {
-    font-size: 4rem;
   }
 `;
 
@@ -53,12 +51,16 @@ export const UnorderedList = styled.ul`
   list-style-type: square;
   padding: 0;
   height: 100px;
-  width: 200px;
+  width: 230px;
 
   @media (min-width: 2160px) {
     font-size: 35px;
     height: 300px;
     width: 600px;
+  }
+
+  @media (max-width: 768px) {
+    height: 130px;
   }
 `;
 
@@ -73,6 +75,7 @@ export const UlWrapper = styled.div`
 
 export const List = styled.li`
   margin-left: 1rem;
+  display: block;
   @media (min-width: 2160px) {
     font-size: 3.5rem;
   }

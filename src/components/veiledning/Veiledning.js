@@ -106,9 +106,7 @@ const Veiledning = () => {
               <UnorderedList>
                 <List>Forstå arbeidsmarkedet</List>
                 <List>Nettverk og relasjonsbygging</List>
-
                 <List>Egen profil - ønsket rolle </List>
-
                 <List>Handlingsplan</List>
               </UnorderedList>
               <ArrowContainer>
