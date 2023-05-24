@@ -85,7 +85,6 @@ const Veiledning = () => {
             <UlWrapper>
               <UnorderedList>
                 <List>Personlige egenskaper</List>
-
                 <List>Kompetanser</List>
                 <List>Verdier og interesser</List>
                 <List>Situasjon, atferd, resulat - SAR</List>
@@ -107,9 +106,7 @@ const Veiledning = () => {
               <UnorderedList>
                 <List>Forstå arbeidsmarkedet</List>
                 <List>Nettverk og relasjonsbygging</List>
-
                 <List>Egen profil - ønsket rolle </List>
-
                 <List>Handlingsplan</List>
               </UnorderedList>
               <ArrowContainer>

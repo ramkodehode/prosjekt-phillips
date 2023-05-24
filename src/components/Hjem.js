@@ -22,6 +22,7 @@ const Hjem = () => {
       <Intro />
       <VartAnsvar />
       <Tjenester />
+
        <Veiledning />
       <Price /> 
       <InfoTrude />
@@ -29,6 +30,15 @@ const Hjem = () => {
       <KursDeltaker /> 
       <KomIgjen />
        <ContactForm /> 
+
+      <Veiledning />
+      <Price />
+      <InfoTrude />
+      <Target />
+      <KursDeltaker />
+      <KomIgjen />
+      <ContactForm />
+
       <Footer />
     </>
   );

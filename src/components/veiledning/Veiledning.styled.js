@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const MainContainer = styled.div`
   background-color: #ffe6c7;
+  width: 100%;
   padding: 80px 0 80px 0;
   @media (min-width: 2160px) {
-    height: 2300px;
   }
 
   @media (max-width: 768px) {
@@ -44,7 +44,6 @@ export const HeadingTwo = styled.h2`
 export const HeadingThree = styled.h2`
   font-size: 16px;
   @media (min-width: 2160px) {
-    font-size: 4rem;
   }
 `;
 
@@ -52,12 +51,16 @@ export const UnorderedList = styled.ul`
   list-style-type: square;
   padding: 0;
   height: 100px;
-  width: 200px;
+  width: 230px;
 
   @media (min-width: 2160px) {
     font-size: 35px;
     height: 300px;
     width: 600px;
+  }
+
+  @media (max-width: 768px) {
+    height: 130px;
   }
 `;
 
@@ -72,8 +75,7 @@ export const UlWrapper = styled.div`
 
 export const List = styled.li`
   margin-left: 1rem;
-  line-height: 165%;
-
+  display: block;
   @media (min-width: 2160px) {
     font-size: 3.5rem;
   }
@@ -81,6 +83,8 @@ export const List = styled.li`
 
 export const ArrowContainer = styled.div`
   display: flex;
+  padding: 0 30px 0 30px;
+
   flex-direction: column;
   justify-content: center;
   @media (max-width: 760px) {
@@ -93,13 +97,9 @@ export const ArrowContainer = styled.div`
 `;
 
 export const Arrow = styled.img`
-  width: 50px;
-  height: 60px;
-  padding: 30px;
+  max-width: 65px;
 
   @media (min-width: 2160px) {
-    height: 240px;
-    width: 220px;
   }
 
   @media (max-width: 760px) {
