@@ -69,6 +69,10 @@ export const TextVareProgrammer = styled.p`
   @media only screen and (min-width: 1400px) {
     font-size: 2rem;
   }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 1.4em;
+  }
 `;
 
 export const IMGcomputer = styled.img`
@@ -119,6 +123,8 @@ export const BoxTjenester = styled.div`
   @media only screen and (min-width: 1024px) {
     height: 25vh;
     width: 25vh;
+
+    margin-top: 6em;
   }
 `;
 
