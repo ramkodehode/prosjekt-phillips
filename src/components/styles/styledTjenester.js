@@ -73,6 +73,10 @@ export const TextVareProgrammer = styled.p`
   @media only screen and (min-width: 1024px) {
     font-size: 1.4em;
   }
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 1.8em;
+  }
 `;
 
 export const IMGcomputer = styled.img`
@@ -92,12 +96,12 @@ export const IMGtjenester = styled.img`
   height: 60vh;
   width: auto;
 
-  @media only screen and (min-width: 1440px) {
-    height: 55vh;
-  }
-
   @media only screen and (min-width: 1024px) {
     height: 45vh;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    height: 60vh;
   }
 `;
 
@@ -115,16 +119,16 @@ export const BoxTjenester = styled.div`
     display: none;
   }
 
-  @media only screen and (min-width: 1440px) {
-    height: 35vh;
-    width: 35vh;
-  }
-
   @media only screen and (min-width: 1024px) {
     height: 25vh;
     width: 25vh;
 
     margin-top: 6em;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    height: 40vh;
+    width: 40vh;
   }
 `;
 
