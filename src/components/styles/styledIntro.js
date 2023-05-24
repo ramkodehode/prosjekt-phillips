@@ -29,9 +29,10 @@ export const MainBox = styled.div`
 export const CaricatureImg = styled.img`
   display: flex;
   flex-direction: row;
-  height: 80vh;
+  height: 90vh;
   width: auto;
-  margin-top: 8rem;
+
+  padding: 10rem 2rem;
 
   @media only screen and (max-width: 40em) {
     display: none;
@@ -41,7 +42,7 @@ export const CaricatureImg = styled.img`
   }
 
   @media only screen and (min-width: 1024px) {
-    height: 65vh;
+    height: 75vh;
   }
 `;
 
