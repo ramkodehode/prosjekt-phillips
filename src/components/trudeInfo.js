@@ -14,7 +14,7 @@ export const BoxTrude = styled.div`
   height: 60vh;
   width: 45vh;
   background-color: #ffe6c7;
-  margin: 5em;
+  margin: 8em 1em;
 
   @media only screen and (max-width: 40em) {
     display: none;

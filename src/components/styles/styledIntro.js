@@ -37,12 +37,13 @@ export const CaricatureImg = styled.img`
   @media only screen and (max-width: 40em) {
     display: none;
   }
-  @media only screen and (min-width: 1440px) {
-    height: 70vh;
-  }
 
   @media only screen and (min-width: 1024px) {
-    height: 75vh;
+    height: 65vh;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    height: 80vh;
   }
 `;
 

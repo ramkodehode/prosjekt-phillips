@@ -55,6 +55,10 @@ export const TitleTrude = styled.h1`
     font-size: 1.5rem;
   }
 
+  @media only screen and (min-width: 1024px) {
+    font-size: 2em;
+  }
+
   @media only screen and (min-width: 1440px) {
     font-size: 3.5rem;
     line-height: 100%;
@@ -71,6 +75,11 @@ export const MainTextTrude = styled.p`
     font-size: 1.1rem;
     max-width: 100%;
   }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 1.3em;
+  }
+
   @media only screen and (min-width: 1440px) {
     font-size: 2rem;
   }
