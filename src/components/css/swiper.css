@@ -159,7 +159,7 @@ background: #000;
   .swiper__container {
     width: 90%;
   }
-  /*
+  
   .title{
     text-align: left;
     margin-left: 5rem;
@@ -170,12 +170,11 @@ background: #000;
 
   .client__review{
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
     color: #000;
-    font-weight: 100;
     display: block;
     margin: 0 auto 3rem;
-    width: 16rem;
+    width: 18rem;
   }
 
   .client__name{
@@ -185,22 +184,13 @@ background: #000;
     line-height: 165%;
     text-align: center;
   }
-
-  .swiper-button-next{
-    width: 0.5rem; 
-  }
-    
-  .swiper-button-prev{
-   width: 0.5rem;
-   
-  }*/
 }
 
 @media only screen and (min-width: 1280px) {
   .swiper__container {
     width: 90%; 
   }
-/*
+
   .title{
     text-align: left;
     margin-left: 8rem;
@@ -228,23 +218,14 @@ background: #000;
 
   .client__review{
     font-size: 1.4rem;
-    text-align: left;
+    text-align: center;
     color: #000;
     font-weight: 100;
     display: block;
     margin: 0 auto 10rem;
-    width: 15rem;
+    width: 20rem;
     line-height: 165%;
   }
-
-  .swiper-button-next{
-    width: 0.5rem; 
-  }
-    
-  .swiper-button-prev{
-   width: 0.5rem;
-   
-  }*/
 }
 
 @media only screen and (min-width: 1440px) {
@@ -279,13 +260,13 @@ background: #000;
   }
 
   .client__review{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #000;
     font-weight: 100;
     display: block;
     margin: 0 auto 3rem;
-    width: 20rem;
+    width: 25rem;
     line-height: 165%;
   }
 
