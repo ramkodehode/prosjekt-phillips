@@ -74,9 +74,11 @@ const PriceBoxTwo = () => {
               <br />
               <p>3 møter: 7200,- </p>
               <br />
-              <p>6 møter: 14.400,-</p>
+              <p>6 møter: 13.140,-</p>
               <br />
-              <p>9 møter: 21.600,-</p>
+              <p>9 møter: 19.710,-</p>
+              <br />
+              <p>Enkeltimer 1200,-</p>
             </ContainerGroup>
             <ContainerGroup>
               <p>Grupper:</p>

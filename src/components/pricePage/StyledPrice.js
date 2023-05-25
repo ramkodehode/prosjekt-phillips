@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BoxPrice = styled.div`
   height: 28em;
   width: 21em;
-  border: 1.5px solid #fe8900;
+  border: 2px solid #e5701b;
   padding: 3rem 1.5rem;
   background-color: white;
 
@@ -13,9 +13,8 @@ export const BoxPrice = styled.div`
     height: auto;
     width: 100%;
     text-align: center;
-    border: 4px solid #fe8900;
-    padding: 10px 30px;
-    margin-top: 80px;
+    border: 3px solid #e5701b;
+    padding: 10px 40px;
   }
   @media only screen and (min-width: 2400px) {
     border: 5px solid #fe8900;
@@ -31,7 +30,6 @@ export const ContainerPrice = styled.section`
   text-align: center;
 
   @media only screen and (max-width: 40em) {
-    display: none;
   }
   @media only screen and (min-width: 2400px) {
     margin: 0 -10rem;
@@ -103,14 +101,13 @@ export const ImgPrice = styled.img`
   width: auto;
   padding-top: 10px;
   @media only screen and (max-width: 40em) {
-    display: none;
   }
 `;
 
 export const Underline = styled.div`
   width: 100%;
   height: 1px;
-  background-color: #fe8900;
+  background-color: #e5701b;
 
   @media only screen and (max-width: 40em) {
     height: 2px;
@@ -137,7 +134,7 @@ export const ContainerGroup = styled.section`
 `;
 
 export const TextYellow = styled.h1`
-  color: #fe8900;
+  color: #e5701b;
   font-weight: 400;
   font-size: 1.2rem;
   @media only screen and (min-width: 2400px) {
