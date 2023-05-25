@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Container,
   HeadingOne,
@@ -13,8 +13,8 @@ import {
   MainContainer,
   InfoContainerMobil,
   Spacing,
-} from './Veiledning.styled';
-import Pil from './polygon.png';
+} from "./Veiledning.styled";
+import Pil from "./polygon.png";
 
 const Veiledning = () => {
   return (
@@ -47,7 +47,7 @@ const Veiledning = () => {
 
             <UlWrapper>
               <UnorderedList>
-                <List>Undersøke ulike studie- og yrkesretning</List>
+                <List>Undersøke ulike studie- og yrkesretninger</List>
                 <List>Velge bort</List>
                 <List>Velge</List>
               </UnorderedList>

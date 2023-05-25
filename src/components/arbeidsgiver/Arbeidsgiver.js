@@ -20,9 +20,8 @@ const Arbeidsgiver = () => {
         <HeadingOne>For Arbeidsgiver</HeadingOne>
         <Text>
           Etter inngått avtale starter vi med oppstartsmøte hvor vi foretar en
-          gjensidig forventingsavklaring for mål og gjennomføring av programmet.
-          Karrierelæringsprogrammet tar utgangspunkt i modellen; Ta kontroll mot
-          nye muligheter.
+          gjensidig forventingsavklaring for mål og gjennomføring av
+          veiledningsprogrammet.
         </Text>
       </HeadingTextContainer>
 
