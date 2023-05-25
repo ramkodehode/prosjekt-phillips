@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContactGlobal = styled.div`
   * {
@@ -40,6 +40,7 @@ export const ContactInfo = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 `;
 
 export const Ul = styled.ul`
@@ -120,5 +121,5 @@ export const AnchorTag = styled.a`
 export const Message = styled.p``;
 
 export const Details = styled.label`
-  padding-left: 9px;
+  padding-left: 10px;
 `;
