@@ -220,12 +220,11 @@ background: #000;
   }
 
   .swiper-button-next{
-    padding-top: 20rem;
+    padding-top: 8rem;
   }
-    
+
   .swiper-button-prev{
-   padding-top: 20rem;
-   
+   padding-top: 8rem;
   }
 }
 
@@ -260,7 +259,7 @@ background: #000;
   }
 
   .client__review{
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-align: center;
     color: #000;
     font-weight: 100;
