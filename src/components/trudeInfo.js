@@ -43,7 +43,7 @@ const InfoTrude = () => {
                 høyskole innen HR, organisasjon og ledelse, samt fagskole i
                 merkantile fag. Utvikler og leverer karrierelæringsprogram for
                 mennesker i ulike omstillingsfaser. Holder foredrag innen temaet
-                karriere. Samarbeider med aktører innen HR hvor jeg bistår i
+                karriere. Samarbeider med aktører innen HR hvor hun bistår i
                 omstillingsprosesser med levering av karriereveiledning. Er i
                 tillegg rådgiver i rekrutteringsprosesser. Har mange års
                 erfaring fra ulike lederroller i næringslivet. De siste 12 årene
