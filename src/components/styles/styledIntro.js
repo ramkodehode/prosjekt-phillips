@@ -134,7 +134,7 @@ export const UnderTitleYellow = styled.h2`
 export const IntroText = styled.p`
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 165%;
 
   @media only screen and (max-width: 40em) {
