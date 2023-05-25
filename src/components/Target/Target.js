@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Container,
   Goal,
@@ -7,7 +7,7 @@ import {
   Paragraph,
   Values,
   Vision,
-} from "./Target.styled";
+} from './Target.styled';
 
 const Target = () => {
   return (
@@ -31,24 +31,21 @@ const Target = () => {
         <Values>
           <HeadingOne>Verdier</HeadingOne>
           <Paragraph>
-<<<<<<< HEAD
             Verdier er; Engasjert; Handler om å møte deg der du er i livet ditt,
             vise interesse, utforske og sammen finne veien videre mot dine
             mål.Kvalitet; Høy integritet og faglig kompetanse. Våre tjenester er
             i tråd med Nasjonalt kvalitetsrammeverk. Trygg; Tillitsbasert
-            samarbeid og støttes av etikk og god forretningsskikk.
-=======
-            Engasjert: Handler om å møte deg der du er i livet ditt, vise
-            interesse, utforske og sammen finne veien videre mot dine mål.
+            samarbeid og støttes av etikk og god forretningsskikk. Engasjert:
+            Handler om å møte deg der du er i livet ditt, vise interesse,
+            utforske og sammen finne veien videre mot dine mål.
             <Paragraph>
               Kvalitet: Innebærer høy integritet og faglig kompetanse. Våre
-              tjenester er i tråd med Nasjonalt kvalitetsrammeverk.{" "}
+              tjenester er i tråd med Nasjonalt kvalitetsrammeverk.{' '}
             </Paragraph>
             <Paragraph>
               Trygg: Vil si tillitsbasert samarbeid som støttes av etikk og god
               forretningsskikk.
             </Paragraph>
->>>>>>> 44e32f4a9f42186f1ecedee9beaf2a233680bf40
           </Paragraph>
         </Values>
       </InnerContainer>
