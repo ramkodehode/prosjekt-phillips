@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import Trude from "./img/Trude.jpg";
-import { Column, Container, NewSection } from "./styles/styledIntro";
+import styled from 'styled-components';
+import Trude from './img/Trude.jpg';
+import { Column, Container, NewSection } from './styles/styledIntro';
 import {
   ContainerTrude,
   ImgTrude,
@@ -8,7 +8,7 @@ import {
   PhoneImgTrude,
   TitleTrude,
   TrudeText,
-} from "./styles/styledTrude";
+} from './styles/styledTrude';
 
 export const BoxTrude = styled.div`
   height: 60vh;
@@ -39,7 +39,7 @@ const InfoTrude = () => {
             <ContainerTrude>
               <TitleTrude id="om">Trude Skarstein Phillips</TitleTrude>
               <MainTextTrude>
-                Arbeider i dag som karriereveileder og underviser itillegg på
+                Arbeider i dag som karriereveileder og underviser i tillegg på
                 høyskole innen HR, organisasjon og ledelse, samt fagskole i
                 merkantile fag. Utvikler og leverer karrierelæringsprogram for
                 mennesker i ulike omstillingsfaser. Holder foredrag innen temaet
