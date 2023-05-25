@@ -26,8 +26,7 @@ export const PhoneImgTrude = styled.img`
 export const ContainerTrude = styled.section`
   /* display: flex;
   flex-direction: column; */
-  margin-left: 50px;
-  margin-bottom: 100px;
+  margin: 3rem;
 
   @media only screen and (max-width: 40em) {
     margin: 10px;
@@ -43,9 +42,8 @@ export const TrudeText = styled.h3`
   @media only screen and (max-width: 40em) {
     font-size: 1em;
   }
-  @media only screen and (min-width: 2400px) {
-    font-size: 3rem;
-    margin-left: 10rem;
+  @media only screen and (min-width: 1440px) {
+    font-size: 2rem;
   }
 `;
 
@@ -57,16 +55,17 @@ export const TitleTrude = styled.h1`
     font-size: 1.5rem;
   }
 
-  @media only screen and (min-width: 2400px) {
-    font-size: 6.5rem;
+  @media only screen and (min-width: 1024px) {
+    font-size: 2em;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 3.5rem;
     line-height: 100%;
-    margin-left: 10rem;
   }
 `;
 
 export const MainTextTrude = styled.p`
-  max-width: 90%;
-
   font-weight: 400;
   line-height: 165%;
   font-size: 1.2rem;
@@ -76,8 +75,12 @@ export const MainTextTrude = styled.p`
     font-size: 1.1rem;
     max-width: 100%;
   }
-  @media only screen and (min-width: 2400px) {
-    font-size: 3.5rem;
-    margin-left: 10rem;
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 1.3em;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 2rem;
   }
 `;

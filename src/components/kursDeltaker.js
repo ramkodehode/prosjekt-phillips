@@ -70,8 +70,8 @@ const KursDeltaker = () => {
           400: {
             slidesPerView: 1,
           },
-          639: {
-            slidesPerView: 1,
+          768: {
+            slidesPerView: 2,
           },
           865: {
             slidesPerView: 2,
@@ -87,7 +87,7 @@ const KursDeltaker = () => {
           },
         }}
         slidesPerView={3}
-        spaceBetween={40}
+        spaceBetween={100}
         keyboard={{
           enabled: true,
         }}

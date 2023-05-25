@@ -4,8 +4,10 @@ export const BoxPrice = styled.div`
   height: 28em;
   width: 21em;
   border: 1.5px solid #fe8900;
-  padding: 5rem 2rem;
+  padding: 3rem 1.5rem;
   background-color: white;
+
+  font-size: 0.9em;
 
   @media only screen and (max-width: 40em) {
     height: auto;

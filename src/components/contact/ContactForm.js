@@ -74,6 +74,11 @@ function ContactForm() {
                   LinkedIn
                 </AnchorTag>
               </Li>
+
+              <Li>
+                Fysisk undervisning og veiledning foregår i moderne og
+                sentrumsnære lokaler i Bergen.
+              </Li>
             </Ul>
           </ContactInfo>
           <Contact>

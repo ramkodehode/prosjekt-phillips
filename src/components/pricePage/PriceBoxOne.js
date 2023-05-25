@@ -26,7 +26,7 @@ const PriceBoxOne = () => {
           </ContainerGroup>
           <ContainerGroup>
             <p>Grupper:</p>
-            <p>5940,-</p>
+            <p>4950,-</p>
           </ContainerGroup>
         </Column>
       </BoxPrice>

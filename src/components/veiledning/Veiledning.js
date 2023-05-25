@@ -12,6 +12,7 @@ import {
   UlWrapper,
   MainContainer,
   InfoContainerMobil,
+  Spacing,
 } from './Veiledning.styled';
 import Pil from './polygon.png';
 
@@ -72,6 +73,8 @@ const Veiledning = () => {
           </InfoContainer>
         </InfoContainerMobil>
       </Container>
+
+      <Spacing />
       <HeadingOne>Karriereveiledning</HeadingOne>
       <Container>
         <InfoContainerMobil>
@@ -82,7 +85,6 @@ const Veiledning = () => {
             <UlWrapper>
               <UnorderedList>
                 <List>Personlige egenskaper</List>
-
                 <List>Kompetanser</List>
                 <List>Verdier og interesser</List>
                 <List>Situasjon, atferd, resulat - SAR</List>
@@ -104,9 +106,7 @@ const Veiledning = () => {
               <UnorderedList>
                 <List>Forstå arbeidsmarkedet</List>
                 <List>Nettverk og relasjonsbygging</List>
-
                 <List>Egen profil - ønsket rolle </List>
-
                 <List>Handlingsplan</List>
               </UnorderedList>
               <ArrowContainer>
@@ -124,11 +124,9 @@ const Veiledning = () => {
             <UlWrapper>
               <UnorderedList>
                 <List>Trene på bruk av mine verktøy</List>
-                <UnorderedList>
-                  <List>Ta initiativ og ansvar</List>
-                  <List>Kommunisere</List>
-                  <List>Forhandle</List>
-                </UnorderedList>
+                <List>Ta initiativ og ansvar</List>
+                <List>Kommunisere</List>
+                <List>Forhandle</List>
               </UnorderedList>
             </UlWrapper>
           </InfoContainer>

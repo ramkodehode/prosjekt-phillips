@@ -69,8 +69,222 @@ background: #000;
 
 
 
+
+/***********MEDIA QUERY*********/
+
+@media only screen and (min-width: 425px) {
+  .swiper__container {
+    width: 100%;
+}
+
+.title{
+  margin-left: 5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+/*
+.client__image img {
+  text-align: left;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  clip-path: circle(50%); 
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+.client__name{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 165%;
+  text-align: center;
+}*/
+
+.client__review{
+  font-size: 1rem;
+  color: #000;
+  font-weight: 100;
+  display: block;
+  margin: 0 auto 10rem;
+  width: 12rem;
+  line-height: 165%;
+  text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .swiper__container {
+    width: 100%;
+}
+
+.title{
+  text-align: left;
+  margin-left: 10rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+/*
+.client__image img {
+  text-align: left;
+  width: 10rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  clip-path: circle(50%); 
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+.client__name{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 165%;
+  text-align: center;
+} */
+
+.client__review{
+  font-size: 1.2rem;
+  text-align: center;
+  color: #000;
+  font-weight: 100;
+  display: block;
+  margin: 0 auto 3rem;
+  width: 20rem;
+  }
+ 
+}
+
+@media only screen and (min-width: 1024px) {
+  .swiper__container {
+    width: 90%;
+  }
+  
+  .title{
+    text-align: left;
+    margin-left: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .client__review{
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    display: block;
+    margin: 0 auto 3rem;
+    width: 18rem;
+  }
+
+  .client__name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 165%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .swiper__container {
+    width: 90%; 
+  }
+
+  .title{
+    text-align: left;
+    margin-left: 8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.3rem;
+  }
+
+  .client__image img {
+    text-align: left;
+    width: 15rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    clip-path: circle(50%); 
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+  }
+
+  .client__name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 165%;
+    text-align: center;
+  }
+
+  .client__review{
+    font-size: 1.4rem;
+    text-align: center;
+    color: #000;
+    font-weight: 100;
+    display: block;
+    margin: 0 auto 10rem;
+    width: 20rem;
+    line-height: 165%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .swiper__container {
+    width: 90%;
+  }
+  
+
+  .title{
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 10rem;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .client__image img {
+    text-align: left;
+    width: 20rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    clip-path: circle(50%); 
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+  }
+
+  .client__name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 165%;
+    text-align: center;
+  }
+
+  .client__review{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    font-weight: 100;
+    display: block;
+    margin: 0 auto 3rem;
+    width: 25rem;
+    line-height: 165%;
+  }
+
+  .swiper-button-next{
+    width: 0.5rem; 
+  }
+    
+  .swiper-button-prev{
+   width: 0.5rem;
+   
+  }
+}
+
+
+
 /****************** Media Queries (Mobile)**********************/
-  @media only screen and (max-width: 600px) {
+/*  
+@media only screen and (max-width: 600px) {
     .swiper__container {
       width: 90%;
       
@@ -111,11 +325,33 @@ background: #000;
    width: 10rem;
    
   }
+}*/
 
+/*
+@media screen and (max-width: 425px) {
+ 
 }
 
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}
+
+@media screen and (min-width: 1280px) {
+ 
+}
+
+@media screen and (min-width: 1440px) {
+  
+}
+`; /
+
+
 /****************** Media Queries (Tablet)**********************/
-  @media only screen and (max-width: 1024px) {
+  /*@media only screen and (min-width: 1024px) {
    .swiper__container {
       width: 90%;
   }
@@ -154,10 +390,12 @@ background: #000;
    width: 0.5rem;
    
   }
-}
+}*/
+
+
 
 /****************** Media Queries (Laptop)**********************/
-  @media only screen and (min-width: 2400px) {
+  /*@media only screen and (max-width: 1440px) {
    .swiper__container {
       width: 100%;
     }
@@ -209,7 +447,7 @@ background: #000;
      
       }
   
-  }
+  }*/
 
   
 

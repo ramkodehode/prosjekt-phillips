@@ -35,7 +35,7 @@ const Navbar = () => {
               duration={500}
             >
               <LogoContainer>
-                <Logo src={LogoImg}></Logo>
+                <Logo alt="phillips karriere" src={LogoImg}></Logo>
                 <LogoText> </LogoText>
               </LogoContainer>
             </LogoLink>
