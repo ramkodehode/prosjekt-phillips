@@ -31,16 +31,11 @@ const Target = () => {
         <Values>
           <HeadingOne>Verdier</HeadingOne>
           <Paragraph>
-            Verdier er; Engasjert; Handler om å møte deg der du er i livet ditt,
-            vise interesse, utforske og sammen finne veien videre mot dine
-            mål.Kvalitet; Høy integritet og faglig kompetanse. Våre tjenester er
-            i tråd med Nasjonalt kvalitetsrammeverk. Trygg; Tillitsbasert
-            samarbeid og støttes av etikk og god forretningsskikk. Engasjert:
-            Handler om å møte deg der du er i livet ditt, vise interesse,
-            utforske og sammen finne veien videre mot dine mål.
+            Engasjert; Handler om å møte deg der du er i livet ditt, vise
+            interesse, utforske og sammen finne veien videre mot dine mål.
             <Paragraph>
               Kvalitet: Innebærer høy integritet og faglig kompetanse. Våre
-              tjenester er i tråd med Nasjonalt kvalitetsrammeverk.{' '}
+              tjenester er i tråd med Nasjonalt kvalitetsrammeverk.
             </Paragraph>
             <Paragraph>
               Trygg: Vil si tillitsbasert samarbeid som støttes av etikk og god
