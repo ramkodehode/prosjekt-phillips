@@ -41,14 +41,14 @@ const Tjenester = () => {
                   Studieveiledning – Mitt studievalg
                 </UnderTitle>
                 <TextVareProgrammer>
-                  Programmet gjennomføres i tre faser. Mellom samlingene jobber
-                  du med øvelser i vår digitale karrierelæringsplattform. Husk
-                  valget er ditt, det er du som har «fasiten» ingen andre. Det
-                  handler ikke om hva du skal bli, men mer om hvem du vil være.
-                  Vær nysgjerrig på egne interesser og verdier, høyst sannsynlig
-                  oppdager du nye. Utforsk mulighetene dine. Fremtiden kan
-                  fremstå usikker og det fine med det er at der ligger
-                  mulighetene.
+                  Veiledningsprogrammet gjennomføres i tre faser. Mellom
+                  samlingene jobber du med øvelser i vår digitale
+                  karrierelæringsplattform. Husk valget er ditt, det er du som
+                  har «fasiten» ingen andre. Det handler ikke om hva du skal
+                  bli, men mer om hvem du vil være. Vær nysgjerrig på egne
+                  interesser og verdier, høyst sannsynlig oppdager du nye.
+                  Utforsk mulighetene dine. Fremtiden kan fremstå usikker og det
+                  fine med det er at der ligger mulighetene.
                 </TextVareProgrammer>
               </ContainerVareProgrammer>
               <IMGphoneTjenester src={seatedstudents} alt="studenter" />
@@ -79,12 +79,11 @@ const Tjenester = () => {
                   Karriereveiledning - Ta kontroll mot nye muligheter
                 </UnderTitle>
                 <TextVareProgrammer>
-                  Programmet består av tre faser. Vi hjelper deg med utforske
-                  nye muligheter og å nå målet ditt. Positiv usikkerhet er et av
-                  våre perspektiv. Fremtiden kan fremstå usikker og det fine med
-                  det er at der ligger alle mulighetene. Prosessen kan være
-                  avtalt med deg privat, eller din arbeidsgiver som resultat av
-                  en omstillingsprosess.
+                  Veiledningsprogrammet bygger på tre faser. Utgangspunktet er
+                  kartlegging og bevisstgjøring av dine egenskaper, interesser,
+                  kompetanser, verdier og utviklingspotensialet. Dette tar vi
+                  med oss videre i utforskningen mot dine mål. Fremtiden kan
+                  oppleves usikker, og nettopp der er mulighetene dine.
                 </TextVareProgrammer>
               </ContainerVareProgrammer>
             </ContainerPhone>

@@ -12,7 +12,7 @@ import VartAnsvar from "./vartAnsvar";
 import KomIgjen from "./komIgjen";
 import Veiledning from "./veiledning/Veiledning";
 import Target from "./Target/Target";
-import Price from "./price/Price";
+import PriceBox from "./price";
 
 const Hjem = () => {
   return (
@@ -22,17 +22,8 @@ const Hjem = () => {
       <Intro />
       <VartAnsvar />
       <Tjenester />
-
-       <Veiledning />
-      <Price /> 
-      <InfoTrude />
-       <Target />
-      <KursDeltaker /> 
-      <KomIgjen />
-       <ContactForm /> 
-
       <Veiledning />
-      <Price />
+      <PriceBox />
       <InfoTrude />
       <Target />
       <KursDeltaker />
