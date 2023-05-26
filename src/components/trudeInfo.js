@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import Trude from './img/Trude.jpg';
-import { Column, Container, NewSection } from './styles/styledIntro';
+import styled from "styled-components";
+import Trude from "./img/Trude.jpg";
+import { Column, Container, NewSection } from "./styles/styledIntro";
 import {
   ContainerTrude,
   ImgTrude,
@@ -8,7 +8,7 @@ import {
   PhoneImgTrude,
   TitleTrude,
   TrudeText,
-} from './styles/styledTrude';
+} from "./styles/styledTrude";
 
 export const BoxTrude = styled.div`
   height: 60vh;
@@ -22,6 +22,8 @@ export const BoxTrude = styled.div`
 
   @media only screen and (min-width: 1440px) {
     margin-top: 15rem;
+  }
+  @media only screen and (min-width: 2560px) {
   }
 `;
 
