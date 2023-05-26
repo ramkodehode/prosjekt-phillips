@@ -124,6 +124,10 @@ export const UnderTitle = styled.h2`
   }
   @media only screen and (min-width: 1920px) {
   }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 4rem;
+  }
 `;
 
 export const UnderTitleYellow = styled.h2`

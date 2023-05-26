@@ -63,6 +63,14 @@ export const TitleTrude = styled.h1`
     font-size: 3.5rem;
     line-height: 100%;
   }
+
+  @media only screen and (min-width: 1920px) {
+    font-size: 4rem;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 5rem;
+  }
 `;
 
 export const MainTextTrude = styled.p`

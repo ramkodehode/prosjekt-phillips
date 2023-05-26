@@ -38,6 +38,10 @@ export const TitleVareProgrammer = styled.h1`
   @media only screen and (min-width: 1440px) {
     font-size: 3.5rem;
   }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 5rem;
+  }
 `;
 
 export const IntroVareProgrammer = styled.p`
@@ -51,6 +55,10 @@ export const IntroVareProgrammer = styled.p`
   line-height: 165%;
   @media only screen and (min-width: 1440px) {
     font-size: 2rem;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 3.2rem;
   }
 
   @media only screen and (max-width: 40em) {
@@ -77,6 +85,10 @@ export const TextVareProgrammer = styled.p`
 
   @media only screen and (min-width: 1920px) {
     font-size: 2.1em;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 3.2rem;
   }
 `;
 
