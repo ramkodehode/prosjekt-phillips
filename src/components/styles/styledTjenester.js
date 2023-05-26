@@ -66,9 +66,6 @@ export const TextVareProgrammer = styled.p`
 
   font-size: 1.2em;
   line-height: 165%;
-  @media only screen and (min-width: 1400px) {
-    font-size: 2rem;
-  }
 
   @media only screen and (min-width: 1024px) {
     font-size: 1.4em;
@@ -76,6 +73,10 @@ export const TextVareProgrammer = styled.p`
 
   @media only screen and (min-width: 1440px) {
     font-size: 1.8em;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    font-size: 2.1em;
   }
 `;
 
