@@ -23,8 +23,11 @@ export const FooterContainer = styled.div`
     display: block;
   }
 
-  @media only screen and (min-width: 1400px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 1.5rem;
+  }
+  @media only screen and (min-width: 2560px) {
+    font-size: 2.5rem;
   }
 `;
 
@@ -43,6 +46,10 @@ export const StyledLink = styled(Link)`
 
   @media only screen and (min-width: 1440px) {
     padding-top: 1.42rem;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    padding-top: 2rem;
   }
 `;
 
