@@ -38,7 +38,7 @@ export const CaricatureImg = styled.img`
   @media only screen and (min-width: 1440px) {
     height: 80vh;
   }
-  @media only screen and (min-width: 1920px) {
+  @media only screen and (min-width: 2520px) {
     padding: 20rem 2rem;
   }
 `;
@@ -79,7 +79,7 @@ export const MarginDiv = styled.div`
     margin-left: 25px;
   }
 
-  @media only screen and (min-width: 1920px) {
+  @media only screen and (min-width: 2520px) {
     padding: 15rem 5rem;
   }
 `;
@@ -101,6 +101,10 @@ export const Tittel = styled.h1`
   }
 
   @media only screen and (min-width: 1920px) {
+    font-size: 4rem;
+  }
+
+  @media only screen and (min-width: 2520px) {
     font-size: 5rem;
   }
 `;
@@ -135,7 +139,11 @@ export const UnderTitleYellow = styled.h2`
   @media only screen and (min-width: 1440px) {
     font-size: 2.5rem;
   }
+
   @media only screen and (min-width: 1920px) {
+    font-size: 3.5rem;
+  }
+  @media only screen and (min-width: 2520px) {
     font-size: 4rem;
   }
 `;
@@ -152,7 +160,11 @@ export const IntroText = styled.p`
   @media only screen and (min-width: 1440px) {
     font-size: 2rem;
   }
+
   @media only screen and (min-width: 1920px) {
+    font-size: 2.5rem;
+  }
+  @media only screen and (min-width: 2520px) {
     font-size: 3.5rem;
   }
 `;
