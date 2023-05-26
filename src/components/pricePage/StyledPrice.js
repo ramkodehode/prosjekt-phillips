@@ -61,10 +61,7 @@ export const DivPrice = styled.div`
   top: -10rem;
 
   @media only screen and (min-width: 2400px) {
-    font-size: 4rem;
-    top: -30rem;
-
-    margin: 10rem;
+    font-size: 1.6rem;
   }
 `;
 

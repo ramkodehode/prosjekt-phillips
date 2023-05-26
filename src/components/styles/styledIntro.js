@@ -8,13 +8,6 @@ export const MainBox = styled.div`
   margin: 0 auto;
   z-index: -1;
 
-  /* background: conic-gradient(
-    from -89.99deg at 50.03% 100%,
-    #ffcb8d 0deg,
-    rgba(234, 205, 154, 0.402865) 234.38deg,
-    rgba(217, 217, 217, 0) 360deg
-  ); */
-
   background-color: #ffe6c7;
 
   @media only screen and (max-width: 40em) {
@@ -44,6 +37,9 @@ export const CaricatureImg = styled.img`
 
   @media only screen and (min-width: 1440px) {
     height: 80vh;
+  }
+  @media only screen and (min-width: 1920px) {
+    padding: 20rem 2rem;
   }
 `;
 
@@ -82,6 +78,10 @@ export const MarginDiv = styled.div`
     margin-top: 50px;
     margin-left: 25px;
   }
+
+  @media only screen and (min-width: 1920px) {
+    padding: 15rem 5rem;
+  }
 `;
 
 export const Tittel = styled.h1`
@@ -99,6 +99,10 @@ export const Tittel = styled.h1`
     font-size: 3.5rem;
     line-height: 100%;
   }
+
+  @media only screen and (min-width: 1920px) {
+    font-size: 5rem;
+  }
 `;
 
 export const UnderTitle = styled.h2`
@@ -113,6 +117,8 @@ export const UnderTitle = styled.h2`
   }
   @media only screen and (min-width: 1400px) {
     font-size: 2.5rem;
+  }
+  @media only screen and (min-width: 1920px) {
   }
 `;
 
@@ -129,6 +135,9 @@ export const UnderTitleYellow = styled.h2`
   @media only screen and (min-width: 1440px) {
     font-size: 2.5rem;
   }
+  @media only screen and (min-width: 1920px) {
+    font-size: 4rem;
+  }
 `;
 
 export const IntroText = styled.p`
@@ -142,5 +151,8 @@ export const IntroText = styled.p`
   }
   @media only screen and (min-width: 1440px) {
     font-size: 2rem;
+  }
+  @media only screen and (min-width: 1920px) {
+    font-size: 3.5rem;
   }
 `;
