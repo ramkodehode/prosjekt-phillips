@@ -16,9 +16,18 @@ export const BoxPrice = styled.div`
     border: 3px solid #e5701b;
     padding: 10px 40px;
   }
-  @media only screen and (min-width: 2400px) {
+  @media only screen and (min-width: 1024px) {
+  }
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 1.3em;
+  }
+
+  @media only screen and (min-width: 1920px) {
     border: 5px solid #fe8900;
     height: 28em;
+    font-size: 1.8em;
+    padding: 8rem 2rem;
   }
 `;
 
@@ -29,10 +38,14 @@ export const ContainerPrice = styled.section`
 
   text-align: center;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 1024px) {
+    padding: 5em 2em;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    padding: 5em 4em;
   }
   @media only screen and (min-width: 2400px) {
-    margin: 0 -10rem;
   }
 `;
 
@@ -137,8 +150,12 @@ export const TextYellow = styled.h1`
   color: #e5701b;
   font-weight: 400;
   font-size: 1.2rem;
-  @media only screen and (min-width: 2400px) {
-    font-size: 5rem;
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 2rem;
+  }
+  @media only screen and (min-width: 1920px) {
+    font-size: 3rem;
   }
 `;
 
