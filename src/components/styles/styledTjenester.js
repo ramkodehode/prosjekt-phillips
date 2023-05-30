@@ -4,7 +4,6 @@ export const ContainerPhone = styled.section`
   display: flex;
   @media only screen and (max-width: 40em) {
     display: block;
-    max-width: 90%;
   }
 `;
 
