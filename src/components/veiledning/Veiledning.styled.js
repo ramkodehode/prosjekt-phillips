@@ -4,7 +4,7 @@ export const MainContainer = styled.div`
   background-color: #ffe6c7;
   width: 100%;
   padding: 80px 0 80px 0;
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     padding: 100px 0 100px 0;
   }
 
@@ -26,7 +26,7 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     font-size: 6rem;
   }
 
@@ -44,7 +44,7 @@ export const HeadingTwo = styled.h2`
 
 export const HeadingThree = styled.h2`
   font-size: 16px;
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     font-size: 54px;
   }
 `;
@@ -76,7 +76,7 @@ export const UlWrapper = styled.div`
 `;
 
 export const List = styled.li`
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     font-size: 3.5rem;
   }
 `;
@@ -99,7 +99,7 @@ export const ArrowContainer = styled.div`
 export const Arrow = styled.img`
   max-width: 65px;
 
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     max-width: 155px;
   }
 
@@ -115,9 +115,6 @@ export const Spacing = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
-
-  @media (min-width: 2160px) {
-  }
 
   @media (max-width: 768px) {
     justify-content: center;
