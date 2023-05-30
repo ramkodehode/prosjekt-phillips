@@ -241,11 +241,16 @@ background: #000;
   .swiper-button-next{
     padding-top: 12rem;
   }
-    
+
   .swiper-button-prev{
    padding-top: 12rem;
-   
   }
+
+  .swiper-pagination-clickable .swiper-pagination-bullet{
+    background: #000;
+    width: 1rem;
+    height: 1rem;
+    }
 }
 @media only screen and (min-width: 2560px) {
   .swiper__container {
@@ -253,16 +258,16 @@ background: #000;
   }
   
   .title{
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: left;
-    margin-left: 10rem;
+    margin-left: 15rem;
     font-style: normal;
     font-weight: 600;
   }
 
   .client__image img {
     text-align: left;
-    width: 25rem;
+    width: 30rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     clip-path: circle(50%); 
@@ -272,20 +277,22 @@ background: #000;
   .client__name{
     font-style: normal;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 165%;
     text-align: center;
   }
 
   .client__review{
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     color: #000;
     font-weight: 100;
     display: block;
     margin: 0 auto 3rem;
-    width: 50rem;
+    width: 40rem;
     line-height: 165%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .swiper-button-next{
@@ -298,8 +305,8 @@ background: #000;
   }
   .swiper-pagination-clickable .swiper-pagination-bullet{
     background: #000;
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
     }
 }
 
