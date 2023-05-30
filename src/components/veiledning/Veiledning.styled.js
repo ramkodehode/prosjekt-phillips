@@ -51,7 +51,6 @@ export const UnorderedList = styled.ul`
 
   @media (min-width: 1920px) {
     font-size: 2rem;
-    width: 100%;
   }
 
   @media (max-width: 768px) {
@@ -62,8 +61,6 @@ export const UnorderedList = styled.ul`
 export const UlWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  width: 500px;
-
   @media (max-width: 768px) {
     flex-direction: column;
   }
