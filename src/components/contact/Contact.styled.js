@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const ContactGlobal = styled.div`
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     margin: 400px;
-    transform: scale(1.8);
+    transform: scale(2.2);
   }
 
   * {

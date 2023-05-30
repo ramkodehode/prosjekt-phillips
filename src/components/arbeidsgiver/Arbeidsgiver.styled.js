@@ -7,7 +7,7 @@ export const Container = styled.div`
   background-color: rgb(255, 230, 199);
   padding: 40px;
 
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     font-size: 3rem;
   }
 `;
@@ -20,7 +20,7 @@ export const HeadingTwoFase = styled.h2`
   font-size: 18px;
   color: rgb(229, 112, 27);
 
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     font-size: 4rem;
   }
 `;
@@ -57,7 +57,7 @@ export const ArrowContainer = styled.div`
   @media (max-width: 760px) {
     flex-direction: row;
   }
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     width: 250px;
     padding: 50px;
   }
@@ -66,7 +66,7 @@ export const ArrowContainer = styled.div`
 export const Arrow = styled.img`
   max-width: 65px;
 
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     max-width: 155px;
   }
 
