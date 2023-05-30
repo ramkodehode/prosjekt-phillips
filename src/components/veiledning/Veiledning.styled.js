@@ -4,9 +4,6 @@ export const MainContainer = styled.div`
   background-color: #ffe6c7;
   width: 100%;
   padding: 80px 0 80px 0;
-  @media (min-width: 1920px) {
-    padding: 100px 0 100px 0;
-  }
 
   @media (max-width: 768px) {
     flex-direction: row;
@@ -17,8 +14,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  @media (min-width: 2160px) {
-  }
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -26,16 +21,12 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  @media (min-width: 1920px) {
-    font-size: 6rem;
-  }
-
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 `;
 export const HeadingTwo = styled.h2`
-  @media (min-width: 2160px) {
-    font-size: 4rem;
+  @media (min-width: 1920px) {
+    font-size: 2.5rem;
   }
 
   font-size: 18px;
@@ -45,7 +36,7 @@ export const HeadingTwo = styled.h2`
 export const HeadingThree = styled.h2`
   font-size: 16px;
   @media (min-width: 1920px) {
-    font-size: 54px;
+    font-size: 1.9rem;
   }
 `;
 
@@ -55,10 +46,9 @@ export const UnorderedList = styled.ul`
   height: 130px;
   width: 230px;
 
-  @media (min-width: 2160px) {
-    font-size: 35px;
-    height: 300px;
-    width: 600px;
+  @media (min-width: 1920px) {
+    font-size: 2rem;
+    width: 100%;
   }
 
   @media (max-width: 768px) {
@@ -77,7 +67,6 @@ export const UlWrapper = styled.div`
 
 export const List = styled.li`
   @media (min-width: 1920px) {
-    font-size: 3.5rem;
   }
 `;
 
@@ -90,9 +79,9 @@ export const ArrowContainer = styled.div`
   @media (max-width: 760px) {
     flex-direction: row;
   }
-  @media (min-width: 2160px) {
-    width: 250px;
+  @media (min-width: 1920px) {
     padding: 50px;
+    max-width: 90px;
   }
 `;
 
@@ -100,7 +89,6 @@ export const Arrow = styled.img`
   max-width: 65px;
 
   @media (min-width: 1920px) {
-    max-width: 155px;
   }
 
   @media (max-width: 760px) {

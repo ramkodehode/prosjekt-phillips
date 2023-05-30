@@ -8,7 +8,7 @@ export const Container = styled.div`
   padding: 40px;
 
   @media (min-width: 1920px) {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 `;
 
@@ -21,7 +21,7 @@ export const HeadingTwoFase = styled.h2`
   color: rgb(229, 112, 27);
 
   @media (min-width: 1920px) {
-    font-size: 4rem;
+    font-size: 1.9rem;
   }
 `;
 
@@ -67,7 +67,7 @@ export const Arrow = styled.img`
   max-width: 65px;
 
   @media (min-width: 1920px) {
-    max-width: 155px;
+    max-width: 80px;
   }
 
   @media (max-width: 760px) {

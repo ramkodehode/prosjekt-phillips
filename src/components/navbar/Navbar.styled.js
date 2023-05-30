@@ -10,12 +10,8 @@ export const NavbarContainer = styled.nav`
   flex-direction: column;
   position: fixed;
   z-index: 9999;
-
   @media (min-width: 1920px) {
-    height: ${(props) => (props.extendNavbar ? '100vh' : '200px')};
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-size: 20px;
   }
 `;
 
@@ -26,10 +22,6 @@ export const LeftContainer = styled.div`
   display: flex;
   align-items: center;
   padding-left: 50px;
-
-  @media (min-width: 2160px) {
-    justify-content: center;
-  }
 `;
 
 export const RightContainer = styled.div`
@@ -38,9 +30,6 @@ export const RightContainer = styled.div`
   padding-right: 5%;
 
   @media (min-width: 1920px) {
-    font-size: 3.8rem;
-    padding: 20px;
-    flex: 4%;
   }
 `;
 
