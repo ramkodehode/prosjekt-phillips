@@ -10,8 +10,10 @@ export const NavbarContainer = styled.nav`
   flex-direction: column;
   position: fixed;
   z-index: 9999;
+  justify-content: center;
+
   @media (min-width: 1920px) {
-    font-size: 20px;
+    height: 100px;
   }
 `;
 
@@ -35,8 +37,10 @@ export const RightContainer = styled.div`
 
 export const NavbarInnerContainer = styled.div`
   width: 100%;
-  height: 75px;
   display: flex;
+  @media (min-width: 1920px) {
+    font-size: 25px;
+  }
 `;
 export const NavbarExtendedContainer = styled.div`
   display: flex;
@@ -95,9 +99,8 @@ export const Logo = styled.img`
   cursor: pointer;
   max-width: 180px;
 
-  @media (min-width: 2160px) {
+  @media (min-width: 1920px) {
     max-width: 660px;
-    height: 100px;
   }
 `;
 
