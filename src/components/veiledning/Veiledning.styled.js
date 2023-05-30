@@ -23,6 +23,9 @@ export const Container = styled.div`
 export const HeadingOne = styled.h1`
   font-size: 3em;
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 `;
 export const HeadingTwo = styled.h2`
   @media (min-width: 1920px) {
