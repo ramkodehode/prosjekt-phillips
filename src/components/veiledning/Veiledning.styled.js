@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
   width: 100%;
   padding: 80px 0 80px 0;
   @media (min-width: 2160px) {
+    padding: 100px 0 100px 0;
   }
 
   @media (max-width: 768px) {
@@ -44,6 +45,7 @@ export const HeadingTwo = styled.h2`
 export const HeadingThree = styled.h2`
   font-size: 16px;
   @media (min-width: 2160px) {
+    font-size: 54px;
   }
 `;
 
@@ -98,6 +100,7 @@ export const Arrow = styled.img`
   max-width: 65px;
 
   @media (min-width: 2160px) {
+    max-width: 155px;
   }
 
   @media (max-width: 760px) {
