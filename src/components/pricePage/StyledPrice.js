@@ -11,10 +11,10 @@ export const BoxPrice = styled.div`
 
   @media only screen and (max-width: 40em) {
     height: auto;
-    width: 100%;
+    width: 90%;
     text-align: center;
     border: 3px solid #e5701b;
-    padding: 10px 40px;
+    padding: 1rem;
   }
   @media only screen and (min-width: 1024px) {
   }
