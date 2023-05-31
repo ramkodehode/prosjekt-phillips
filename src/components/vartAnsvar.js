@@ -11,7 +11,7 @@ const VartAnsvar = () => {
         </TitleTrude>
 
         <UnderTitle>
-          <Rectangle />
+          <Rectangle>.</Rectangle>
           Stadige endringer i arbeidslivet byr på utfordringer og nye
           muligheter.{" "}
         </UnderTitle>

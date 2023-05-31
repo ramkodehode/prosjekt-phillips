@@ -96,6 +96,7 @@ export const Rectangle = styled.div`
   height: 100%;
   float: left;
   margin-right: 15px;
+  color: #e4973c;
 
   @media only screen and (max-width: 40em) {
     height: 30px;
