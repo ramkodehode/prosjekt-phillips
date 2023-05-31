@@ -1,6 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContactGlobal = styled.div`
+  @media (min-width: 1920px) {
+    transform: scale(1.2);
+  }
+
   * {
     box-sizing: border-box;
   }
@@ -40,6 +44,7 @@ export const ContactInfo = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 `;
 
 export const Ul = styled.ul`
@@ -120,5 +125,5 @@ export const AnchorTag = styled.a`
 export const Message = styled.p``;
 
 export const Details = styled.label`
-  padding-left: 9px;
+  padding-left: 10px;
 `;

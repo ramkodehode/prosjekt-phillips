@@ -5,8 +5,11 @@ export const Container = styled.div`
   flex-direction: column;
 
   background-color: rgb(255, 230, 199);
-  max-width: 100%;
-  padding: 40px;
+  padding: 70px 0 70px 0;
+
+  @media (min-width: 1920px) {
+    font-size: 2rem;
+  }
 `;
 
 export const HeadingOne = styled.h1`
@@ -16,6 +19,10 @@ export const HeadingOne = styled.h1`
 export const HeadingTwoFase = styled.h2`
   font-size: 18px;
   color: rgb(229, 112, 27);
+
+  @media (min-width: 1920px) {
+    font-size: 1.9rem;
+  }
 `;
 
 export const Text = styled.div``;
@@ -43,17 +50,25 @@ export const FaseInnerContainer = styled.div`
 
 export const ArrowContainer = styled.div`
   display: flex;
-  justify-content: center;
+  padding: 0 30px 0 30px;
 
+  flex-direction: column;
+  justify-content: center;
   @media (max-width: 760px) {
     flex-direction: row;
+  }
+  @media (min-width: 1920px) {
+    width: 250px;
+    padding: 50px;
   }
 `;
 
 export const Arrow = styled.img`
-  width: 70px;
-  height: 90px;
-  padding: 40px;
+  max-width: 65px;
+
+  @media (min-width: 1920px) {
+    max-width: 80px;
+  }
 
   @media (max-width: 760px) {
     transform: rotate(90deg);

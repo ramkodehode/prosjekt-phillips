@@ -14,7 +14,7 @@ const Target = () => {
     <Container>
       <InnerContainer>
         <Vision>
-          <HeadingOne>Vision</HeadingOne>
+          <HeadingOne>Visjon</HeadingOne>
           <Paragraph>
             Fremtiden er usikker samtidig full av muligheter. Vi hjelper
             mennesker å finne frem til egne milighetsrom og nå sine mål for
@@ -24,18 +24,23 @@ const Target = () => {
         <Goal>
           <HeadingOne>Mål</HeadingOne>
           <Paragraph>
-            Mål; Ved å etterleve verdiene våre være en foretrukken
-            Karriereveileder for unge og vokse kunder samt samarbeidspartnere.
+            Ved å etterleve verdiene våre være en foretrukken karriereveileder
+            for unge og vokse kunder samt samarbeidspartnere.
           </Paragraph>
         </Goal>
         <Values>
           <HeadingOne>Verdier</HeadingOne>
           <Paragraph>
-            Verider er; Engasjert; Handler om å møte deg der du er i livet ditt,
-            vise interesse, utforske og sammen finne veien videre mot dine
-            mål.Kvalitet; Høy integritet og faglig kompetanse. Våre tjenester er
-            i tråd med Nasjonalt kvalitetsrammeverk. Trygg; Tillitsbasert
-            samarbeid og støttes av etikk og god forretningsskikk.
+            Engasjert; Handler om å møte deg der du er i livet ditt, vise
+            interesse, utforske og sammen finne veien videre mot dine mål.
+            <Paragraph>
+              Kvalitet: Innebærer høy integritet og faglig kompetanse. Våre
+              tjenester er i tråd med Nasjonalt kvalitetsrammeverk.
+            </Paragraph>
+            <Paragraph>
+              Trygg: Vil si tillitsbasert samarbeid som støttes av etikk og god
+              forretningsskikk.
+            </Paragraph>
           </Paragraph>
         </Values>
       </InnerContainer>

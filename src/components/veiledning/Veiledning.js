@@ -47,7 +47,7 @@ const Veiledning = () => {
 
             <UlWrapper>
               <UnorderedList>
-                <List>Undersøke ulike studie- og yrkesretning</List>
+                <List>Undersøke ulike studie- og yrkesretninger</List>
                 <List>Velge bort</List>
                 <List>Velge</List>
               </UnorderedList>

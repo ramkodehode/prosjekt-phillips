@@ -18,6 +18,10 @@ export const KomIgjenText = styled.h1`
   @media only screen and (min-width: 1440px) {
     font-size: 2.5rem;
   }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 4rem;
+  }
 `;
 
 export const OpacityBox = styled.div`
@@ -36,6 +40,10 @@ export const OpacityBox = styled.div`
 
   @media only screen and (min-width: 1400px) {
     padding: 8rem 18rem;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    padding: 15rem 30rem;
   }
 `;
 

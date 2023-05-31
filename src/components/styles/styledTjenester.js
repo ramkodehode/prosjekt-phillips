@@ -4,7 +4,6 @@ export const ContainerPhone = styled.section`
   display: flex;
   @media only screen and (max-width: 40em) {
     display: block;
-    max-width: 90%;
   }
 `;
 
@@ -38,6 +37,10 @@ export const TitleVareProgrammer = styled.h1`
   @media only screen and (min-width: 1440px) {
     font-size: 3.5rem;
   }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 5rem;
+  }
 `;
 
 export const IntroVareProgrammer = styled.p`
@@ -53,6 +56,10 @@ export const IntroVareProgrammer = styled.p`
     font-size: 2rem;
   }
 
+  @media only screen and (min-width: 2560px) {
+    font-size: 3.2rem;
+  }
+
   @media only screen and (max-width: 40em) {
     font-size: 1.1em;
     width: 90%;
@@ -66,9 +73,6 @@ export const TextVareProgrammer = styled.p`
 
   font-size: 1.2em;
   line-height: 165%;
-  @media only screen and (min-width: 1400px) {
-    font-size: 2rem;
-  }
 
   @media only screen and (min-width: 1024px) {
     font-size: 1.4em;
@@ -76,6 +80,14 @@ export const TextVareProgrammer = styled.p`
 
   @media only screen and (min-width: 1440px) {
     font-size: 1.8em;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    font-size: 2.1em;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 3.2rem;
   }
 `;
 

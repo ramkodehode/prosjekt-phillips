@@ -31,6 +31,10 @@ export const ContainerTrude = styled.section`
   @media only screen and (max-width: 40em) {
     margin: 10px;
   }
+
+  @media only screen and (min-width: 2560px) {
+    padding: 5rem;
+  }
 `;
 
 export const TrudeText = styled.h3`
@@ -44,6 +48,10 @@ export const TrudeText = styled.h3`
   }
   @media only screen and (min-width: 1440px) {
     font-size: 2rem;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 3rem;
   }
 `;
 
@@ -62,6 +70,14 @@ export const TitleTrude = styled.h1`
   @media only screen and (min-width: 1440px) {
     font-size: 3.5rem;
     line-height: 100%;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    font-size: 4rem;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    font-size: 5rem;
   }
 `;
 
@@ -82,5 +98,8 @@ export const MainTextTrude = styled.p`
 
   @media only screen and (min-width: 1440px) {
     font-size: 2rem;
+  }
+  @media only screen and (min-width: 2560px) {
+    font-size: 3rem;
   }
 `;

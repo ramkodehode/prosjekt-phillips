@@ -19,7 +19,7 @@ const VartAnsvar = () => {
         </IntroText>
         <IntroText>
           I vår veiledning møter vi deg der du er, og vektlegger en trygg ramme
-          basert på gjensidig tillit. Din læring frem mot eget mål er det
+          basert på gjensidig tillit. Din læring frem mot egne mål er det
           sentrale om det gjelder studievalg, ny jobb, eller en kombinasjon. I
           samspillet med karriereveileder er du den aktive i prosessen. Våre
           karrierelæringsprogram er tilrettelagt individuelt, for grupper og i

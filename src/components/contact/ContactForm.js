@@ -26,6 +26,7 @@ import {
 
 import { AiFillPhone, AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
+import { HiLocationMarker } from "react-icons/hi";
 
 function ContactForm() {
   const form = useRef();
@@ -76,8 +77,11 @@ function ContactForm() {
               </Li>
 
               <Li>
-                Fysisk undervisning og veiledning foregår i moderne og
-                sentrumsnære lokaler i Bergen.
+                <HiLocationMarker />
+                <Details>
+                  Undervisning og veiledning foregår på Bergen Media City, Lars
+                  Hillesgate 30, Bergen sentrum.
+                </Details>
               </Li>
             </Ul>
           </ContactInfo>
