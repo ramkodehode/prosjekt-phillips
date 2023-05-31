@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   background-color: rgb(255, 230, 199);
-  padding: 40px;
+  padding: 70px 0 70px 0;
 
   @media (min-width: 1920px) {
     font-size: 2rem;

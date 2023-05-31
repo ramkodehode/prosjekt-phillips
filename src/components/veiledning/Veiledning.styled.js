@@ -3,10 +3,13 @@ import styled from 'styled-components';
 export const MainContainer = styled.div`
   background-color: #ffe6c7;
   width: 100%;
-  padding: 80px 0 150px 0;
+  padding: 20px 0 20px 0;
 
   @media (max-width: 768px) {
     flex-direction: row;
+  }
+  @media (min-width: 2160px) {
+    padding: 150px 0 150px 0;
   }
 `;
 
@@ -18,16 +21,20 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
   }
+  @media (min-width: 2160px) {
+    height: 500px;
+  }
 `;
 
 export const HeadingOne = styled.h1`
-  font-size: 3em;
+  font-size: 2rem;
   text-align: center;
   @media (max-width: 768px) {
     font-size: 24px;
   }
 `;
 export const HeadingTwo = styled.h2`
+  font-size: 20px;
   @media (min-width: 1920px) {
     font-size: 2.5rem;
   }
@@ -45,11 +52,18 @@ export const HeadingThree = styled.h2`
 
 export const UnorderedList = styled.ul`
   list-style-type: square;
-  padding: 0;
   height: 130px;
   width: 230px;
+  padding-left: 0;
+  list-style-position: inside;
 
   @media (min-width: 1920px) {
+    font-size: 2rem;
+  }
+
+  @media (min-width: 2160px) {
+    width: 800px;
+
     font-size: 2rem;
   }
 
@@ -67,6 +81,10 @@ export const UlWrapper = styled.div`
 `;
 
 export const List = styled.li`
+  width: 130%;
+  @media (min-width: 2160px) {
+    font-size: 2.4rem;
+  }
   @media (min-width: 1920px) {
   }
 `;
@@ -104,6 +122,8 @@ export const Spacing = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
+  @media (min-width: 2160px) {
+  }
 
   @media (max-width: 768px) {
     justify-content: center;
