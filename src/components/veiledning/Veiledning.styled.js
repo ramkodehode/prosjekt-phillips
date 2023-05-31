@@ -8,8 +8,8 @@ export const MainContainer = styled.div`
   @media (max-width: 768px) {
     flex-direction: row;
   }
-  @media (min-width: 2160px) {
-    padding: 150px 0 150px 0;
+  @media (min-width: 1920px) {
+    padding: 100px 0 280px 0;
   }
 `;
 
@@ -27,19 +27,17 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
   @media (max-width: 768px) {
     font-size: 24px;
   }
 `;
 export const HeadingTwo = styled.h2`
-  font-size: 20px;
   @media (min-width: 1920px) {
     font-size: 2.5rem;
   }
 
-  font-size: 18px;
   color: rgb(229, 112, 27);
 `;
 
@@ -100,7 +98,7 @@ export const ArrowContainer = styled.div`
   }
   @media (min-width: 1920px) {
     padding: 50px;
-    max-width: 90px;
+    width: 200px;
   }
 `;
 
@@ -108,6 +106,8 @@ export const Arrow = styled.img`
   max-width: 65px;
 
   @media (min-width: 1920px) {
+    padding-left: 90px;
+    max-width: 90px;
   }
 
   @media (max-width: 760px) {
@@ -116,7 +116,7 @@ export const Arrow = styled.img`
 `;
 
 export const Spacing = styled.div`
-  padding: 27px 0 27px 0;
+  padding: 40px 0 100px 0;
 `;
 
 export const InfoContainer = styled.div`
