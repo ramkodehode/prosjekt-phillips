@@ -79,8 +79,8 @@ function ContactForm() {
               <Li>
                 <HiLocationMarker />
                 <Details>
-                  Undervisning og veiledning vil foregår i Bergen Media City,
-                  Lars Hillesgate 30, Bergen sentrum.
+                  Undervisning og veiledning foregår på Bergen Media City, Lars
+                  Hillesgate 30, Bergen sentrum.
                 </Details>
               </Li>
             </Ul>
