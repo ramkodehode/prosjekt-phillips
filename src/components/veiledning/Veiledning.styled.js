@@ -59,8 +59,8 @@ export const UnorderedList = styled.ul`
     font-size: 2rem;
   }
 
-  @media (min-width: 2160px) {
-    width: 800px;
+  @media (min-width: 2560px) {
+    width: 400px;
 
     font-size: 2rem;
   }
