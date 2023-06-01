@@ -21,6 +21,10 @@ export const NavbarInnerContainer = styled.div`
   height: 75px;
   display: flex;
   justify-content: center;
+
+  @media (min-width: 2560px) {
+    height: 130px;
+  }
 `;
 export const NavbarExtendedContainer = styled.div`
   display: flex;
@@ -43,5 +47,8 @@ export const LogoText = styled.label`
 `;
 export const Logo = styled.img`
   cursor: pointer;
-  max-width: 180px;
+
+  @media (min-width: 2560px) {
+    width: 400px;
+  }
 `;
