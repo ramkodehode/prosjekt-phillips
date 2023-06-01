@@ -20,6 +20,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    justify-content: center;
   }
   @media (min-width: 2160px) {
     height: 500px;
@@ -53,7 +54,7 @@ export const UnorderedList = styled.ul`
   height: 130px;
   width: 230px;
   padding-left: 0;
-  list-style-position: outside;
+  list-style-position: inside;
 
   @media (min-width: 1920px) {
     font-size: 2rem;
