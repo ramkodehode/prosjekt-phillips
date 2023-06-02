@@ -41,14 +41,15 @@ const Tjenester = () => {
                   Studieveiledning – Mitt studievalg
                 </UnderTitle>
                 <TextVareProgrammer>
-                  Veiledningsprogrammet gjennomføres i tre faser. Mellom
-                  samlingene jobber du med øvelser i vår digitale
-                  karrierelæringsplattform. Husk valget er ditt, det er du som
-                  har «fasiten» ingen andre. Det handler ikke om hva du skal
-                  bli, men mer om hvem du vil være. Vær nysgjerrig på egne
-                  interesser og verdier, høyst sannsynlig oppdager du nye.
-                  Utforsk mulighetene dine. Fremtiden kan fremstå usikker og det
-                  fine med det er at der ligger mulighetene.
+                  Veiledningsprogrammet gjelder for deg som har fylt 18 år og
+                  gjennomføres i tre faser. Mellom samlingene jobber du med
+                  øvelser i vår digitale karrierelæringsplattform. Husk valget
+                  er ditt, det er du som har «fasiten» ingen andre. Det handler
+                  ikke om hva du skal bli, men mer om hvem du vil være. Vær
+                  nysgjerrig på egne interesser og verdier, høyst sannsynlig
+                  oppdager du nye. Utforsk mulighetene dine. Fremtiden kan
+                  fremstå usikker og det fine med det er at der ligger
+                  mulighetene.
                 </TextVareProgrammer>
               </ContainerVareProgrammer>
               <IMGphoneTjenester src={seatedstudents} alt="studenter" />
@@ -79,11 +80,13 @@ const Tjenester = () => {
                   Karriereveiledning - Ta kontroll mot nye muligheter
                 </UnderTitle>
                 <TextVareProgrammer>
-                  Veiledningsprogrammet bygger på tre faser. Utgangspunktet er
-                  kartlegging og bevisstgjøring av dine egenskaper, interesser,
-                  kompetanser, verdier og utviklingspotensialet. Dette tar vi
-                  med oss videre i utforskningen mot dine mål. Fremtiden kan
-                  oppleves usikker, og nettopp der er mulighetene dine.
+                  Veiledningsprogrammet gjelder for deg som er rammet av
+                  nedbemanning eller er i en omstillingsfase og ønsker ny jobb.
+                  Programmet bygger på tre faser. Utgangspunktet er kartlegging
+                  og bevisstgjøring av dine egenskaper, interesser, kompetanser,
+                  verdier og utviklingspotensialet. Dette tar vi med oss videre
+                  i utforskningen mot dine mål. Fremtiden kan oppleves usikker,
+                  og nettopp der er mulighetene dine.
                 </TextVareProgrammer>
               </ContainerVareProgrammer>
             </ContainerPhone>

@@ -20,6 +20,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    justify-content: center;
   }
   @media (min-width: 2160px) {
     height: 500px;
@@ -73,6 +74,9 @@ export const UnorderedList = styled.ul`
 export const UlWrapper = styled.div`
   display: flex;
   flex-direction: row;
+  @media (min-width: 1920px) {
+    width: 600px;
+  }
   @media (max-width: 768px) {
     flex-direction: column;
   }
@@ -84,6 +88,7 @@ export const List = styled.li`
     font-size: 2.4rem;
   }
   @media (min-width: 1920px) {
+    width: 500px;
   }
 `;
 
@@ -98,7 +103,6 @@ export const ArrowContainer = styled.div`
   }
   @media (min-width: 1920px) {
     padding: 50px;
-    width: 200px;
   }
 `;
 
@@ -106,8 +110,7 @@ export const Arrow = styled.img`
   max-width: 65px;
 
   @media (min-width: 1920px) {
-    padding-left: 90px;
-    max-width: 90px;
+    padding-left: 200px;
   }
 
   @media (max-width: 760px) {
