@@ -17,10 +17,10 @@ const Arbeidsgiver = () => {
   return (
     <Container>
       <HeadingTextContainer>
-        <HeadingOne>For Arbeidsgiver</HeadingOne>
+        <HeadingOne>For Arbeidsgivere</HeadingOne>
         <Text>
           Etter inngått avtale starter vi med oppstartsmøte hvor vi foretar en
-          gjensidig forventingsavklaring for mål og gjennomføring av
+          gjensidig forventningsavklaring for mål og gjennomføring av
           veiledningsprogrammet.
         </Text>
       </HeadingTextContainer>

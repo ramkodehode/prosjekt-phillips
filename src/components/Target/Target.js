@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Container,
   Goal,
@@ -7,7 +7,7 @@ import {
   Paragraph,
   Values,
   Vision,
-} from './Target.styled';
+} from "./Target.styled";
 
 const Target = () => {
   return (
@@ -16,16 +16,15 @@ const Target = () => {
         <Vision>
           <HeadingOne>Visjon</HeadingOne>
           <Paragraph>
-            Fremtiden er usikker samtidig full av muligheter. Vi hjelper
-            mennesker å finne frem til egne milighetsrom og nå sine mål for
-            utdanning og arbeid
+            Fremtiden er usikker og samtidig full av muligheter. Vi hjelper
+            mennesker å nå sine mål i utdanning og arbeid.
           </Paragraph>
         </Vision>
         <Goal>
           <HeadingOne>Mål</HeadingOne>
           <Paragraph>
             Ved å etterleve verdiene våre være en foretrukken karriereveileder
-            for unge og vokse kunder samt samarbeidspartnere.
+            for unge og voksne kunder samt samarbeidspartnere.
           </Paragraph>
         </Goal>
         <Values>
@@ -35,11 +34,12 @@ const Target = () => {
             interesse, utforske og sammen finne veien videre mot dine mål.
             <Paragraph>
               Kvalitet: Innebærer høy integritet og faglig kompetanse. Våre
-              tjenester er i tråd med Nasjonalt kvalitetsrammeverk.
+              tjenester er i tråd med Nasjonalt kvalitetsrammeverk for
+              karriereveiledning.
             </Paragraph>
             <Paragraph>
-              Trygg: Vil si tillitsbasert samarbeid som støttes av etikk og god
-              forretningsskikk.
+              Trygg: Betyr tillitsbasert samarbeid som bygger på vårt etiske
+              løfte.
             </Paragraph>
           </Paragraph>
         </Values>
