@@ -5,7 +5,7 @@ export const ImgTrude = styled.img`
   width: auto;
   padding: 3rem;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: none;
   }
   @media only screen and (min-width: 2400px) {
@@ -28,7 +28,7 @@ export const ContainerTrude = styled.section`
   flex-direction: column; */
   margin: 3rem;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     margin: 10px;
   }
 
@@ -43,7 +43,7 @@ export const TrudeText = styled.h3`
 
   color: #e5701b;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 408em) {
     font-size: 1em;
   }
   @media only screen and (min-width: 1440px) {
@@ -59,7 +59,7 @@ export const TitleTrude = styled.h1`
   font-weight: 600;
   font-size: 2rem;
   color: #272521;
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1.5rem;
   }
 
@@ -87,7 +87,7 @@ export const MainTextTrude = styled.p`
   font-size: 1.2rem;
   color: #272521;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1.1rem;
     max-width: 100%;
   }

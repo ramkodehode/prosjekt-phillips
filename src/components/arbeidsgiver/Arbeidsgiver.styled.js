@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   background-color: rgb(255, 230, 199);
-  padding: 40px;
+  padding: 70px 0 70px 0;
 
   @media (min-width: 1920px) {
     font-size: 2rem;
@@ -46,6 +46,10 @@ export const FaseContainer = styled.div`
 export const FaseInnerContainer = styled.div`
   display: flex;
   flex-direction: column;
+`;
+export const FaseAndArrowContainer = styled.div`
+  display: flex;
+  flex-direction: row;
 `;
 
 export const ArrowContainer = styled.div`

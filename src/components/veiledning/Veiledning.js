@@ -80,7 +80,7 @@ const Veiledning = () => {
         <InfoContainerMobil>
           <InfoContainer>
             <HeadingTwo>Fase 1</HeadingTwo>
-            <HeadingThree>Utforske - bevistgjøre</HeadingThree>
+            <HeadingThree>Utforske - bevisstgjøre</HeadingThree>
 
             <UlWrapper>
               <UnorderedList>

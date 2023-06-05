@@ -10,12 +10,16 @@ export const MainBox = styled.div`
 
   background-color: #ffe6c7;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     height: 45rem;
   }
 
   @media only screen and (min-width: 1440px) {
     height: 100vh;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    height: 115vh;
   }
 `;
 
@@ -27,7 +31,7 @@ export const CaricatureImg = styled.img`
 
   padding: 10rem 2rem;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: none;
   }
 
@@ -45,7 +49,7 @@ export const CaricatureImg = styled.img`
 
 export const PhoneCaricatureImg = styled.img`
   display: none;
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: flex;
     flex-direction: row;
     height: 35vh;
@@ -72,11 +76,11 @@ export const NewSection = styled.section`
 `;
 
 export const MarginDiv = styled.div`
-  padding: 2.5rem;
+  padding: 5rem;
 
-  @media only screen and (max-width: 40em) {
-    margin-top: 50px;
-    margin-left: 25px;
+  @media only screen and (max-width: 48em) {
+    margin: 0;
+    padding: 4rem 2.5rem;
   }
 
   @media only screen and (min-width: 2520px) {
@@ -90,7 +94,7 @@ export const Tittel = styled.h1`
   font-size: 2.7rem;
   line-height: 50px;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1.5rem;
     max-width: 100%;
     line-height: 40px;
@@ -116,7 +120,7 @@ export const UnderTitle = styled.h2`
 
   color: #e5701b;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1.2rem;
   }
   @media only screen and (min-width: 1400px) {
@@ -137,7 +141,7 @@ export const UnderTitleYellow = styled.h2`
 
   color: #e5701b;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1.2rem;
   }
   @media only screen and (min-width: 1440px) {
@@ -158,17 +162,17 @@ export const IntroText = styled.p`
   font-size: 1.3rem;
   line-height: 165%;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1rem;
   }
   @media only screen and (min-width: 1440px) {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   @media only screen and (min-width: 1920px) {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
   @media only screen and (min-width: 2520px) {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 `;

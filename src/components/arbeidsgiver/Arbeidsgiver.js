@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Container,
   FaseContainer,
@@ -9,42 +9,51 @@ import {
   Arrow,
   ArrowContainer,
   FaseInnerContainer,
-} from "./Arbeidsgiver.styled";
+  FaseAndArrowContainer,
+} from './Arbeidsgiver.styled';
 
-import Pil from "../veiledning/polygon.png";
+import Pil from '../veiledning/polygon.png';
 
 const Arbeidsgiver = () => {
   return (
     <Container>
       <HeadingTextContainer>
-        <HeadingOne>For Arbeidsgiver</HeadingOne>
+        <HeadingOne>For Arbeidsgivere</HeadingOne>
         <Text>
           Etter inngått avtale starter vi med oppstartsmøte hvor vi foretar en
-          gjensidig forventingsavklaring for mål og gjennomføring av
+          gjensidig forventningsavklaring for mål og gjennomføring av
           veiledningsprogrammet.
         </Text>
       </HeadingTextContainer>
 
       <FaseContainer>
-        <FaseInnerContainer>
-          <HeadingTwoFase>Fase 1</HeadingTwoFase>
-          <Text>Oppstartsmøte</Text>
-        </FaseInnerContainer>
-        <ArrowContainer>
-          <Arrow src={Pil}></Arrow>
-        </ArrowContainer>
-        <FaseInnerContainer>
-          <HeadingTwoFase>Fase 2</HeadingTwoFase>
-          <Text>Gjennomføring av karriereveiledning</Text>
-          <div>for medarbeidere i omstilling.</div>
-        </FaseInnerContainer>
-        <ArrowContainer>
-          <Arrow src={Pil}></Arrow>
-        </ArrowContainer>
-        <FaseInnerContainer>
-          <HeadingTwoFase>Fase 3</HeadingTwoFase>
-          <Text>Evaluering.</Text>
-        </FaseInnerContainer>
+        <FaseAndArrowContainer>
+          <FaseInnerContainer>
+            <HeadingTwoFase>Fase 1</HeadingTwoFase>
+            <Text>Oppstartsmøte</Text>
+          </FaseInnerContainer>
+          <ArrowContainer>
+            <Arrow src={Pil}></Arrow>
+          </ArrowContainer>
+        </FaseAndArrowContainer>
+
+        <FaseAndArrowContainer>
+          <FaseInnerContainer>
+            <HeadingTwoFase>Fase 2</HeadingTwoFase>
+            <Text>Gjennomføring av karriereveiledning</Text>
+            <div>for medarbeidere i omstilling.</div>
+          </FaseInnerContainer>
+          <ArrowContainer>
+            <Arrow src={Pil}></Arrow>
+          </ArrowContainer>
+        </FaseAndArrowContainer>
+
+        <FaseAndArrowContainer>
+          <FaseInnerContainer>
+            <HeadingTwoFase>Fase 3</HeadingTwoFase>
+            <Text>Evaluering.</Text>
+          </FaseInnerContainer>
+        </FaseAndArrowContainer>
       </FaseContainer>
     </Container>
   );

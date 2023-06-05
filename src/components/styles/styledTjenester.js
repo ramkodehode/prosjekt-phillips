@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContainerPhone = styled.section`
   display: flex;
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: block;
   }
 `;
@@ -10,19 +10,18 @@ export const ContainerPhone = styled.section`
 export const ContainerVareProgrammer = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 50px;
-
+  margin: 5rem;
   flex-basis: 100%;
-  @media only screen and (max-width: 40em) {
-    margin-left: 25px;
-    padding: 0px;
+  @media only screen and (max-width: 48em) {
+    margin: 0 auto;
+    padding: 2.5rem;
 
     position: relative;
 
     font-size: 0.9em;
   }
-  @media only screen and (min-width: 2400px) {
-    margin: 10rem 0;
+  @media only screen and (min-width: 2560px) {
+    margin: 10rem 5rem;
   }
 `;
 
@@ -30,7 +29,7 @@ export const TitleVareProgrammer = styled.h1`
   text-align: center;
   font-style: normal;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1.8em;
     position: relative;
   }
@@ -60,7 +59,7 @@ export const IntroVareProgrammer = styled.p`
     font-size: 3.2rem;
   }
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1.1em;
     width: 90%;
     padding: 1em;
@@ -99,7 +98,7 @@ export const IMGcomputer = styled.img`
   margin-right: auto;
   border: 5px solid orange;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: none;
   }
 `;
@@ -127,7 +126,7 @@ export const BoxTjenester = styled.div`
 
   background-color: #ffe6c7;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: none;
   }
 
@@ -147,7 +146,7 @@ export const BoxTjenester = styled.div`
 export const IMGphoneTjenester = styled.img`
   display: none;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: block;
     margin-left: auto;
     margin-right: auto;
