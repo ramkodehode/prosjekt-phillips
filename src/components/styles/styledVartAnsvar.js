@@ -17,7 +17,7 @@ export const VartAnsvarContainer = styled.section`
   display: flex;
   flex-direction: column;
 
-  margin: 150px 50px;
+  margin: 10rem 5rem;
 
   font-style: normal;
   font-weight: 400;
@@ -101,5 +101,16 @@ export const Rectangle = styled.div`
   @media only screen and (max-width: 40em) {
     height: 30px;
     width: 5px;
+  }
+`;
+
+export const BigScreenVartAnsvar = styled.div`
+  @media only screen and (min-width: 1920px) {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  @media only screen and (min-width: 2460px) {
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 `;

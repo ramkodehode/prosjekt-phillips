@@ -76,7 +76,7 @@ export const NewSection = styled.section`
 `;
 
 export const MarginDiv = styled.div`
-  padding: 2.5rem;
+  padding: 5rem;
 
   @media only screen and (max-width: 40em) {
     margin-top: 50px;
@@ -166,13 +166,13 @@ export const IntroText = styled.p`
     font-size: 1rem;
   }
   @media only screen and (min-width: 1440px) {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   @media only screen and (min-width: 1920px) {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
   @media only screen and (min-width: 2520px) {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 `;
