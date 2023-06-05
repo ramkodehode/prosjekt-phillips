@@ -47,6 +47,10 @@ export const FaseInnerContainer = styled.div`
   display: flex;
   flex-direction: column;
 `;
+export const FaseAndArrowContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
 
 export const ArrowContainer = styled.div`
   display: flex;
