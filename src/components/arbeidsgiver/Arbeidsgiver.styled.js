@@ -39,17 +39,25 @@ export const FaseContainer = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
 `;
 
 export const FaseInnerContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+  }
 `;
 export const FaseAndArrowContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 `;
 
 export const ArrowContainer = styled.div`
@@ -74,7 +82,7 @@ export const Arrow = styled.img`
     max-width: 80px;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     transform: rotate(90deg);
   }
 `;

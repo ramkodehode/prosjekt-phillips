@@ -28,29 +28,29 @@ const Arbeidsgiver = () => {
 
       <FaseContainer>
         <FaseAndArrowContainer>
+          <HeadingTwoFase>Fase 1</HeadingTwoFase>
           <FaseInnerContainer>
-            <HeadingTwoFase>Fase 1</HeadingTwoFase>
             <Text>Oppstartsmøte</Text>
+            <ArrowContainer>
+              <Arrow src={Pil}></Arrow>
+            </ArrowContainer>
           </FaseInnerContainer>
-          <ArrowContainer>
-            <Arrow src={Pil}></Arrow>
-          </ArrowContainer>
         </FaseAndArrowContainer>
 
         <FaseAndArrowContainer>
+          <HeadingTwoFase>Fase 2</HeadingTwoFase>
           <FaseInnerContainer>
-            <HeadingTwoFase>Fase 2</HeadingTwoFase>
             <Text>Gjennomføring av karriereveiledning</Text>
             <div>for medarbeidere i omstilling.</div>
+            <ArrowContainer>
+              <Arrow src={Pil}></Arrow>
+            </ArrowContainer>
           </FaseInnerContainer>
-          <ArrowContainer>
-            <Arrow src={Pil}></Arrow>
-          </ArrowContainer>
         </FaseAndArrowContainer>
 
         <FaseAndArrowContainer>
+          <HeadingTwoFase>Fase 3</HeadingTwoFase>
           <FaseInnerContainer>
-            <HeadingTwoFase>Fase 3</HeadingTwoFase>
             <Text>Evaluering.</Text>
           </FaseInnerContainer>
         </FaseAndArrowContainer>
