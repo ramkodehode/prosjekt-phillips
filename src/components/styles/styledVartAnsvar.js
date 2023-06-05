@@ -9,7 +9,7 @@ export const BigBox = styled.div`
   background: #fbd19c;
   position: relative;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
   }
 `;
 
@@ -24,7 +24,7 @@ export const VartAnsvarContainer = styled.section`
   font-size: 1.2rem;
   line-height: 165%;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     margin: 50px 20px;
     max-width: 100%;
   }
@@ -38,7 +38,7 @@ export const PicBox = styled.div`
   position: relative;
 
   right: 25px;
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: none;
   }
   @media only screen and (min-width: 2400px) {
@@ -50,7 +50,7 @@ export const PicBox = styled.div`
 export const PhonePicBox = styled.div`
   display: none;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: block;
 
     background: #ffcb8f;
@@ -71,7 +71,7 @@ export const SittingStudents = styled.img`
 
   position: relative;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
   }
   @media only screen and (min-width: 2400px) {
     padding: 5rem;
@@ -80,7 +80,7 @@ export const SittingStudents = styled.img`
 
 export const PhoneSittingStudents = styled.img`
   display: none;
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     display: block;
     width: auto;
     height: 30vh;
@@ -98,7 +98,7 @@ export const Rectangle = styled.div`
   margin-right: 15px;
   color: #e4973c;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     height: 30px;
     width: 5px;
   }
