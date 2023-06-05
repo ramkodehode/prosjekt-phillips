@@ -66,13 +66,6 @@ export const UnorderedList = styled.ul`
   }
 
   @media (min-width: 1920px) {
-    font-size: 2rem;
-  }
-
-  @media (min-width: 2560px) {
-    width: 900px;
-
-    font-size: 2rem;
   }
 
   @media (max-width: 768px) {
