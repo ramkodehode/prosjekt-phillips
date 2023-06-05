@@ -103,3 +103,14 @@ export const Rectangle = styled.div`
     width: 5px;
   }
 `;
+
+export const BigScreenVartAnsvar = styled.div`
+  @media only screen and (min-width: 1920px) {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  @media only screen and (min-width: 2460px) {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+`;

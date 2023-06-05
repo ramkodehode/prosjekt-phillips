@@ -21,8 +21,9 @@ export const ContainerVareProgrammer = styled.section`
 
     font-size: 0.9em;
   }
-  @media only screen and (min-width: 2400px) {
-    margin: 10rem 0;
+  @media only screen and (min-width: 2560px) {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
   }
 `;
 
