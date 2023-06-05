@@ -76,7 +76,7 @@ export const NewSection = styled.section`
 `;
 
 export const MarginDiv = styled.div`
-  padding: 2.5rem;
+  padding: 5rem;
 
   @media only screen and (max-width: 40em) {
     margin-top: 50px;
