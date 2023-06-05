@@ -35,12 +35,16 @@ background: #000;
 }
 
 .client__image img {
-  text-align: left;
-  width: 10rem;
-  aspect-ratio: 1/1;
+  float: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 16rem;
+  padding: 5px;
   overflow: hidden;
-  clip-path: circle(50%); 
-  box-shadow:0 0 10px rgba(0,0,0,0.3);
+  /*clip-path: circle(50%);*/
+  box-shadow:0 0 10px rgba(0,0,0,0.3)
 }
 
 .clients {
@@ -75,7 +79,7 @@ background: #000;
 
 @media only screen and (min-width: 768px) {
   .swiper__container {
-    width: 100%;
+    width: 90%;
 }
 
 .title{
@@ -83,6 +87,20 @@ background: #000;
   font-style: normal;
   font-weight: 600;
   font-size: 2rem;
+  margin-left: 10rem;
+}
+
+.client__image img {
+  float: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 20rem;
+  padding: 5px;
+  overflow: hidden;
+  /*clip-path: circle(50%);*/
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
 }
 
 .client__review{
@@ -96,16 +114,20 @@ background: #000;
 
   .swiper-button-next{
     padding-top: 5rem;
+    
   }
-
+  
   .swiper-button-prev{
-   padding-top: 5rem;
+    padding-top: 5rem;
   }
+  
+
+
 }
 
 @media only screen and (min-width: 1024px) {
   .swiper__container {
-    width: 100%;
+    width: 90%;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 4rem;
@@ -117,6 +139,19 @@ background: #000;
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
+  }
+
+  .client__image img {
+    float: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 10rem;
+    padding: 5px;
+    overflow: hidden;
+    /*clip-path: circle(50%);*/
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
   }
 
   .client__review{
@@ -137,14 +172,15 @@ background: #000;
 
   .swiper-button-next{
     padding-top: 5rem;
+    
   }
+  
   .swiper-button-prev{
-   padding-top: 5rem;
-   
+    padding-top: 5rem;
   }
+
+
 }
-
-
 
 @media only screen and (min-width: 1440px) {
   .swiper__container {
@@ -154,19 +190,24 @@ background: #000;
   .title{
     font-size: 3.5rem;
     text-align: left;
-    margin-left: 10rem;
+    margin-left: 7rem;
     font-style: normal;
     font-weight: 600;
   }
 
   .client__image img {
-    text-align: left;
-    width: 20rem;
-    aspect-ratio: 1/1;
+    float: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 15rem;
+    padding: 5px;
     overflow: hidden;
-    clip-path: circle(50%); 
+    /*clip-path: circle(50%);*/
     box-shadow:0 0 10px rgba(0,0,0,0.3);
   }
+
 
   .client__name{
     font-style: normal;
@@ -187,14 +228,23 @@ background: #000;
     line-height: 165%;
   }
 
+  .swiper-pagination-clickable .swiper-pagination-bullet{
+    background: #000;
+    width: 1rem;
+    height: 1rem;
+  }
+
   .swiper-button-next{
-    padding-top: 12rem;
+    width: 24px;
+    height: 24px;
   }
     
   .swiper-button-prev{
-   padding-top: 12rem;
-   
+    width: 24px;
+    height: 24px;
   }
+
+
 }
 
 @media only screen and (min-width: 1920px) {
@@ -211,12 +261,16 @@ background: #000;
   }
 
   .client__image img {
-    text-align: left;
-    width: 20rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    clip-path: circle(50%); 
-    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    float: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 20rem;
+  padding: 5px;
+  overflow: hidden;
+  /*clip-path: circle(50%);*/
+  box-shadow:0 0 10px rgba(0,0,0,0.3)
   }
 
   .client__name{
@@ -238,20 +292,25 @@ background: #000;
     line-height: 165%;
   }
 
-  .swiper-button-next{
-    padding-top: 12rem;
-  }
-
-  .swiper-button-prev{
-   padding-top: 12rem;
-  }
 
   .swiper-pagination-clickable .swiper-pagination-bullet{
     background: #000;
     width: 1rem;
     height: 1rem;
-    }
+  }
+  .swiper-button-next{
+    width: 24px;
+    height: 24px;
+
+  }
+    
+  .swiper-button-prev{
+    width: 24px;
+    height: 24px;
+  }
+
 }
+
 @media only screen and (min-width: 2560px) {
   .swiper__container {
     width: 90%;
@@ -266,18 +325,22 @@ background: #000;
   }
 
   .client__image img {
-    text-align: left;
-    width: 30rem;
-    aspect-ratio: 1/1;
+    float: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 25rem;
+    padding: 5px;
     overflow: hidden;
-    clip-path: circle(50%); 
-    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    /*clip-path: circle(50%);*/
+    box-shadow:0 0 10px rgba(0,0,0,0.3)
   }
 
   .client__name{
     font-style: normal;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 165%;
     text-align: center;
   }
@@ -295,19 +358,21 @@ background: #000;
     padding-right: 1rem;
   }
 
-  .swiper-button-next{
-    padding-top: 12rem;
-  }
-    
-  .swiper-button-prev{
-   padding-top: 12rem;
-   
-  }
   .swiper-pagination-clickable .swiper-pagination-bullet{
     background: #000;
-    width: 2rem;
-    height: 2rem;
-    }
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .swiper-button-next{
+    width: 24px;
+    height: 24px;
+  }
+      
+  .swiper-button-prev{
+    width: 24px;
+    height: 24px;
+  }
 }
 
   

@@ -78,7 +78,7 @@ const KursDeltaker = () => {
             slidesPerView: 1,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
           },
           865: {
             slidesPerView: 2,
