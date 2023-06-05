@@ -51,7 +51,6 @@ export const HeadingThree = styled.h2`
 
 export const UnorderedList = styled.ul`
   list-style-type: square;
-  height: 130px;
   width: 230px;
   padding-left: 0;
   list-style-position: inside;
@@ -74,6 +73,7 @@ export const UnorderedList = styled.ul`
 export const UlWrapper = styled.div`
   display: flex;
   flex-direction: row;
+
   @media (min-width: 1920px) {
     width: 600px;
   }

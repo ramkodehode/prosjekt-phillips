@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Container,
   FaseContainer,
@@ -9,9 +9,10 @@ import {
   Arrow,
   ArrowContainer,
   FaseInnerContainer,
-} from "./Arbeidsgiver.styled";
+  FaseAndArrowContainer,
+} from './Arbeidsgiver.styled';
 
-import Pil from "../veiledning/polygon.png";
+import Pil from '../veiledning/polygon.png';
 
 const Arbeidsgiver = () => {
   return (
@@ -26,25 +27,33 @@ const Arbeidsgiver = () => {
       </HeadingTextContainer>
 
       <FaseContainer>
-        <FaseInnerContainer>
-          <HeadingTwoFase>Fase 1</HeadingTwoFase>
-          <Text>Oppstartsmøte</Text>
-        </FaseInnerContainer>
-        <ArrowContainer>
-          <Arrow src={Pil}></Arrow>
-        </ArrowContainer>
-        <FaseInnerContainer>
-          <HeadingTwoFase>Fase 2</HeadingTwoFase>
-          <Text>Gjennomføring av karriereveiledning</Text>
-          <div>for medarbeidere i omstilling.</div>
-        </FaseInnerContainer>
-        <ArrowContainer>
-          <Arrow src={Pil}></Arrow>
-        </ArrowContainer>
-        <FaseInnerContainer>
-          <HeadingTwoFase>Fase 3</HeadingTwoFase>
-          <Text>Evaluering.</Text>
-        </FaseInnerContainer>
+        <FaseAndArrowContainer>
+          <FaseInnerContainer>
+            <HeadingTwoFase>Fase 1</HeadingTwoFase>
+            <Text>Oppstartsmøte</Text>
+          </FaseInnerContainer>
+          <ArrowContainer>
+            <Arrow src={Pil}></Arrow>
+          </ArrowContainer>
+        </FaseAndArrowContainer>
+
+        <FaseAndArrowContainer>
+          <FaseInnerContainer>
+            <HeadingTwoFase>Fase 2</HeadingTwoFase>
+            <Text>Gjennomføring av karriereveiledning</Text>
+            <div>for medarbeidere i omstilling.</div>
+          </FaseInnerContainer>
+          <ArrowContainer>
+            <Arrow src={Pil}></Arrow>
+          </ArrowContainer>
+        </FaseAndArrowContainer>
+
+        <FaseAndArrowContainer>
+          <FaseInnerContainer>
+            <HeadingTwoFase>Fase 3</HeadingTwoFase>
+            <Text>Evaluering.</Text>
+          </FaseInnerContainer>
+        </FaseAndArrowContainer>
       </FaseContainer>
     </Container>
   );
