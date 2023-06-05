@@ -7,12 +7,12 @@
   cursor: pointer;
 }
 
-section#client_section{
+section#client_section {
   padding-top: 5rem;
   padding-bottom: 8rem;
 }
 
-.title{
+.title {
   text-align: left;
   margin-left: 10rem;
   font-style: normal;
@@ -21,16 +21,15 @@ section#client_section{
   line-height: 56px;
 }
 
-.swiper-pagination-clickable .swiper-pagination-bullet{
-background: #000;
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: #000;
 }
 
-.swiper-button-next{
+.swiper-button-next {
   color: #000;
-  
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
   color: #000;
 }
 
@@ -39,12 +38,12 @@ background: #000;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 50%;
+  width: auto;
   height: 16rem;
   padding: 5px;
   overflow: hidden;
   /*clip-path: circle(50%);*/
-  box-shadow:0 0 10px rgba(0,0,0,0.3)
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .clients {
@@ -53,7 +52,7 @@ background: #000;
   user-select: none;
 }
 
-.client__review{
+.client__review {
   text-align: left;
   color: #000;
   font-weight: 300;
@@ -64,7 +63,7 @@ background: #000;
   line-height: 165%;
 }
 
-.client__name{
+.client__name {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -72,57 +71,50 @@ background: #000;
   text-align: center;
 }
 
-
-
-
 /***********MEDIA QUERY*********/
 
 @media only screen and (min-width: 768px) {
   .swiper__container {
     width: 90%;
-}
-
-.title{
-  text-align: left;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
-  margin-left: 10rem;
-}
-
-.client__image img {
-  float: center;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 20rem;
-  padding: 5px;
-  overflow: hidden;
-  /*clip-path: circle(50%);*/
-  box-shadow:0 0 10px rgba(0,0,0,0.3);
-}
-
-.client__review{
-  font-size: 1rem;
-  text-align: center;
-  color: #000;
-  font-weight: 100;
-  display: block;
-  width: 20rem;
   }
 
-  .swiper-button-next{
-    padding-top: 5rem;
-    
+  .title {
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-left: 10rem;
   }
-  
-  .swiper-button-prev{
+
+  .client__image img {
+    float: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 20rem;
+    padding: 5px;
+    overflow: hidden;
+    /*clip-path: circle(50%);*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .client__review {
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    font-weight: 100;
+    display: block;
+    width: 20rem;
+  }
+
+  .swiper-button-next {
     padding-top: 5rem;
   }
-  
 
-
+  .swiper-button-prev {
+    padding-top: 5rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -132,8 +124,8 @@ background: #000;
     padding-right: 1rem;
     padding-bottom: 4rem;
   }
-  
-  .title{
+
+  .title {
     text-align: left;
     margin-left: 5rem;
     font-style: normal;
@@ -146,15 +138,15 @@ background: #000;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 50%;
+    width: auto;
     height: 10rem;
     padding: 5px;
     overflow: hidden;
     /*clip-path: circle(50%);*/
-    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
-  .client__review{
+  .client__review {
     font-size: 1rem;
     text-align: center;
     color: #000;
@@ -162,7 +154,7 @@ background: #000;
     width: 15rem;
   }
 
-  .client__name{
+  .client__name {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -170,24 +162,21 @@ background: #000;
     text-align: center;
   }
 
-  .swiper-button-next{
-    padding-top: 5rem;
-    
-  }
-  
-  .swiper-button-prev{
+  .swiper-button-next {
     padding-top: 5rem;
   }
 
-
+  .swiper-button-prev {
+    padding-top: 5rem;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
   .swiper__container {
     width: 90%;
   }
-  
-  .title{
+
+  .title {
     font-size: 3.5rem;
     text-align: left;
     margin-left: 7rem;
@@ -200,16 +189,15 @@ background: #000;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 50%;
+    width: auto;
     height: 15rem;
     padding: 5px;
     overflow: hidden;
     /*clip-path: circle(50%);*/
-    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
-
-  .client__name{
+  .client__name {
     font-style: normal;
     font-weight: 600;
     font-size: 2.5rem;
@@ -217,7 +205,7 @@ background: #000;
     text-align: center;
   }
 
-  .client__review{
+  .client__review {
     font-size: 2rem;
     text-align: center;
     color: #000;
@@ -228,31 +216,29 @@ background: #000;
     line-height: 165%;
   }
 
-  .swiper-pagination-clickable .swiper-pagination-bullet{
+  .swiper-pagination-clickable .swiper-pagination-bullet {
     background: #000;
     width: 1rem;
     height: 1rem;
   }
 
-  .swiper-button-next{
-    width: 24px;
-    height: 24px;
-  }
-    
-  .swiper-button-prev{
+  .swiper-button-next {
     width: 24px;
     height: 24px;
   }
 
-
+  .swiper-button-prev {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
   .swiper__container {
     width: 90%;
   }
-  
-  .title{
+
+  .title {
     font-size: 3.5rem;
     text-align: left;
     margin-left: 10rem;
@@ -262,18 +248,18 @@ background: #000;
 
   .client__image img {
     float: center;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 50%;
-  height: 20rem;
-  padding: 5px;
-  overflow: hidden;
-  /*clip-path: circle(50%);*/
-  box-shadow:0 0 10px rgba(0,0,0,0.3)
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 20rem;
+    padding: 5px;
+    overflow: hidden;
+    /*clip-path: circle(50%);*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
-  .client__name{
+  .client__name {
     font-style: normal;
     font-weight: 600;
     font-size: 2.5rem;
@@ -281,7 +267,7 @@ background: #000;
     text-align: center;
   }
 
-  .client__review{
+  .client__review {
     font-size: 2rem;
     text-align: center;
     color: #000;
@@ -292,31 +278,28 @@ background: #000;
     line-height: 165%;
   }
 
-
-  .swiper-pagination-clickable .swiper-pagination-bullet{
+  .swiper-pagination-clickable .swiper-pagination-bullet {
     background: #000;
     width: 1rem;
     height: 1rem;
   }
-  .swiper-button-next{
-    width: 24px;
-    height: 24px;
-
-  }
-    
-  .swiper-button-prev{
+  .swiper-button-next {
     width: 24px;
     height: 24px;
   }
 
+  .swiper-button-prev {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media only screen and (min-width: 2560px) {
   .swiper__container {
     width: 90%;
   }
-  
-  .title{
+
+  .title {
     font-size: 4.5rem;
     text-align: left;
     margin-left: 15rem;
@@ -329,15 +312,15 @@ background: #000;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 50%;
+    width: auto;
     height: 25rem;
     padding: 5px;
     overflow: hidden;
     /*clip-path: circle(50%);*/
-    box-shadow:0 0 10px rgba(0,0,0,0.3)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
-  .client__name{
+  .client__name {
     font-style: normal;
     font-weight: 600;
     font-size: 3rem;
@@ -345,7 +328,7 @@ background: #000;
     text-align: center;
   }
 
-  .client__review{
+  .client__review {
     font-size: 3rem;
     text-align: center;
     color: #000;
@@ -358,25 +341,30 @@ background: #000;
     padding-right: 1rem;
   }
 
-  .swiper-pagination-clickable .swiper-pagination-bullet{
+  .swiper-pagination-clickable .swiper-pagination-bullet {
     background: #000;
     width: 1rem;
     height: 1rem;
   }
 
-  .swiper-button-next{
+  .swiper-button-next {
     width: 24px;
     height: 24px;
   }
-      
-  .swiper-button-prev{
+
+  .swiper-button-prev {
     width: 24px;
     height: 24px;
   }
 }
 
-  
-
-
-
-
+@media only screen and (max-width: 48em) {
+  .title {
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .client__image img {
+    width: auto;
+  }
+}
