@@ -17,7 +17,7 @@ export const VartAnsvarContainer = styled.section`
   display: flex;
   flex-direction: column;
 
-  margin: 150px 50px;
+  margin: 10rem 5rem;
 
   font-style: normal;
   font-weight: 400;

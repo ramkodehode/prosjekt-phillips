@@ -10,8 +10,7 @@ export const ContainerPhone = styled.section`
 export const ContainerVareProgrammer = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 50px;
-
+  margin: 5rem;
   flex-basis: 100%;
   @media only screen and (max-width: 40em) {
     margin-left: 25px;
@@ -22,8 +21,7 @@ export const ContainerVareProgrammer = styled.section`
     font-size: 0.9em;
   }
   @media only screen and (min-width: 2560px) {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin: 10rem 5rem;
   }
 `;
 
