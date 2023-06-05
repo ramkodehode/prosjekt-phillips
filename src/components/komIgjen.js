@@ -57,7 +57,7 @@ export const PicBoxes = styled.img`
   margin-left: auto;
   margin-right: auto;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     height: 25vh;
     padding: 0;
   }
