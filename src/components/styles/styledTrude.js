@@ -43,7 +43,7 @@ export const TrudeText = styled.h3`
 
   color: #e5701b;
 
-  @media only screen and (max-width: 408em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1em;
   }
   @media only screen and (min-width: 1440px) {
