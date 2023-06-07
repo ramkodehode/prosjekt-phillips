@@ -15,11 +15,14 @@ export const ImgTrude = styled.img`
 
 export const PhoneImgTrude = styled.img`
   display: none;
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     height: 50vh;
     width: auto;
-    padding: 50px;
+
+    padding: 5rem;
   }
 `;
 
@@ -29,7 +32,7 @@ export const ContainerTrude = styled.section`
   margin: 3rem;
 
   @media only screen and (max-width: 48em) {
-    margin: 10px;
+    margin: 1.5rem;
   }
 
   @media only screen and (min-width: 2560px) {
@@ -89,7 +92,6 @@ export const MainTextTrude = styled.p`
 
   @media only screen and (max-width: 48em) {
     font-size: 1.1rem;
-    max-width: 100%;
   }
 
   @media only screen and (min-width: 1024px) {
