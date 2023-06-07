@@ -25,7 +25,11 @@ export const HeadingTwoFase = styled.h2`
   }
 `;
 
-export const Text = styled.div``;
+export const Text = styled.div`
+  @media (max-width: 768px) {
+    padding: 20px 30px 0 30px;
+  }
+`;
 
 export const HeadingTextContainer = styled.div`
   text-align: center;
@@ -83,6 +87,7 @@ export const Arrow = styled.img`
   }
 
   @media (max-width: 768px) {
+    padding: 30px;
     transform: rotate(90deg);
   }
 `;
