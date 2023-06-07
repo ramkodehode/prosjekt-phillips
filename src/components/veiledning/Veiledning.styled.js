@@ -96,8 +96,9 @@ export const ArrowContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     flex-direction: row;
+    justify-content: center;
   }
   @media (min-width: 1920px) {
     padding: 50px;
