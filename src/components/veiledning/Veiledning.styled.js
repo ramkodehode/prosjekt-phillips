@@ -1,29 +1,26 @@
 import styled from 'styled-components';
 
 export const MainContainer = styled.div`
-  background-color: #ffe6c7;
-  width: 100%;
-  padding: 40px 0 40px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    background-color: #ffe6c7;
+    width: 100%;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  @media (max-width: 768px) {
-    flex-direction: row;
-  }
-  @media (min-width: 1920px) {
-    padding: 100px 0 280px 0;
-  }
-`;
+      flex-direction: column;
+    }
+    @media (min-width: 1920px) {
+      padding: 100px 0 280px 0;
+    }
+  `;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   @media (max-width: 768px) {
     flex-direction: column;
-    justify-content: center;
   }
   @media (min-width: 2160px) {
     height: 500px;
@@ -114,7 +111,7 @@ export const Arrow = styled.img`
     padding-left: 200px;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     transform: rotate(90deg);
   }
 `;
@@ -131,13 +128,11 @@ export const InfoContainer = styled.div`
 
   @media (max-width: 768px) {
     justify-content: center;
+    align-items: center;
   }
 `;
 
 export const InfoContainerMobil = styled.div`
   @media (max-width: 768px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 `;

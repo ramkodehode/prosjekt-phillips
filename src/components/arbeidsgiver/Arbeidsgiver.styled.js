@@ -39,7 +39,6 @@ export const FaseContainer = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
-    justify-content: center;
     text-align: center;
   }
 `;
@@ -66,8 +65,9 @@ export const ArrowContainer = styled.div`
 
   flex-direction: column;
   justify-content: center;
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     flex-direction: row;
+    justify-content: center;
   }
   @media (min-width: 1920px) {
     width: 250px;
