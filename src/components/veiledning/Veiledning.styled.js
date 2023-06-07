@@ -1,19 +1,17 @@
 import styled from 'styled-components';
 
 export const MainContainer = styled.div`
-    background-color: #ffe6c7;
-    width: 100%;
-    padding: 40px 0 40px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-color: #ffe6c7;
+  width: 100%;
+  padding: 40px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-      flex-direction: column;
-    }
-    @media (min-width: 1920px) {
-      padding: 100px 0 280px 0;
-    }
-  `;
+  @media (min-width: 1920px) {
+    padding: 100px 0 280px 0;
+  }
+`;
 
 export const Container = styled.div`
   display: flex;
@@ -73,6 +71,7 @@ export const UnorderedList = styled.ul`
 export const UlWrapper = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: center;
 
   @media (min-width: 1920px) {
     width: 600px;

@@ -4,6 +4,10 @@ export const Container = styled.div`
   background-color: #ffe6c7;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 2560px) {
+    height: 1600px;
+  }
 `;
 export const InnerContainer = styled.div`
   display: flex;
@@ -11,6 +15,9 @@ export const InnerContainer = styled.div`
   justify-content: center;
   padding: 20px;
   text-align: center;
+  @media (max-width: 2560px) {
+    font-size: 3rem;
+  }
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -51,5 +58,9 @@ export const Paragraph = styled.p`
   line-height: 165%;
   @media (min-width: 1920px) {
     font-size: 1.5rem;
+  }
+
+  @media (max-width: 2560px) {
+    font-size: 3rem;
   }
 `;
