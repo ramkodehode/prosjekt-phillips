@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   @media (max-width: 2560px) {
-    height: 1600px;
+    height: 900px;
   }
 `;
 export const InnerContainer = styled.div`
@@ -58,9 +58,5 @@ export const Paragraph = styled.p`
   line-height: 165%;
   @media (min-width: 1920px) {
     font-size: 1.5rem;
-  }
-
-  @media (max-width: 2560px) {
-    font-size: 3rem;
   }
 `;
