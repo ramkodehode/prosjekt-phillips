@@ -22,7 +22,7 @@ export const PhoneImgTrude = styled.img`
     height: 50vh;
     width: auto;
 
-    padding: 5rem;
+    padding: 5rem 0;
   }
 `;
 
@@ -32,7 +32,7 @@ export const ContainerTrude = styled.section`
   margin: 3rem;
 
   @media only screen and (max-width: 48em) {
-    margin: 1.5rem;
+    margin: 1rem;
   }
 
   @media only screen and (min-width: 2560px) {
