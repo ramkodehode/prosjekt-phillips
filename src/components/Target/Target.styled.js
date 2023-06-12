@@ -49,7 +49,7 @@ export const Values = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  font-size: 22px;
+  font-size: 2rem;
   color: #fe8900;
   @media (min-width: 1920px) {
     font-size: 1.2em;
@@ -61,7 +61,7 @@ export const HeadingOne = styled.h1`
 `;
 
 export const Paragraph = styled.p`
-  font-size: 2rem;
+  font-size: 1.2rem;
   line-height: 165%;
   @media (min-width: 1920px) {
   }
