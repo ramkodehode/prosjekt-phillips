@@ -60,9 +60,6 @@ export const UnorderedList = styled.ul`
   padding-left: 0;
   list-style-position: outside;
 
-  @media (max-width: 1920px) {
-    width: 400px;
-  }
   @media (min-width: 2560px) {
     font-size: 2.4rem;
   }
@@ -80,8 +77,6 @@ export const UlWrapper = styled.div`
   flex-direction: row;
   justify-content: center;
 
-  @media (min-width: 1920px) {
-  }
   @media (max-width: 768px) {
     flex-direction: column;
   }
@@ -131,8 +126,6 @@ export const Spacing = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
-  @media (min-width: 2160px) {
-  }
 
   @media (max-width: 768px) {
     justify-content: center;
