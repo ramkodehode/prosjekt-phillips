@@ -8,9 +8,7 @@ export const Container = styled.div`
   @media (max-width: 2560px) {
     height: 900px;
   }
-  @media (max-width: 1920px) {
-    height: 1700px;
-  }
+  height: 1200px;
 `;
 export const InnerContainer = styled.div`
   display: flex;
@@ -51,9 +49,6 @@ export const Values = styled.div`
 export const HeadingOne = styled.h1`
   font-size: 2rem;
   color: #fe8900;
-  @media (min-width: 1920px) {
-    font-size: 1.2em;
-  }
 
   @media (max-width: 768px) {
     font-size: 1.6rem;
@@ -63,8 +58,7 @@ export const HeadingOne = styled.h1`
 export const Paragraph = styled.p`
   font-size: 1.2rem;
   line-height: 165%;
-  @media (min-width: 1920px) {
-  }
+
   @media (max-width: 768px) {
     font-size: 1.3rem;
   }
