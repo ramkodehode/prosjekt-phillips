@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import styled from "styled-components";
+import { OrgNr } from "./privacy/Privacy.styled";
 
 export const EmptySpace = styled.div`
   width: auto;
-  height: 25vh;
+  height: 32vh;
   margin-top: 5rem;
   background: rgba(0, 0, 0, 0.8);
   color: white;
@@ -58,7 +59,10 @@ const Footer = () => {
     <div>
       <EmptySpace>
         <FooterContainer>
-          <p>Phillips Karriere</p>
+          <p>
+            Phillips Karriere <br /> <br /> Organisasjonsnummer:{" "}
+            <OrgNr>829590352. </OrgNr>
+          </p>
 
           <StyledLink to="/privacy">Personvernerklæring</StyledLink>
 

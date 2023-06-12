@@ -22,7 +22,7 @@ export const PhoneImgTrude = styled.img`
     height: 50vh;
     width: auto;
 
-    padding: 5rem;
+    padding: 5rem 0;
   }
 `;
 
