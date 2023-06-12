@@ -4,7 +4,7 @@ import { Link as LogoLinkS } from 'react-scroll';
 
 export const NavbarContainer = styled.nav`
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? '100vh' : '60px')};
+  height: ${(props) => (props.extendNavbar ? '100vh' : '80px')};
   background-color: #ffe6c7;
   display: flex;
   flex-direction: column;
@@ -14,6 +14,9 @@ export const NavbarContainer = styled.nav`
 
   @media (min-width: 1920px) {
     height: 100px;
+  }
+  @media (max-width: 768px) {
+    height: ${(props) => (props.extendNavbar ? '42vh' : '80px')};
   }
 `;
 
@@ -38,6 +41,7 @@ export const RightContainer = styled.div`
 export const NavbarInnerContainer = styled.div`
   width: 100%;
   display: flex;
+
   @media (min-width: 1920px) {
     font-size: 25px;
   }

@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const MainContainer = styled.div`
   background-color: #ffe6c7;
   width: 100%;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-  @media (max-width: 768px) {
-    flex-direction: row;
-  }
   @media (min-width: 1920px) {
     padding: 100px 0 280px 0;
   }
@@ -17,10 +17,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   @media (max-width: 768px) {
     flex-direction: column;
-    justify-content: center;
   }
   @media (min-width: 2160px) {
     height: 500px;
@@ -35,6 +33,8 @@ export const HeadingOne = styled.h1`
   }
 `;
 export const HeadingTwo = styled.h2`
+  width: 300px;
+
   @media (min-width: 1920px) {
     font-size: 2.5rem;
   }
@@ -45,25 +45,22 @@ export const HeadingTwo = styled.h2`
 export const HeadingThree = styled.h2`
   font-size: 16px;
   @media (min-width: 1920px) {
-    font-size: 1.9rem;
+    font-size: 2.5rem;
   }
 `;
 
 export const UnorderedList = styled.ul`
+  height: 100px;
+  width: 250px;
   list-style-type: square;
-  height: 130px;
-  width: 230px;
+  font-size: 1.2em;
   padding-left: 0;
-  list-style-position: inside;
-
-  @media (min-width: 1920px) {
-    font-size: 2rem;
+  list-style-position: outside;
+  @media (min-width: 2560px) {
+    font-size: 2.4rem;
   }
 
-  @media (min-width: 2560px) {
-    width: 400px;
-
-    font-size: 2rem;
+  @media (min-width: 1920px) {
   }
 
   @media (max-width: 768px) {
@@ -74,6 +71,8 @@ export const UnorderedList = styled.ul`
 export const UlWrapper = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: center;
+
   @media (min-width: 1920px) {
     width: 600px;
   }
@@ -83,8 +82,7 @@ export const UlWrapper = styled.div`
 `;
 
 export const List = styled.li`
-  width: 130%;
-  @media (min-width: 2160px) {
+  @media (min-width: 2560px) {
     font-size: 2.4rem;
   }
   @media (min-width: 1920px) {
@@ -93,13 +91,13 @@ export const List = styled.li`
 `;
 
 export const ArrowContainer = styled.div`
+  padding: 30px;
   display: flex;
-  padding: 0 30px 0 30px;
-
   flex-direction: column;
   justify-content: center;
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     flex-direction: row;
+    justify-content: center;
   }
   @media (min-width: 1920px) {
     padding: 50px;
@@ -113,7 +111,7 @@ export const Arrow = styled.img`
     padding-left: 200px;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     transform: rotate(90deg);
   }
 `;
@@ -130,13 +128,11 @@ export const InfoContainer = styled.div`
 
   @media (max-width: 768px) {
     justify-content: center;
+    align-items: center;
   }
 `;
 
 export const InfoContainerMobil = styled.div`
   @media (max-width: 768px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 `;

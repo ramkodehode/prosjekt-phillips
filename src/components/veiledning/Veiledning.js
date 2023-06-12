@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Container,
   HeadingOne,
@@ -13,8 +13,8 @@ import {
   MainContainer,
   InfoContainerMobil,
   Spacing,
-} from "./Veiledning.styled";
-import Pil from "./polygon.png";
+} from './Veiledning.styled';
+import Pil from './polygon.png';
 
 const Veiledning = () => {
   return (
@@ -47,7 +47,8 @@ const Veiledning = () => {
 
             <UlWrapper>
               <UnorderedList>
-                <List>Undersøke ulike studie- og yrkesretninger</List>
+                <List>Undersøke ulike studie-</List>
+                <div> og yrkesretninger</div>
                 <List>Velge bort</List>
                 <List>Velge</List>
               </UnorderedList>
@@ -87,7 +88,9 @@ const Veiledning = () => {
                 <List>Personlige egenskaper</List>
                 <List>Kompetanser</List>
                 <List>Verdier og interesser</List>
-                <List>Situasjon, atferd, resulat - SAR</List>
+                <List>Situasjon, atferd, resulat</List>
+                <div> - SAR</div>
+
                 <List>Definere mål</List>
               </UnorderedList>
               <ArrowContainer>

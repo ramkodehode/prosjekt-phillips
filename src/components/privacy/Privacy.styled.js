@@ -101,11 +101,6 @@ export const PolicyLevel = styled.p`
   text-align: left;
   color: black;
 
-  @media screen and (max-width: 425px) {
-    width: 90%;
-    font-size: 0.5rem;
-  }
-
   @media screen and (max-width: 768px) {
     width: 90%;
     font-size: 0.6rem;

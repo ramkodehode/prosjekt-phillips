@@ -10,6 +10,9 @@ export const Container = styled.div`
   @media (min-width: 1920px) {
     font-size: 2rem;
   }
+  @media (min-width: 2560px) {
+    font-size: 2rem;
+  }
 `;
 
 export const HeadingOne = styled.h1`
@@ -25,7 +28,11 @@ export const HeadingTwoFase = styled.h2`
   }
 `;
 
-export const Text = styled.div``;
+export const Text = styled.div`
+  @media (max-width: 768px) {
+    padding: 20px 30px 0 30px;
+  }
+`;
 
 export const HeadingTextContainer = styled.div`
   text-align: center;
@@ -45,6 +52,17 @@ export const FaseContainer = styled.div`
 
 export const FaseInnerContainer = styled.div`
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+  }
+`;
+export const FaseAndArrowContainer = styled.div`
+  display: flex;
   flex-direction: column;
 `;
 
@@ -54,8 +72,9 @@ export const ArrowContainer = styled.div`
 
   flex-direction: column;
   justify-content: center;
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     flex-direction: row;
+    justify-content: center;
   }
   @media (min-width: 1920px) {
     width: 250px;
@@ -70,7 +89,8 @@ export const Arrow = styled.img`
     max-width: 80px;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
+    padding: 30px;
     transform: rotate(90deg);
   }
 `;

@@ -11,7 +11,7 @@ export const KomIgjenText = styled.h1`
   color: black;
   z-index: 1;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 1rem;
   }
 
@@ -34,7 +34,7 @@ export const OpacityBox = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     padding: 2.5rem 7rem;
   }
 
@@ -57,7 +57,7 @@ export const PicBoxes = styled.img`
   margin-left: auto;
   margin-right: auto;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     height: 25vh;
     padding: 0;
   }
@@ -94,7 +94,7 @@ export const IMGlaptop = styled.img`
 
   z-index: -1;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     height: 30vh;
   }
 `;

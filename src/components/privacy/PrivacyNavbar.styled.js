@@ -45,6 +45,7 @@ export const LogoText = styled.label`
     color: orange;
   }
 `;
+
 export const Logo = styled.img`
   cursor: pointer;
 
