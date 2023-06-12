@@ -3,12 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-
+  width: 100%;
   background-color: rgb(255, 230, 199);
   padding: 70px 0 70px 0;
 
   @media (min-width: 1920px) {
     font-size: 2rem;
+    margin: 0 50px 0 50px;
   }
   @media (min-width: 2560px) {
     font-size: 2rem;
@@ -31,6 +32,8 @@ export const HeadingTwoFase = styled.h2`
 export const Text = styled.div`
   @media (max-width: 768px) {
     padding: 20px 30px 0 30px;
+  }
+  @media (max-width: 1920px) {
   }
 `;
 
@@ -77,8 +80,6 @@ export const ArrowContainer = styled.div`
     justify-content: center;
   }
   @media (min-width: 1920px) {
-    width: 250px;
-    padding: 50px;
   }
 `;
 

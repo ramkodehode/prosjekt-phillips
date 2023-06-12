@@ -8,6 +8,9 @@ export const Container = styled.div`
   @media (max-width: 2560px) {
     height: 900px;
   }
+  @media (max-width: 1920px) {
+    height: 1300px;
+  }
 `;
 export const InnerContainer = styled.div`
   display: flex;
@@ -49,14 +52,20 @@ export const HeadingOne = styled.h1`
   font-size: 22px;
   color: #fe8900;
   @media (min-width: 1920px) {
-    font-size: 2em;
+    font-size: 1.2em;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
   }
 `;
 
 export const Paragraph = styled.p`
-  font-size: 1.1rem;
+  font-size: 2rem;
   line-height: 165%;
   @media (min-width: 1920px) {
-    font-size: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
   }
 `;
