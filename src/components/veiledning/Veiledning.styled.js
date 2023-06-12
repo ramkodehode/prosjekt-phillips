@@ -26,8 +26,11 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  font-size: 2rem;
+  font-size: 3.5rem;
   text-align: center;
+
+  @media (min-width: 1920px) {
+  }
   @media (max-width: 768px) {
     font-size: 24px;
   }
@@ -56,6 +59,10 @@ export const UnorderedList = styled.ul`
   font-size: 1.2em;
   padding-left: 0;
   list-style-position: outside;
+
+  @media (max-width: 1920px) {
+    width: 400px;
+  }
   @media (min-width: 2560px) {
     font-size: 2.4rem;
   }
@@ -74,7 +81,6 @@ export const UlWrapper = styled.div`
   justify-content: center;
 
   @media (min-width: 1920px) {
-    width: 600px;
   }
   @media (max-width: 768px) {
     flex-direction: column;
@@ -82,11 +88,13 @@ export const UlWrapper = styled.div`
 `;
 
 export const List = styled.li`
+  margin: 0;
+
   @media (min-width: 2560px) {
     font-size: 2.4rem;
   }
   @media (min-width: 1920px) {
-    width: 500px;
+    font-size: 1.9rem;
   }
 `;
 
@@ -108,7 +116,7 @@ export const Arrow = styled.img`
   max-width: 65px;
 
   @media (min-width: 1920px) {
-    padding-left: 200px;
+    max-width: 100px;
   }
 
   @media (max-width: 768px) {
