@@ -9,7 +9,7 @@ export const Container = styled.div`
     height: 900px;
   }
   @media (max-width: 1920px) {
-    height: 1300px;
+    height: 1700px;
   }
 `;
 export const InnerContainer = styled.div`
