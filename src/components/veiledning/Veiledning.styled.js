@@ -55,12 +55,10 @@ export const HeadingThree = styled.h2`
 export const UnorderedList = styled.ul`
   height: 100px;
   list-style-type: square;
-  padding-left: auto;
-  padding-right: auto;
   width: 300px;
   font-size: 1.2em;
   padding-left: 0;
-  list-style-position: outside;
+  list-style-position: inside;
 
   @media (min-width: 2560px) {
     font-size: 2.4rem;
@@ -85,8 +83,6 @@ export const UlWrapper = styled.div`
 `;
 
 export const List = styled.li`
-  margin: 0;
-
   @media (min-width: 2560px) {
     font-size: 2.4rem;
   }
