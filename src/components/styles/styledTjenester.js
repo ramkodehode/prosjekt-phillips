@@ -2,9 +2,6 @@ import styled from "styled-components";
 
 export const ContainerPhone = styled.section`
   display: flex;
-  @media only screen and (max-width: 48em) {
-    display: block;
-  }
 
   @media only screen and (max-width: 980px) {
     display: block;
@@ -24,6 +21,7 @@ export const ContainerVareProgrammer = styled.section`
 
     font-size: 0.9em;
   }
+
   @media only screen and (min-width: 2560px) {
     margin: 10rem 5rem;
   }
@@ -102,9 +100,6 @@ export const IMGcomputer = styled.img`
   margin-right: auto;
   border: 5px solid orange;
 
-  @media only screen and (max-width: 48em) {
-    display: none;
-  }
   @media only screen and (max-width: 980px) {
     display: none;
   }
@@ -133,9 +128,6 @@ export const BoxTjenester = styled.div`
 
   background-color: #ffe6c7;
 
-  @media only screen and (max-width: 48em) {
-    display: none;
-  }
   @media only screen and (max-width: 980px) {
     display: none;
   }
