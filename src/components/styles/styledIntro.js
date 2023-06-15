@@ -55,14 +55,14 @@ export const PhoneCaricatureImg = styled.img`
   @media only screen and (max-width: 48em) {
     display: flex;
     flex-direction: row;
-    height: 35vh;
+    height: 40vh;
     width: auto;
     z-index: 1;
 
     margin-left: auto;
     margin-right: auto;
   }
-  @media only screen and (max-width: 980px) {
+  @media only screen and (min-width: 49em) {
     display: flex;
     flex-direction: row;
     height: 50vh;
@@ -70,7 +70,11 @@ export const PhoneCaricatureImg = styled.img`
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2rem;
+    padding-top: 5rem;
+  }
+
+  @media only screen and (min-width: 981px) {
+    display: none;
   }
 `;
 

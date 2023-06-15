@@ -115,3 +115,24 @@ export const MainTextTrude = styled.p`
     font-size: 3rem;
   }
 `;
+
+export const BoxTrude = styled.div`
+  height: 60vh;
+  width: 45vh;
+  background-color: #ffe6c7;
+  margin: 8em 1em;
+
+  @media only screen and (max-width: 48em) {
+    display: none;
+  }
+
+  @media only screen and (max-width: 980px) {
+    display: none;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    margin-top: 15rem;
+  }
+  @media only screen and (min-width: 2560px) {
+  }
+`;
