@@ -7,10 +7,6 @@ export const Container = styled.div`
   background-color: rgb(255, 230, 199);
   padding: 70px 0 70px 0;
 
-  @media (min-width: 1920px) {
-    font-size: 2rem;
-    margin: 0 50px 0 50px;
-  }
   @media (min-width: 2560px) {
     font-size: 2rem;
   }
@@ -23,22 +19,19 @@ export const HeadingOne = styled.h1`
 export const HeadingTwoFase = styled.h2`
   font-size: 18px;
   color: rgb(229, 112, 27);
-
-  @media (min-width: 1920px) {
-    font-size: 1.9rem;
-  }
 `;
 
 export const Text = styled.div`
+  font-size: 1.3em;
+
   @media (max-width: 768px) {
     padding: 20px 30px 0 30px;
-  }
-  @media (max-width: 1920px) {
   }
 `;
 
 export const HeadingTextContainer = styled.div`
   text-align: center;
+  width: 100%;
 `;
 
 export const FaseContainer = styled.div`

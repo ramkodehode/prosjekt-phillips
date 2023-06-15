@@ -26,7 +26,6 @@ export const Container = styled.div`
 `;
 
 export const HeadingOne = styled.h1`
-  font-size: 3.5rem;
   text-align: center;
 
   @media (min-width: 1920px) {
@@ -37,6 +36,10 @@ export const HeadingOne = styled.h1`
 `;
 export const HeadingTwo = styled.h2`
   width: 300px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 
   @media (min-width: 1920px) {
     font-size: 2.5rem;
@@ -68,6 +71,7 @@ export const UnorderedList = styled.ul`
   }
 
   @media (max-width: 768px) {
+    padding-left: 100px;
     height: 130px;
   }
 `;
@@ -124,6 +128,7 @@ export const Spacing = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
+  padding-left: 30px;
 
   @media (max-width: 768px) {
     justify-content: center;

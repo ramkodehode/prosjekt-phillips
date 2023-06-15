@@ -11,12 +11,13 @@ export const NavbarContainer = styled.nav`
   position: fixed;
   z-index: 9999;
   justify-content: center;
+  font-size: 1.2em;
 
   @media (min-width: 1920px) {
     height: 100px;
   }
   @media (max-width: 768px) {
-    height: ${(props) => (props.extendNavbar ? '42vh' : '80px')};
+    height: ${(props) => (props.extendNavbar ? '50vh' : '80px')};
   }
 `;
 
@@ -41,10 +42,6 @@ export const RightContainer = styled.div`
 export const NavbarInnerContainer = styled.div`
   width: 100%;
   display: flex;
-
-  @media (min-width: 1920px) {
-    font-size: 25px;
-  }
 `;
 export const NavbarExtendedContainer = styled.div`
   display: flex;
@@ -61,9 +58,6 @@ export const NavbarLinkContainer = styled.div`
 `;
 
 export const NavbarLink = styled(Link)`
-  @media (min-width: 1920px) {
-    padding: 30px;
-  }
   text-decoration: none;
   margin: 10px;
   cursor: pointer;
@@ -101,11 +95,7 @@ export const LogoText = styled.label`
 `;
 export const Logo = styled.img`
   cursor: pointer;
-  max-width: 180px;
-
-  @media (min-width: 1920px) {
-    max-width: 660px;
-  }
+  max-width: 210px;
 `;
 
 export const OpenLinksButton = styled.button`
