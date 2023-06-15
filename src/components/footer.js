@@ -11,7 +11,7 @@ export const EmptySpace = styled.div`
   color: white;
 
   @media only screen and (max-width: 980px) {
-    height: 25vh;
+    height: 40vh;
   }
 `;
 
