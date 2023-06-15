@@ -72,6 +72,10 @@ export const PhoneCaricatureImg = styled.img`
     margin-right: auto;
     padding-top: 5rem;
   }
+
+  @media only screen and (min-width: 981px) {
+    display: none;
+  }
 `;
 
 export const Column = styled.div`
