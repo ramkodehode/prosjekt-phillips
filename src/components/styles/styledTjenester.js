@@ -5,6 +5,10 @@ export const ContainerPhone = styled.section`
   @media only screen and (max-width: 48em) {
     display: block;
   }
+
+  @media only screen and (max-width: 980px) {
+    display: block;
+  }
 `;
 
 export const ContainerVareProgrammer = styled.section`
@@ -101,6 +105,9 @@ export const IMGcomputer = styled.img`
   @media only screen and (max-width: 48em) {
     display: none;
   }
+  @media only screen and (max-width: 980px) {
+    display: none;
+  }
 `;
 
 export const IMGtjenester = styled.img`
@@ -129,6 +136,9 @@ export const BoxTjenester = styled.div`
   @media only screen and (max-width: 48em) {
     display: none;
   }
+  @media only screen and (max-width: 980px) {
+    display: none;
+  }
 
   @media only screen and (min-width: 1024px) {
     height: 25vh;
@@ -147,6 +157,15 @@ export const IMGphoneTjenester = styled.img`
   display: none;
 
   @media only screen and (max-width: 48em) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+    padding: 50px;
+  }
+
+  @media only screen and (max-width: 980px) {
     display: block;
     margin-left: auto;
     margin-right: auto;

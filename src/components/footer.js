@@ -9,6 +9,10 @@ export const EmptySpace = styled.div`
   margin-top: 5rem;
   background: rgba(0, 0, 0, 0.8);
   color: white;
+
+  @media only screen and (max-width: 980px) {
+    height: 40vh;
+  }
 `;
 
 export const FooterContainer = styled.div`
@@ -18,9 +22,15 @@ export const FooterContainer = styled.div`
   padding: 2.5rem;
   margin: 0 auto;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 0.8rem;
     padding: 10px;
+    display: block;
+  }
+
+  @media only screen and (max-width: 980px) {
+    font-size: 1rem;
+    padding: 2rem;
     display: block;
   }
 
