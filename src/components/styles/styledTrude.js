@@ -24,6 +24,16 @@ export const PhoneImgTrude = styled.img`
 
     padding: 5rem 0;
   }
+
+  @media only screen and (max-width: 980px) {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 50vh;
+    width: auto;
+
+    padding: 5rem 0;
+  }
 `;
 
 export const ContainerTrude = styled.section`

@@ -62,6 +62,11 @@ export const PicBoxes = styled.img`
     padding: 0;
   }
 
+  @media only screen and (max-width: 980em) {
+    height: 30vh;
+    padding: 0;
+  }
+
   @media only screen and (min-width: 1024px) {
     height: 70vh;
   }
@@ -96,6 +101,10 @@ export const IMGlaptop = styled.img`
 
   @media only screen and (max-width: 48em) {
     height: 30vh;
+  }
+
+  @media only screen and (max-width: 980px) {
+    height: 35vh;
   }
 `;
 
