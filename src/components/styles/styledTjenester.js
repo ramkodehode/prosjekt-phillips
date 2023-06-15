@@ -18,7 +18,7 @@ export const ContainerVareProgrammer = styled.section`
   flex-basis: 100%;
   @media only screen and (max-width: 48em) {
     margin: 0 auto;
-    padding: 2.5rem;
+    padding: 0.5rem 2.5rem;
 
     position: relative;
 
