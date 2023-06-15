@@ -10,7 +10,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    height: 1600px;
+    height: 1700px;
   }
   height: 1200px;
 `;
