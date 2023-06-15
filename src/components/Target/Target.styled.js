@@ -8,6 +8,10 @@ export const Container = styled.div`
   @media (max-width: 2560px) {
     height: 900px;
   }
+
+  @media (max-width: 768px) {
+    height: 1600px;
+  }
   height: 1200px;
 `;
 export const InnerContainer = styled.div`
