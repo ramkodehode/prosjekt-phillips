@@ -11,7 +11,7 @@ export const MainBox = styled.div`
   background-color: #ffe6c7;
 
   @media only screen and (max-width: 48em) {
-    height: 45rem;
+    height: 47rem;
   }
 
   @media only screen and (min-width: 1440px) {
@@ -34,6 +34,9 @@ export const CaricatureImg = styled.img`
   @media only screen and (max-width: 48em) {
     display: none;
   }
+  @media only screen and (max-width: 980px) {
+    display: none;
+  }
 
   @media only screen and (min-width: 1024px) {
     height: 65vh;
@@ -52,9 +55,26 @@ export const PhoneCaricatureImg = styled.img`
   @media only screen and (max-width: 48em) {
     display: flex;
     flex-direction: row;
-    height: 35vh;
+    height: 40vh;
     width: auto;
     z-index: 1;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media only screen and (min-width: 49em) {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: auto;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+  }
+
+  @media only screen and (min-width: 981px) {
+    display: none;
   }
 `;
 

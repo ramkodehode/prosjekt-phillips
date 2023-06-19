@@ -102,6 +102,11 @@ export const Rectangle = styled.div`
     height: 30px;
     width: 5px;
   }
+
+  @media only screen and (max-width: 980px) {
+    height: 30px;
+    width: 5px;
+  }
 `;
 
 export const BigScreenVartAnsvar = styled.div`

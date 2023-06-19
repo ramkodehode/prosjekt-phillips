@@ -40,8 +40,9 @@ const Arbeidsgiver = () => {
         <FaseAndArrowContainer>
           <HeadingTwoFase>Fase 2</HeadingTwoFase>
           <FaseInnerContainer>
-            <Text>Gjennomføring av karriereveiledning</Text>
-            <div>for medarbeidere i omstilling.</div>
+            <Text>
+              Gjennomføring av karriereveiledning for medarbeidere i omstilling.
+            </Text>
             <ArrowContainer>
               <Arrow src={Pil}></Arrow>
             </ArrowContainer>

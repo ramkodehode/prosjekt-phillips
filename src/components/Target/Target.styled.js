@@ -5,10 +5,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 2560px) {
-    height: 900px;
+  height: 800px;
+
+  @media (max-width: 768px) {
+    height: 1700px;
   }
-  height: 1200px;
 `;
 export const InnerContainer = styled.div`
   display: flex;

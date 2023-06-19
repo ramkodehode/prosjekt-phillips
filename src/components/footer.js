@@ -9,6 +9,19 @@ export const EmptySpace = styled.div`
   margin-top: 5rem;
   background: rgba(0, 0, 0, 0.8);
   color: white;
+
+  @media only screen and (max-width: 48em) {
+    height: 32vh;
+    padding: 1rem;
+  }
+
+  @media only screen and (min-width: 49em) {
+    height: 30vh;
+  }
+
+  @media only screen and (min-width: 981px) {
+    height: 33vh;
+  }
 `;
 
 export const FooterContainer = styled.div`
@@ -18,10 +31,25 @@ export const FooterContainer = styled.div`
   padding: 2.5rem;
   margin: 0 auto;
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 48em) {
     font-size: 0.8rem;
-    padding: 10px;
+
     display: block;
+  }
+
+  @media only screen and (min-width: 49em) {
+    font-size: 1.2rem;
+
+    display: block;
+  }
+
+  @media only screen and (min-width: 981px) {
+    font-size: 1rem;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    padding: 2.5rem;
+    margin: 0 auto;
   }
 
   @media only screen and (min-width: 1440px) {
