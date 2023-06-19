@@ -28,8 +28,8 @@ const VartAnsvar = () => {
             og arbeid. Det krever å finne ut av hva en ønsker, har interesse
             for, egne verdier, hva en kan og hva en er god til.
             Karrierekompetanse bidrar til nettopp dette. Det er blant annet
-            kompetanse til å kjenne og forstå selv og sin kontekst, ta valg og
-            ta ansvar for sine valg.
+            kompetanse til å kjenne og forstå seg selv og sin kontekst, ta valg
+            og ta ansvar for sine valg.
           </IntroText>
           <IntroText>
             Vårt utgangspunkt er å møte deg der du er med respekt, interesse og
