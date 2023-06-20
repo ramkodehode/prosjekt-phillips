@@ -61,7 +61,7 @@ export const UnorderedList = styled.ul`
   width: 300px;
   font-size: 1.2em;
   padding-left: 0;
-  list-style-position: inside;
+  list-style-position: outside;
 
   @media (min-width: 2560px) {
     font-size: 2.4rem;
