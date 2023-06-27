@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Container,
   FaseContainer,
@@ -10,9 +10,9 @@ import {
   ArrowContainer,
   FaseInnerContainer,
   FaseAndArrowContainer,
-} from './Arbeidsgiver.styled';
+} from "./Arbeidsgiver.styled";
 
-import Pil from '../veiledning/polygon.png';
+import Pil from "../veiledning/polygon.png";
 
 const Arbeidsgiver = () => {
   return (
@@ -32,7 +32,7 @@ const Arbeidsgiver = () => {
           <FaseInnerContainer>
             <Text>Oppstartsmøte</Text>
             <ArrowContainer>
-              <Arrow src={Pil}></Arrow>
+              <Arrow src={Pil} alt=""></Arrow>
             </ArrowContainer>
           </FaseInnerContainer>
         </FaseAndArrowContainer>
@@ -44,7 +44,7 @@ const Arbeidsgiver = () => {
               Gjennomføring av karriereveiledning for medarbeidere i omstilling.
             </Text>
             <ArrowContainer>
-              <Arrow src={Pil}></Arrow>
+              <Arrow src={Pil} alt=""></Arrow>
             </ArrowContainer>
           </FaseInnerContainer>
         </FaseAndArrowContainer>
