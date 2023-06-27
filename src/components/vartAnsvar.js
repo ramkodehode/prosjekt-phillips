@@ -22,7 +22,9 @@ const VartAnsvar = () => {
           </UnderTitle>
 
           <IntroText>
-            Mange unge kjenner på usikkerhet i valg av høyere utdanning, og
+            Begrepet karriere kan forstås som livsløp og omfatter hele livet
+            ditt. Valg av studie- og yrkesretning er derfor en del av karrieren
+            din. Mange unge kjenner på usikkerhet i valg av høyere utdanning, og
             arbeidstakere opplever hyppigere omstilling. I dette landskapet skal
             den enkelte ta valg og håndtere utfordringer knyttet til utdanning
             og arbeid. Det krever å finne ut av hva en ønsker, har interesse
