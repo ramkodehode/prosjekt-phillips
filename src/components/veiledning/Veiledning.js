@@ -34,7 +34,7 @@ const Veiledning = () => {
                 <List>Interesseprofil</List>
               </UnorderedList>
               <ArrowContainer>
-                <Arrow src={Pil}></Arrow>
+                <Arrow src={Pil} alt=""></Arrow>
               </ArrowContainer>
             </UlWrapper>
           </InfoContainer>
@@ -52,7 +52,7 @@ const Veiledning = () => {
                 <List>Velge</List>
               </UnorderedList>
               <ArrowContainer>
-                <Arrow src={Pil}></Arrow>
+                <Arrow src={Pil} alt=""></Arrow>
               </ArrowContainer>
             </UlWrapper>
           </InfoContainer>
@@ -92,7 +92,7 @@ const Veiledning = () => {
                 <List>Definere mål</List>
               </UnorderedList>
               <ArrowContainer>
-                <Arrow src={Pil}></Arrow>
+                <Arrow src={Pil} alt=""></Arrow>
               </ArrowContainer>
             </UlWrapper>
           </InfoContainer>
@@ -111,7 +111,7 @@ const Veiledning = () => {
                 <List>Handlingsplan</List>
               </UnorderedList>
               <ArrowContainer>
-                <Arrow src={Pil}></Arrow>
+                <Arrow src={Pil} alt=""></Arrow>
               </ArrowContainer>
             </UlWrapper>
           </InfoContainer>
