@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import React from "react";
 import styled from "styled-components";
 import { OrgNr } from "./privacy/Privacy.styled";
+import kvalitet from "./img/kvalitet.png";
 
 export const EmptySpace = styled.div`
   width: auto;
-  height: 32vh;
+  height: 35vh;
   margin-top: 5rem;
   background: rgba(0, 0, 0, 0.8);
   color: white;
@@ -20,7 +21,7 @@ export const EmptySpace = styled.div`
   }
 
   @media only screen and (min-width: 981px) {
-    height: 33vh;
+    height: 41vh;
   }
 `;
 
@@ -82,6 +83,15 @@ export const StyledLink = styled(Link)`
   }
 `;
 
+export const ImgKvalitet = styled.img`
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 10vh;
+  padding: 1em 0;
+`;
+
 const Footer = () => {
   return (
     <div>
@@ -97,6 +107,13 @@ const Footer = () => {
           <p>
             Copyright 2023 © All Rights Reserved. <br />
             Built by K3
+            <a
+              href="https://www.kompetansenorge.no/kvalitet-i-karriere/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImgKvalitet src={kvalitet} alt="" />
+            </a>
           </p>
         </FooterContainer>
       </EmptySpace>
