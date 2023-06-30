@@ -31,6 +31,9 @@ export const HeadingTwoFase = styled.h2`
   @media only screen and (min-width: 1440px) {
     font-size: 2rem;
   }
+  @media only screen and (min-width: 2560px) {
+    font-size: 3rem;
+  }
 `;
 
 export const Text = styled.div`
