@@ -8,7 +8,11 @@ export const Container = styled.div`
   height: 40rem;
 
   @media only screen and (min-width: 1440px) {
-    height: 55rem;
+    height: 45rem;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    height: 58rem;
   }
 
   @media (max-width: 768px) {
