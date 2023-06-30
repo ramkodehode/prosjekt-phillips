@@ -1,10 +1,10 @@
-import styled from 'styled-components';
-import { Link } from 'react-scroll';
-import { Link as LogoLinkS } from 'react-scroll';
+import styled from "styled-components";
+import { Link } from "react-scroll";
+import { Link as LogoLinkS } from "react-scroll";
 
 export const NavbarContainer = styled.nav`
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? '100vh' : '80px')};
+  height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
   background-color: #ffe6c7;
   display: flex;
   flex-direction: column;
@@ -13,11 +13,23 @@ export const NavbarContainer = styled.nav`
   justify-content: center;
   font-size: 1.2em;
 
+  @media only screen and (min-width: 1440px) {
+    font-size: 1.5em;
+  }
+
   @media (min-width: 1920px) {
     height: 100px;
+    font-size: 2em;
+    padding: 0.8em;
   }
+
+  @media (min-width: 2560px) {
+    font-size: 3em;
+    padding: 1em;
+  }
+
   @media (max-width: 768px) {
-    height: ${(props) => (props.extendNavbar ? '50vh' : '80px')};
+    height: ${(props) => (props.extendNavbar ? "50vh" : "80px")};
   }
 `;
 
@@ -95,7 +107,15 @@ export const LogoText = styled.label`
 `;
 export const Logo = styled.img`
   cursor: pointer;
-  max-width: 210px;
+  width: auto;
+  height: 5vh;
+
+  @media only screen and (min-width: 1920px) {
+    height: 6vh;
+  }
+  @media only screen and (min-width: 2560px) {
+    height: 8vh;
+  }
 `;
 
 export const OpenLinksButton = styled.button`
