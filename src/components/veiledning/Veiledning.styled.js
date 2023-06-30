@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const MainContainer = styled.div`
   background-color: #ffe6c7;
@@ -29,6 +29,7 @@ export const HeadingOne = styled.h1`
   text-align: center;
 
   @media (min-width: 1920px) {
+    font-size: 3rem;
   }
   @media (max-width: 768px) {
     font-size: 24px;
