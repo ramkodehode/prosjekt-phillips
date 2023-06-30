@@ -43,13 +43,13 @@ const Tjenester = () => {
                 <TextVareProgrammer>
                   Veiledningsprogrammet gjelder for deg som har fylt 18 år og
                   gjennomføres i tre faser. Mellom samlingene jobber du med
-                  øvelser i vår digitale karrierelæringsplattform. Husk valget
-                  er ditt, det er du som har «fasiten» ingen andre. Det handler
-                  ikke om hva du skal bli, men mer om hvem du vil være. Vær
-                  nysgjerrig på egne interesser og verdier, høyst sannsynlig
-                  oppdager du nye. Utforsk mulighetene dine. Fremtiden kan
-                  fremstå usikker og det fine med det er at der ligger
-                  mulighetene.
+                  øvelser i vår digitale karrierelæringsplattform. Husk
+                  studievalget er ditt, det er du som har «fasiten» ingen andre.
+                  Det handler ikke om hva du skal bli, men mer om hvem du vil
+                  være. Vær nysgjerrig på egne interesser og verdier, høyst
+                  sannsynlig oppdager du nye. Utforsk mulighetene dine.
+                  Fremtiden kan fremstå usikker og det fine med det er at der
+                  ligger mulighetene.
                 </TextVareProgrammer>
               </ContainerVareProgrammer>
               <IMGphoneTjenester src={seatedstudents} alt="studenter" />

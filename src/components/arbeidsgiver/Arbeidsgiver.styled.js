@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -6,6 +6,14 @@ export const Container = styled.div`
   width: 100%;
   background-color: rgb(255, 230, 199);
   padding: 70px 0 70px 0;
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 1rem;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 1.4rem;
+  }
 
   @media (min-width: 2560px) {
     font-size: 2rem;
@@ -19,6 +27,10 @@ export const HeadingOne = styled.h1`
 export const HeadingTwoFase = styled.h2`
   font-size: 18px;
   color: rgb(229, 112, 27);
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 2rem;
+  }
 `;
 
 export const Text = styled.div`
@@ -43,6 +55,9 @@ export const FaseContainer = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     text-align: center;
+  }
+  @media only screen and (min-width: 1440px) {
+    padding: 2rem;
   }
 `;
 

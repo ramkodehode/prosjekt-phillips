@@ -67,7 +67,7 @@ const Veiledning = () => {
               <UnorderedList>
                 <List>Definere vurderingskriterier</List>
                 <List>Definere alternative valg</List>
-                <List>Mitt valg </List>
+                <List>Mitt studievalg </List>
               </UnorderedList>
             </UlWrapper>
           </InfoContainer>
