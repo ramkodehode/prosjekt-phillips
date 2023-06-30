@@ -28,8 +28,9 @@ const VartAnsvar = () => {
             arbeidstakere opplever hyppigere omstilling. I dette landskapet skal
             den enkelte ta valg og håndtere utfordringer knyttet til utdanning
             og arbeid. Det krever å finne ut av hva en ønsker, har interesse
-            for, egne verdier, hva en kan og hva en er god til.
-            Karrierekompetanse bidrar til nettopp dette. Det er blant annet
+            for, egne verdier, hva en kan og hva en er god til. I tillegg ha
+            kunnskap om studie- og arbeidsmarkedet. Karriereveiledning gir
+            karrierekompetanse, som bidrar til nettopp dette. Det er blant annet
             kompetanse til å kjenne og forstå seg selv og sin kontekst, ta valg
             og ta ansvar for sine valg.
           </IntroText>
