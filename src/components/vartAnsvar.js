@@ -35,12 +35,13 @@ const VartAnsvar = () => {
             og ta ansvar for sine valg.
           </IntroText>
           <IntroText>
-            Vårt utgangspunkt er å møte deg der du er med respekt, interesse og
-            nysgjerrighet. Det viktige er din læring frem mot nye muligheter om
-            det gjelder studievalg, ny jobb, eller en kombinasjon. Du er den
-            aktive i samspillet med karriereveileder. I tråd med Nasjonalt
-            kvalitetsrammeverk for karriereveiledning skal vi bidra til
-            karrierekompetanse gjennom utforskning og læring.
+            Som din karriereveileder er vårt utgangspunkt å møte deg der du er.
+            Det gjør vi med respekt, interesse og nysgjerrighet. Det viktige er
+            din læring frem mot nye muligheter om det gjelder studievalg, ny
+            jobb, eller en kombinasjon. Du er den aktive i samspillet med
+            karriereveileder. I tråd med Nasjonalt kvalitetsrammeverk for
+            karriereveiledning skal vi bidra til karrierekompetanse gjennom
+            utforskning og læring.
           </IntroText>
         </VartAnsvarContainer>
       </BigScreenVartAnsvar>

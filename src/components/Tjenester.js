@@ -28,7 +28,7 @@ const Tjenester = () => {
       <PicBoxes src={undervisning} alt="students in a classroom" />
       <TitleVareProgrammer id="tjenester">Våre Tjenester</TitleVareProgrammer>
       <IntroVareProgrammer>
-        Vi tilbyr to forskjellige program: <br /> Et for unge som står foran
+        Vi tilbyr to typer Veiledningsprogram: <br /> Et for unge som står foran
         valg av studie- og yrkesretning, og et for voksne i omstilling.
       </IntroVareProgrammer>
       <Container>
