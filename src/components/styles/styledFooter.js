@@ -9,12 +9,12 @@ export const EmptySpace = styled.div`
   color: white;
 
   @media only screen and (max-width: 48em) {
-    height: 46vh;
+    height: 60vh;
     padding: 1rem;
   }
 
   @media only screen and (min-width: 49em) {
-    height: 46vh;
+    height: 60vh;
   }
 
   @media only screen and (min-width: 981px) {
@@ -64,7 +64,7 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
 
   &:hover {
-    color: #ffcb8d;
+    color: #e5701b;
   }
 
   @media only screen and (max-width: 40em) {

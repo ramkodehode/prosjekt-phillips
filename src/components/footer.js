@@ -8,6 +8,32 @@ import {
   ImgKvalitet,
   StyledLink,
 } from "./styles/styledFooter";
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+
+import styled from "styled-components";
+
+export const DivFooter = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const LinkMedia = styled.a`
+  text-decoration: none;
+
+  color: white;
+
+  font-size: 2rem;
+
+  margin: 0.6rem;
+
+  &:hover {
+    color: #e5701b;
+  }
+`;
+
+export const DivMedia = styled.div`
+  padding: 1rem;
+`;
 
 const Footer = () => {
   return (
@@ -19,8 +45,27 @@ const Footer = () => {
             <OrgNr>829590352. </OrgNr>
           </p>
 
-          <StyledLink to="/privacy">Personvernerklæring</StyledLink>
+          <DivFooter>
+            <StyledLink to="/privacy">Personvernerklæring</StyledLink>
 
+            <DivMedia>
+              <LinkMedia
+                href="https://www.facebook.com/profile.php?id=100094047773942"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillFacebook />
+              </LinkMedia>
+
+              <LinkMedia
+                href="https://instagram.com/phillips_karriere?igshid=NTc4MTIwNjQ2YQ=="
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillInstagram />
+              </LinkMedia>
+            </DivMedia>
+          </DivFooter>
           <p>
             Copyright 2023 © All Rights Reserved. <br />
             Built by K3

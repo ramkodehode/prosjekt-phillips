@@ -18,14 +18,14 @@ export const NavbarContainer = styled.nav`
   }
 
   @media (min-width: 1920px) {
-    height: 100px;
+    height: 2em;
     font-size: 2em;
-    padding: 0.8em;
+    padding: 0.5em;
   }
 
   @media (min-width: 2560px) {
     font-size: 3em;
-    padding: 1em;
+    padding: 0.8em;
   }
 
   @media (max-width: 768px) {
@@ -111,10 +111,10 @@ export const Logo = styled.img`
   height: 5vh;
 
   @media only screen and (min-width: 1920px) {
-    height: 6vh;
+    height: 5vh;
   }
   @media only screen and (min-width: 2560px) {
-    height: 8vh;
+    height: 7vh;
   }
 `;
 
