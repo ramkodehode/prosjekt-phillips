@@ -29,6 +29,14 @@ export const LinkMedia = styled.a`
   &:hover {
     color: #e5701b;
   }
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 3rem;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    font-size: 4rem;
+  }
 `;
 
 export const DivMedia = styled.div`
