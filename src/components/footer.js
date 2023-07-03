@@ -55,7 +55,7 @@ const Footer = () => {
 
           <DivFooter>
             <StyledLink to="/privacy">Personvernerklæring</StyledLink>
-
+            <br />
             <DivMedia>
               <LinkMedia
                 href="https://www.facebook.com/profile.php?id=100094047773942"
