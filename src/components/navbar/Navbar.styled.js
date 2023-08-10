@@ -88,7 +88,7 @@ export const NavbarLinkExtended = styled(Link)`
   cursor: pointer;
 
   &:hover {
-    color: orange;
+    color: #e5701b;
   }
 `;
 
@@ -102,19 +102,23 @@ export const LogoText = styled.label`
   cursor: pointer;
 
   &:hover {
-    color: orange;
+    color: #e5701b;
   }
 `;
 export const Logo = styled.img`
   cursor: pointer;
   width: auto;
-  height: 5vh;
+  height: 10vh;
+
+  @media (max-width: 700px) {
+    height: 8vh;
+  }
 
   @media only screen and (min-width: 1920px) {
-    height: 5vh;
+    height: 10vh;
   }
   @media only screen and (min-width: 2560px) {
-    height: 7vh;
+    height: 13vh;
   }
 `;
 
