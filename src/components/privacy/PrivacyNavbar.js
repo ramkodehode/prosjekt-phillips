@@ -6,9 +6,9 @@ import {
   LogoText,
   LogoContainer,
   LogoLink,
-} from './PrivacyNavbar.styled';
+} from "./PrivacyNavbar.styled";
 
-import LogoImg from '../../components/navbar/assets/image.png';
+import ImgLogo from "../../components/navbar/assets/ImgLogo.png";
 
 const PrivacyNavbar = () => {
   return (
@@ -18,7 +18,7 @@ const PrivacyNavbar = () => {
           <LeftContainer>
             <LogoLink to="/">
               <LogoContainer>
-                <Logo src={LogoImg}></Logo>
+                <Logo src={ImgLogo}></Logo>
                 <LogoText> </LogoText>
               </LogoContainer>
             </LogoLink>

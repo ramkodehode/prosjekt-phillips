@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { Link as LogoLinkS } from 'react-router-dom';
+import { Link as LogoLinkS } from "react-router-dom";
 
 export const NavbarContainer = styled.nav`
   width: 100%;
@@ -23,7 +23,7 @@ export const NavbarInnerContainer = styled.div`
   justify-content: center;
 
   @media (min-width: 2560px) {
-    height: 130px;
+    height: 15rem;
   }
 `;
 export const NavbarExtendedContainer = styled.div`
@@ -48,8 +48,13 @@ export const LogoText = styled.label`
 
 export const Logo = styled.img`
   cursor: pointer;
+  height: 10vh;
+  width: auto;
 
-  @media (min-width: 2560px) {
-    width: 400px;
+  @media only screen and (min-width: 1920px) {
+    height: 10vh;
+  }
+  @media only screen and (min-width: 2560px) {
+    height: 13vh;
   }
 `;

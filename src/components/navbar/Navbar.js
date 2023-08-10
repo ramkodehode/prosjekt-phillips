@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 import {
   NavbarContainer,
   LeftContainer,
@@ -13,11 +13,10 @@ import {
   LogoText,
   LogoContainer,
   LogoLink,
-} from './Navbar.styled';
-import { RxHamburgerMenu } from 'react-icons/rx';
-import { AiOutlineClose } from 'react-icons/ai';
-
-import LogoImg from './assets/image.png';
+} from "./Navbar.styled";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { AiOutlineClose } from "react-icons/ai";
+import ImgLogo from "./assets/ImgLogo.png";
 
 const Navbar = () => {
   const [extendNavbar, setExtendNavbar] = useState(false);
@@ -35,7 +34,7 @@ const Navbar = () => {
               duration={500}
             >
               <LogoContainer>
-                <Logo alt="phillips karriere" src={LogoImg}></Logo>
+                <Logo alt="phillips karriere" src={ImgLogo}></Logo>
                 <LogoText> </LogoText>
               </LogoContainer>
             </LogoLink>

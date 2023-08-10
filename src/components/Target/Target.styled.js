@@ -43,28 +43,28 @@ export const InnerContainer = styled.div`
 
 export const Vision = styled.div`
   padding: 29px;
-  border: 1.5px solid #fe8900;
+  border: 1.5px solid #e5701b;
   margin: 25px;
   flex: 2.8;
 `;
 
 export const Goal = styled.div`
   padding: 29px;
-  border: 1.5px solid #fe8900;
+  border: 1.5px solid #e5701b;
   margin: 25px;
   flex: 2.8;
 `;
 
 export const Values = styled.div`
   padding: 29px;
-  border: 1.5px solid #fe8900;
+  border: 1.5px solid #e5701b;
   margin: 25px;
   flex: 2.8;
 `;
 
 export const HeadingOne = styled.h1`
   font-size: 2rem;
-  color: #fe8900;
+  color: #e5701b;
 
   @media only screen and (min-width: 1440px) {
     font-size: 2rem;
